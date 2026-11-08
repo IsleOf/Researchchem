@@ -12,6 +12,7 @@ A harm-reduction knowledge graph that tracks emerging novel psychoactive substan
 | `20-compounds/` | Atomic note per compound: status, risks, links, sources |
 | `30-concepts/` | Cross-cutting ideas (quality, drug checking, polydrug risk) |
 | `40-sources/` | Bibliography |
+| `50-peptide-branches/` | Multi-level peptide branches (L0 family → L3 studies), per-branch graph.json |
 | `weekly/` | Dated digests |
 | `graph/graph.json` | Node/edge export for GraphRAG |
 

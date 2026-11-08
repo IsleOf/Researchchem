@@ -1,25 +1,35 @@
 {
  "updated": "2026-11-08",
+ "levels": {
+  "0": "category/family hubs",
+  "1": "compounds/concepts",
+  "2": "targets/effects/risks",
+  "3": "studies/claims/sources"
+ },
  "nodes": [
   {
    "id": "weight-loss",
    "type": "category",
-   "label": "Weight loss (incretin peptides)"
+   "label": "Weight loss (incretin peptides)",
+   "level": 0
   },
   {
    "id": "wakefulness",
    "type": "category",
-   "label": "Wakefulness (modafinil-type)"
+   "label": "Wakefulness (modafinil-type)",
+   "level": 0
   },
   {
    "id": "stimulants",
    "type": "category",
-   "label": "Stimulants (synthetic cathinones)"
+   "label": "Stimulants (synthetic cathinones)",
+   "level": 0
   },
   {
    "id": "depressants",
    "type": "category",
-   "label": "Depressants & sedatives"
+   "label": "Depressants & sedatives",
+   "level": 0
   },
   {
    "id": "retatrutide",
@@ -28,7 +38,8 @@
    "category": "weight-loss",
    "signal": 5,
    "risk": 3,
-   "status": "Investigational (Eli Lilly, Phase 3). Not approved anywhere."
+   "status": "Investigational (Eli Lilly, Phase 3). Not approved anywhere.",
+   "level": 1
   },
   {
    "id": "tirzepatide",
@@ -37,7 +48,8 @@
    "category": "weight-loss",
    "signal": 4,
    "risk": 2,
-   "status": "Approved (Mounjaro/Zepbound). Grey-market powder copies are unapproved."
+   "status": "Approved (Mounjaro/Zepbound). Grey-market powder copies are unapproved.",
+   "level": 1
   },
   {
    "id": "semaglutide",
@@ -46,7 +58,8 @@
    "category": "weight-loss",
    "signal": 3,
    "risk": 2,
-   "status": "Approved (Ozempic/Wegovy). Grey-market powder copies are unapproved."
+   "status": "Approved (Ozempic/Wegovy). Grey-market powder copies are unapproved.",
+   "level": 1
   },
   {
    "id": "cagrilintide",
@@ -55,7 +68,8 @@
    "category": "weight-loss",
    "signal": 4,
    "risk": 3,
-   "status": "Investigational (Novo Nordisk; combo 'CagriSema'). Not approved."
+   "status": "Investigational (Novo Nordisk; combo 'CagriSema'). Not approved.",
+   "level": 1
   },
   {
    "id": "mazdutide",
@@ -64,7 +78,8 @@
    "category": "weight-loss",
    "signal": 3,
    "risk": 3,
-   "status": "Approved in China only (Innovent)."
+   "status": "Approved in China only (Innovent).",
+   "level": 1
   },
   {
    "id": "survodutide",
@@ -73,7 +88,8 @@
    "category": "weight-loss",
    "signal": 3,
    "risk": 3,
-   "status": "Investigational (Boehringer Ingelheim; Phase 3 data 2026)."
+   "status": "Investigational (Boehringer Ingelheim; Phase 3 data 2026).",
+   "level": 1
   },
   {
    "id": "flmodafinil",
@@ -82,7 +98,8 @@
    "category": "wakefulness",
    "signal": 4,
    "risk": 2,
-   "status": "Unapproved. Named as a doping substance (2026)."
+   "status": "Unapproved. Named as a doping substance (2026).",
+   "level": 1
   },
   {
    "id": "fladrafinil",
@@ -91,7 +108,8 @@
    "category": "wakefulness",
    "signal": 3,
    "risk": 3,
-   "status": "Unapproved. Named as a doping substance (2026)."
+   "status": "Unapproved. Named as a doping substance (2026).",
+   "level": 1
   },
   {
    "id": "adrafinil",
@@ -100,7 +118,8 @@
    "category": "wakefulness",
    "signal": 2,
    "risk": 3,
-   "status": "Withdrawn medicine (France); unscheduled in many places."
+   "status": "Withdrawn medicine (France); unscheduled in many places.",
+   "level": 1
   },
   {
    "id": "modafinil",
@@ -109,7 +128,8 @@
    "category": "wakefulness",
    "signal": 3,
    "risk": 2,
-   "status": "Prescription medicine (Schedule IV in US). Sold online from Indian generics."
+   "status": "Prescription medicine (Schedule IV in US). Sold online from Indian generics.",
+   "level": 1
   },
   {
    "id": "hydrafinil",
@@ -118,7 +138,8 @@
    "category": "wakefulness",
    "signal": 2,
    "risk": 3,
-   "status": "Unscheduled; essentially no published human data."
+   "status": "Unscheduled; essentially no published human data.",
+   "level": 1
   },
   {
    "id": "alpha-pihp",
@@ -127,7 +148,8 @@
    "category": "stimulants",
    "signal": 4,
    "risk": 5,
-   "status": "Controlled in EU/UK/US (as \u03b1-PHP isomer analog in many places)."
+   "status": "Controlled in EU/UK/US (as \u03b1-PHP isomer analog in many places).",
+   "level": 1
   },
   {
    "id": "alpha-php",
@@ -136,7 +158,8 @@
    "category": "stimulants",
    "signal": 3,
    "risk": 5,
-   "status": "Controlled (UN Schedule II)."
+   "status": "Controlled (UN Schedule II).",
+   "level": 1
   },
   {
    "id": "3-mmc",
@@ -145,7 +168,8 @@
    "category": "stimulants",
    "signal": 4,
    "risk": 4,
-   "status": "3-MMC & 3-CMC under UN control since 2023; still widespread in EU."
+   "status": "3-MMC & 3-CMC under UN control since 2023; still widespread in EU.",
+   "level": 1
   },
   {
    "id": "2-mmc",
@@ -154,7 +178,8 @@
    "category": "stimulants",
    "signal": 3,
    "risk": 4,
-   "status": "Varies by country; replaces banned isomers."
+   "status": "Varies by country; replaces banned isomers.",
+   "level": 1
   },
   {
    "id": "bromazolam",
@@ -163,7 +188,8 @@
    "category": "depressants",
    "signal": 5,
    "risk": 5,
-   "status": "Controlled in UK, US (temporary), many EU states."
+   "status": "Controlled in UK, US (temporary), many EU states.",
+   "level": 1
   },
   {
    "id": "clonazolam",
@@ -172,7 +198,8 @@
    "category": "depressants",
    "signal": 3,
    "risk": 5,
-   "status": "Controlled in most jurisdictions."
+   "status": "Controlled in most jurisdictions.",
+   "level": 1
   },
   {
    "id": "nitazenes",
@@ -181,7 +208,8 @@
    "category": "depressants",
    "signal": 5,
    "risk": 5,
-   "status": "Most controlled; new analogs keep appearing (22 recently cited by DEA)."
+   "status": "Most controlled; new analogs keep appearing (22 recently cited by DEA).",
+   "level": 1
   },
   {
    "id": "medetomidine",
@@ -190,7 +218,8 @@
    "category": "depressants",
    "signal": 5,
    "risk": 5,
-   "status": "Veterinary sedative; not for human use."
+   "status": "Veterinary sedative; not for human use.",
+   "level": 1
   },
   {
    "id": "xylazine",
@@ -199,7 +228,8 @@
    "category": "depressants",
    "signal": 3,
    "risk": 5,
-   "status": "Veterinary sedative; scheduled in several US states."
+   "status": "Veterinary sedative; scheduled in several US states.",
+   "level": 1
   },
   {
    "id": "btmps",
@@ -208,129 +238,4701 @@
    "category": "depressants",
    "signal": 3,
    "risk": 4,
-   "status": "Industrial UV stabilizer, not a drug."
+   "status": "Industrial UV stabilizer, not a drug.",
+   "level": 1
   },
   {
    "id": "grey-market-quality",
    "type": "concept",
-   "label": "Grey-market peptide quality"
+   "label": "Grey-market peptide quality",
+   "level": 1
   },
   {
    "id": "drug-checking",
    "type": "concept",
-   "label": "Drug checking"
+   "label": "Drug checking",
+   "level": 1
   },
   {
    "id": "polydrug-risk",
    "type": "concept",
-   "label": "Polydrug risk (depressant stacking)"
+   "label": "Polydrug risk (depressant stacking)",
+   "level": 1
   },
   {
    "id": "early-warning",
    "type": "concept",
-   "label": "Early warning systems"
+   "label": "Early warning systems",
+   "level": 1
   },
   {
    "id": "src:unodc",
    "type": "source",
    "label": "UNODC Early Warning Advisory \u2013 Aug 2026 update",
-   "url": "https://www.unodc.org/LSS/Announcement/Details/c08e6fbf-3f79-4654-8fe9-409e4b24bd59"
+   "url": "https://www.unodc.org/LSS/Announcement/Details/c08e6fbf-3f79-4654-8fe9-409e4b24bd59",
+   "level": 3
   },
   {
    "id": "src:euda-nps",
    "type": "source",
    "label": "EUDA European Drug Report 2026 \u2013 NPS",
-   "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/new-psychoactive-substances_en"
+   "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/new-psychoactive-substances_en",
+   "level": 3
   },
   {
    "id": "src:euda-stim",
    "type": "source",
    "label": "EUDA European Drug Report 2026 \u2013 Synthetic stimulants",
-   "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/synthetic-stimulants_en"
+   "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/synthetic-stimulants_en",
+   "level": 3
   },
   {
    "id": "src:ndews",
    "type": "source",
    "label": "NDEWS drug-checking report, Apr 2026",
-   "url": "https://ndews.org/wordpress/files/2026/05/202604_NDEWS_SSD_Report_Overview_EP.pdf"
+   "url": "https://ndews.org/wordpress/files/2026/05/202604_NDEWS_SSD_Report_Overview_EP.pdf",
+   "level": 3
   },
   {
    "id": "src:simcoe",
    "type": "source",
    "label": "Simcoe Muskoka medetomidine alert, Jan 2026",
-   "url": "https://www.simcoemuskokahealth.org/docs/default-source/jfy-health-care-professionals/jfy-healthfax/20260122-medetomidine-ph-alert-final.pdf?sfvrsn=6"
+   "url": "https://www.simcoemuskokahealth.org/docs/default-source/jfy-health-care-professionals/jfy-healthfax/20260122-medetomidine-ph-alert-final.pdf?sfvrsn=6",
+   "level": 3
   },
   {
    "id": "src:interior",
    "type": "source",
    "label": "Interior Health BC drug alert, Feb 2026",
-   "url": "https://www.interiorhealth.ca/sites/default/files/2026-02/interior-region-drug-alert-feb-11-2026.pdf"
+   "url": "https://www.interiorhealth.ca/sites/default/files/2026-02/interior-region-drug-alert-feb-11-2026.pdf",
+   "level": 3
   },
   {
    "id": "src:hstoday",
    "type": "source",
    "label": "HSToday \u2013 DEA nitazene advisory coverage, 2026",
-   "url": "https://www.hstoday.us/subject-matter-areas/border-security/the-overdose-decline-may-be-hiding-the-next-synthetic-drug-threat/"
+   "url": "https://www.hstoday.us/subject-matter-areas/border-security/the-overdose-decline-may-be-hiding-the-next-synthetic-drug-threat/",
+   "level": 3
   },
   {
    "id": "src:pori",
    "type": "source",
    "label": "Prevent Overdose RI \u2013 Substance Spotlight 2026",
-   "url": "https://preventoverdoseri.org/wp-content/uploads/2026/07/Substance-Spotlight-Foldable-Zine_2026_English.pdf"
+   "url": "https://preventoverdoseri.org/wp-content/uploads/2026/07/Substance-Spotlight-Foldable-Zine_2026_English.pdf",
+   "level": 3
   },
   {
    "id": "src:peptide-preprint",
    "type": "source",
    "label": "Preprint: purity/endotoxin of grey-market peptides (Apr 2026)",
-   "url": "https://www.preprints.org/manuscript/202604.1748"
+   "url": "https://www.preprints.org/manuscript/202604.1748",
+   "level": 3
   },
   {
    "id": "src:benzinga",
    "type": "source",
    "label": "Benzinga/Reuters \u2013 DIY GLP-1 injections",
-   "url": "https://www.benzinga.com/personal-finance/management/25/07/46575348/americans-are-turning-to-diy-weight-loss-injections-to-dodge-1000-monthly-drug-costs"
+   "url": "https://www.benzinga.com/personal-finance/management/25/07/46575348/americans-are-turning-to-diy-weight-loss-injections-to-dodge-1000-monthly-drug-costs",
+   "level": 3
   },
   {
    "id": "src:goodrx",
    "type": "source",
    "label": "GoodRx \u2013 upcoming weight-loss drugs",
-   "url": "https://www.goodrx.com/hcp/clinical-resources/glp-1-hcp/upcoming-weight-loss-drugs"
+   "url": "https://www.goodrx.com/hcp/clinical-resources/glp-1-hcp/upcoming-weight-loss-drugs",
+   "level": 3
   },
   {
    "id": "src:dshs",
    "type": "source",
    "label": "German Sport University \u2013 flmodafinil/fladrafinil as doping substances (Jun 2026)",
-   "url": "https://www.dshs-koeln.de/universitaet/newsroom/meldungen/detail/news/flmodafinil-and-fladrafinil-new-doping-substances"
+   "url": "https://www.dshs-koeln.de/universitaet/newsroom/meldungen/detail/news/flmodafinil-and-fladrafinil-new-doping-substances",
+   "level": 3
   },
   {
    "id": "src:wiki-moda",
    "type": "source",
    "label": "Wikipedia \u2013 List of modafinil analogues",
-   "url": "https://en.wikipedia.org/wiki/List_of_modafinil_analogues_and_derivatives"
+   "url": "https://en.wikipedia.org/wiki/List_of_modafinil_analogues_and_derivatives",
+   "level": 3
   },
   {
    "id": "src:apihp",
    "type": "source",
    "label": "Frontiers Pharmacol. 2026 \u2013 \u03b1-PiHP vs cocaine in humans",
-   "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1728824/full"
+   "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1728824/full",
+   "level": 3
   },
   {
    "id": "src:bbc-benzo",
    "type": "source",
    "label": "Scotland sedative / clonazolam warning",
-   "url": "https://bbcinsight.pages.dev/news/articles/cjdj70d7lvdo"
+   "url": "https://bbcinsight.pages.dev/news/articles/cjdj70d7lvdo",
+   "level": 3
+  },
+  {
+   "id": "ara-290",
+   "type": "compound",
+   "label": "ARA-290 / cibinetide",
+   "aliases": [
+    "cibinetide",
+    "pHBSP"
+   ],
+   "status": "investigational; EU orphan EU/3/13/1191",
+   "evidence_tier": 2,
+   "level": 1
+  },
+  {
+   "id": "family:targeted-therapeutic-peptides",
+   "type": "family",
+   "label": "Targeted therapeutic peptides",
+   "level": 0
+  },
+  {
+   "id": "target:epor",
+   "type": "target",
+   "label": "Erythropoietin receptor (EPOR)",
+   "level": 2
+  },
+  {
+   "id": "target:cd131",
+   "type": "target",
+   "label": "Beta-common receptor (CD131)",
+   "level": 2
+  },
+  {
+   "id": "effect:tissue-protection",
+   "type": "effect",
+   "label": "Tissue protection",
+   "level": 2
+  },
+  {
+   "id": "effect:anti-inflammatory",
+   "type": "effect",
+   "label": "Anti-inflammatory (rat prostatitis)",
+   "level": 2
+  },
+  {
+   "id": "effect:analgesic-neuropathic",
+   "type": "effect",
+   "label": "Neuropathic pain relief",
+   "level": 2
+  },
+  {
+   "id": "effect:nerve-fibre-regeneration",
+   "type": "effect",
+   "label": "Small nerve fibre regeneration (surrogate)",
+   "level": 2
+  },
+  {
+   "id": "effect:non-erythropoietic",
+   "type": "effect",
+   "label": "No erythropoiesis",
+   "level": 2
+  },
+  {
+   "id": "risk:unknown-long-term-safety",
+   "type": "risk",
+   "label": "Unknown long-term safety",
+   "level": 2
+  },
+  {
+   "id": "risk:product-quality",
+   "type": "risk",
+   "label": "Unregulated product quality",
+   "level": 2
+  },
+  {
+   "id": "ara-290:study:heij-2012",
+   "type": "study",
+   "label": "Heij sarcoidosis SFN pilot",
+   "year": 2012,
+   "species": "human",
+   "n": 22,
+   "design": "DB-RCT IV 4 wk",
+   "outcome": "Symptom improvement; no safety concern",
+   "level": 3
+  },
+  {
+   "id": "ara-290:study:dahan-2013",
+   "type": "study",
+   "label": "Dahan sarcoidosis SFN",
+   "year": 2013,
+   "species": "human",
+   "n": null,
+   "design": "DB-RCT SC 28 d",
+   "outcome": "Symptoms improved; corneal nerve fibre density increased",
+   "level": 3
+  },
+  {
+   "id": "ara-290:study:brines-2015-t2d",
+   "type": "study",
+   "label": "Brines T2D neuropathy",
+   "year": 2015,
+   "species": "human",
+   "n": null,
+   "design": "RCT SC 28 d",
+   "outcome": "PainDetect improved; HbA1c/lipids improved; CNFD subgroup rise",
+   "level": 3
+  },
+  {
+   "id": "ara-290:study:culver-2017",
+   "type": "study",
+   "label": "Culver sarcoidosis phase 2b",
+   "year": 2017,
+   "species": "human",
+   "n": 64,
+   "design": "Phase 2b RCT 28 d",
+   "outcome": "Corneal nerve fibre area increased (4 mg arm)",
+   "level": 3
+  },
+  {
+   "id": "ara-290:study:brines-2008",
+   "type": "study",
+   "label": "Brines helix B peptides",
+   "year": 2008,
+   "species": "rodent",
+   "n": null,
+   "design": "multiple injury models",
+   "outcome": "Tissue-protective; non-erythropoietic",
+   "level": 3
+  },
+  {
+   "id": "ara-290:study:swartjes-2011",
+   "type": "study",
+   "label": "Swartjes SNI pain",
+   "year": 2011,
+   "species": "rat/mouse",
+   "n": null,
+   "design": "spared nerve injury; bcR knockout",
+   "outcome": "Sustained anti-allodynia; absent in bcR KO",
+   "level": 3
+  },
+  {
+   "id": "ara-290:study:swartjes-2014",
+   "type": "study",
+   "label": "Swartjes microglia",
+   "year": 2014,
+   "species": "rat",
+   "n": null,
+   "design": "SNI dose range",
+   "outcome": "Long-term relief; microglia suppressed",
+   "level": 3
+  },
+  {
+   "id": "ara-290:claim:nerve-regeneration",
+   "type": "claim",
+   "label": "Regenerates nerves / cures neuropathy",
+   "verdict": "preliminary, overstated",
+   "level": 3
+  },
+  {
+   "id": "ara-290:claim:no-red-cells",
+   "type": "claim",
+   "label": "EPO benefits without raising red cells",
+   "verdict": "partly supported (mechanistic)",
+   "level": 3
+  },
+  {
+   "id": "ara-290:claim:heals-organs",
+   "type": "claim",
+   "label": "Heals kidney, heart, brain injuries",
+   "verdict": "preclinical only",
+   "level": 3
+  },
+  {
+   "id": "ara-290:claim:not-banned",
+   "type": "claim",
+   "label": "Not banned in sport",
+   "verdict": "false (WADA S0 covers non-approved substances)",
+   "level": 3
+  },
+  {
+   "id": "src:heij-2012-molmed",
+   "type": "source",
+   "label": "Heij 2012 Mol Med 18:1430",
+   "url": "https://pure.eur.nl/en/publications/ara-290-for-treatment-of-small-fiber-neuropathy-in-sarcoidosis/",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.2119/molmed.2013.00122",
+   "type": "source",
+   "label": "Dahan 2013 Mol Med",
+   "url": "https://doi.org/10.2119/molmed.2013.00122",
+   "level": 3
+  },
+  {
+   "id": "src:pmid-25387363",
+   "type": "source",
+   "label": "Brines 2015 Mol Med",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4365069",
+   "level": 3
+  },
+  {
+   "id": "src:culver-2017-iovs",
+   "type": "source",
+   "label": "Culver 2017 IOVS",
+   "url": "https://research.manchester.ac.uk/en/publications/cibinetide-improves-corneal-nerve-fiber-abundance-in-patients-wit/",
+   "level": 3
+  },
+  {
+   "id": "src:pmid-18676614",
+   "type": "source",
+   "label": "Brines 2008 PNAS",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18676614/",
+   "level": 3
+  },
+  {
+   "id": "src:swartjes-2011-anesthesiology",
+   "type": "source",
+   "label": "Swartjes 2011 Anesthesiology",
+   "url": "https://asa2.silverchair.com/anesthesiology/article-pdf/115/5/1084/452302/0000542-201111000-00032.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:pmc3928087",
+   "type": "source",
+   "label": "Swartjes 2014 Mol Pain",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3928087/",
+   "level": 3
+  },
+  {
+   "id": "src:ema-eu-3-13-1191",
+   "type": "source",
+   "label": "EMA orphan designation",
+   "url": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-13-1191",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295",
+   "type": "compound",
+   "label": "CJC-1295",
+   "family": "family:gh-secretagogues",
+   "drug_class": "GHRH receptor agonist",
+   "forms": [
+    "DAC (albumin-conjugated)",
+    "no-DAC / Mod GRF (1-29)"
+   ],
+   "approval": "not approved; development discontinued 2006",
+   "evidence_tier": 2,
+   "level": 1
+  },
+  {
+   "id": "family:gh-secretagogues",
+   "type": "family",
+   "label": "GH secretagogues and GHRH analogues",
+   "level": 0
+  },
+  {
+   "id": "target:ghrhr",
+   "type": "target",
+   "label": "GHRH receptor (GHRHR)",
+   "tissue": "anterior pituitary somatotroph",
+   "receptor_class": "class B1 GPCR, Gs/cAMP",
+   "note": "not an ipamorelin target; included for family contrast",
+   "level": 2
+  },
+  {
+   "id": "target:ghsr",
+   "type": "target",
+   "label": "Ghrelin receptor GHSR-1a",
+   "note": "not a CJC-1295 target; included for family contrast",
+   "receptor_class": "class A GPCR, Gq/PLC/Ca2+",
+   "tissue": "anterior pituitary somatotroph; enteric neurons and gastric smooth muscle",
+   "level": 2
+  },
+  {
+   "id": "target:albumin-cys34",
+   "type": "target",
+   "label": "Human serum albumin Cys34 thiol",
+   "note": "covalent DAC conjugation site, not a signalling receptor",
+   "level": 2
+  },
+  {
+   "id": "effect:gh-release",
+   "type": "effect",
+   "label": "Growth hormone release",
+   "level": 2
+  },
+  {
+   "id": "effect:igf1-elevation",
+   "type": "effect",
+   "label": "IGF-1 elevation",
+   "note": "not observed in Johansen 1999 rat study (total IGF-1 and IGFBPs unchanged)",
+   "level": 2
+  },
+  {
+   "id": "effect:preserved-gh-pulsatility",
+   "type": "effect",
+   "label": "Preserved GH pulsatility",
+   "level": 2
+  },
+  {
+   "id": "effect:somatotroph-proliferation",
+   "type": "effect",
+   "label": "Pituitary somatotroph proliferation",
+   "species": "mouse",
+   "level": 2
+  },
+  {
+   "id": "effect:growth-normalization",
+   "type": "effect",
+   "label": "Normalization of growth in GHRH deficiency",
+   "species": "mouse",
+   "level": 2
+  },
+  {
+   "id": "risk:water-retention",
+   "type": "risk",
+   "label": "Fluid retention / oedema / arthralgia",
+   "strength": "inferred from GH-axis class; not quantified for ipamorelin",
+   "level": 2
+  },
+  {
+   "id": "risk:insulin-resistance",
+   "type": "risk",
+   "label": "Reduced insulin sensitivity / raised fasting glucose",
+   "strength": "strong class evidence (MK-677 RCT); not measured for ipamorelin long-term",
+   "level": 2
+  },
+  {
+   "id": "risk:igf1-cancer-theoretical",
+   "type": "risk",
+   "label": "Theoretical neoplasia risk from sustained IGF-1 elevation",
+   "strength": "theoretical; observational IGF-1 epidemiology only; no carcinogenicity study",
+   "level": 2
+  },
+  {
+   "id": "risk:trial-death-unestablished-causality",
+   "type": "risk",
+   "label": "Phase 2 halted after participant death (July 2006, Argentina); causality never publicly established",
+   "strength": "event verified; causality not established",
+   "level": 2
+  },
+  {
+   "id": "risk:cardiovascular-ae",
+   "type": "risk",
+   "label": "Increased heart rate / systemic vasodilatory reaction",
+   "strength": "identified by FDA in compounding safety-risk material",
+   "level": 2
+  },
+  {
+   "id": "risk:product-mislabelling",
+   "type": "risk",
+   "label": "DAC vs no-DAC mislabelling (large exposure difference)",
+   "strength": "market/quality risk",
+   "level": 2
+  },
+  {
+   "id": "risk:immunogenicity-impurities",
+   "type": "risk",
+   "label": "Immunogenicity from aggregation or peptide-related impurities",
+   "strength": "FDA-documented concern specific to compounded ipamorelin acetate; unnatural amino acids complicate characterization",
+   "level": 2
+  },
+  {
+   "id": "cjc-1295:study:teichman-2006",
+   "type": "study",
+   "year": 2006,
+   "species": "human",
+   "n": "healthy adults, ages 21-61 (two ascending-dose trials)",
+   "design": "randomized double-blind placebo-controlled ascending-dose, 28 d and 49 d",
+   "outcome": "GH up ~2-10x for >=6 d; IGF-1 up ~1.5-3x for 9-11 d; estimated half-life 5.8-8.1 d; no serious adverse reactions reported",
+   "label": "Teichman 2006",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:study:ionescu-2006",
+   "type": "study",
+   "year": 2006,
+   "species": "human",
+   "n": "healthy men 20-40, small n",
+   "design": "pharmacodynamic GH profiling before and ~1 week after single injection",
+   "outcome": "pulse frequency and amplitude unchanged; trough GH up ~7.5x; mean GH and IGF-1 up; IGF-1 rise did not correlate with any GH secretion parameter",
+   "label": "Ionescu & Frohman 2006",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:study:nct00267527",
+   "type": "study",
+   "year": 2006,
+   "species": "human",
+   "n": "not reported",
+   "design": "phase 2, HIV-associated visceral obesity",
+   "outcome": "TERMINATED July 2006 after participant death; no results published; programme not resumed",
+   "label": "NCT00267527 (terminated)",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:study:jette-2005",
+   "type": "study",
+   "year": 2005,
+   "species": "rat / in vitro",
+   "n": "n/a",
+   "design": "DPP-IV stability, GH secretion assay, subcutaneous dosing in Sprague-Dawley rats, serum Western blot",
+   "outcome": "CJC-1295 identified as long-lasting GRF analogue; ~4x GH AUC over 2 h vs hGRF(1-29); plasma-detectable beyond 72 h; bound to albumin band from ~15 min",
+   "label": "Jette 2005",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:study:alba-2006",
+   "type": "study",
+   "year": 2006,
+   "species": "mouse",
+   "n": "GHRH-knockout mice, 3 dosing-interval groups + placebo + heterozygous controls",
+   "design": "5-week treatment from 1 week of age at 24/48/72 h intervals",
+   "outcome": "daily dosing normalized body weight and length; 48/72 h intervals less effective (partial); increased pituitary total RNA and GH mRNA with IHC consistent with somatotroph proliferation",
+   "label": "Alba 2006",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:study:nass-2008-mk677",
+   "type": "study",
+   "year": 2008,
+   "species": "human",
+   "n": 65,
+   "design": "2-year double-blind randomized placebo-controlled modified-crossover trial of MK-677 25 mg/d in healthy adults 60-81 (class evidence, not CJC-1295)",
+   "outcome": "fasting glucose +0.3 mmol/L (5 mg/dL, p=0.015), insulin sensitivity decreased; fat-free mass increased",
+   "label": "Nass 2008 (MK-677, class evidence)",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:study:renehan-2004",
+   "type": "study",
+   "year": 2004,
+   "species": "human",
+   "n": "3609 cases / 7137 controls, 21 studies (26 datasets)",
+   "design": "systematic review and meta-regression of case-control studies of circulating IGF-1 and cancer risk (background epidemiology, no secretagogue exposure)",
+   "outcome": "IGF-1 75th vs 25th percentile: prostate cancer OR 1.49 (1.14-1.95), premenopausal breast cancer OR 1.65 (1.26-2.08); associations modest and variable by site",
+   "label": "Renehan 2004",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:gh-igf1-rise",
+   "type": "claim",
+   "label": "Raises GH and IGF-1",
+   "verdict": "supported",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:physiological-pulsatility",
+   "type": "claim",
+   "label": "More physiological than GH because pulses are preserved",
+   "verdict": "partly supported - mechanism yes, benefit unproven",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:body-composition",
+   "type": "claim",
+   "label": "Builds muscle / reduces fat / recomposition",
+   "verdict": "unsupported - no human body-composition data",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:recovery-sleep-healing",
+   "type": "claim",
+   "label": "Improves sleep, recovery, injury healing, skin",
+   "verdict": "unsupported - never measured",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:anti-aging",
+   "type": "claim",
+   "label": "Anti-ageing",
+   "verdict": "unsupported",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:proven-safe",
+   "type": "claim",
+   "label": "Clinically tested and proven safe",
+   "verdict": "misleading - programme halted after a death; FDA documented serious AEs",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:fda-reviewed-ok",
+   "type": "claim",
+   "label": "FDA-reviewed / compliant compounded peptide",
+   "verdict": "misleading - FDA proposed against 503A listing",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:dac-same-as-modgrf",
+   "type": "claim",
+   "label": "CJC-1295 and Mod GRF (1-29) are the same thing",
+   "verdict": "false",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:ipamorelin-synergy",
+   "type": "claim",
+   "label": "Stacks synergistically with ipamorelin",
+   "verdict": "hypothesis only - combination never tested in humans",
+   "level": 3
+  },
+  {
+   "id": "cjc-1295:claim:undetectable-for-athletes",
+   "type": "claim",
+   "label": "Safe for athletes / undetectable",
+   "verdict": "false - named in WADA S2",
+   "level": 3
+  },
+  {
+   "id": "src:16352683",
+   "type": "source",
+   "label": "Teichman 2006, J Clin Endocrinol Metab 91(3):799-805",
+   "pmid": "16352683",
+   "doi": "10.1210/jc.2005-1536",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+   "level": 3
+  },
+  {
+   "id": "src:17018654",
+   "type": "source",
+   "label": "Ionescu & Frohman 2006, J Clin Endocrinol Metab 91(12):4792-7",
+   "pmid": "17018654",
+   "doi": "10.1210/jc.2006-1702",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17018654/",
+   "level": 3
+  },
+  {
+   "id": "src:15817669",
+   "type": "source",
+   "label": "Jette 2005, Endocrinology 146(7):3052-8",
+   "pmid": "15817669",
+   "doi": "10.1210/en.2004-1286",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15817669/",
+   "level": 3
+  },
+  {
+   "id": "src:16822960",
+   "type": "source",
+   "label": "Alba 2006, Am J Physiol Endocrinol Metab",
+   "pmid": "16822960",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16822960/",
+   "level": 3
+  },
+  {
+   "id": "src:8464043",
+   "type": "source",
+   "label": "Kubiak 1993, J Med Chem - DPP-IV cleavage of native GRF",
+   "pmid": "8464043",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8464043/",
+   "level": 3
+  },
+  {
+   "id": "src:18981485",
+   "type": "source",
+   "label": "Nass 2008, Ann Intern Med - MK-677 2-year RCT",
+   "pmid": "18981485",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18981485/",
+   "level": 3
+  },
+  {
+   "id": "src:28400207",
+   "type": "source",
+   "label": "Sigalos & Pastuszak 2018, Sex Med Rev 6(1):45-53 - GH secretagogue safety review",
+   "pmid": "28400207",
+   "doi": "10.1016/j.sxmr.2017.02.004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28400207/",
+   "level": 3
+  },
+  {
+   "id": "src:15110491",
+   "type": "source",
+   "label": "Renehan 2004, Lancet 363:1346-53 - IGF-1 and cancer risk",
+   "pmid": "15110491",
+   "doi": "10.1016/S0140-6736(04)16044-3",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15110491/",
+   "level": 3
+  },
+  {
+   "id": "src:nct00267527",
+   "type": "source",
+   "label": "ClinicalTrials.gov NCT00267527 - CJC-1295 in HIV visceral obesity (terminated)",
+   "url": "https://clinicaltrials.gov/study/NCT00267527",
+   "level": 3
+  },
+  {
+   "id": "src:aidsmap-2006-halt",
+   "type": "source",
+   "label": "aidsmap, July 2006 - lipodystrophy study halted after patient death",
+   "url": "https://www.aidsmap.com/news/jul-2006/lipodystrophy-study-halted-after-patient-death",
+   "level": 3
+  },
+  {
+   "id": "src:fda-bulk-safety-risks",
+   "type": "source",
+   "label": "FDA - Certain Bulk Drug Substances for Use in Compounding that May Present Significant Safety Risks",
+   "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+   "level": 3
+  },
+  {
+   "id": "src:fda-pcac-2024-12-04",
+   "type": "source",
+   "label": "FDA PCAC briefing materials, 4 December 2024 (CJC-1295)",
+   "url": "https://www.fda.gov/media/183945/download",
+   "level": 3
+  },
+  {
+   "id": "src:wada-prohibited-list",
+   "type": "source",
+   "label": "WADA Prohibited List - Section S2 (ipamorelin named under GH secretagogues)",
+   "url": "https://www.wada-ama.org/en/prohibited-list",
+   "level": 3
+  },
+  {
+   "id": "epitalon",
+   "type": "compound",
+   "label": "Epitalon (AEDG)",
+   "sequence": "Ala-Glu-Asp-Gly",
+   "evidence_tier": 3,
+   "approval": "none",
+   "wada": "S0 (likely)",
+   "level": 1
+  },
+  {
+   "id": "family:khavinson-bioregulators",
+   "type": "family",
+   "label": "Khavinson bioregulators",
+   "level": 0
+  },
+  {
+   "id": "target:telomerase-htert",
+   "type": "target",
+   "label": "Telomerase (hTERT)",
+   "level": 2
+  },
+  {
+   "id": "target:chromatin-histones",
+   "type": "target",
+   "label": "Chromatin / histone proteins (proposed)",
+   "level": 2
+  },
+  {
+   "id": "target:pineal-gland",
+   "type": "target",
+   "label": "Pineal gland (proposed)",
+   "level": 2
+  },
+  {
+   "id": "effect:telomere-elongation",
+   "type": "effect",
+   "label": "Telomere elongation (in vitro)",
+   "level": 2
+  },
+  {
+   "id": "effect:alt-activation",
+   "type": "effect",
+   "label": "ALT activation in cancer cells (in vitro)",
+   "level": 2
+  },
+  {
+   "id": "effect:chromatin-decondensation",
+   "type": "effect",
+   "label": "Heterochromatin decondensation",
+   "level": 2
+  },
+  {
+   "id": "effect:melatonin-normalization",
+   "type": "effect",
+   "label": "Melatonin rhythm normalisation (conflicting)",
+   "level": 2
+  },
+  {
+   "id": "effect:lifespan-extension",
+   "type": "effect",
+   "label": "Lifespan extension (rodent, weak)",
+   "level": 2
+  },
+  {
+   "id": "effect:retinoprotective",
+   "type": "effect",
+   "label": "Retinoprotection (weak)",
+   "level": 2
+  },
+  {
+   "id": "risk:theoretical-oncogenic",
+   "type": "risk",
+   "label": "Theoretical oncogenic risk via telomere maintenance",
+   "level": 2
+  },
+  {
+   "id": "risk:injection-site-reaction",
+   "type": "risk",
+   "label": "Injection-site reaction",
+   "level": 2
+  },
+  {
+   "id": "risk:no-human-safety-data",
+   "type": "risk",
+   "label": "No human safety/PK data",
+   "level": 2
+  },
+  {
+   "id": "risk:unregulated-product-quality",
+   "type": "risk",
+   "label": "Unregulated grey-market product quality",
+   "level": 2
+  },
+  {
+   "id": "epitalon:study:khavinson-2003-fibroblasts",
+   "type": "study",
+   "label": "Telomerase in human fetal fibroblasts",
+   "year": 2003,
+   "species": "human cells",
+   "n": null,
+   "design": "in vitro",
+   "outcome": "hTERT/telomerase induced, telomere elongation",
+   "level": 3
+  },
+  {
+   "id": "epitalon:study:aldulaimi-2025",
+   "type": "study",
+   "label": "Independent telomere study, normal + breast cancer lines",
+   "year": 2025,
+   "species": "human cells",
+   "n": null,
+   "design": "in vitro",
+   "outcome": "telomere extension via hTERT (normal) / ALT (cancer)",
+   "independent": true,
+   "level": 3
+  },
+  {
+   "id": "epitalon:study:anisimov-2003-shr",
+   "type": "study",
+   "label": "SHR mouse lifespan/tumours",
+   "year": 2003,
+   "species": "mouse",
+   "n": 108,
+   "design": "controlled animal",
+   "outcome": "max lifespan +12%, mean unchanged; leukaemia down",
+   "level": 3
+  },
+  {
+   "id": "epitalon:study:anisimov-2002-her2",
+   "type": "study",
+   "label": "HER-2/neu mouse breast tumours",
+   "year": 2002,
+   "species": "mouse",
+   "n": null,
+   "design": "controlled animal",
+   "outcome": "reported reduced tumour development",
+   "level": 3
+  },
+  {
+   "id": "epitalon:study:khavinson-2002-retina",
+   "type": "study",
+   "label": "Retinitis pigmentosa rat + uncontrolled patients",
+   "year": 2002,
+   "species": "rat; human",
+   "n": null,
+   "design": "animal + uncontrolled clinical",
+   "outcome": "retinal preservation; '90% positive'",
+   "level": 3
+  },
+  {
+   "id": "epitalon:study:khavinson-morozov-2003",
+   "type": "study",
+   "label": "Epithalamin/Thymalin elderly mortality",
+   "year": 2003,
+   "species": "human",
+   "n": 266,
+   "design": "observational vs controls, non-blinded",
+   "outcome": "1.6-1.8x lower mortality (Epithalamin extract)",
+   "product": "Epithalamin",
+   "level": 3
+  },
+  {
+   "id": "epitalon:study:korkushko-2004-melatonin",
+   "type": "study",
+   "label": "Epithalamin melatonin in elderly",
+   "year": 2004,
+   "species": "human",
+   "n": null,
+   "design": "uncontrolled",
+   "outcome": "night melatonin up if low baseline",
+   "product": "Epithalamin",
+   "level": 3
+  },
+  {
+   "id": "epitalon:study:korkushko-2006-cad",
+   "type": "study",
+   "label": "Epithalamin in coronary patients",
+   "year": 2006,
+   "species": "human",
+   "n": 79,
+   "design": "described as randomized, developer group",
+   "outcome": "CV mortality ~2x lower",
+   "product": "Epithalamin",
+   "level": 3
+  },
+  {
+   "id": "epitalon:study:lezhava-2006-chromatin",
+   "type": "study",
+   "label": "Chromatin reactivation in elderly lymphocytes",
+   "year": 2006,
+   "species": "human cells",
+   "n": null,
+   "design": "in vitro",
+   "outcome": "pericentromeric heterochromatin decondensation",
+   "level": 3
+  },
+  {
+   "id": "src:12937682",
+   "type": "source",
+   "label": "Khavinson 2003 Bull Exp Biol Med",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12937682/",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1007/s10522-025-10315-x",
+   "type": "source",
+   "label": "Al-Dulaimi 2025 Biogerontology",
+   "url": "https://doi.org/10.1007/s10522-025-10315-x",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1023/a:1025114230714",
+   "type": "source",
+   "label": "Anisimov 2003 Biogerontology",
+   "url": "https://doi.org/10.1023/a:1025114230714",
+   "level": 3
+  },
+  {
+   "id": "src:nel-khavinson-morozov-2003",
+   "type": "source",
+   "label": "Khavinson & Morozov 2003 NEL",
+   "url": "https://www.nel.edu/peptides-of-pineal-gland-and-thymus-prolong-human-life-2142",
+   "level": 3
+  },
+  {
+   "id": "src:nel-khavinson-2002-retina",
+   "type": "source",
+   "label": "Khavinson 2002 NEL retina",
+   "url": "https://www.nel.edu/pineal-regulating-tetrapeptide-epitalon-improves-eye-retina-condition-in-retinitis-pigmentosa-2210",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1007/s10517-006-0365-z",
+   "type": "source",
+   "label": "Korkushko 2006 Bull Exp Biol Med",
+   "url": "https://doi.org/10.1007/s10517-006-0365-z",
+   "level": 3
+  },
+  {
+   "id": "src:16705247",
+   "type": "source",
+   "label": "Lezhava 2006 chromatin reactivation",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16705247/",
+   "level": 3
+  },
+  {
+   "id": "src:17969590",
+   "type": "source",
+   "label": "Pineal peptides melatonin rhythm, monkeys + elderly",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17969590/",
+   "level": 3
+  },
+  {
+   "id": "src:pmc11943447",
+   "type": "source",
+   "label": "Araj 2025 IJMS review",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11943447/",
+   "level": 3
+  },
+  {
+   "id": "src:34834147",
+   "type": "source",
+   "label": "Khavinson 2021 Molecules systematic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34834147/",
+   "level": 3
+  },
+  {
+   "id": "src:ajmc-pcac-2026",
+   "type": "source",
+   "label": "AJMC: FDA panel backs 6 peptides (Jul 2026)",
+   "url": "https://ajmc.com/view/fda-panel-backs-6-peptides-for-compounding",
+   "level": 3
+  },
+  {
+   "id": "epitalon:claim:telomerase",
+   "type": "claim",
+   "label": "Activates telomerase / lengthens telomeres",
+   "verdict": "partly supported (in vitro)",
+   "level": 3
+  },
+  {
+   "id": "epitalon:claim:lifespan",
+   "type": "claim",
+   "label": "Extends human lifespan",
+   "verdict": "unsupported",
+   "level": 3
+  },
+  {
+   "id": "epitalon:claim:sleep-melatonin",
+   "type": "claim",
+   "label": "Restores melatonin / sleep",
+   "verdict": "weak/conflicting",
+   "level": 3
+  },
+  {
+   "id": "epitalon:claim:anticancer",
+   "type": "claim",
+   "label": "Prevents cancer",
+   "verdict": "unsupported",
+   "level": 3
+  },
+  {
+   "id": "epitalon:claim:fda-approved",
+   "type": "claim",
+   "label": "FDA-approved for compounding",
+   "verdict": "false/premature",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin",
+   "type": "compound",
+   "label": "Ipamorelin",
+   "family": "family:gh-secretagogues",
+   "drug_class": "ghrelin receptor (GHSR-1a) agonist / selective GH secretagogue",
+   "structure": "Aib-His-D-2-Nal-D-Phe-Lys-NH2 pentapeptide",
+   "approval": "not approved; phase 2 development for postoperative ileus abandoned",
+   "half_life_h": 2,
+   "evidence_tier": 2,
+   "level": 1
+  },
+  {
+   "id": "effect:gastric-prokinesis",
+   "type": "effect",
+   "label": "Accelerated gastric emptying / increased gastric contractility",
+   "mechanism": "ghrelin-receptor mediated via cholinergic excitatory neurons",
+   "level": 2
+  },
+  {
+   "id": "effect:increased-food-intake",
+   "type": "effect",
+   "label": "Increased food intake and body-weight gain",
+   "species": "rat",
+   "level": 2
+  },
+  {
+   "id": "effect:increased-bone-mineral-content",
+   "type": "effect",
+   "label": "Increased bone mineral content / longitudinal bone growth",
+   "species": "rat",
+   "note": "tibial areal BMD up; total and vertebral areal BMD unchanged",
+   "level": 2
+  },
+  {
+   "id": "risk:appetite-stimulation",
+   "type": "risk",
+   "label": "Appetite stimulation / weight gain (on-target orexigenic effect)",
+   "strength": "mechanistic certainty plus rodent data",
+   "level": 2
+  },
+  {
+   "id": "risk:no-long-term-safety-data",
+   "type": "risk",
+   "label": "No long-term human safety data (max published exposure ~7 days IV)",
+   "strength": "documented absence of evidence",
+   "level": 2
+  },
+  {
+   "id": "risk:unpublished-trial-data",
+   "type": "risk",
+   "label": "Completed 320-patient phase 2 never reported results (publication-bias gap)",
+   "strength": "verified registry fact",
+   "level": 2
+  },
+  {
+   "id": "risk:hpg-suppression",
+   "type": "risk",
+   "label": "HPG axis suppression",
+   "applies": false,
+   "note": "does not apply - ipamorelin acts on the GH axis, not the HPG axis",
+   "level": 2
+  },
+  {
+   "id": "ipamorelin:study:beck-2014-poi",
+   "type": "study",
+   "year": 2014,
+   "species": "human",
+   "n": 117,
+   "design": "phase 2 randomized double-blind placebo-controlled proof-of-concept; IV twice daily, postoperative day 1 to day 7 or discharge, after small or large bowel resection (NCT00672074, sponsor Helsinn)",
+   "outcome": "NEGATIVE: median time to first tolerated meal 25.3 h vs 32.6 h placebo, p=0.15; no significant efficacy differences. TEAEs 87.5% ipamorelin vs 94.8% placebo",
+   "label": "Phase 2 postoperative ileus RCT 2014",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:nct01280344",
+   "type": "study",
+   "year": 2014,
+   "species": "human",
+   "n": 320,
+   "design": "phase 2, three ipamorelin arms + placebo, recovery of GI function within 10 days after bowel resection; start Apr 2011, completed May 2014",
+   "outcome": "UNKNOWN - registry status completed, no results posted and no publication identified; development discontinued",
+   "label": "NCT01280344 (completed, unpublished)",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:gobburu-1999",
+   "type": "study",
+   "year": 1999,
+   "species": "human",
+   "n": "8 healthy male subjects per dose level (dose escalation)",
+   "design": "intravenous PK/PD study with population modelling",
+   "outcome": "terminal half-life ~2 h; clearance 0.078 L/h/kg; Vss 0.22 L/kg; dose-proportional; GH peak ~0.67 h; inter-individual PD variability exceeded PK variability",
+   "label": "Gobburu 1999",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:raun-1998",
+   "type": "study",
+   "year": 1998,
+   "species": "rat / in vitro",
+   "n": "n/a",
+   "design": "rat pituitary cell assay and in vivo GH release",
+   "outcome": "high GH-releasing potency, similar to GHRP-6 in pituitary cells; GH-release selectivity resembling GHRH - basis of 'first selective GH secretagogue'",
+   "label": "Raun 1998",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:johansen-1999",
+   "type": "study",
+   "year": 1999,
+   "species": "rat",
+   "n": "adult female rats, 4 dose groups (0/18/90/450 ug/day)",
+   "design": "three-times-daily dosing for 15 days; tetracycline band distance in proximal tibial metaphysis",
+   "outcome": "longitudinal bone growth induced; total IGF-1, IGFBPs and serum bone turnover markers UNCHANGED",
+   "label": "Johansen 1999",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:svensson-2000",
+   "type": "study",
+   "year": 2000,
+   "species": "rat",
+   "n": "13-week-old female Sprague-Dawley rats; ipamorelin / GHRP-6 / GH / vehicle arms",
+   "design": "osmotic minipump, continuous infusion, 12 weeks; DXA",
+   "outcome": "bone mineral content increased; tibial areal BMD increased; total and vertebral areal BMD unchanged",
+   "label": "Svensson 2000",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:glucocorticoid-bone-2001",
+   "type": "study",
+   "year": 2001,
+   "species": "rat",
+   "n": "adult rats",
+   "design": "glucocorticoid-induced suppression of bone formation",
+   "outcome": "ipamorelin counteracted the glucocorticoid-induced decrease in bone formation",
+   "label": "Glucocorticoid bone-formation study 2001",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:venkova-2009",
+   "type": "study",
+   "year": 2009,
+   "species": "rat",
+   "n": "n/a",
+   "design": "rodent postoperative ileus model, IV single vs repeated dosing, GHRP-6 comparator",
+   "outcome": "single dose shortened time to first bowel movement but no change in cumulative fecal output, food intake or weight gain at 48 h; repeated dosing increased all three",
+   "label": "Venkova 2009",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:gvm-2012",
+   "type": "study",
+   "year": 2012,
+   "species": "rat",
+   "n": "n/a",
+   "design": "rodent postoperative ileus; gastric emptying and gastric smooth muscle",
+   "outcome": "accelerated gastric emptying by stimulating gastric contractility via ghrelin-receptor mechanism involving cholinergic excitatory neurons",
+   "label": "Greenwood-Van Meerveld 2012",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:nass-2008-mk677",
+   "type": "study",
+   "year": 2008,
+   "species": "human",
+   "n": 65,
+   "design": "2-year double-blind randomized placebo-controlled modified-crossover trial, oral MK-677 25 mg/d, healthy adults 60-81 (class evidence, different molecule)",
+   "outcome": "fasting glucose +0.3 mmol/L (5 mg/dL, p=0.015), insulin sensitivity decreased; fat-free mass increased; intra-abdominal adiposity NOT reduced",
+   "label": "Nass 2008 (MK-677, class evidence)",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:study:renehan-2004",
+   "type": "study",
+   "year": 2004,
+   "species": "human",
+   "n": "3609 cases / 7137 controls, 21 studies (26 datasets)",
+   "design": "systematic review and meta-regression of case-control studies of circulating IGF-1 and cancer risk (background epidemiology, no secretagogue exposure)",
+   "outcome": "IGF-1 75th vs 25th percentile: prostate cancer OR 1.49 (1.14-1.95), premenopausal breast cancer OR 1.65 (1.26-2.08); modest and variable by site",
+   "label": "Renehan 2004",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:gh-release",
+   "type": "claim",
+   "label": "Releases growth hormone",
+   "verdict": "supported",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:selectivity",
+   "type": "claim",
+   "label": "Selective - no cortisol or prolactin spike unlike other GHRPs",
+   "verdict": "partly supported - rodent basis solid, human claim overstated; '200x ED50' figure unverified",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:body-composition",
+   "type": "claim",
+   "label": "Builds lean muscle / reduces body fat",
+   "verdict": "unsupported - never measured in humans; on-target orexigenic effect cuts against fat loss",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:recovery-sleep-healing",
+   "type": "claim",
+   "label": "Improves sleep, recovery, healing, joints, skin",
+   "verdict": "unsupported - never measured",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:anti-aging",
+   "type": "claim",
+   "label": "Anti-ageing",
+   "verdict": "unsupported",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:clinically-proven",
+   "type": "claim",
+   "label": "Clinically proven / backed by clinical trials",
+   "verdict": "misleading - the one published RCT was negative; a larger one was never reported",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:well-tolerated",
+   "type": "claim",
+   "label": "Well tolerated in clinical trials",
+   "verdict": "supported for <=7 days IV in 117 patients; over-extended to chronic subcutaneous use",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:bone-density",
+   "type": "claim",
+   "label": "Increases bone density",
+   "verdict": "animal only, site-specific even there",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:natural-safer-than-gh",
+   "type": "claim",
+   "label": "Natural, therefore safer than GH",
+   "verdict": "misleading",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:fda-cleared",
+   "type": "claim",
+   "label": "FDA-approved / cleared for compounding",
+   "verdict": "false - was Category 2; no USP/NF monograph; not on 503A bulks list",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:cjc-synergy",
+   "type": "claim",
+   "label": "Stacks synergistically with CJC-1295",
+   "verdict": "hypothesis only - combination never tested in humans",
+   "level": 3
+  },
+  {
+   "id": "ipamorelin:claim:undetectable-for-athletes",
+   "type": "claim",
+   "label": "Won't show up on a drug test",
+   "verdict": "false - named in WADA S2",
+   "level": 3
+  },
+  {
+   "id": "src:9849822",
+   "type": "source",
+   "label": "Raun 1998, Eur J Endocrinol 139(5):552-61",
+   "pmid": "9849822",
+   "doi": "10.1530/eje.0.1390552",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+   "level": 3
+  },
+  {
+   "id": "src:10496658",
+   "type": "source",
+   "label": "Gobburu 1999, Pharm Res 16(9):1412-6",
+   "pmid": "10496658",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+   "level": 3
+  },
+  {
+   "id": "src:25331030",
+   "type": "source",
+   "label": "Phase 2 postoperative ileus RCT, Int J Colorectal Dis 2014;29(12):1527-34",
+   "pmid": "25331030",
+   "doi": "10.1007/s00384-014-2030-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+   "level": 3
+  },
+  {
+   "id": "src:10373343",
+   "type": "source",
+   "label": "Johansen 1999, Growth Horm IGF Res 9(2)",
+   "pmid": "10373343",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10373343/",
+   "level": 3
+  },
+  {
+   "id": "src:10828840",
+   "type": "source",
+   "label": "Svensson 2000, J Endocrinol - ipamorelin and GHRP-6 increase BMC in adult female rats",
+   "pmid": "10828840",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10828840/",
+   "level": 3
+  },
+  {
+   "id": "src:11735244",
+   "type": "source",
+   "label": "Ipamorelin counteracts glucocorticoid-induced decrease in bone formation in adult rats, 2001",
+   "pmid": "11735244",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11735244/",
+   "level": 3
+  },
+  {
+   "id": "src:27186127",
+   "type": "source",
+   "label": "Greenwood-Van Meerveld 2012, J Exp Pharmacol - gastric dysmotility in rodent POI",
+   "pmid": "27186127",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27186127/",
+   "level": 3
+  },
+  {
+   "id": "src:nct00672074",
+   "type": "source",
+   "label": "ClinicalTrials.gov NCT00672074 - ipamorelin for postoperative ileus",
+   "url": "https://clinicaltrials.gov/study/NCT00672074",
+   "level": 3
+  },
+  {
+   "id": "src:nct01280344",
+   "type": "source",
+   "label": "ClinicalTrials.gov NCT01280344 - ipamorelin for recovery of GI function (completed, no results posted)",
+   "url": "https://clinicaltrials.gov/study/NCT01280344",
+   "level": 3
+  },
+  {
+   "id": "src:fda-pcac-ipamorelin-2024",
+   "type": "source",
+   "label": "FDA PCAC briefing document on ipamorelin, October 2024",
+   "url": "https://www.fda.gov/media/182088/download",
+   "level": 3
+  },
+  {
+   "id": "src:fda-pcac-meeting-2024-10",
+   "type": "source",
+   "label": "FDA PCAC meeting record, October 2024",
+   "url": "https://www.fda.gov/media/185414/download",
+   "level": 3
+  },
+  {
+   "id": "pinealon",
+   "type": "compound",
+   "label": "Pinealon (EDR)",
+   "sequence": "Glu-Asp-Arg",
+   "evidence_tier": 3,
+   "approval": "none",
+   "wada": "S0 (likely)",
+   "level": 1
+  },
+  {
+   "id": "target:mapk-erk",
+   "type": "target",
+   "label": "MAPK/ERK1/2 pathway",
+   "level": 2
+  },
+  {
+   "id": "effect:antioxidant",
+   "type": "effect",
+   "label": "ROS suppression (in vitro)",
+   "level": 2
+  },
+  {
+   "id": "effect:neuroprotective",
+   "type": "effect",
+   "label": "Neuroprotection (preclinical)",
+   "level": 2
+  },
+  {
+   "id": "effect:dendritic-spine-preservation",
+   "type": "effect",
+   "label": "Dendritic spine preservation",
+   "level": 2
+  },
+  {
+   "id": "effect:cognitive-enhancement",
+   "type": "effect",
+   "label": "Cognitive enhancement",
+   "evidence": "claimed; no healthy-adult RCT",
+   "level": 2
+  },
+  {
+   "id": "risk:theoretical-proliferative",
+   "type": "risk",
+   "label": "Theoretical proliferative signalling (ERK, cell cycle)",
+   "level": 2
+  },
+  {
+   "id": "risk:serotonergic-interaction",
+   "type": "risk",
+   "label": "Theoretical serotonergic interaction (unstudied)",
+   "level": 2
+  },
+  {
+   "id": "pinealon:study:rejuvres-2011",
+   "type": "study",
+   "label": "ROS/viability in CGCs, neutrophils, PC12",
+   "year": 2011,
+   "species": "rat cells / cell lines",
+   "n": null,
+   "design": "in vitro",
+   "outcome": "ROS down, necrosis down, delayed ERK1/2",
+   "level": 3
+  },
+  {
+   "id": "pinealon:study:arutjunyan-2012",
+   "type": "study",
+   "label": "Prenatal hyperhomocysteinaemia rat offspring",
+   "year": 2012,
+   "species": "rat",
+   "n": null,
+   "design": "controlled animal",
+   "outcome": "better learning; neuron necrosis 12.6%->3.4%",
+   "level": 3
+  },
+  {
+   "id": "pinealon:study:kraskovskaya-2017",
+   "type": "study",
+   "label": "Spines under amyloid toxicity",
+   "year": 2017,
+   "species": "mouse neurons",
+   "n": null,
+   "design": "in vitro",
+   "outcome": "mushroom spines +71%",
+   "level": 3
+  },
+  {
+   "id": "pinealon:study:5xfad-2021",
+   "type": "study",
+   "label": "5xFAD-M mice spine loss",
+   "year": 2021,
+   "species": "mouse",
+   "n": null,
+   "design": "transgenic animal",
+   "outcome": "spine loss prevented",
+   "level": 3
+  },
+  {
+   "id": "pinealon:study:claimed-tbi-72",
+   "type": "study",
+   "label": "Claimed 72-patient post-TBI trial",
+   "year": null,
+   "species": "human",
+   "n": 72,
+   "design": "claimed controlled; unverified",
+   "outcome": "claimed memory improvement",
+   "verified": false,
+   "level": 3
+  },
+  {
+   "id": "src:21978084",
+   "type": "source",
+   "label": "Rejuvenation Res 2011",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21978084/",
+   "level": 3
+  },
+  {
+   "id": "src:22567179",
+   "type": "source",
+   "label": "Arutjunyan 2012",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22567179/",
+   "level": 3
+  },
+  {
+   "id": "src:28853087",
+   "type": "source",
+   "label": "Kraskovskaya 2017 Bull Exp Biol Med",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28853087/",
+   "level": 3
+  },
+  {
+   "id": "src:pmc8227791",
+   "type": "source",
+   "label": "Khavinson 2021 Pharmaceuticals 5xFAD",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8227791/",
+   "level": 3
+  },
+  {
+   "id": "src:pmc7795577",
+   "type": "source",
+   "label": "Khavinson 2021 Molecules EDR review",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7795577",
+   "level": 3
+  },
+  {
+   "id": "pinealon:claim:cognition",
+   "type": "claim",
+   "label": "Boosts memory/cognition in humans",
+   "verdict": "unsupported",
+   "level": 3
+  },
+  {
+   "id": "pinealon:claim:alzheimers",
+   "type": "claim",
+   "label": "Protects against Alzheimer's",
+   "verdict": "preclinical only",
+   "level": 3
+  },
+  {
+   "id": "pinealon:claim:tbi",
+   "type": "claim",
+   "label": "Clinically proven for brain-injury recovery",
+   "verdict": "unverified",
+   "level": 3
+  },
+  {
+   "id": "pinealon:claim:antioxidant",
+   "type": "claim",
+   "label": "Antioxidant",
+   "verdict": "in vitro only",
+   "level": 3
+  },
+  {
+   "id": "prostamax",
+   "type": "compound",
+   "label": "Prostamax (KEDP)",
+   "sequence": "Lys-Glu-Asp-Pro",
+   "evidence_tier": 3,
+   "approval": "none",
+   "wada": "S0 (likely)",
+   "level": 1
+  },
+  {
+   "id": "target:prostate-tissue",
+   "type": "target",
+   "label": "Prostate tissue (proposed tissue specificity)",
+   "level": 2
+  },
+  {
+   "id": "risk:delayed-diagnosis",
+   "type": "risk",
+   "label": "Delayed diagnosis of prostate disease",
+   "level": 2
+  },
+  {
+   "id": "risk:genomic-uncertainty",
+   "type": "risk",
+   "label": "Unknown significance of chromatin/SCE changes",
+   "level": 2
+  },
+  {
+   "id": "prostamax:study:khavinson-2004-leukocytes",
+   "type": "study",
+   "label": "Leukocytes of donors 75-88",
+   "year": 2004,
+   "species": "human cells",
+   "n": null,
+   "design": "in vitro",
+   "outcome": "chr 1 heterochromatin decondensation",
+   "level": 3
+  },
+  {
+   "id": "prostamax:study:lezhava-2012-lymphocytes",
+   "type": "study",
+   "label": "Lymphocytes of donors 75-86",
+   "year": 2012,
+   "species": "human cells",
+   "n": null,
+   "design": "in vitro",
+   "outcome": "heterochromatin down, NOR up, SCE up",
+   "level": 3
+  },
+  {
+   "id": "prostamax:study:borovskaya-2013-prostatitis",
+   "type": "study",
+   "label": "Rat chronic aseptic prostatitis",
+   "year": 2013,
+   "species": "rat",
+   "n": null,
+   "design": "controlled animal",
+   "outcome": "less oedema/infiltration, less sclerosis",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1023/B:BEBM.0000024393.40560.05",
+   "type": "source",
+   "label": "Khavinson, Lezhava, Malinin 2004",
+   "url": "https://doi.org/10.1023/B:BEBM.0000024393.40560.05",
+   "level": 3
+  },
+  {
+   "id": "src:23221144",
+   "type": "source",
+   "label": "Georgian Med News 2012 (Prostamax)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23221144/",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.4236/mri.2013.23007",
+   "type": "source",
+   "label": "Borovskaya 2013 Mod Res Inflamm",
+   "url": "https://doi.org/10.4236/mri.2013.23007",
+   "level": 3
+  },
+  {
+   "id": "prostamax:claim:prostatitis",
+   "type": "claim",
+   "label": "Treats chronic prostatitis",
+   "verdict": "preclinical only",
+   "level": 3
+  },
+  {
+   "id": "prostamax:claim:bph",
+   "type": "claim",
+   "label": "Shrinks prostate / treats BPH",
+   "verdict": "no evidence",
+   "level": 3
+  },
+  {
+   "id": "prostamax:claim:gene-rejuvenation",
+   "type": "claim",
+   "label": "Reverses chromatin ageing",
+   "verdict": "speculative",
+   "level": 3
+  },
+  {
+   "id": "prostamax:claim:clinically-tested",
+   "type": "claim",
+   "label": "Clinically tested in humans",
+   "verdict": "unverified",
+   "level": 3
+  },
+  {
+   "id": "pt-141",
+   "type": "compound",
+   "label": "PT-141 / bremelanotide (Vyleesi)",
+   "aliases": [
+    "bremelanotide",
+    "Vyleesi"
+   ],
+   "status": "FDA approved 2019-06-21 (premenopausal HSDD)",
+   "evidence_tier": 1,
+   "level": 1
+  },
+  {
+   "id": "target:mc4r",
+   "type": "target",
+   "label": "Melanocortin-4 receptor",
+   "evidence": "in vitro; attribution unverified",
+   "level": 2
+  },
+  {
+   "id": "target:mc3r",
+   "type": "target",
+   "label": "Melanocortin 3 receptor",
+   "level": 2
+  },
+  {
+   "id": "target:mc1r",
+   "type": "target",
+   "label": "Melanocortin 1 receptor",
+   "level": 2
+  },
+  {
+   "id": "effect:increased-sexual-desire",
+   "type": "effect",
+   "label": "Increased sexual desire",
+   "level": 2
+  },
+  {
+   "id": "effect:reduced-sexual-distress",
+   "type": "effect",
+   "label": "Reduced desire-related distress",
+   "level": 2
+  },
+  {
+   "id": "risk:nausea",
+   "type": "risk",
+   "label": "Nausea",
+   "level": 2
+  },
+  {
+   "id": "risk:flushing",
+   "type": "risk",
+   "label": "Flushing",
+   "level": 2
+  },
+  {
+   "id": "risk:transient-hypertension",
+   "type": "risk",
+   "label": "Transient BP increase",
+   "level": 2
+  },
+  {
+   "id": "risk:hyperpigmentation",
+   "type": "risk",
+   "label": "Focal hyperpigmentation",
+   "level": 2
+  },
+  {
+   "id": "risk:naltrexone-interaction",
+   "type": "risk",
+   "label": "Reduces oral naltrexone exposure",
+   "level": 2
+  },
+  {
+   "id": "pt-141:study:reconnect",
+   "type": "study",
+   "label": "RECONNECT (2 phase 3 RCTs)",
+   "year": 2019,
+   "species": "human",
+   "n": 1267,
+   "design": "Two 24-wk DB-RCTs, premenopausal HSDD",
+   "outcome": "Co-primary desire and distress endpoints met; modest effect",
+   "level": 3
+  },
+  {
+   "id": "pt-141:study:clayton-2016",
+   "type": "study",
+   "label": "Phase 2b dose-finding",
+   "year": 2016,
+   "species": "human",
+   "n": 327,
+   "design": "RCT 12 wk, 4 arms",
+   "outcome": "Small gains in satisfying events and FSFI",
+   "level": 3
+  },
+  {
+   "id": "pt-141:study:pfaus-2004",
+   "type": "study",
+   "label": "Female rat solicitation",
+   "year": 2004,
+   "species": "rat",
+   "n": null,
+   "design": "ovariectomised female rats",
+   "outcome": "Increased solicitation; lordosis unchanged",
+   "level": 3
+  },
+  {
+   "id": "pt-141:claim:fda-approved",
+   "type": "claim",
+   "label": "FDA-approved libido peptide",
+   "verdict": "partly true (narrow indication)",
+   "level": 3
+  },
+  {
+   "id": "pt-141:claim:works-for-men",
+   "type": "claim",
+   "label": "Works for men too",
+   "verdict": "not supported",
+   "level": 3
+  },
+  {
+   "id": "pt-141:claim:dramatic-desire",
+   "type": "claim",
+   "label": "Dramatically boosts desire",
+   "verdict": "overstated (~25% vs 17% responders)",
+   "level": 3
+  },
+  {
+   "id": "pt-141:claim:central-mechanism",
+   "type": "claim",
+   "label": "Works in the brain, not blood flow",
+   "verdict": "supported mechanistically",
+   "level": 3
+  },
+  {
+   "id": "pt-141:claim:no-side-effects",
+   "type": "claim",
+   "label": "No side effects",
+   "verdict": "false",
+   "level": 3
+  },
+  {
+   "id": "src:pmid-31599840",
+   "type": "source",
+   "label": "Kingsberg 2019 Obstet Gynecol",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.2217/whe-2016-0018",
+   "type": "source",
+   "label": "Clayton 2016 Women's Health",
+   "url": "https://doi.org/10.2217/whe-2016-0018",
+   "level": 3
+  },
+  {
+   "id": "src:pmid-15226502",
+   "type": "source",
+   "label": "Pfaus 2004 PNAS",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15226502/",
+   "level": 3
+  },
+  {
+   "id": "src:fda-vyleesi-label",
+   "type": "source",
+   "label": "Vyleesi label",
+   "url": "https://ndclist.com/ndc/64011-701/label",
+   "level": 3
+  },
+  {
+   "id": "melanotan-ii",
+   "type": "compound",
+   "label": "Melanotan II",
+   "status": "unapproved; parent scaffold of bremelanotide",
+   "level": 1
+  },
+  {
+   "id": "selank",
+   "type": "compound",
+   "label": "Selank",
+   "sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
+   "parent": "tuftsin analog",
+   "evidence_tier": 3,
+   "status": "Approved Russia (anxiolytic); not FDA/EMA",
+   "level": 1
+  },
+  {
+   "id": "family:nootropic-regulatory-peptides",
+   "type": "family",
+   "label": "Nootropic / regulatory peptides (Russian-approved)",
+   "level": 0
+  },
+  {
+   "id": "target:gabaa",
+   "type": "target",
+   "label": "GABA-A receptor (allosteric)",
+   "evidence": "radioligand binding",
+   "level": 2
+  },
+  {
+   "id": "target:enkephalinase",
+   "type": "target",
+   "label": "Enkephalin-degrading enzymes",
+   "evidence": "in vitro IC50 ~10 uM",
+   "level": 2
+  },
+  {
+   "id": "target:opioid-system",
+   "type": "target",
+   "label": "Endogenous opioid system (indirect)",
+   "evidence": "naloxone-sensitive in mice",
+   "level": 2
+  },
+  {
+   "id": "effect:anxiolytic",
+   "type": "effect",
+   "label": "Anxiolytic",
+   "evidence": "1 active-comparator RCT; strain-dependent in mice",
+   "level": 2
+  },
+  {
+   "id": "effect:immunomodulation",
+   "type": "effect",
+   "label": "Immune gene modulation",
+   "evidence": "rat ischemia transcriptomics",
+   "level": 2
+  },
+  {
+   "id": "effect:antiviral",
+   "type": "effect",
+   "label": "Antiviral (influenza)",
+   "evidence": "cell/mouse only",
+   "level": 2
+  },
+  {
+   "id": "selank:study:zozulia-2008-gad",
+   "type": "study",
+   "label": "Zozulia 2008 GAD/neurasthenia vs medazepam",
+   "year": 2008,
+   "species": "human",
+   "n": 62,
+   "design": "randomised comparative, no placebo (30 vs 32)",
+   "outcome": "anxiolysis comparable to medazepam; up leu-enkephalin half-life",
+   "level": 3
+  },
+  {
+   "id": "src:18454096",
+   "type": "source",
+   "label": "18454096",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/",
+   "level": 3
+  },
+  {
+   "id": "selank:study:uchakina-2008-immune",
+   "type": "study",
+   "label": "Uchakina 2008 immune effects in anxiety-asthenic patients",
+   "year": 2008,
+   "species": "human",
+   "n": null,
+   "design": "ex vivo companion study",
+   "outcome": "cytokine changes",
+   "level": 3
+  },
+  {
+   "id": "src:18577961",
+   "type": "source",
+   "label": "18577961",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18577961/",
+   "level": 3
+  },
+  {
+   "id": "selank:study:panikratova-2020-connectome",
+   "type": "study",
+   "label": "Panikratova 2020 Semax/Selank connectomics",
+   "year": 2020,
+   "species": "human",
+   "n": null,
+   "design": "placebo-controlled fMRI",
+   "outcome": "amygdala connectivity changes",
+   "level": 3
+  },
+  {
+   "id": "src:32342318",
+   "type": "source",
+   "label": "32342318",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/",
+   "level": 3
+  },
+  {
+   "id": "selank:study:kost-2001-enkephalinase",
+   "type": "study",
+   "label": "Kost 2001 serum enkephalinase inhibition",
+   "year": 2001,
+   "species": "in vitro (human serum)",
+   "n": null,
+   "design": "enzyme assay",
+   "outcome": "IC50 ~20 uM",
+   "level": 3
+  },
+  {
+   "id": "src:11443939",
+   "type": "source",
+   "label": "11443939",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/",
+   "level": 3
+  },
+  {
+   "id": "selank:study:enkephalinase-anxiolytic",
+   "type": "study",
+   "label": "Enkephalinase inhibition as anxiolytic mechanism",
+   "year": null,
+   "species": "mouse",
+   "n": null,
+   "design": "in vivo",
+   "outcome": "anxiolysis with leu-enkephalin half-life increase",
+   "level": 3
+  },
+  {
+   "id": "src:11550013",
+   "type": "source",
+   "label": "11550013",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11550013/",
+   "level": 3
+  },
+  {
+   "id": "selank:study:balbc-strain",
+   "type": "study",
+   "label": "BALB/c vs C57BL/6 anxiolysis",
+   "year": 2002,
+   "species": "mouse",
+   "n": null,
+   "design": "open field / anxiety tests",
+   "outcome": "effective only in high-anxiety BALB/c",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1023/A:1015582302311",
+   "type": "source",
+   "label": "doi-10.1023/A:1015582302311",
+   "url": "https://doi.org/10.1023/A:1015582302311",
+   "level": 3
+  },
+  {
+   "id": "selank:study:tuftsin-stress-review",
+   "type": "study",
+   "label": "Tuftsin-family peptides in stress (review)",
+   "year": 2003,
+   "species": "rodent",
+   "n": null,
+   "design": "review",
+   "outcome": "antistress effects",
+   "level": 3
+  },
+  {
+   "id": "src:14969422",
+   "type": "source",
+   "label": "14969422",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14969422/",
+   "level": 3
+  },
+  {
+   "id": "selank:study:volkova-2016-gaba-genes",
+   "type": "study",
+   "label": "Volkova 2016 GABAergic gene expression",
+   "year": 2016,
+   "species": "rat",
+   "n": null,
+   "design": "84-gene panel, frontal cortex",
+   "outcome": "45 genes at 1 h; correlates with GABA",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.3389/fphar.2016.00031",
+   "type": "source",
+   "label": "doi-10.3389/fphar.2016.00031",
+   "url": "https://doi.org/10.3389/fphar.2016.00031",
+   "level": 3
+  },
+  {
+   "id": "selank:study:imr32-2017",
+   "type": "study",
+   "label": "IMR-32 cells GABA/Selank/olanzapine",
+   "year": 2017,
+   "species": "human cell line",
+   "n": null,
+   "design": "in vitro gene expression",
+   "outcome": "Selank blunts GABA-induced changes",
+   "level": 3
+  },
+  {
+   "id": "src:28293190",
+   "type": "source",
+   "label": "28293190",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28293190/",
+   "level": 3
+  },
+  {
+   "id": "selank:study:vyunova-2018-binding",
+   "type": "study",
+   "label": "Vyunova 2018 [3H]GABA binding",
+   "year": 2018,
+   "species": "rodent membranes",
+   "n": null,
+   "design": "radioligand binding",
+   "outcome": "positive allosteric modulation",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.2174/0929866525666180925144642",
+   "type": "source",
+   "label": "doi-10.2174/0929866525666180925144642",
+   "url": "https://doi.org/10.2174/0929866525666180925144642",
+   "level": 3
+  },
+  {
+   "id": "selank:study:influenza-2009",
+   "type": "study",
+   "label": "Antiviral activity in influenza",
+   "year": 2009,
+   "species": "cell culture + mouse",
+   "n": null,
+   "design": "H3N2 infection",
+   "outcome": "suppressed replication; up IFN-beta",
+   "level": 3
+  },
+  {
+   "id": "src:vopr-virusol-11942",
+   "type": "source",
+   "label": "vopr-virusol-11942",
+   "url": "https://virusjour.crie.ru/jour/article/view/11942",
+   "level": 3
+  },
+  {
+   "id": "risk:unknown-long-term",
+   "type": "risk",
+   "label": "Unknown long-term safety",
+   "evidence": "absence of data",
+   "level": 2
+  },
+  {
+   "id": "risk:gabaergic-interaction",
+   "type": "risk",
+   "label": "Possible interaction with benzodiazepines/alcohol",
+   "evidence": "mechanistic only",
+   "level": 2
+  },
+  {
+   "id": "risk:opioid-interaction",
+   "type": "risk",
+   "label": "Possible opioid-system interaction",
+   "evidence": "mechanistic only",
+   "level": 2
+  },
+  {
+   "id": "risk:immune-modulation",
+   "type": "risk",
+   "label": "Unknown immune consequences",
+   "evidence": "ex vivo",
+   "level": 2
+  },
+  {
+   "id": "risk:unregulated-product",
+   "type": "risk",
+   "label": "Grey-market product identity/purity/sterility",
+   "evidence": "general",
+   "level": 2
+  },
+  {
+   "id": "selank:claim:placebo-anxiolytic",
+   "type": "claim",
+   "label": "Clinically proven anxiolytic vs placebo",
+   "verdict": "weak; no placebo RCT",
+   "level": 3
+  },
+  {
+   "id": "selank:claim:no-dependence",
+   "type": "claim",
+   "label": "Benzo-like effect without dependence",
+   "verdict": "unsupported (untested)",
+   "level": 3
+  },
+  {
+   "id": "selank:claim:gaba",
+   "type": "claim",
+   "label": "Works via GABA",
+   "verdict": "supported preclinically",
+   "level": 3
+  },
+  {
+   "id": "selank:claim:nootropic",
+   "type": "claim",
+   "label": "Nootropic / memory",
+   "verdict": "not supported in humans",
+   "level": 3
+  },
+  {
+   "id": "selank:claim:antiviral",
+   "type": "claim",
+   "label": "Immune booster / antiviral",
+   "verdict": "preliminary",
+   "level": 3
+  },
+  {
+   "id": "selank:claim:wada-safe",
+   "type": "claim",
+   "label": "Legal / WADA-safe",
+   "verdict": "misleading",
+   "level": 3
+  },
+  {
+   "id": "src:fda-503a-categories",
+   "type": "source",
+   "label": "FDA 503A bulk substances categories",
+   "url": "https://fda.gov/media/94155/download",
+   "level": 3
+  },
+  {
+   "id": "semax",
+   "type": "compound",
+   "label": "Semax",
+   "sequence": "Met-Glu-His-Phe-Pro-Gly-Pro",
+   "parent": "ACTH(4-10) analog",
+   "evidence_tier": 3,
+   "status": "Approved Russia; not FDA/EMA; FDA 503A Category 2 (2023)",
+   "level": 1
+  },
+  {
+   "id": "target:trkb",
+   "type": "target",
+   "label": "TrkB (BDNF receptor) / BDNF expression",
+   "evidence": "rat",
+   "level": 2
+  },
+  {
+   "id": "target:mc5r",
+   "type": "target",
+   "label": "Melanocortin-5 receptor",
+   "evidence": "in vitro; attribution unverified",
+   "level": 2
+  },
+  {
+   "id": "effect:bdnf-upregulation",
+   "type": "effect",
+   "label": "BDNF upregulation",
+   "evidence": "rat; plasma BDNF in one human study",
+   "level": 2
+  },
+  {
+   "id": "effect:neuroprotection",
+   "type": "effect",
+   "label": "Neuroprotection after ischemia",
+   "evidence": "rat; weak human",
+   "level": 2
+  },
+  {
+   "id": "semax:study:gusev-1997-stroke",
+   "type": "study",
+   "label": "Gusev 1997 acute ischemic stroke",
+   "year": 1997,
+   "species": "human",
+   "n": 110,
+   "design": "non-randomised controlled (30 Semax vs 80 conventional)",
+   "outcome": "faster motor recovery reported; no effect sizes",
+   "level": 3
+  },
+  {
+   "id": "src:11517472",
+   "type": "source",
+   "label": "11517472",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11517472/",
+   "level": 3
+  },
+  {
+   "id": "semax:study:gusev-2018-rehab",
+   "type": "study",
+   "label": "Gusev 2018 post-stroke rehabilitation",
+   "year": 2018,
+   "species": "human",
+   "n": 110,
+   "design": "clinical study, design unclear",
+   "outcome": "higher plasma BDNF, better Barthel index",
+   "level": 3
+  },
+  {
+   "id": "src:29798983",
+   "type": "source",
+   "label": "29798983",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29798983/",
+   "level": 3
+  },
+  {
+   "id": "semax:study:lebedeva-2018-fmri",
+   "type": "study",
+   "label": "Lebedeva 2018 resting-state fMRI DMN",
+   "year": 2018,
+   "species": "human",
+   "n": 24,
+   "design": "placebo-controlled fMRI (14 vs 10)",
+   "outcome": "larger rostral DMN component; imaging only",
+   "level": 3
+  },
+  {
+   "id": "src:30225715",
+   "type": "source",
+   "label": "30225715",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30225715/",
+   "level": 3
+  },
+  {
+   "id": "semax:study:panikratova-2020-connectome",
+   "type": "study",
+   "label": "Panikratova 2020 Semax/Selank connectomics",
+   "year": 2020,
+   "species": "human",
+   "n": null,
+   "design": "placebo-controlled fMRI",
+   "outcome": "amygdala connectivity changes",
+   "level": 3
+  },
+  {
+   "id": "semax:study:dolotov-2006-bdnf",
+   "type": "study",
+   "label": "Dolotov 2006 hippocampal BDNF/TrkB",
+   "year": 2006,
+   "species": "rat",
+   "n": null,
+   "design": "in vivo gene expression + avoidance learning",
+   "outcome": "up BDNF exon III and TrkB mRNA; better learning",
+   "level": 3
+  },
+  {
+   "id": "src:16996037",
+   "type": "source",
+   "label": "16996037",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16996037/",
+   "level": 3
+  },
+  {
+   "id": "semax:study:pgp-2009-neurotrophins",
+   "type": "study",
+   "label": "Semax & PGP neurotrophin transcription after ischemia",
+   "year": 2009,
+   "species": "rat",
+   "n": null,
+   "design": "cerebral ischemia model",
+   "outcome": "activated neurotrophin and receptor genes",
+   "level": 3
+  },
+  {
+   "id": "src:19633950",
+   "type": "source",
+   "label": "19633950",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19633950/",
+   "level": 3
+  },
+  {
+   "id": "semax:study:medvedeva-2014-transcriptome",
+   "type": "study",
+   "label": "Medvedeva 2014 MCAO transcriptome",
+   "year": 2014,
+   "species": "rat",
+   "n": null,
+   "design": "pMCAO genome-wide expression",
+   "outcome": "mainly immune and vascular genes altered",
+   "level": 3
+  },
+  {
+   "id": "src:24661604",
+   "type": "source",
+   "label": "24661604",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24661604/",
+   "level": 3
+  },
+  {
+   "id": "semax:study:2017-immune-genes",
+   "type": "study",
+   "label": "2017 immune response genes in ischemia",
+   "year": 2017,
+   "species": "rat",
+   "n": null,
+   "design": "focal ischemia gene expression",
+   "outcome": "up Ig heavy chain; cytokine/stress genes",
+   "level": 3
+  },
+  {
+   "id": "src:28255762",
+   "type": "source",
+   "label": "28255762",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28255762/",
+   "level": 3
+  },
+  {
+   "id": "semax:study:adan-1994-mc",
+   "type": "study",
+   "label": "Adan 1994 MC receptor antagonists (attributed)",
+   "year": 1994,
+   "species": "in vitro",
+   "n": null,
+   "design": "cloned receptor pharmacology",
+   "outcome": "MC4/MC5 antagonism reported; attribution unverified",
+   "level": 3
+  },
+  {
+   "id": "src:7895772",
+   "type": "source",
+   "label": "7895772",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7895772/",
+   "level": 3
+  },
+  {
+   "id": "semax:study:kost-2001-enkephalinase",
+   "type": "study",
+   "label": "Kost 2001 serum enkephalinase inhibition",
+   "year": 2001,
+   "species": "in vitro (human serum)",
+   "n": null,
+   "design": "enzyme assay",
+   "outcome": "IC50 ~10 uM",
+   "level": 3
+  },
+  {
+   "id": "risk:nasal-irritation",
+   "type": "risk",
+   "label": "Nasal mucosa irritation",
+   "evidence": "label summary; low quality",
+   "level": 2
+  },
+  {
+   "id": "risk:overstimulation",
+   "type": "risk",
+   "label": "Headache / irritability / insomnia",
+   "evidence": "anecdotal",
+   "level": 2
+  },
+  {
+   "id": "risk:immunogenicity",
+   "type": "risk",
+   "label": "Immunogenicity / impurities (FDA concern)",
+   "evidence": "theoretical",
+   "level": 2
+  },
+  {
+   "id": "semax:claim:bdnf",
+   "type": "claim",
+   "label": "Boosts BDNF / brain growth",
+   "verdict": "partly supported (animal)",
+   "level": 3
+  },
+  {
+   "id": "semax:claim:nootropic-healthy",
+   "type": "claim",
+   "label": "Proven nootropic in healthy people",
+   "verdict": "not supported",
+   "level": 3
+  },
+  {
+   "id": "semax:claim:stroke",
+   "type": "claim",
+   "label": "Proven stroke treatment",
+   "verdict": "weak/unproven",
+   "level": 3
+  },
+  {
+   "id": "semax:claim:no-side-effects",
+   "type": "claim",
+   "label": "No side effects",
+   "verdict": "not supported",
+   "level": 3
+  },
+  {
+   "id": "semax:claim:wada-safe",
+   "type": "claim",
+   "label": "Legal / WADA-safe",
+   "verdict": "misleading",
+   "level": 3
+  },
+  {
+   "id": "ss-31",
+   "type": "compound",
+   "label": "SS-31 / elamipretide (Forzinity)",
+   "aliases": [
+    "elamipretide",
+    "MTP-131",
+    "Bendavia",
+    "Forzinity"
+   ],
+   "status": "FDA accelerated approval 2025-09-19 (Barth syndrome)",
+   "evidence_tier": 2,
+   "level": 1
+  },
+  {
+   "id": "target:cardiolipin",
+   "type": "target",
+   "label": "Cardiolipin (inner mitochondrial membrane)",
+   "level": 2
+  },
+  {
+   "id": "effect:mitochondrial-bioenergetics",
+   "type": "effect",
+   "label": "Improved mitochondrial bioenergetics",
+   "level": 2
+  },
+  {
+   "id": "effect:reduced-mito-ros",
+   "type": "effect",
+   "label": "Reduced mitochondrial ROS",
+   "level": 2
+  },
+  {
+   "id": "effect:muscle-strength-barth",
+   "type": "effect",
+   "label": "Knee-extensor strength gain (Barth)",
+   "level": 2
+  },
+  {
+   "id": "risk:benzyl-alcohol-neonates",
+   "type": "risk",
+   "label": "Benzyl alcohol toxicity in neonates",
+   "level": 2
+  },
+  {
+   "id": "ss-31:study:tazpower",
+   "type": "study",
+   "label": "TAZPOWER",
+   "year": 2021,
+   "species": "human",
+   "n": 12,
+   "design": "RCT crossover + OLE, Barth syndrome",
+   "outcome": "Primary endpoints missed; OLE improvements; basis of accelerated approval",
+   "level": 3
+  },
+  {
+   "id": "ss-31:study:tazpower-ole168",
+   "type": "study",
+   "label": "TAZPOWER 168-wk OLE",
+   "year": 2024,
+   "species": "human",
+   "n": 10,
+   "design": "open-label extension",
+   "outcome": "Sustained gains, uncontrolled",
+   "level": 3
+  },
+  {
+   "id": "ss-31:study:mmpower3",
+   "type": "study",
+   "label": "MMPOWER-3",
+   "year": 2023,
+   "species": "human",
+   "n": 218,
+   "design": "Phase 3 RCT, primary mitochondrial myopathy",
+   "outcome": "Negative on 6MWT and fatigue",
+   "level": 3
+  },
+  {
+   "id": "ss-31:study:embrace-stemi",
+   "type": "study",
+   "label": "EMBRACE STEMI",
+   "year": 2016,
+   "species": "human",
+   "n": 297,
+   "design": "Phase 2a RCT, IV during PCI",
+   "outcome": "Negative for infarct size",
+   "level": 3
+  },
+  {
+   "id": "ss-31:study:daubert-hfref",
+   "type": "study",
+   "label": "Daubert HFrEF single infusion",
+   "year": 2017,
+   "species": "human",
+   "n": null,
+   "design": "Phase 1/2 RCT single infusion",
+   "outcome": "Safe; hypothesis-generating",
+   "level": 3
+  },
+  {
+   "id": "ss-31:study:reclaim2",
+   "type": "study",
+   "label": "ReCLAIM-2",
+   "year": 2025,
+   "species": "human",
+   "n": 176,
+   "design": "Phase 2 RCT, geographic atrophy",
+   "outcome": "Primary endpoints missed; secondary EZ signals",
+   "level": 3
+  },
+  {
+   "id": "ss-31:study:chiao-aged-heart",
+   "type": "study",
+   "label": "Chiao aged-mouse heart",
+   "year": 2020,
+   "species": "mouse",
+   "n": null,
+   "design": "8-wk treatment in old mice",
+   "outcome": "Reversed diastolic dysfunction; reduced mito-ROS",
+   "level": 3
+  },
+  {
+   "id": "ss-31:study:szeto-review",
+   "type": "study",
+   "label": "Szeto cardiolipin review",
+   "year": 2014,
+   "species": "review (rodent/in vitro)",
+   "n": null,
+   "design": "narrative review",
+   "outcome": "Cardiolipin binding, cristae protection",
+   "level": 3
+  },
+  {
+   "id": "ss-31:claim:energy-fatigue",
+   "type": "claim",
+   "label": "Boosts energy / reverses fatigue",
+   "verdict": "not supported",
+   "level": 3
+  },
+  {
+   "id": "ss-31:claim:anti-aging",
+   "type": "claim",
+   "label": "Anti-aging / longevity",
+   "verdict": "preclinical only",
+   "level": 3
+  },
+  {
+   "id": "ss-31:claim:cardioprotection",
+   "type": "claim",
+   "label": "Protects the heart",
+   "verdict": "not supported in humans",
+   "level": 3
+  },
+  {
+   "id": "ss-31:claim:barth-strength",
+   "type": "claim",
+   "label": "Improves muscle strength in Barth syndrome",
+   "verdict": "accelerated approval on surrogate; confirmatory trial pending",
+   "level": 3
+  },
+  {
+   "id": "ss-31:claim:vision-amd",
+   "type": "claim",
+   "label": "Improves vision in AMD",
+   "verdict": "unproven",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1038/s41436-020-01006-8",
+   "type": "source",
+   "label": "Thompson 2021 Genet Med",
+   "url": "https://doi.org/10.1038/s41436-020-01006-8",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1016/j.gim.2024.101138",
+   "type": "source",
+   "label": "Thompson 2024 Genet Med",
+   "url": "https://doi.org/10.1016/j.gim.2024.101138",
+   "level": 3
+  },
+  {
+   "id": "src:pmc10382259",
+   "type": "source",
+   "label": "Karaa 2023 Neurology",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10382259",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1093/eurheartj/ehv597",
+   "type": "source",
+   "label": "Gibson 2016 Eur Heart J",
+   "url": "https://doi.org/10.1093/eurheartj/ehv597",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1161/circheartfailure.117.004389",
+   "type": "source",
+   "label": "Daubert 2017 Circ HF",
+   "url": "https://doi.org/10.1161/CIRCHEARTFAILURE.117.004389",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.1016/j.xops.2024.100628",
+   "type": "source",
+   "label": "Ehlers 2025 Ophthalmol Sci",
+   "url": "https://doi.org/10.1016/j.xops.2024.100628",
+   "level": 3
+  },
+  {
+   "id": "src:doi-10.7554/elife.55513",
+   "type": "source",
+   "label": "Chiao 2020 eLife",
+   "url": "https://elifesciences.org/articles/55513",
+   "level": 3
+  },
+  {
+   "id": "src:pmc3976620",
+   "type": "source",
+   "label": "Szeto 2014 Br J Pharmacol",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3976620",
+   "level": 3
+  },
+  {
+   "id": "src:fda-forzinity-label",
+   "type": "source",
+   "label": "Forzinity label (DailyMed)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=146bf34c-76f2-48db-ac07-fb29cce2cd75",
+   "level": 3
   }
  ],
  "edges": [
   {
-   "source": "retatrutide",
+   "source": "2-mmc",
+   "target": "3-mmc",
+   "rel": "related"
+  },
+  {
+   "source": "2-mmc",
+   "target": "src:euda-stim",
+   "rel": "cited_by"
+  },
+  {
+   "source": "2-mmc",
+   "target": "stimulants",
+   "rel": "in_category"
+  },
+  {
+   "source": "3-mmc",
+   "target": "2-mmc",
+   "rel": "related"
+  },
+  {
+   "source": "3-mmc",
+   "target": "alpha-pihp",
+   "rel": "related"
+  },
+  {
+   "source": "3-mmc",
+   "target": "src:euda-stim",
+   "rel": "cited_by"
+  },
+  {
+   "source": "3-mmc",
+   "target": "stimulants",
+   "rel": "in_category"
+  },
+  {
+   "source": "adrafinil",
+   "target": "fladrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "adrafinil",
+   "target": "modafinil",
+   "rel": "related"
+  },
+  {
+   "source": "adrafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "adrafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "alpha-php",
+   "target": "alpha-pihp",
+   "rel": "related"
+  },
+  {
+   "source": "alpha-php",
+   "target": "src:euda-stim",
+   "rel": "cited_by"
+  },
+  {
+   "source": "alpha-php",
+   "target": "stimulants",
+   "rel": "in_category"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "3-mmc",
+   "rel": "related"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "alpha-php",
+   "rel": "related"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "polydrug-risk",
+   "rel": "related"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "src:apihp",
+   "rel": "cited_by"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "src:euda-stim",
+   "rel": "cited_by"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "stimulants",
+   "rel": "in_category"
+  },
+  {
+   "source": "ara-290",
+   "target": "ara-290:study:brines-2008",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ara-290",
+   "target": "ara-290:study:brines-2015-t2d",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ara-290",
+   "target": "ara-290:study:culver-2017",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ara-290",
+   "target": "ara-290:study:dahan-2013",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ara-290",
+   "target": "ara-290:study:heij-2012",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ara-290",
+   "target": "ara-290:study:swartjes-2011",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ara-290",
+   "target": "ara-290:study:swartjes-2014",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ara-290",
+   "target": "effect:analgesic-neuropathic",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ara-290",
+   "target": "effect:anti-inflammatory",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ara-290",
+   "target": "effect:nerve-fibre-regeneration",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ara-290",
+   "target": "effect:non-erythropoietic",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ara-290",
+   "target": "effect:tissue-protection",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ara-290",
+   "target": "family:targeted-therapeutic-peptides",
+   "rel": "member_of"
+  },
+  {
+   "source": "ara-290",
+   "target": "risk:product-quality",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ara-290",
+   "target": "risk:unknown-long-term-safety",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ara-290",
+   "target": "src:ema-eu-3-13-1191",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ara-290",
+   "target": "target:cd131",
+   "rel": "targets"
+  },
+  {
+   "source": "ara-290",
+   "target": "target:epor",
+   "rel": "targets"
+  },
+  {
+   "source": "ara-290:claim:heals-organs",
+   "target": "ara-290",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ara-290:claim:nerve-regeneration",
+   "target": "ara-290",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ara-290:claim:no-red-cells",
+   "target": "ara-290",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ara-290:claim:not-banned",
+   "target": "ara-290",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ara-290:study:brines-2008",
+   "target": "ara-290:claim:heals-organs",
+   "rel": "supports"
+  },
+  {
+   "source": "ara-290:study:brines-2008",
+   "target": "ara-290:claim:no-red-cells",
+   "rel": "supports"
+  },
+  {
+   "source": "ara-290:study:brines-2008",
+   "target": "src:pmid-18676614",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ara-290:study:brines-2015-t2d",
+   "target": "ara-290:claim:nerve-regeneration",
+   "rel": "supports"
+  },
+  {
+   "source": "ara-290:study:brines-2015-t2d",
+   "target": "src:pmid-25387363",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ara-290:study:culver-2017",
+   "target": "ara-290:claim:nerve-regeneration",
+   "rel": "supports"
+  },
+  {
+   "source": "ara-290:study:culver-2017",
+   "target": "src:culver-2017-iovs",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ara-290:study:dahan-2013",
+   "target": "ara-290:claim:nerve-regeneration",
+   "rel": "supports"
+  },
+  {
+   "source": "ara-290:study:dahan-2013",
+   "target": "src:doi-10.2119/molmed.2013.00122",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ara-290:study:heij-2012",
+   "target": "src:heij-2012-molmed",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ara-290:study:swartjes-2011",
+   "target": "src:swartjes-2011-anesthesiology",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ara-290:study:swartjes-2014",
+   "target": "src:pmc3928087",
+   "rel": "cited_by"
+  },
+  {
+   "source": "bromazolam",
+   "target": "clonazolam",
+   "rel": "related"
+  },
+  {
+   "source": "bromazolam",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "bromazolam",
+   "target": "medetomidine",
+   "rel": "related"
+  },
+  {
+   "source": "bromazolam",
+   "target": "nitazenes",
+   "rel": "related"
+  },
+  {
+   "source": "bromazolam",
+   "target": "polydrug-risk",
+   "rel": "related"
+  },
+  {
+   "source": "bromazolam",
+   "target": "src:interior",
+   "rel": "cited_by"
+  },
+  {
+   "source": "bromazolam",
+   "target": "src:ndews",
+   "rel": "cited_by"
+  },
+  {
+   "source": "btmps",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "btmps",
+   "target": "drug-checking",
+   "rel": "related"
+  },
+  {
+   "source": "btmps",
+   "target": "medetomidine",
+   "rel": "related"
+  },
+  {
+   "source": "btmps",
+   "target": "src:pori",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "grey-market-quality",
+   "rel": "related"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "retatrutide",
+   "rel": "related"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "semaglutide",
+   "rel": "related"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "src:goodrx",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cagrilintide",
    "target": "weight-loss",
    "rel": "in_category"
   },
   {
-   "source": "retatrutide",
-   "target": "tirzepatide",
+   "source": "cjc-1295",
+   "target": "cjc-1295:study:alba-2006",
+   "rel": "studied_in"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "cjc-1295:study:ionescu-2006",
+   "rel": "studied_in"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "cjc-1295:study:jette-2005",
+   "rel": "studied_in"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "cjc-1295:study:nct00267527",
+   "rel": "studied_in"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "cjc-1295:study:teichman-2006",
+   "rel": "studied_in"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "effect:gh-release",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "effect:growth-normalization",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "effect:igf1-elevation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "effect:preserved-gh-pulsatility",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "effect:somatotroph-proliferation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "family:gh-secretagogues",
+   "rel": "member_of"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "ipamorelin",
+   "rel": "related_to"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "risk:cardiovascular-ae",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "risk:igf1-cancer-theoretical",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "risk:immunogenicity-impurities",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "risk:insulin-resistance",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "risk:product-mislabelling",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "risk:trial-death-unestablished-causality",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "risk:water-retention",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "src:8464043",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "target:albumin-cys34",
+   "rel": "targets"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "target:ghrhr",
+   "rel": "targets"
+  },
+  {
+   "source": "cjc-1295",
+   "target": "target:ghsr",
+   "rel": "related_to"
+  },
+  {
+   "source": "cjc-1295:claim:anti-aging",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:body-composition",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:dac-same-as-modgrf",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:fda-reviewed-ok",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:fda-reviewed-ok",
+   "target": "src:fda-pcac-2024-12-04",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295:claim:gh-igf1-rise",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:ipamorelin-synergy",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:physiological-pulsatility",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:proven-safe",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:recovery-sleep-healing",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:undetectable-for-athletes",
+   "target": "cjc-1295",
+   "rel": "claim_about"
+  },
+  {
+   "source": "cjc-1295:claim:undetectable-for-athletes",
+   "target": "src:wada-prohibited-list",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295:study:alba-2006",
+   "target": "effect:growth-normalization",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:alba-2006",
+   "target": "effect:somatotroph-proliferation",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:alba-2006",
+   "target": "src:16822960",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295:study:ionescu-2006",
+   "target": "cjc-1295:claim:physiological-pulsatility",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:ionescu-2006",
+   "target": "effect:igf1-elevation",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:ionescu-2006",
+   "target": "effect:preserved-gh-pulsatility",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:ionescu-2006",
+   "target": "src:17018654",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295:study:jette-2005",
+   "target": "cjc-1295:claim:dac-same-as-modgrf",
+   "rel": "refutes"
+  },
+  {
+   "source": "cjc-1295:study:jette-2005",
+   "target": "effect:gh-release",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:jette-2005",
+   "target": "src:15817669",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295:study:nass-2008-mk677",
+   "target": "cjc-1295:claim:proven-safe",
+   "rel": "refutes"
+  },
+  {
+   "source": "cjc-1295:study:nass-2008-mk677",
+   "target": "risk:insulin-resistance",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:nass-2008-mk677",
+   "target": "src:18981485",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295:study:nct00267527",
+   "target": "cjc-1295:claim:body-composition",
+   "rel": "refutes"
+  },
+  {
+   "source": "cjc-1295:study:nct00267527",
+   "target": "cjc-1295:claim:proven-safe",
+   "rel": "refutes"
+  },
+  {
+   "source": "cjc-1295:study:nct00267527",
+   "target": "risk:trial-death-unestablished-causality",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:nct00267527",
+   "target": "src:nct00267527",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295:study:renehan-2004",
+   "target": "risk:igf1-cancer-theoretical",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:renehan-2004",
+   "target": "src:15110491",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cjc-1295:study:teichman-2006",
+   "target": "cjc-1295:claim:gh-igf1-rise",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:teichman-2006",
+   "target": "effect:gh-release",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:teichman-2006",
+   "target": "effect:igf1-elevation",
+   "rel": "supports"
+  },
+  {
+   "source": "cjc-1295:study:teichman-2006",
+   "target": "src:16352683",
+   "rel": "cited_by"
+  },
+  {
+   "source": "clonazolam",
+   "target": "bromazolam",
    "rel": "related"
+  },
+  {
+   "source": "clonazolam",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "clonazolam",
+   "target": "polydrug-risk",
+   "rel": "related"
+  },
+  {
+   "source": "clonazolam",
+   "target": "src:bbc-benzo",
+   "rel": "cited_by"
+  },
+  {
+   "source": "drug-checking",
+   "target": "bromazolam",
+   "rel": "applies_to"
+  },
+  {
+   "source": "drug-checking",
+   "target": "btmps",
+   "rel": "applies_to"
+  },
+  {
+   "source": "drug-checking",
+   "target": "medetomidine",
+   "rel": "applies_to"
+  },
+  {
+   "source": "drug-checking",
+   "target": "nitazenes",
+   "rel": "applies_to"
+  },
+  {
+   "source": "early-warning",
+   "target": "alpha-pihp",
+   "rel": "applies_to"
+  },
+  {
+   "source": "early-warning",
+   "target": "nitazenes",
+   "rel": "applies_to"
+  },
+  {
+   "source": "effect:alt-activation",
+   "target": "risk:theoretical-oncogenic",
+   "rel": "related_to"
+  },
+  {
+   "source": "effect:chromatin-decondensation",
+   "target": "risk:genomic-uncertainty",
+   "rel": "related_to"
+  },
+  {
+   "source": "effect:gh-release",
+   "target": "effect:igf1-elevation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "effect:gh-release",
+   "target": "risk:insulin-resistance",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "effect:gh-release",
+   "target": "risk:water-retention",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "effect:igf1-elevation",
+   "target": "risk:igf1-cancer-theoretical",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "effect:increased-food-intake",
+   "target": "risk:appetite-stimulation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "epitalon",
+   "target": "effect:alt-activation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "epitalon",
+   "target": "effect:chromatin-decondensation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "epitalon",
+   "target": "effect:lifespan-extension",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "epitalon",
+   "target": "effect:melatonin-normalization",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "epitalon",
+   "target": "effect:retinoprotective",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "epitalon",
+   "target": "effect:telomere-elongation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:aldulaimi-2025",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:anisimov-2002-her2",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:anisimov-2003-shr",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:khavinson-2002-retina",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:khavinson-2003-fibroblasts",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:khavinson-morozov-2003",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:korkushko-2004-melatonin",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:korkushko-2006-cad",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "epitalon:study:lezhava-2006-chromatin",
+   "rel": "studied_in"
+  },
+  {
+   "source": "epitalon",
+   "target": "family:khavinson-bioregulators",
+   "rel": "member_of"
+  },
+  {
+   "source": "epitalon",
+   "target": "risk:injection-site-reaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "epitalon",
+   "target": "risk:no-human-safety-data",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "epitalon",
+   "target": "risk:theoretical-oncogenic",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "epitalon",
+   "target": "risk:unregulated-product-quality",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "epitalon",
+   "target": "target:chromatin-histones",
+   "rel": "targets"
+  },
+  {
+   "source": "epitalon",
+   "target": "target:pineal-gland",
+   "rel": "targets"
+  },
+  {
+   "source": "epitalon",
+   "target": "target:telomerase-htert",
+   "rel": "targets"
+  },
+  {
+   "source": "epitalon:claim:anticancer",
+   "target": "epitalon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "epitalon:claim:fda-approved",
+   "target": "epitalon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "epitalon:claim:lifespan",
+   "target": "epitalon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "epitalon:claim:sleep-melatonin",
+   "target": "epitalon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "epitalon:claim:telomerase",
+   "target": "epitalon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "epitalon:study:aldulaimi-2025",
+   "target": "effect:alt-activation",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:aldulaimi-2025",
+   "target": "effect:telomere-elongation",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:aldulaimi-2025",
+   "target": "epitalon:claim:anticancer",
+   "rel": "refutes"
+  },
+  {
+   "source": "epitalon:study:aldulaimi-2025",
+   "target": "epitalon:claim:telomerase",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:aldulaimi-2025",
+   "target": "src:doi-10.1007/s10522-025-10315-x",
+   "rel": "cited_by"
+  },
+  {
+   "source": "epitalon:study:anisimov-2002-her2",
+   "target": "epitalon:claim:anticancer",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:anisimov-2003-shr",
+   "target": "effect:lifespan-extension",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:anisimov-2003-shr",
+   "target": "src:doi-10.1023/a:1025114230714",
+   "rel": "cited_by"
+  },
+  {
+   "source": "epitalon:study:khavinson-2002-retina",
+   "target": "effect:retinoprotective",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:khavinson-2002-retina",
+   "target": "src:nel-khavinson-2002-retina",
+   "rel": "cited_by"
+  },
+  {
+   "source": "epitalon:study:khavinson-2003-fibroblasts",
+   "target": "effect:telomere-elongation",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:khavinson-2003-fibroblasts",
+   "target": "epitalon:claim:telomerase",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:khavinson-2003-fibroblasts",
+   "target": "src:12937682",
+   "rel": "cited_by"
+  },
+  {
+   "source": "epitalon:study:khavinson-morozov-2003",
+   "target": "epitalon:claim:lifespan",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:khavinson-morozov-2003",
+   "target": "src:nel-khavinson-morozov-2003",
+   "rel": "cited_by"
+  },
+  {
+   "source": "epitalon:study:korkushko-2004-melatonin",
+   "target": "effect:melatonin-normalization",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:korkushko-2004-melatonin",
+   "target": "src:17969590",
+   "rel": "cited_by"
+  },
+  {
+   "source": "epitalon:study:korkushko-2006-cad",
+   "target": "src:doi-10.1007/s10517-006-0365-z",
+   "rel": "cited_by"
+  },
+  {
+   "source": "epitalon:study:lezhava-2006-chromatin",
+   "target": "effect:chromatin-decondensation",
+   "rel": "supports"
+  },
+  {
+   "source": "epitalon:study:lezhava-2006-chromatin",
+   "target": "src:16705247",
+   "rel": "cited_by"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "adrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "flmodafinil",
+   "rel": "related"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "src:dshs",
+   "rel": "cited_by"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "adrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "fladrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "modafinil",
+   "rel": "related"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "src:dshs",
+   "rel": "cited_by"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "grey-market-quality",
+   "target": "cagrilintide",
+   "rel": "applies_to"
+  },
+  {
+   "source": "grey-market-quality",
+   "target": "retatrutide",
+   "rel": "applies_to"
+  },
+  {
+   "source": "grey-market-quality",
+   "target": "tirzepatide",
+   "rel": "applies_to"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "flmodafinil",
+   "rel": "related"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "cjc-1295",
+   "rel": "related_to"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "effect:gastric-prokinesis",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "effect:gh-release",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "effect:igf1-elevation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "effect:increased-bone-mineral-content",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "effect:increased-food-intake",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "family:gh-secretagogues",
+   "rel": "member_of"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:beck-2014-poi",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:glucocorticoid-bone-2001",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:gobburu-1999",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:gvm-2012",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:johansen-1999",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:nct01280344",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:raun-1998",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:svensson-2000",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "ipamorelin:study:venkova-2009",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "risk:appetite-stimulation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "risk:igf1-cancer-theoretical",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "risk:immunogenicity-impurities",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "risk:insulin-resistance",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "risk:no-long-term-safety-data",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "risk:unpublished-trial-data",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "risk:water-retention",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "target:ghrhr",
+   "rel": "related_to"
+  },
+  {
+   "source": "ipamorelin",
+   "target": "target:ghsr",
+   "rel": "targets"
+  },
+  {
+   "source": "ipamorelin:claim:anti-aging",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:body-composition",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:bone-density",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:cjc-synergy",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:clinically-proven",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:fda-cleared",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:fda-cleared",
+   "target": "src:fda-pcac-ipamorelin-2024",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:claim:fda-cleared",
+   "target": "src:fda-pcac-meeting-2024-10",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:claim:gh-release",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:natural-safer-than-gh",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:recovery-sleep-healing",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:selectivity",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:undetectable-for-athletes",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:claim:undetectable-for-athletes",
+   "target": "src:wada-prohibited-list",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:claim:well-tolerated",
+   "target": "ipamorelin",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ipamorelin:study:beck-2014-poi",
+   "target": "effect:gastric-prokinesis",
+   "rel": "refutes"
+  },
+  {
+   "source": "ipamorelin:study:beck-2014-poi",
+   "target": "ipamorelin:claim:clinically-proven",
+   "rel": "refutes"
+  },
+  {
+   "source": "ipamorelin:study:beck-2014-poi",
+   "target": "ipamorelin:claim:well-tolerated",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:beck-2014-poi",
+   "target": "src:25331030",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:beck-2014-poi",
+   "target": "src:nct00672074",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:glucocorticoid-bone-2001",
+   "target": "effect:increased-bone-mineral-content",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:glucocorticoid-bone-2001",
+   "target": "src:11735244",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:gobburu-1999",
+   "target": "effect:gh-release",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:gobburu-1999",
+   "target": "ipamorelin:claim:gh-release",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:gobburu-1999",
+   "target": "src:10496658",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:gvm-2012",
+   "target": "effect:gastric-prokinesis",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:gvm-2012",
+   "target": "src:27186127",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:johansen-1999",
+   "target": "effect:igf1-elevation",
+   "rel": "refutes"
+  },
+  {
+   "source": "ipamorelin:study:johansen-1999",
+   "target": "effect:increased-bone-mineral-content",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:johansen-1999",
+   "target": "src:10373343",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:nass-2008-mk677",
+   "target": "ipamorelin:claim:body-composition",
+   "rel": "refutes"
+  },
+  {
+   "source": "ipamorelin:study:nass-2008-mk677",
+   "target": "ipamorelin:claim:natural-safer-than-gh",
+   "rel": "refutes"
+  },
+  {
+   "source": "ipamorelin:study:nass-2008-mk677",
+   "target": "risk:insulin-resistance",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:nass-2008-mk677",
+   "target": "src:18981485",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:nct01280344",
+   "target": "ipamorelin:claim:clinically-proven",
+   "rel": "refutes"
+  },
+  {
+   "source": "ipamorelin:study:nct01280344",
+   "target": "risk:unpublished-trial-data",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:nct01280344",
+   "target": "src:nct01280344",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:raun-1998",
+   "target": "effect:gh-release",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:raun-1998",
+   "target": "ipamorelin:claim:gh-release",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:raun-1998",
+   "target": "ipamorelin:claim:selectivity",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:raun-1998",
+   "target": "src:9849822",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:renehan-2004",
+   "target": "risk:igf1-cancer-theoretical",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:renehan-2004",
+   "target": "src:15110491",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:svensson-2000",
+   "target": "effect:increased-bone-mineral-content",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:svensson-2000",
+   "target": "ipamorelin:claim:bone-density",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:svensson-2000",
+   "target": "src:10828840",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ipamorelin:study:venkova-2009",
+   "target": "effect:gastric-prokinesis",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:venkova-2009",
+   "target": "effect:increased-food-intake",
+   "rel": "supports"
+  },
+  {
+   "source": "ipamorelin:study:venkova-2009",
+   "target": "ipamorelin:claim:body-composition",
+   "rel": "refutes"
+  },
+  {
+   "source": "mazdutide",
+   "target": "retatrutide",
+   "rel": "related"
+  },
+  {
+   "source": "mazdutide",
+   "target": "src:goodrx",
+   "rel": "cited_by"
+  },
+  {
+   "source": "mazdutide",
+   "target": "survodutide",
+   "rel": "related"
+  },
+  {
+   "source": "mazdutide",
+   "target": "weight-loss",
+   "rel": "in_category"
+  },
+  {
+   "source": "medetomidine",
+   "target": "bromazolam",
+   "rel": "related"
+  },
+  {
+   "source": "medetomidine",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "medetomidine",
+   "target": "drug-checking",
+   "rel": "related"
+  },
+  {
+   "source": "medetomidine",
+   "target": "nitazenes",
+   "rel": "related"
+  },
+  {
+   "source": "medetomidine",
+   "target": "src:interior",
+   "rel": "cited_by"
+  },
+  {
+   "source": "medetomidine",
+   "target": "src:ndews",
+   "rel": "cited_by"
+  },
+  {
+   "source": "medetomidine",
+   "target": "src:simcoe",
+   "rel": "cited_by"
+  },
+  {
+   "source": "medetomidine",
+   "target": "xylazine",
+   "rel": "related"
+  },
+  {
+   "source": "melanotan-ii",
+   "target": "target:mc1r",
+   "rel": "targets"
+  },
+  {
+   "source": "melanotan-ii",
+   "target": "target:mc4r",
+   "rel": "targets"
+  },
+  {
+   "source": "modafinil",
+   "target": "adrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "modafinil",
+   "target": "flmodafinil",
+   "rel": "related"
+  },
+  {
+   "source": "modafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "modafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "nitazenes",
+   "target": "bromazolam",
+   "rel": "related"
+  },
+  {
+   "source": "nitazenes",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "nitazenes",
+   "target": "drug-checking",
+   "rel": "related"
+  },
+  {
+   "source": "nitazenes",
+   "target": "medetomidine",
+   "rel": "related"
+  },
+  {
+   "source": "nitazenes",
+   "target": "polydrug-risk",
+   "rel": "related"
+  },
+  {
+   "source": "nitazenes",
+   "target": "src:euda-nps",
+   "rel": "cited_by"
+  },
+  {
+   "source": "nitazenes",
+   "target": "src:hstoday",
+   "rel": "cited_by"
+  },
+  {
+   "source": "pinealon",
+   "target": "effect:antioxidant",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "pinealon",
+   "target": "effect:cognitive-enhancement",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "pinealon",
+   "target": "effect:dendritic-spine-preservation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "pinealon",
+   "target": "effect:neuroprotective",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "pinealon",
+   "target": "family:khavinson-bioregulators",
+   "rel": "member_of"
+  },
+  {
+   "source": "pinealon",
+   "target": "pinealon:study:5xfad-2021",
+   "rel": "studied_in"
+  },
+  {
+   "source": "pinealon",
+   "target": "pinealon:study:arutjunyan-2012",
+   "rel": "studied_in"
+  },
+  {
+   "source": "pinealon",
+   "target": "pinealon:study:claimed-tbi-72",
+   "rel": "studied_in"
+  },
+  {
+   "source": "pinealon",
+   "target": "pinealon:study:kraskovskaya-2017",
+   "rel": "studied_in"
+  },
+  {
+   "source": "pinealon",
+   "target": "pinealon:study:rejuvres-2011",
+   "rel": "studied_in"
+  },
+  {
+   "source": "pinealon",
+   "target": "risk:no-human-safety-data",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pinealon",
+   "target": "risk:serotonergic-interaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pinealon",
+   "target": "risk:theoretical-proliferative",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pinealon",
+   "target": "risk:unregulated-product-quality",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pinealon",
+   "target": "target:chromatin-histones",
+   "rel": "targets"
+  },
+  {
+   "source": "pinealon",
+   "target": "target:mapk-erk",
+   "rel": "targets"
+  },
+  {
+   "source": "pinealon:claim:alzheimers",
+   "target": "pinealon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pinealon:claim:antioxidant",
+   "target": "pinealon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pinealon:claim:cognition",
+   "target": "pinealon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pinealon:claim:tbi",
+   "target": "pinealon",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pinealon:study:5xfad-2021",
+   "target": "effect:dendritic-spine-preservation",
+   "rel": "supports"
+  },
+  {
+   "source": "pinealon:study:5xfad-2021",
+   "target": "pinealon:claim:alzheimers",
+   "rel": "supports"
+  },
+  {
+   "source": "pinealon:study:5xfad-2021",
+   "target": "src:pmc8227791",
+   "rel": "cited_by"
+  },
+  {
+   "source": "pinealon:study:arutjunyan-2012",
+   "target": "effect:cognitive-enhancement",
+   "rel": "supports"
+  },
+  {
+   "source": "pinealon:study:arutjunyan-2012",
+   "target": "effect:neuroprotective",
+   "rel": "supports"
+  },
+  {
+   "source": "pinealon:study:arutjunyan-2012",
+   "target": "src:22567179",
+   "rel": "cited_by"
+  },
+  {
+   "source": "pinealon:study:claimed-tbi-72",
+   "target": "pinealon:claim:tbi",
+   "rel": "related_to"
+  },
+  {
+   "source": "pinealon:study:kraskovskaya-2017",
+   "target": "effect:dendritic-spine-preservation",
+   "rel": "supports"
+  },
+  {
+   "source": "pinealon:study:kraskovskaya-2017",
+   "target": "src:28853087",
+   "rel": "cited_by"
+  },
+  {
+   "source": "pinealon:study:rejuvres-2011",
+   "target": "effect:antioxidant",
+   "rel": "supports"
+  },
+  {
+   "source": "pinealon:study:rejuvres-2011",
+   "target": "pinealon:claim:antioxidant",
+   "rel": "supports"
+  },
+  {
+   "source": "pinealon:study:rejuvres-2011",
+   "target": "src:21978084",
+   "rel": "cited_by"
+  },
+  {
+   "source": "polydrug-risk",
+   "target": "alpha-pihp",
+   "rel": "applies_to"
+  },
+  {
+   "source": "polydrug-risk",
+   "target": "bromazolam",
+   "rel": "applies_to"
+  },
+  {
+   "source": "polydrug-risk",
+   "target": "medetomidine",
+   "rel": "applies_to"
+  },
+  {
+   "source": "polydrug-risk",
+   "target": "nitazenes",
+   "rel": "applies_to"
+  },
+  {
+   "source": "prostamax",
+   "target": "effect:anti-inflammatory",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "prostamax",
+   "target": "effect:chromatin-decondensation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "prostamax",
+   "target": "family:khavinson-bioregulators",
+   "rel": "member_of"
+  },
+  {
+   "source": "prostamax",
+   "target": "prostamax:study:borovskaya-2013-prostatitis",
+   "rel": "studied_in"
+  },
+  {
+   "source": "prostamax",
+   "target": "prostamax:study:khavinson-2004-leukocytes",
+   "rel": "studied_in"
+  },
+  {
+   "source": "prostamax",
+   "target": "prostamax:study:lezhava-2012-lymphocytes",
+   "rel": "studied_in"
+  },
+  {
+   "source": "prostamax",
+   "target": "risk:delayed-diagnosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "prostamax",
+   "target": "risk:genomic-uncertainty",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "prostamax",
+   "target": "risk:no-human-safety-data",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "prostamax",
+   "target": "risk:unregulated-product-quality",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "prostamax",
+   "target": "target:chromatin-histones",
+   "rel": "targets"
+  },
+  {
+   "source": "prostamax",
+   "target": "target:prostate-tissue",
+   "rel": "targets"
+  },
+  {
+   "source": "prostamax:claim:bph",
+   "target": "prostamax",
+   "rel": "claim_about"
+  },
+  {
+   "source": "prostamax:claim:clinically-tested",
+   "target": "prostamax",
+   "rel": "claim_about"
+  },
+  {
+   "source": "prostamax:claim:gene-rejuvenation",
+   "target": "prostamax",
+   "rel": "claim_about"
+  },
+  {
+   "source": "prostamax:claim:prostatitis",
+   "target": "prostamax",
+   "rel": "claim_about"
+  },
+  {
+   "source": "prostamax:study:borovskaya-2013-prostatitis",
+   "target": "effect:anti-inflammatory",
+   "rel": "supports"
+  },
+  {
+   "source": "prostamax:study:borovskaya-2013-prostatitis",
+   "target": "prostamax:claim:prostatitis",
+   "rel": "supports"
+  },
+  {
+   "source": "prostamax:study:borovskaya-2013-prostatitis",
+   "target": "src:doi-10.4236/mri.2013.23007",
+   "rel": "cited_by"
+  },
+  {
+   "source": "prostamax:study:khavinson-2004-leukocytes",
+   "target": "effect:chromatin-decondensation",
+   "rel": "supports"
+  },
+  {
+   "source": "prostamax:study:khavinson-2004-leukocytes",
+   "target": "src:doi-10.1023/B:BEBM.0000024393.40560.05",
+   "rel": "cited_by"
+  },
+  {
+   "source": "prostamax:study:lezhava-2012-lymphocytes",
+   "target": "effect:chromatin-decondensation",
+   "rel": "supports"
+  },
+  {
+   "source": "prostamax:study:lezhava-2012-lymphocytes",
+   "target": "prostamax:claim:gene-rejuvenation",
+   "rel": "supports"
+  },
+  {
+   "source": "prostamax:study:lezhava-2012-lymphocytes",
+   "target": "src:23221144",
+   "rel": "cited_by"
+  },
+  {
+   "source": "pt-141",
+   "target": "effect:increased-sexual-desire",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "pt-141",
+   "target": "effect:reduced-sexual-distress",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "pt-141",
+   "target": "family:targeted-therapeutic-peptides",
+   "rel": "member_of"
+  },
+  {
+   "source": "pt-141",
+   "target": "melanotan-ii",
+   "rel": "related_to"
+  },
+  {
+   "source": "pt-141",
+   "target": "pt-141:study:clayton-2016",
+   "rel": "studied_in"
+  },
+  {
+   "source": "pt-141",
+   "target": "pt-141:study:pfaus-2004",
+   "rel": "studied_in"
+  },
+  {
+   "source": "pt-141",
+   "target": "pt-141:study:reconnect",
+   "rel": "studied_in"
+  },
+  {
+   "source": "pt-141",
+   "target": "risk:flushing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pt-141",
+   "target": "risk:hyperpigmentation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pt-141",
+   "target": "risk:injection-site-reaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pt-141",
+   "target": "risk:naltrexone-interaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pt-141",
+   "target": "risk:nausea",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pt-141",
+   "target": "risk:product-quality",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pt-141",
+   "target": "risk:transient-hypertension",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "pt-141",
+   "target": "src:fda-vyleesi-label",
+   "rel": "cited_by"
+  },
+  {
+   "source": "pt-141",
+   "target": "target:mc1r",
+   "rel": "targets"
+  },
+  {
+   "source": "pt-141",
+   "target": "target:mc3r",
+   "rel": "targets"
+  },
+  {
+   "source": "pt-141",
+   "target": "target:mc4r",
+   "rel": "targets"
+  },
+  {
+   "source": "pt-141:claim:central-mechanism",
+   "target": "pt-141",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pt-141:claim:dramatic-desire",
+   "target": "pt-141",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pt-141:claim:fda-approved",
+   "target": "pt-141",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pt-141:claim:no-side-effects",
+   "target": "pt-141",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pt-141:claim:works-for-men",
+   "target": "pt-141",
+   "rel": "claim_about"
+  },
+  {
+   "source": "pt-141:study:clayton-2016",
+   "target": "pt-141:claim:no-side-effects",
+   "rel": "refutes"
+  },
+  {
+   "source": "pt-141:study:clayton-2016",
+   "target": "src:doi-10.2217/whe-2016-0018",
+   "rel": "cited_by"
+  },
+  {
+   "source": "pt-141:study:pfaus-2004",
+   "target": "pt-141:claim:central-mechanism",
+   "rel": "supports"
+  },
+  {
+   "source": "pt-141:study:pfaus-2004",
+   "target": "src:pmid-15226502",
+   "rel": "cited_by"
+  },
+  {
+   "source": "pt-141:study:reconnect",
+   "target": "pt-141:claim:dramatic-desire",
+   "rel": "refutes"
+  },
+  {
+   "source": "pt-141:study:reconnect",
+   "target": "pt-141:claim:fda-approved",
+   "rel": "supports"
+  },
+  {
+   "source": "pt-141:study:reconnect",
+   "target": "pt-141:claim:no-side-effects",
+   "rel": "refutes"
+  },
+  {
+   "source": "pt-141:study:reconnect",
+   "target": "src:pmid-31599840",
+   "rel": "cited_by"
   },
   {
    "source": "retatrutide",
@@ -353,39 +4955,329 @@
    "rel": "cited_by"
   },
   {
-   "source": "tirzepatide",
+   "source": "retatrutide",
+   "target": "tirzepatide",
+   "rel": "related"
+  },
+  {
+   "source": "retatrutide",
    "target": "weight-loss",
    "rel": "in_category"
   },
   {
-   "source": "tirzepatide",
-   "target": "retatrutide",
-   "rel": "related"
-  },
-  {
-   "source": "tirzepatide",
-   "target": "semaglutide",
-   "rel": "related"
-  },
-  {
-   "source": "tirzepatide",
-   "target": "grey-market-quality",
-   "rel": "related"
-  },
-  {
-   "source": "tirzepatide",
-   "target": "src:benzinga",
+   "source": "risk:cardiovascular-ae",
+   "target": "src:fda-bulk-safety-risks",
    "rel": "cited_by"
   },
   {
-   "source": "semaglutide",
-   "target": "weight-loss",
-   "rel": "in_category"
+   "source": "risk:immunogenicity-impurities",
+   "target": "src:fda-bulk-safety-risks",
+   "rel": "cited_by"
   },
   {
-   "source": "semaglutide",
-   "target": "tirzepatide",
-   "rel": "related"
+   "source": "risk:insulin-resistance",
+   "target": "src:28400207",
+   "rel": "cited_by"
+  },
+  {
+   "source": "risk:trial-death-unestablished-causality",
+   "target": "src:aidsmap-2006-halt",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank",
+   "target": "effect:antiviral",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "selank",
+   "target": "effect:anxiolytic",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "selank",
+   "target": "effect:cognitive-enhancement",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "selank",
+   "target": "effect:immunomodulation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "selank",
+   "target": "family:nootropic-regulatory-peptides",
+   "rel": "member_of"
+  },
+  {
+   "source": "selank",
+   "target": "risk:gabaergic-interaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "risk:immune-modulation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "risk:opioid-interaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "risk:unknown-long-term",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "risk:unregulated-product",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:balbc-strain",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:enkephalinase-anxiolytic",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:imr32-2017",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:influenza-2009",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:kost-2001-enkephalinase",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:panikratova-2020-connectome",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:tuftsin-stress-review",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:uchakina-2008-immune",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:volkova-2016-gaba-genes",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:vyunova-2018-binding",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:zozulia-2008-gad",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank",
+   "target": "semax",
+   "rel": "related_to"
+  },
+  {
+   "source": "selank",
+   "target": "target:enkephalinase",
+   "rel": "targets"
+  },
+  {
+   "source": "selank",
+   "target": "target:gabaa",
+   "rel": "targets"
+  },
+  {
+   "source": "selank",
+   "target": "target:opioid-system",
+   "rel": "targets"
+  },
+  {
+   "source": "selank:claim:antiviral",
+   "target": "effect:antiviral",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:claim:gaba",
+   "target": "target:gabaa",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:claim:no-dependence",
+   "target": "risk:unknown-long-term",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:claim:nootropic",
+   "target": "effect:cognitive-enhancement",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:claim:placebo-anxiolytic",
+   "target": "effect:anxiolytic",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:claim:wada-safe",
+   "target": "selank",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:study:balbc-strain",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:balbc-strain",
+   "target": "src:doi-10.1023/A:1015582302311",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:enkephalinase-anxiolytic",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:enkephalinase-anxiolytic",
+   "target": "src:11550013",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:enkephalinase-anxiolytic",
+   "target": "target:enkephalinase",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:imr32-2017",
+   "target": "src:28293190",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:imr32-2017",
+   "target": "target:gabaa",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:influenza-2009",
+   "target": "effect:antiviral",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:influenza-2009",
+   "target": "selank:claim:antiviral",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:influenza-2009",
+   "target": "src:vopr-virusol-11942",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:kost-2001-enkephalinase",
+   "target": "src:11443939",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:kost-2001-enkephalinase",
+   "target": "target:enkephalinase",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:panikratova-2020-connectome",
+   "target": "src:32342318",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:tuftsin-stress-review",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:tuftsin-stress-review",
+   "target": "src:14969422",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:uchakina-2008-immune",
+   "target": "effect:immunomodulation",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:uchakina-2008-immune",
+   "target": "src:18577961",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:volkova-2016-gaba-genes",
+   "target": "selank:claim:gaba",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:volkova-2016-gaba-genes",
+   "target": "src:doi-10.3389/fphar.2016.00031",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:volkova-2016-gaba-genes",
+   "target": "target:gabaa",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:vyunova-2018-binding",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:vyunova-2018-binding",
+   "target": "selank:claim:gaba",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:vyunova-2018-binding",
+   "target": "src:doi-10.2174/0929866525666180925144642",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:vyunova-2018-binding",
+   "target": "target:gabaa",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:zozulia-2008-gad",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:zozulia-2008-gad",
+   "target": "selank:claim:placebo-anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:zozulia-2008-gad",
+   "target": "src:18454096",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:zozulia-2008-gad",
+   "target": "target:enkephalinase",
+   "rel": "supports"
   },
   {
    "source": "semaglutide",
@@ -398,54 +5290,514 @@
    "rel": "cited_by"
   },
   {
-   "source": "cagrilintide",
+   "source": "semaglutide",
+   "target": "tirzepatide",
+   "rel": "related"
+  },
+  {
+   "source": "semaglutide",
    "target": "weight-loss",
    "rel": "in_category"
   },
   {
-   "source": "cagrilintide",
-   "target": "semaglutide",
-   "rel": "related"
+   "source": "semax",
+   "target": "effect:bdnf-upregulation",
+   "rel": "produces_effect"
   },
   {
-   "source": "cagrilintide",
-   "target": "retatrutide",
-   "rel": "related"
+   "source": "semax",
+   "target": "effect:cognitive-enhancement",
+   "rel": "produces_effect"
   },
   {
-   "source": "cagrilintide",
-   "target": "grey-market-quality",
-   "rel": "related"
+   "source": "semax",
+   "target": "effect:immunomodulation",
+   "rel": "produces_effect"
   },
   {
-   "source": "cagrilintide",
-   "target": "src:goodrx",
+   "source": "semax",
+   "target": "effect:neuroprotection",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "semax",
+   "target": "family:nootropic-regulatory-peptides",
+   "rel": "member_of"
+  },
+  {
+   "source": "semax",
+   "target": "risk:immunogenicity",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "risk:nasal-irritation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "risk:overstimulation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "risk:unknown-long-term",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "risk:unregulated-product",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "selank",
+   "rel": "related_to"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:2017-immune-genes",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:adan-1994-mc",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:dolotov-2006-bdnf",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:gusev-1997-stroke",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:gusev-2018-rehab",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:kost-2001-enkephalinase",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:lebedeva-2018-fmri",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:medvedeva-2014-transcriptome",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:panikratova-2020-connectome",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:pgp-2009-neurotrophins",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax",
+   "target": "target:enkephalinase",
+   "rel": "targets"
+  },
+  {
+   "source": "semax",
+   "target": "target:mc4r",
+   "rel": "targets"
+  },
+  {
+   "source": "semax",
+   "target": "target:mc5r",
+   "rel": "targets"
+  },
+  {
+   "source": "semax",
+   "target": "target:trkb",
+   "rel": "targets"
+  },
+  {
+   "source": "semax:claim:bdnf",
+   "target": "effect:bdnf-upregulation",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:claim:no-side-effects",
+   "target": "risk:unknown-long-term",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:claim:nootropic-healthy",
+   "target": "effect:cognitive-enhancement",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:claim:stroke",
+   "target": "effect:neuroprotection",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:claim:wada-safe",
+   "target": "semax",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:study:2017-immune-genes",
+   "target": "effect:immunomodulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:2017-immune-genes",
+   "target": "src:28255762",
    "rel": "cited_by"
   },
   {
-   "source": "mazdutide",
-   "target": "weight-loss",
-   "rel": "in_category"
-  },
-  {
-   "source": "mazdutide",
-   "target": "survodutide",
-   "rel": "related"
-  },
-  {
-   "source": "mazdutide",
-   "target": "retatrutide",
-   "rel": "related"
-  },
-  {
-   "source": "mazdutide",
-   "target": "src:goodrx",
+   "source": "semax:study:adan-1994-mc",
+   "target": "src:7895772",
    "rel": "cited_by"
   },
   {
-   "source": "survodutide",
-   "target": "weight-loss",
-   "rel": "in_category"
+   "source": "semax:study:adan-1994-mc",
+   "target": "target:mc4r",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:adan-1994-mc",
+   "target": "target:mc5r",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:dolotov-2006-bdnf",
+   "target": "effect:bdnf-upregulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:dolotov-2006-bdnf",
+   "target": "semax:claim:bdnf",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:dolotov-2006-bdnf",
+   "target": "src:16996037",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:dolotov-2006-bdnf",
+   "target": "target:trkb",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:gusev-1997-stroke",
+   "target": "effect:neuroprotection",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:gusev-1997-stroke",
+   "target": "semax:claim:stroke",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:gusev-1997-stroke",
+   "target": "src:11517472",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:gusev-2018-rehab",
+   "target": "effect:bdnf-upregulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:gusev-2018-rehab",
+   "target": "effect:neuroprotection",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:gusev-2018-rehab",
+   "target": "semax:claim:bdnf",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:gusev-2018-rehab",
+   "target": "src:29798983",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:kost-2001-enkephalinase",
+   "target": "src:11443939",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:kost-2001-enkephalinase",
+   "target": "target:enkephalinase",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:lebedeva-2018-fmri",
+   "target": "src:30225715",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:medvedeva-2014-transcriptome",
+   "target": "effect:immunomodulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:medvedeva-2014-transcriptome",
+   "target": "effect:neuroprotection",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:medvedeva-2014-transcriptome",
+   "target": "src:24661604",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:panikratova-2020-connectome",
+   "target": "src:32342318",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:pgp-2009-neurotrophins",
+   "target": "effect:bdnf-upregulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:pgp-2009-neurotrophins",
+   "target": "effect:neuroprotection",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:pgp-2009-neurotrophins",
+   "target": "src:19633950",
+   "rel": "cited_by"
+  },
+  {
+   "source": "src:34834147",
+   "target": "target:chromatin-histones",
+   "rel": "supports"
+  },
+  {
+   "source": "src:ajmc-pcac-2026",
+   "target": "epitalon:claim:fda-approved",
+   "rel": "refutes"
+  },
+  {
+   "source": "src:fda-503a-categories",
+   "target": "selank",
+   "rel": "related_to"
+  },
+  {
+   "source": "src:fda-503a-categories",
+   "target": "semax",
+   "rel": "related_to"
+  },
+  {
+   "source": "src:pmc11943447",
+   "target": "epitalon",
+   "rel": "related_to"
+  },
+  {
+   "source": "src:pmc11943447",
+   "target": "epitalon:claim:sleep-melatonin",
+   "rel": "refutes"
+  },
+  {
+   "source": "src:pmc7795577",
+   "target": "target:chromatin-histones",
+   "rel": "supports"
+  },
+  {
+   "source": "ss-31",
+   "target": "effect:mitochondrial-bioenergetics",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ss-31",
+   "target": "effect:muscle-strength-barth",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ss-31",
+   "target": "effect:reduced-mito-ros",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "ss-31",
+   "target": "family:targeted-therapeutic-peptides",
+   "rel": "member_of"
+  },
+  {
+   "source": "ss-31",
+   "target": "risk:benzyl-alcohol-neonates",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ss-31",
+   "target": "risk:injection-site-reaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ss-31",
+   "target": "risk:product-quality",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "ss-31",
+   "target": "src:fda-forzinity-label",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31",
+   "target": "ss-31:study:chiao-aged-heart",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ss-31",
+   "target": "ss-31:study:daubert-hfref",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ss-31",
+   "target": "ss-31:study:embrace-stemi",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ss-31",
+   "target": "ss-31:study:mmpower3",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ss-31",
+   "target": "ss-31:study:reclaim2",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ss-31",
+   "target": "ss-31:study:szeto-review",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ss-31",
+   "target": "ss-31:study:tazpower",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ss-31",
+   "target": "ss-31:study:tazpower-ole168",
+   "rel": "studied_in"
+  },
+  {
+   "source": "ss-31",
+   "target": "target:cardiolipin",
+   "rel": "targets"
+  },
+  {
+   "source": "ss-31:claim:anti-aging",
+   "target": "ss-31",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ss-31:claim:barth-strength",
+   "target": "ss-31",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ss-31:claim:cardioprotection",
+   "target": "ss-31",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ss-31:claim:energy-fatigue",
+   "target": "ss-31",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ss-31:claim:vision-amd",
+   "target": "ss-31",
+   "rel": "claim_about"
+  },
+  {
+   "source": "ss-31:study:chiao-aged-heart",
+   "target": "src:doi-10.7554/elife.55513",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31:study:chiao-aged-heart",
+   "target": "ss-31:claim:anti-aging",
+   "rel": "supports"
+  },
+  {
+   "source": "ss-31:study:daubert-hfref",
+   "target": "src:doi-10.1161/circheartfailure.117.004389",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31:study:embrace-stemi",
+   "target": "src:doi-10.1093/eurheartj/ehv597",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31:study:embrace-stemi",
+   "target": "ss-31:claim:cardioprotection",
+   "rel": "refutes"
+  },
+  {
+   "source": "ss-31:study:mmpower3",
+   "target": "src:pmc10382259",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31:study:mmpower3",
+   "target": "ss-31:claim:energy-fatigue",
+   "rel": "refutes"
+  },
+  {
+   "source": "ss-31:study:reclaim2",
+   "target": "src:doi-10.1016/j.xops.2024.100628",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31:study:reclaim2",
+   "target": "ss-31:claim:vision-amd",
+   "rel": "refutes"
+  },
+  {
+   "source": "ss-31:study:szeto-review",
+   "target": "src:pmc3976620",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31:study:tazpower",
+   "target": "src:doi-10.1038/s41436-020-01006-8",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31:study:tazpower",
+   "target": "ss-31:claim:barth-strength",
+   "rel": "supports"
+  },
+  {
+   "source": "ss-31:study:tazpower",
+   "target": "ss-31:claim:energy-fatigue",
+   "rel": "refutes"
+  },
+  {
+   "source": "ss-31:study:tazpower-ole168",
+   "target": "src:doi-10.1016/j.gim.2024.101138",
+   "rel": "cited_by"
+  },
+  {
+   "source": "ss-31:study:tazpower-ole168",
+   "target": "ss-31:claim:barth-strength",
+   "rel": "supports"
   },
   {
    "source": "survodutide",
@@ -458,424 +5810,79 @@
    "rel": "cited_by"
   },
   {
-   "source": "flmodafinil",
-   "target": "wakefulness",
+   "source": "survodutide",
+   "target": "weight-loss",
    "rel": "in_category"
   },
   {
-   "source": "flmodafinil",
-   "target": "fladrafinil",
+   "source": "target:ghrhr",
+   "target": "effect:gh-release",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "target:ghsr",
+   "target": "effect:gastric-prokinesis",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "target:ghsr",
+   "target": "effect:gh-release",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "target:ghsr",
+   "target": "effect:increased-food-intake",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "target:mapk-erk",
+   "target": "risk:theoretical-proliferative",
+   "rel": "related_to"
+  },
+  {
+   "source": "target:telomerase-htert",
+   "target": "effect:telomere-elongation",
+   "rel": "related_to"
+  },
+  {
+   "source": "tirzepatide",
+   "target": "grey-market-quality",
    "rel": "related"
   },
   {
-   "source": "flmodafinil",
-   "target": "modafinil",
-   "rel": "related"
-  },
-  {
-   "source": "flmodafinil",
-   "target": "adrafinil",
-   "rel": "related"
-  },
-  {
-   "source": "flmodafinil",
-   "target": "src:dshs",
-   "rel": "cited_by"
-  },
-  {
-   "source": "flmodafinil",
-   "target": "src:wiki-moda",
-   "rel": "cited_by"
-  },
-  {
-   "source": "fladrafinil",
-   "target": "wakefulness",
-   "rel": "in_category"
-  },
-  {
-   "source": "fladrafinil",
-   "target": "flmodafinil",
-   "rel": "related"
-  },
-  {
-   "source": "fladrafinil",
-   "target": "adrafinil",
-   "rel": "related"
-  },
-  {
-   "source": "fladrafinil",
-   "target": "src:dshs",
-   "rel": "cited_by"
-  },
-  {
-   "source": "fladrafinil",
-   "target": "src:wiki-moda",
-   "rel": "cited_by"
-  },
-  {
-   "source": "adrafinil",
-   "target": "wakefulness",
-   "rel": "in_category"
-  },
-  {
-   "source": "adrafinil",
-   "target": "modafinil",
-   "rel": "related"
-  },
-  {
-   "source": "adrafinil",
-   "target": "fladrafinil",
-   "rel": "related"
-  },
-  {
-   "source": "adrafinil",
-   "target": "src:wiki-moda",
-   "rel": "cited_by"
-  },
-  {
-   "source": "modafinil",
-   "target": "wakefulness",
-   "rel": "in_category"
-  },
-  {
-   "source": "modafinil",
-   "target": "flmodafinil",
-   "rel": "related"
-  },
-  {
-   "source": "modafinil",
-   "target": "adrafinil",
-   "rel": "related"
-  },
-  {
-   "source": "modafinil",
-   "target": "src:wiki-moda",
-   "rel": "cited_by"
-  },
-  {
-   "source": "hydrafinil",
-   "target": "wakefulness",
-   "rel": "in_category"
-  },
-  {
-   "source": "hydrafinil",
-   "target": "flmodafinil",
-   "rel": "related"
-  },
-  {
-   "source": "hydrafinil",
-   "target": "src:wiki-moda",
-   "rel": "cited_by"
-  },
-  {
-   "source": "alpha-pihp",
-   "target": "stimulants",
-   "rel": "in_category"
-  },
-  {
-   "source": "alpha-pihp",
-   "target": "alpha-php",
-   "rel": "related"
-  },
-  {
-   "source": "alpha-pihp",
-   "target": "3-mmc",
-   "rel": "related"
-  },
-  {
-   "source": "alpha-pihp",
-   "target": "polydrug-risk",
-   "rel": "related"
-  },
-  {
-   "source": "alpha-pihp",
-   "target": "src:apihp",
-   "rel": "cited_by"
-  },
-  {
-   "source": "alpha-pihp",
-   "target": "src:euda-stim",
-   "rel": "cited_by"
-  },
-  {
-   "source": "alpha-php",
-   "target": "stimulants",
-   "rel": "in_category"
-  },
-  {
-   "source": "alpha-php",
-   "target": "alpha-pihp",
-   "rel": "related"
-  },
-  {
-   "source": "alpha-php",
-   "target": "src:euda-stim",
-   "rel": "cited_by"
-  },
-  {
-   "source": "3-mmc",
-   "target": "stimulants",
-   "rel": "in_category"
-  },
-  {
-   "source": "3-mmc",
-   "target": "2-mmc",
-   "rel": "related"
-  },
-  {
-   "source": "3-mmc",
-   "target": "alpha-pihp",
-   "rel": "related"
-  },
-  {
-   "source": "3-mmc",
-   "target": "src:euda-stim",
-   "rel": "cited_by"
-  },
-  {
-   "source": "2-mmc",
-   "target": "stimulants",
-   "rel": "in_category"
-  },
-  {
-   "source": "2-mmc",
-   "target": "3-mmc",
-   "rel": "related"
-  },
-  {
-   "source": "2-mmc",
-   "target": "src:euda-stim",
-   "rel": "cited_by"
-  },
-  {
-   "source": "bromazolam",
-   "target": "depressants",
-   "rel": "in_category"
-  },
-  {
-   "source": "bromazolam",
-   "target": "clonazolam",
-   "rel": "related"
-  },
-  {
-   "source": "bromazolam",
-   "target": "nitazenes",
-   "rel": "related"
-  },
-  {
-   "source": "bromazolam",
-   "target": "medetomidine",
-   "rel": "related"
-  },
-  {
-   "source": "bromazolam",
-   "target": "polydrug-risk",
-   "rel": "related"
-  },
-  {
-   "source": "bromazolam",
-   "target": "src:ndews",
-   "rel": "cited_by"
-  },
-  {
-   "source": "bromazolam",
-   "target": "src:interior",
-   "rel": "cited_by"
-  },
-  {
-   "source": "clonazolam",
-   "target": "depressants",
-   "rel": "in_category"
-  },
-  {
-   "source": "clonazolam",
-   "target": "bromazolam",
-   "rel": "related"
-  },
-  {
-   "source": "clonazolam",
-   "target": "polydrug-risk",
-   "rel": "related"
-  },
-  {
-   "source": "clonazolam",
-   "target": "src:bbc-benzo",
-   "rel": "cited_by"
-  },
-  {
-   "source": "nitazenes",
-   "target": "depressants",
-   "rel": "in_category"
-  },
-  {
-   "source": "nitazenes",
-   "target": "bromazolam",
-   "rel": "related"
-  },
-  {
-   "source": "nitazenes",
-   "target": "medetomidine",
-   "rel": "related"
-  },
-  {
-   "source": "nitazenes",
-   "target": "polydrug-risk",
-   "rel": "related"
-  },
-  {
-   "source": "nitazenes",
-   "target": "drug-checking",
-   "rel": "related"
-  },
-  {
-   "source": "nitazenes",
-   "target": "src:hstoday",
-   "rel": "cited_by"
-  },
-  {
-   "source": "nitazenes",
-   "target": "src:euda-nps",
-   "rel": "cited_by"
-  },
-  {
-   "source": "medetomidine",
-   "target": "depressants",
-   "rel": "in_category"
-  },
-  {
-   "source": "medetomidine",
-   "target": "xylazine",
-   "rel": "related"
-  },
-  {
-   "source": "medetomidine",
-   "target": "nitazenes",
-   "rel": "related"
-  },
-  {
-   "source": "medetomidine",
-   "target": "bromazolam",
-   "rel": "related"
-  },
-  {
-   "source": "medetomidine",
-   "target": "drug-checking",
-   "rel": "related"
-  },
-  {
-   "source": "medetomidine",
-   "target": "src:simcoe",
-   "rel": "cited_by"
-  },
-  {
-   "source": "medetomidine",
-   "target": "src:ndews",
-   "rel": "cited_by"
-  },
-  {
-   "source": "medetomidine",
-   "target": "src:interior",
-   "rel": "cited_by"
-  },
-  {
-   "source": "xylazine",
-   "target": "depressants",
-   "rel": "in_category"
-  },
-  {
-   "source": "xylazine",
-   "target": "medetomidine",
-   "rel": "related"
-  },
-  {
-   "source": "xylazine",
-   "target": "src:ndews",
-   "rel": "cited_by"
-  },
-  {
-   "source": "btmps",
-   "target": "depressants",
-   "rel": "in_category"
-  },
-  {
-   "source": "btmps",
-   "target": "medetomidine",
-   "rel": "related"
-  },
-  {
-   "source": "btmps",
-   "target": "drug-checking",
-   "rel": "related"
-  },
-  {
-   "source": "btmps",
-   "target": "src:pori",
-   "rel": "cited_by"
-  },
-  {
-   "source": "grey-market-quality",
+   "source": "tirzepatide",
    "target": "retatrutide",
-   "rel": "applies_to"
+   "rel": "related"
   },
   {
-   "source": "grey-market-quality",
-   "target": "tirzepatide",
-   "rel": "applies_to"
+   "source": "tirzepatide",
+   "target": "semaglutide",
+   "rel": "related"
   },
   {
-   "source": "grey-market-quality",
-   "target": "cagrilintide",
-   "rel": "applies_to"
+   "source": "tirzepatide",
+   "target": "src:benzinga",
+   "rel": "cited_by"
   },
   {
-   "source": "drug-checking",
-   "target": "nitazenes",
-   "rel": "applies_to"
+   "source": "tirzepatide",
+   "target": "weight-loss",
+   "rel": "in_category"
   },
   {
-   "source": "drug-checking",
+   "source": "xylazine",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "xylazine",
    "target": "medetomidine",
-   "rel": "applies_to"
+   "rel": "related"
   },
   {
-   "source": "drug-checking",
-   "target": "btmps",
-   "rel": "applies_to"
-  },
-  {
-   "source": "drug-checking",
-   "target": "bromazolam",
-   "rel": "applies_to"
-  },
-  {
-   "source": "polydrug-risk",
-   "target": "nitazenes",
-   "rel": "applies_to"
-  },
-  {
-   "source": "polydrug-risk",
-   "target": "bromazolam",
-   "rel": "applies_to"
-  },
-  {
-   "source": "polydrug-risk",
-   "target": "medetomidine",
-   "rel": "applies_to"
-  },
-  {
-   "source": "polydrug-risk",
-   "target": "alpha-pihp",
-   "rel": "applies_to"
-  },
-  {
-   "source": "early-warning",
-   "target": "nitazenes",
-   "rel": "applies_to"
-  },
-  {
-   "source": "early-warning",
-   "target": "alpha-pihp",
-   "rel": "applies_to"
+   "source": "xylazine",
+   "target": "src:ndews",
+   "rel": "cited_by"
   }
  ]
 }
