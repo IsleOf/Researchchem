@@ -1,0 +1,2857 @@
+{
+ "area": "area:stimulants",
+ "updated": "2026-11-08",
+ "levels": {
+  "0": "area hub",
+  "1": "topics & compounds",
+  "2": "targets/effects/risks/orgs/events",
+  "3": "sources & claims"
+ },
+ "nodes": [
+  {
+   "id": "area:stimulants",
+   "type": "area",
+   "label": "Stimulants: market & health overview (2025-26)",
+   "level": 0
+  },
+  {
+   "id": "topic:cathinone-churn",
+   "type": "topic",
+   "label": "Cathinone churn & positional-isomer substitution",
+   "level": 1
+  },
+  {
+   "id": "topic:eugeroics",
+   "type": "topic",
+   "label": "Eugeroics (modafinil-type) in 2026",
+   "level": 1
+  },
+  {
+   "id": "topic:pharmaceutical-stimulant-market",
+   "type": "topic",
+   "label": "Pharmaceutical stimulant market: shortage, counterfeits, telehealth",
+   "level": 1
+  },
+  {
+   "id": "topic:cardiac-and-psychiatric-harms",
+   "type": "topic",
+   "label": "Cardiac & psychiatric harms of stimulant NPS",
+   "level": 1
+  },
+  {
+   "id": "topic:emerging-watchlist",
+   "type": "topic",
+   "label": "Emerging stimulant NPS watchlist 2025-26",
+   "level": 1
+  },
+  {
+   "id": "alpha-pihp",
+   "type": "compound",
+   "label": "alpha-PiHP",
+   "compound_class": "cathinone (pyrrolidinophenone)",
+   "status": "UN Schedule II since March 2023",
+   "risk": 5,
+   "level": 1
+  },
+  {
+   "id": "alpha-php",
+   "type": "compound",
+   "label": "alpha-PHP",
+   "compound_class": "cathinone (pyrrolidinophenone)",
+   "status": "UN Schedule II since 2020",
+   "risk": 5,
+   "level": 1
+  },
+  {
+   "id": "3-mmc",
+   "type": "compound",
+   "label": "3-MMC",
+   "compound_class": "cathinone (ring-substituted methcathinone)",
+   "status": "UN control 2023; NL possession criminalised 28 Oct 2021",
+   "risk": 4,
+   "level": 1
+  },
+  {
+   "id": "2-mmc",
+   "type": "compound",
+   "label": "2-MMC",
+   "compound_class": "cathinone (ring-substituted methcathinone)",
+   "status": "EU-wide control in force 12 Jan 2026",
+   "risk": 4,
+   "level": 1
+  },
+  {
+   "id": "flmodafinil",
+   "type": "compound",
+   "label": "Flmodafinil (CRL-40,940)",
+   "compound_class": "eugeroic",
+   "status": "Unapproved; WADA 2026 S6.A non-specified stimulant",
+   "risk": 2,
+   "level": 1
+  },
+  {
+   "id": "fladrafinil",
+   "type": "compound",
+   "label": "Fladrafinil (CRL-40,941)",
+   "compound_class": "eugeroic (prodrug of flmodafinil)",
+   "status": "Unapproved; WADA 2026 S6.A non-specified stimulant",
+   "risk": 3,
+   "level": 1
+  },
+  {
+   "id": "adrafinil",
+   "type": "compound",
+   "label": "Adrafinil",
+   "compound_class": "eugeroic (prodrug of modafinil)",
+   "status": "Withdrawn medicine (France); WADA S6.A",
+   "risk": 3,
+   "level": 1
+  },
+  {
+   "id": "modafinil",
+   "type": "compound",
+   "label": "Modafinil / armodafinil",
+   "compound_class": "eugeroic",
+   "status": "Prescription medicine; WADA S6.A",
+   "risk": 2,
+   "level": 1
+  },
+  {
+   "id": "hydrafinil",
+   "type": "compound",
+   "label": "Hydrafinil (9-fluorenol)",
+   "compound_class": "fluorenol eugeroic; modafinil-analogue framing contested",
+   "status": "Unscheduled in most places; essentially no human data",
+   "risk": 3,
+   "level": 1
+  },
+  {
+   "id": "3-cmc",
+   "type": "compound",
+   "label": "3-CMC",
+   "compound_class": "cathinone",
+   "status": "UN control 2023; dominant 3-MMC substitute in NL",
+   "level": 1
+  },
+  {
+   "id": "4-bmc",
+   "type": "compound",
+   "label": "4-BMC (4-bromomethcathinone)",
+   "compound_class": "cathinone",
+   "status": "EU-wide control in force 12 Jan 2026",
+   "level": 1
+  },
+  {
+   "id": "nep",
+   "type": "compound",
+   "label": "NEP (N-ethylnorpentedrone)",
+   "compound_class": "cathinone",
+   "status": "EU-wide control in force 12 Jan 2026",
+   "level": 1
+  },
+  {
+   "id": "n-isopropylbutylone",
+   "type": "compound",
+   "label": "N-isopropylbutylone",
+   "compound_class": "cathinone ('-ylone')",
+   "status": "First identified Aug 2024 (US); dominant US synthetic stimulant analyte 2025",
+   "level": 1
+  },
+  {
+   "id": "nn-dimethylpentylone",
+   "type": "compound",
+   "label": "N,N-dimethylpentylone",
+   "compound_class": "cathinone ('-ylone')",
+   "status": "DEA-controlled Aug 2025; declining",
+   "level": 1
+  },
+  {
+   "id": "eutylone",
+   "type": "compound",
+   "label": "Eutylone",
+   "compound_class": "cathinone ('-ylone')",
+   "status": "Controlled; receding in US data (<9% of one lab's 2025 detections)",
+   "level": 1
+  },
+  {
+   "id": "alpha-pihpp",
+   "type": "compound",
+   "label": "alpha-PiHpP (iso-PV8)",
+   "compound_class": "cathinone (pyrrolidinophenone)",
+   "status": "Unscheduled in US as of Jun 2025; most common single synthetic stimulant analyte in one lab H1 2026",
+   "level": 1
+  },
+  {
+   "id": "me-alpha-pihp",
+   "type": "compound",
+   "label": "2-/3-/4-Me-alpha-PiHP",
+   "compound_class": "cathinone (ring-methylated pyrrolidinophenone)",
+   "status": "37 Swedish forensic detections incl. 5 autopsy cases (2025)",
+   "level": 1
+  },
+  {
+   "id": "mdphp",
+   "type": "compound",
+   "label": "MDPHP",
+   "compound_class": "cathinone (methylenedioxy pyrrolidinophenone)",
+   "status": "In 2026 forensic case series",
+   "level": 1
+  },
+  {
+   "id": "mdpihp",
+   "type": "compound",
+   "label": "MDPiHP",
+   "compound_class": "cathinone (methylenedioxy pyrrolidinophenone)",
+   "status": "In 2026 forensic case series",
+   "level": 1
+  },
+  {
+   "id": "n-cyclohexyl-methylone",
+   "type": "compound",
+   "label": "N-cyclohexyl methylone",
+   "compound_class": "cathinone (N-cycloalkyl)",
+   "status": "Reported not yet controlled; weak stimulant, possible convulsant risk",
+   "level": 1
+  },
+  {
+   "id": "n-cyclohexyl-butylone",
+   "type": "compound",
+   "label": "N-cyclohexyl butylone",
+   "compound_class": "cathinone (N-cycloalkyl)",
+   "status": "Reported not yet controlled; cocaine/methamphetamine-like in rats",
+   "level": 1
+  },
+  {
+   "id": "modafiendz",
+   "type": "compound",
+   "label": "Modafiendz",
+   "compound_class": "eugeroic (bis-fluoro N-methyl modafinil analogue)",
+   "status": "Unapproved; no human data found",
+   "level": 1
+  },
+  {
+   "id": "alpha-pvp",
+   "type": "compound",
+   "label": "alpha-PVP",
+   "compound_class": "cathinone (pyrrolidinophenone)",
+   "status": "Controlled; dominates cardiac-arrest case literature",
+   "level": 1
+  },
+  {
+   "id": "4-mmc",
+   "type": "compound",
+   "label": "4-MMC (mephedrone)",
+   "compound_class": "cathinone",
+   "status": "Controlled; mixed DAT/SERT profile with serotonin release",
+   "level": 1
+  },
+  {
+   "id": "methylone",
+   "type": "compound",
+   "label": "Methylone",
+   "compound_class": "cathinone ('-ylone')",
+   "status": "Controlled; non-selective uptake inhibitor with serotonin release",
+   "level": 1
+  },
+  {
+   "id": "amphetamine-mixed-salts",
+   "type": "compound",
+   "label": "Amphetamine mixed salts (Adderall)",
+   "compound_class": "prescription amphetamine",
+   "status": "FDA shortage listed Oct 2022, still listed Oct 2026",
+   "level": 1
+  },
+  {
+   "id": "methylphenidate",
+   "type": "compound",
+   "label": "Methylphenidate",
+   "compound_class": "prescription stimulant",
+   "status": "Intermittent availability; no peer-reviewed counterfeit characterisation found",
+   "level": 1
+  },
+  {
+   "id": "target:dat",
+   "type": "target",
+   "label": "Dopamine transporter (DAT)",
+   "level": 2
+  },
+  {
+   "id": "target:net",
+   "type": "target",
+   "label": "Norepinephrine transporter (NET)",
+   "level": 2
+  },
+  {
+   "id": "target:sert",
+   "type": "target",
+   "label": "Serotonin transporter (SERT)",
+   "level": 2
+  },
+  {
+   "id": "effect:dat-selective-reinforcement",
+   "type": "effect",
+   "label": "High DAT/SERT selectivity -> strong reinforcement, high abuse liability",
+   "evidence": "in vitro + animal; relationship non-linear",
+   "level": 2
+  },
+  {
+   "id": "effect:serotonin-release",
+   "type": "effect",
+   "label": "Serotonin release (MDMA-like entactogenic component)",
+   "evidence": "in vitro",
+   "level": 2
+  },
+  {
+   "id": "effect:wakefulness",
+   "type": "effect",
+   "label": "Wake promotion",
+   "evidence": "human for modafinil; absent for analogues",
+   "level": 2
+  },
+  {
+   "id": "risk:cardiac-arrest",
+   "type": "risk",
+   "label": "Cardiac arrest / life-threatening arrhythmia",
+   "evidence": "strong for occurrence, weak for incidence",
+   "level": 2
+  },
+  {
+   "id": "risk:myocardial-injury",
+   "type": "risk",
+   "label": "Myocardial injury (STEMI/NSTEMI/myocarditis/cardiomyopathy)",
+   "evidence": "weak; 1 cardiomyopathy case in 40",
+   "level": 2
+  },
+  {
+   "id": "risk:cardiovascular-strain",
+   "type": "risk",
+   "label": "Tachycardia, hypertension, palpitations, chest pain",
+   "evidence": "strong but mostly unconfirmed self-report",
+   "level": 2
+  },
+  {
+   "id": "risk:hyperthermia",
+   "type": "risk",
+   "label": "Hyperthermia -> rhabdomyolysis -> acute kidney injury",
+   "evidence": "moderate; single well-documented alpha-PiHP case",
+   "level": 2
+  },
+  {
+   "id": "risk:multi-organ-failure",
+   "type": "risk",
+   "label": "Acute kidney failure / multi-organ failure / serotonin toxicity",
+   "evidence": "moderate",
+   "level": 2
+  },
+  {
+   "id": "risk:psychosis",
+   "type": "risk",
+   "label": "Psychosis (hallucinations and/or delusions)",
+   "evidence": "moderate for association, weak for causation",
+   "level": 2
+  },
+  {
+   "id": "risk:agitated-delirium",
+   "type": "risk",
+   "label": "Severe agitation and delirium",
+   "evidence": "moderate-strong",
+   "level": 2
+  },
+  {
+   "id": "risk:compulsive-redosing",
+   "type": "risk",
+   "label": "Compulsive redosing / binge sessions",
+   "evidence": "moderate mechanistic, strong descriptive",
+   "level": 2
+  },
+  {
+   "id": "risk:substance-misidentification",
+   "type": "risk",
+   "label": "Compound is not the compound named",
+   "evidence": "strong and quantified (~10% of 3-MMC samples)",
+   "level": 2
+  },
+  {
+   "id": "risk:potency-escalation",
+   "type": "risk",
+   "label": "Successor analogue more potent per unit mass",
+   "evidence": "moderate",
+   "level": 2
+  },
+  {
+   "id": "risk:no-human-pharmacology",
+   "type": "risk",
+   "label": "New analogues arrive with no human data",
+   "evidence": "definitional",
+   "level": 2
+  },
+  {
+   "id": "risk:surveillance-lag",
+   "type": "risk",
+   "label": "Compound in use months before any monitoring report",
+   "evidence": "strong",
+   "level": 2
+  },
+  {
+   "id": "risk:analytical-invisibility",
+   "type": "risk",
+   "label": "Positional isomers indistinguishable; missed by routine panels",
+   "evidence": "strong",
+   "level": 2
+  },
+  {
+   "id": "risk:fentanyl-contamination",
+   "type": "risk",
+   "label": "Unintended opioid exposure from counterfeit tablets / adulterated supply",
+   "evidence": "strong",
+   "level": 2
+  },
+  {
+   "id": "risk:counterfeit-stimulant-tablet",
+   "type": "risk",
+   "label": "Counterfeit tablet containing methamphetamine at unknown dose",
+   "evidence": "moderate-strong",
+   "level": 2
+  },
+  {
+   "id": "risk:treatment-interruption",
+   "type": "risk",
+   "label": "Discontinuous prescription stimulant supply 2022-26",
+   "evidence": "moderate, secondary sources",
+   "level": 2
+  },
+  {
+   "id": "risk:doping-sanction",
+   "type": "risk",
+   "label": "Doping sanction; metabolites detectable ~2 weeks after one small dose",
+   "evidence": "strong",
+   "level": 2
+  },
+  {
+   "id": "risk:unknown-long-term-eugeroic-safety",
+   "type": "risk",
+   "label": "Unknown long-term eugeroic safety",
+   "evidence": "absence of data",
+   "level": 2
+  },
+  {
+   "id": "org:euda",
+   "type": "org",
+   "label": "EU Drugs Agency (EUDA) / EU Early Warning System",
+   "level": 2
+  },
+  {
+   "id": "org:unodc",
+   "type": "org",
+   "label": "UNODC Early Warning Advisory",
+   "level": 2
+  },
+  {
+   "id": "org:wada",
+   "type": "org",
+   "label": "World Anti-Doping Agency",
+   "level": 2
+  },
+  {
+   "id": "org:dea",
+   "type": "org",
+   "label": "US Drug Enforcement Administration",
+   "level": 2
+  },
+  {
+   "id": "org:fda",
+   "type": "org",
+   "label": "US Food and Drug Administration",
+   "level": 2
+  },
+  {
+   "id": "org:ndews",
+   "type": "org",
+   "label": "National Drug Early Warning System (US)",
+   "level": 2
+  },
+  {
+   "id": "org:cfsre",
+   "type": "org",
+   "label": "Center for Forensic Science Research & Education (NPS Discovery)",
+   "level": 2
+  },
+  {
+   "id": "org:dpic",
+   "type": "org",
+   "label": "Dutch Poisons Information Centre",
+   "level": 2
+  },
+  {
+   "id": "org:dims",
+   "type": "org",
+   "label": "DIMS (Dutch drug-checking monitoring system)",
+   "level": 2
+  },
+  {
+   "id": "org:acmd",
+   "type": "org",
+   "label": "ACMD (UK Advisory Council on the Misuse of Drugs)",
+   "level": 2
+  },
+  {
+   "id": "org:doj",
+   "type": "org",
+   "label": "US Department of Justice",
+   "level": 2
+  },
+  {
+   "id": "org:hhs",
+   "type": "org",
+   "label": "US Department of Health and Human Services",
+   "level": 2
+  },
+  {
+   "id": "event:eu-control-2mmc-4bmc-nep",
+   "type": "event",
+   "label": "EU-wide control of 2-MMC, 4-BMC and NEP enters into force",
+   "date": "2026-01-12",
+   "what": "EU-wide control of 2-MMC, 4-BMC and NEP enters into force; transposition due 12 Jul 2026",
+   "level": 2
+  },
+  {
+   "id": "event:wada-2026-list",
+   "type": "event",
+   "label": "WADA 2026 Prohibited List adds flmodafinil and fladrafinil to S6.A (non-specified stimulan",
+   "date": "2026-01-01",
+   "what": "WADA 2026 Prohibited List adds flmodafinil and fladrafinil to S6.A (non-specified stimulants)",
+   "level": 2
+  },
+  {
+   "id": "event:edr-2026",
+   "type": "event",
+   "label": "EUDA European Drug Report 2026: cathinone seizures/imports 48.5 t in 2024",
+   "date": "2026-06-09",
+   "what": "EUDA European Drug Report 2026: cathinone seizures/imports 48.5 t in 2024; 4 new cathinones notified in 2025 (181 total); 50 substances newly detected in Europe",
+   "level": 2
+  },
+  {
+   "id": "event:edr-2025",
+   "type": "event",
+   "label": "EUDA European Drug Report 2025: 'unprecedented imports and seizures'",
+   "date": "2025-06",
+   "what": "EUDA European Drug Report 2025: 'unprecedented imports and seizures'; 37 t (2023) vs 27 t (2022) vs 4.5 t (2021)",
+   "level": 2
+  },
+  {
+   "id": "event:euda-risk-assessments-2025",
+   "type": "event",
+   "label": "EUDA Scientific Committee risk assessments on 2-MMC, 4-BMC and NEP",
+   "date": "2025-05",
+   "what": "EUDA Scientific Committee risk assessments on 2-MMC, 4-BMC and NEP",
+   "level": 2
+  },
+  {
+   "id": "event:dea-controls-dimethylpentylone",
+   "type": "event",
+   "label": "DEA controls N,N-dimethylpentylone",
+   "date": "2025-08",
+   "what": "DEA controls N,N-dimethylpentylone; N-isopropylbutylone rises as replacement",
+   "level": 2
+  },
+  {
+   "id": "event:cfsre-alert-nisopropylbutylone",
+   "type": "event",
+   "label": "CFSRE public alert: N-isopropylbutylone, >40 forensic samples mostly Florida",
+   "date": "2025-11-28",
+   "what": "CFSRE public alert: N-isopropylbutylone, >40 forensic samples mostly Florida",
+   "level": 2
+  },
+  {
+   "id": "event:alpha-pihpp-first-identified",
+   "type": "event",
+   "label": "alpha-PiHpP (iso-PV8) first identified in China and reported to UNODC",
+   "date": "2024-12",
+   "what": "alpha-PiHpP (iso-PV8) first identified in China and reported to UNODC",
+   "level": 2
+  },
+  {
+   "id": "event:cfsre-monograph-alpha-pihpp",
+   "type": "event",
+   "label": "CFSRE monograph on alpha-PiHpP",
+   "date": "2025-06",
+   "what": "CFSRE monograph on alpha-PiHpP; unscheduled in the US; one toxicology case",
+   "level": 2
+  },
+  {
+   "id": "event:ndews-ssd-2025-04",
+   "type": "event",
+   "label": "NDEWS Sentinel Site Report: alpha-PiHpP first identified in Broward and Palm Beach Countie",
+   "date": "2025-04",
+   "what": "NDEWS Sentinel Site Report: alpha-PiHpP first identified in Broward and Palm Beach Counties, Florida",
+   "level": 2
+  },
+  {
+   "id": "event:ndews-ssd-2026-07",
+   "type": "event",
+   "label": "NDEWS Sentinel Site Report: lab directors report decreases in synthetic cathinone detectio",
+   "date": "2026-07",
+   "what": "NDEWS Sentinel Site Report: lab directors report decreases in synthetic cathinone detections",
+   "level": 2
+  },
+  {
+   "id": "event:nl-3mmc-ban",
+   "type": "event",
+   "label": "Netherlands criminalises 3-MMC possession (pre-scope anchor",
+   "date": "2021-10-28",
+   "what": "Netherlands criminalises 3-MMC possession (pre-scope anchor; triggers the measured substitution cascade)",
+   "level": 2
+  },
+  {
+   "id": "event:done-global-indictment",
+   "type": "event",
+   "label": "Done Global indicted (N.D. Cal.) over alleged online Adderall distribution",
+   "date": "2024-06",
+   "what": "Done Global indicted (N.D. Cal.) over alleged online Adderall distribution; >40 million tablets alleged",
+   "level": 2
+  },
+  {
+   "id": "event:done-global-conviction",
+   "type": "event",
+   "label": "Done Global founder and clinical president convicted",
+   "date": "2025",
+   "what": "Done Global founder and clinical president convicted; DOJ's first criminal drug-distribution prosecution from telemedicine prescribing",
+   "level": 2
+  },
+  {
+   "id": "event:telehealth-extension-4",
+   "type": "event",
+   "label": "DEA/HHS fourth temporary extension of telemedicine controlled-substance flexibilities, to ",
+   "date": "2026-01-01",
+   "what": "DEA/HHS fourth temporary extension of telemedicine controlled-substance flexibilities, to 31 Dec 2026",
+   "level": 2
+  },
+  {
+   "id": "event:fda-adderall-shortage",
+   "type": "event",
+   "label": "FDA lists amphetamine mixed salts in shortage",
+   "date": "2022-10",
+   "what": "FDA lists amphetamine mixed salts in shortage; still listed as of Oct 2026",
+   "level": 2
+  },
+  {
+   "id": "event:cnd69-scheduling",
+   "type": "event",
+   "label": "CND 69th session: two nitazenes to 1961 Schedule I",
+   "date": "2026-05-29",
+   "what": "CND 69th session: two nitazenes to 1961 Schedule I; MDMB-FUBINACA to 1971 Schedule II (25 Nov 2026) - no stimulant class added",
+   "level": 2
+  },
+  {
+   "id": "src:edr2026-stimulants",
+   "type": "source",
+   "label": "EUDA European Drug Report 2026 - Synthetic stimulants",
+   "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/synthetic-stimulants_en",
+   "level": 3
+  },
+  {
+   "id": "src:edr2026-nps",
+   "type": "source",
+   "label": "EUDA European Drug Report 2026 - New psychoactive substances",
+   "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/new-psychoactive-substances_en",
+   "level": 3
+  },
+  {
+   "id": "src:edr2025-nps",
+   "type": "source",
+   "label": "EUDA European Drug Report 2025 - New psychoactive substances",
+   "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+   "level": 3
+  },
+  {
+   "id": "src:euda-3-controls-2026",
+   "type": "source",
+   "label": "EUDA news: EU takes action to control three harmful new drugs (2-MMC, 4-BMC, NEP)",
+   "url": "https://www.euda.europa.eu/news/2026/eu-takes-action-control-three-harmful-new-drugs_en",
+   "level": 3
+  },
+  {
+   "id": "src:euda-2mmc-initial-report",
+   "type": "source",
+   "label": "EUDA initial report on 2-MMC (advance release, Jun 2025)",
+   "url": "https://www.euda.europa.eu/system/files/documents/2025-06/euda_initial-report-2-mmc_advanced-release_0.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:euda-cathinone-naming",
+   "type": "source",
+   "label": "Pulver et al., EUDA framework and practical guidance for naming cathinones (Drug Test Anal 2024)",
+   "url": "https://www.euda.europa.eu/system/files/documents/2025-02/drug-testing-and-analysis-2024-pulver-emcdda-framework-and-practical-guidance-for-naming-cathinones.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:euda-par-3cpp",
+   "type": "source",
+   "label": "EUDA precursor assessment: 3'-chloropropiophenone (3-CMC)",
+   "url": "https://www.euda.europa.eu/system/files/documents/2026-02/euda-par-2024-3-chloropropiophenone.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:unodc-ewa-2026-08",
+   "type": "source",
+   "label": "UNODC EWA update, August 2026 (>1500 substances monitored; 698 reported 2025/6; 110 first-time)",
+   "url": "https://www.unodc.org/LSS/Announcement/Details/c08e6fbf-3f79-4654-8fe9-409e4b24bd59",
+   "level": 3
+  },
+  {
+   "id": "src:unodc-nps-portal",
+   "type": "source",
+   "label": "UNODC Early Warning Advisory on NPS",
+   "url": "https://www.unodc.org/LSS/Home/NPS",
+   "level": 3
+  },
+  {
+   "id": "src:unodc-nps-2024-update",
+   "type": "source",
+   "label": "UNODC: The Challenge of NPS - a technical update 2024 (aminoindanes, aminorex derivatives, piperazines)",
+   "url": "https://www.unodc.org/documents/scientific/The_Challenge_of_NPS_A_technical_update_2024.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:42452938",
+   "type": "source",
+   "label": "Hutten et al. - 3-MMC and substitutes in the Dutch market 2012-2024 (Addiction 2026, PMID 42452938)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42452938/",
+   "level": 3
+  },
+  {
+   "id": "src:add70511",
+   "type": "source",
+   "label": "Nugteren-van Lonkhuyzen et al. - 14-year Dutch NPS poisonings 2012-2025 (Addiction 2026, DOI 10.1111/add.70511)",
+   "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/add.70511",
+   "level": 3
+  },
+  {
+   "id": "src:42581582",
+   "type": "source",
+   "label": "Trends in synthetic cathinone detection, DEA NFLS 2010-2024 (J Anal Toxicol 2026, PMID 42581582)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42581582/",
+   "level": 3
+  },
+  {
+   "id": "src:38411851",
+   "type": "source",
+   "label": "Cardiotoxicity After Synthetic Cathinone Use: Two Cases, A Case Series and Scoping Review (Cardiovasc Toxicol 2024, PMID 38411851)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38411851/",
+   "level": 3
+  },
+  {
+   "id": "src:38446172",
+   "type": "source",
+   "label": "Daswani et al. - synthetic cathinone use and psychosis: systematic review and meta-analysis (Psychopharmacology 2024;241:875-896, PMID 38446172)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38446172/",
+   "level": 3
+  },
+  {
+   "id": "src:life14040429",
+   "type": "source",
+   "label": "alpha-PHP and alpha-PiHP: A Review (Life 2024, DOI 10.3390/life14040429, PMC11051472)",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11051472/",
+   "level": 3
+  },
+  {
+   "id": "src:cureus70708",
+   "type": "source",
+   "label": "Suspected alpha-PiHP-related hyperthermia in a young adult (Cureus 2024, DOI 10.7759/cureus.70708)",
+   "url": "https://www.cureus.com/articles/298195-management-of-suspected--pyrrolidinoisohexanophenone--pihp-related-hyperthermia-in-a-young-adult-a-case-report",
+   "level": 3
+  },
+  {
+   "id": "src:dta70100",
+   "type": "source",
+   "label": "Krug et al. - metabolism and elimination of flmodafinil and fladrafinil for sports drug testing (Drug Test Anal 2026, DOI 10.1002/dta.70100)",
+   "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/dta.70100",
+   "level": 3
+  },
+  {
+   "id": "src:dta3137",
+   "type": "source",
+   "label": "Knoop et al. - urinary hydrafinil metabolites for doping control (Drug Test Anal 2021, DOI 10.1002/dta.3137)",
+   "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/dta.3137",
+   "level": 3
+  },
+  {
+   "id": "src:jat-bkag037",
+   "type": "source",
+   "label": "Identification of N-isopropyl butylone in postmortem cases in Northern Virginia (J Anal Toxicol, DOI 10.1093/jat/bkag037)",
+   "url": "https://academic.oup.com/jat/advance-article-abstract/doi/10.1093/jat/bkag037/8700943",
+   "level": 3
+  },
+  {
+   "id": "src:cfsre-alert-nib",
+   "type": "source",
+   "label": "CFSRE public alert: N-isopropyl butylone (28 Nov 2025)",
+   "url": "https://www.cfsre.org/images/content/reports/public_alerts/Public_Alert_N-Isopropyl_Butylone_112825.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:cfsre-alpha-pihpp",
+   "type": "source",
+   "label": "CFSRE NPS Discovery monograph: alpha-PiHpP (Jun 2025)",
+   "url": "https://www.cfsre.org/nps-discovery/monographs/alpha-pihpp",
+   "level": 3
+  },
+  {
+   "id": "src:ndews-2025-04",
+   "type": "source",
+   "label": "NDEWS Sentinel Site Report, April 2025",
+   "url": "https://ndews.org/wordpress/files/2025/06/2025.04_NDEWS-SSD-Full-Report.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:ndews-2026-07",
+   "type": "source",
+   "label": "NDEWS Sentinel Site Report, July 2026",
+   "url": "https://ndews.org/wordpress/files/2026/08/SSD-July-2026-08272026-pdf.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:fsi-case-series-2026",
+   "type": "source",
+   "label": "Case series: alpha-PHP, alpha-PiHP, MDPHP and MDPiHP in forensic investigations (Forensic Sci Int 2026)",
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0379073826001040",
+   "level": 3
+  },
+  {
+   "id": "src:jat-2024-48-299",
+   "type": "source",
+   "label": "alpha-PHP vs alpha-PiHP plasma concentrations in forensic routine cases (J Anal Toxicol 2024;48(5):299)",
+   "url": "https://academic.oup.com/jat/article-abstract/48/5/299/7630422",
+   "level": 3
+  },
+  {
+   "id": "src:neurotox-2025-pihp",
+   "type": "source",
+   "label": "Pharmacological effects and pharmacokinetics of alpha-PiHP vs alpha-PVP in mice (NeuroToxicology 2025)",
+   "url": "https://www.sciencedirect.com/science/article/pii/S0161813X25000567",
+   "level": 3
+  },
+  {
+   "id": "src:archtox-2026-pihp-sar",
+   "type": "source",
+   "label": "Structure-activity relationship of alpha-PiHP analogues (Arch Toxicol 2026, DOI 10.1007/s00204-026-04483-z)",
+   "url": "https://link.springer.com/article/10.1007/s00204-026-04483-z",
+   "level": 3
+  },
+  {
+   "id": "src:acsptsci-cathinone-sar",
+   "type": "source",
+   "label": "Structure-Activity Relationship of Synthetic Cathinones: An Updated Review (ACS Pharmacol Transl Sci 2024, PMC11406692)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11406692/",
+   "level": 3
+  },
+  {
+   "id": "src:pmc8348686",
+   "type": "source",
+   "label": "Pharmacological profile of second-generation pyrovalerone cathinones (PMC8348686)",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8348686/",
+   "level": 3
+  },
+  {
+   "id": "src:clintox-2026-cv",
+   "type": "source",
+   "label": "Acute cardiovascular complications of sympathomimetic recreational drug use (Clin Toxicol 2026, DOI 10.1080/15563650.2026.2701369)",
+   "url": "https://www.tandfonline.com/doi/full/10.1080/15563650.2026.2701369",
+   "level": 3
+  },
+  {
+   "id": "src:pmc12656588",
+   "type": "source",
+   "label": "Oxidative stress in the cardiotoxicity of methylone and 3,4-DMMC (H9c2 cells, Nov 2025, PMC12656588)",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12656588/",
+   "level": 3
+  },
+  {
+   "id": "src:annemergmed-3mmc",
+   "type": "source",
+   "label": "3-MMC poisonings: acute clinical toxicity and time trend 2013-2021, Netherlands (Ann Emerg Med 2022)",
+   "url": "https://www.annemergmed.com/article/S0196-0644(22)00271-2/fulltext",
+   "level": 3
+  },
+  {
+   "id": "src:ijdp-2mmc-3mmc",
+   "type": "source",
+   "label": "Appearance of 2-MMC and 3-MMC on the illicit drug market in the Netherlands: systematic narrative review (Int J Drug Policy 2025)",
+   "url": "https://www.sciencedirect.com/science/article/pii/S0955395925002671",
+   "level": 3
+  },
+  {
+   "id": "src:forchem-cmc-isomers",
+   "type": "source",
+   "label": "Differentiation of chloromethcathinone (CMC) isomers after MMC control in the Netherlands (Forensic Chemistry 2024)",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2468170924000511",
+   "level": 3
+  },
+  {
+   "id": "src:fsi-ncyclohexylmethylone",
+   "type": "source",
+   "label": "NMR-based structure elucidation and chiral separation of N-cyclohexylmethylone (Forensic Sci Int 2024)",
+   "url": "https://www.sciencedirect.com/science/article/pii/S037907382400433X",
+   "level": 3
+  },
+  {
+   "id": "src:frontiers-ncyclohexyl",
+   "type": "source",
+   "label": "Frontiers in Pharmacology article on N-cyclohexyl butylone / methylone (attribution unverified)",
+   "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1728824/full",
+   "level": 3
+  },
+  {
+   "id": "src:mmwr-eutylone",
+   "type": "source",
+   "label": "CDC Notes From the Field: overdose deaths involving eutylone, US 2020 (PMC9400538)",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9400538/",
+   "level": 3
+  },
+  {
+   "id": "src:acmd-cathinones",
+   "type": "source",
+   "label": "ACMD: Synthetic cathinones - updated advice (UK)",
+   "url": "https://assets.publishing.service.gov.uk/media/67a09f4a1f9e7f7dcc7b3fa8/Synthetic_Cathinones_final_4_-_3_February.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:wada-2026-nada",
+   "type": "source",
+   "label": "NADA: WADA publishes Prohibited List 2026 (flmodafinil, fladrafinil added to S6.A)",
+   "url": "https://www.nada.de/en/service/news/news-detail/wada-publishes-prohibited-list-2026",
+   "level": 3
+  },
+  {
+   "id": "src:usada-2026-advisory",
+   "type": "source",
+   "label": "USADA athlete advisory: what's new on the 2026 WADA Prohibited List",
+   "url": "https://www.usada.org/spirit-of-sport/2026-wada-prohibited-list/",
+   "level": 3
+  },
+  {
+   "id": "src:doj-done-indictment",
+   "type": "source",
+   "label": "DOJ (N.D. Cal.): digital health company and medical practice indicted in Adderall distribution scheme",
+   "url": "https://www.justice.gov/usao-ndca/pr/digital-health-company-and-medical-practice-indicted-100m-adderall-distribution-scheme",
+   "level": 3
+  },
+  {
+   "id": "src:ropesgray-done",
+   "type": "source",
+   "label": "Ropes & Gray: DOJ's Done Global telehealth prosecution (Jan 2026)",
+   "url": "https://www.ropesgray.com/en/insights/alerts/2026/01/dojs-done-global-telehealth-prosecution-signals-expanded-criminal-risk",
+   "level": 3
+  },
+  {
+   "id": "src:afslaw-done-sentencing",
+   "type": "source",
+   "label": "ArentFox Schiff: Done Global founder and clinical president sentenced",
+   "url": "https://www.afslaw.com/perspectives/investigations-blog/done-global-founder-and-clinical-president-sentenced-90-million",
+   "level": 3
+  },
+  {
+   "id": "src:healthcaredive-telehealth",
+   "type": "source",
+   "label": "DEA/HHS extend telehealth controlled-substance prescribing flexibilities a fourth time",
+   "url": "https://www.healthcaredive.com/news/dea-hhs-extend-telehealth-controlled-substance-prescriptions-flexibilities-fourth-time/808735/",
+   "level": 3
+  },
+  {
+   "id": "src:state-counterfeit-2025",
+   "type": "source",
+   "label": "US State Department report to Congress on counterfeit prescription medication (Jul 2025)",
+   "url": "https://www.state.gov/wp-content/uploads/2025/07/Report-Counterfeit-Prescription-Medication-Report-006134-Accessible-07.03.2025.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:dea-counterfeit-alert",
+   "type": "source",
+   "label": "DEA public safety alert: sharp increase in fake prescription pills containing fentanyl and meth",
+   "url": "https://www.dea.gov/alert/sharp-increase-fake-prescription-pills-containing-fentanyl-and-meth",
+   "level": 3
+  },
+  {
+   "id": "src:dea-2019-adderall",
+   "type": "source",
+   "label": "DEA warning: counterfeit pills made to look like Adderall contained methamphetamine (lab analysis)",
+   "url": "https://www.dea.gov/press-releases/2019/08/05/dea-issues-warning-over-counterfeit-pills",
+   "level": 3
+  },
+  {
+   "id": "src:ucla-mexico-pharmacies",
+   "type": "source",
+   "label": "Counterfeit pills in Mexican pharmacies: ethnographic and drug-checking study (9/45 'Adderall' samples contained methamphetamine)",
+   "url": "https://www.medrxiv.org/content/10.1101/2023.01.27.23285123.full.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:nm-acp-2025-03",
+   "type": "source",
+   "label": "New Mexico adulterant-checking programme snapshot, March 2025",
+   "url": "https://www.nmharmreduction.org/wp-content/uploads/2025/06/March-2025-ACP-Snapshot.pdf",
+   "level": 3
+  },
+  {
+   "id": "src:aegis-2025",
+   "type": "source",
+   "label": "Aegis Sciences 2025 NPS summary (single-laboratory clinical toxicology data)",
+   "url": "https://www.aegislabs.com/services/novel-psychoactive-substances/2025-nps-summary/",
+   "level": 3
+  },
+  {
+   "id": "src:aegis-2026-midyear",
+   "type": "source",
+   "label": "Aegis Sciences 2026 mid-year NPS summary (single-laboratory clinical toxicology data)",
+   "url": "https://www.aegislabs.com/services/novel-psychoactive-substances/2026-mid-year-nps-summary/",
+   "level": 3
+  },
+  {
+   "id": "src:psychiatrictimes-neuropsych",
+   "type": "source",
+   "label": "Psychiatric Times: synthetic cannabinoids and cathinones in neuropsychiatric toxicological emergencies (secondary; percentages unverified)",
+   "url": "https://www.psychiatrictimes.com/view/assessing-addressing-synthetic-cannabinoids-cathinones-neuropsychiatric-toxicological-emergencies",
+   "level": 3
+  },
+  {
+   "id": "src:sapub-2025-psychosis",
+   "type": "source",
+   "label": "Psychoses induced by synthetic cathinone use (2025; 15 studies, 29 cases; low-tier journal)",
+   "url": "http://article.sapub.org/10.5923.j.ajmms.20251504.75.html",
+   "level": 3
+  },
+  {
+   "id": "src:pmid19399790",
+   "type": "source",
+   "label": "Doping control analysis for adrafinil and its major metabolites in human urine (PMID 19399790)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19399790/",
+   "level": 3
+  },
+  {
+   "id": "claim:cathinone-chronic-cardiomyopathy",
+   "type": "claim",
+   "label": "Synthetic cathinones commonly cause chronic cardiomyopathy",
+   "verdict": "not supported",
+   "level": 3
+  },
+  {
+   "id": "claim:distinct-cathinone-psychosis",
+   "type": "claim",
+   "label": "A distinct 'synthetic cathinone-induced psychosis' entity exists",
+   "verdict": "not established",
+   "level": 3
+  },
+  {
+   "id": "claim:hydrafinil-modafinil-analogue",
+   "type": "claim",
+   "label": "Hydrafinil is a modafinil analogue",
+   "verdict": "contested; structurally a fluorenol",
+   "level": 3
+  },
+  {
+   "id": "claim:eugeroic-analogues-better",
+   "type": "claim",
+   "label": "Flmodafinil/fladrafinil are more potent or better tolerated than modafinil",
+   "verdict": "no human comparative evidence",
+   "level": 3
+  },
+  {
+   "id": "claim:cathinone-short-half-life",
+   "type": "claim",
+   "label": "Compulsive redosing is driven by a short human half-life",
+   "verdict": "plausible but unmeasured in humans",
+   "level": 3
+  },
+  {
+   "id": "claim:controls-reduce-availability",
+   "type": "claim",
+   "label": "Substance-level controls reduce cathinone availability",
+   "verdict": "refuted for 3-MMC; produced substitution",
+   "level": 3
+  }
+ ],
+ "edges": [
+  {
+   "source": "topic:cathinone-churn",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "alpha-php",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "3-mmc",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "2-mmc",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "adrafinil",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "modafinil",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "3-cmc",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "4-bmc",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "nep",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "nn-dimethylpentylone",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "eutylone",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "mdphp",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "mdpihp",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "n-cyclohexyl-methylone",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "n-cyclohexyl-butylone",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "modafiendz",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "4-mmc",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "methylone",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "amphetamine-mixed-salts",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "methylphenidate",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "alpha-pihp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "alpha-php",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "3-mmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "2-mmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "3-cmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "4-bmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "nep",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "n-isopropylbutylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "nn-dimethylpentylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "eutylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "alpha-pihpp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "me-alpha-pihp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "4-mmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "flmodafinil",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "fladrafinil",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "adrafinil",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "modafinil",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "hydrafinil",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "modafiendz",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "amphetamine-mixed-salts",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "methylphenidate",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "alpha-pvp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "alpha-pihp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "3-mmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "methylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "4-mmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "alpha-pihpp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "me-alpha-pihp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "n-isopropylbutylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "n-cyclohexyl-methylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "n-cyclohexyl-butylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "mdphp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "mdpihp",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "2-mmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "4-bmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "nep",
+   "rel": "related_to"
+  },
+  {
+   "source": "3-mmc",
+   "target": "4-mmc",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "2-mmc",
+   "target": "3-mmc",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "3-cmc",
+   "target": "3-mmc",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "alpha-php",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "alpha-pihp",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "alpha-pihp",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "nn-dimethylpentylone",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "modafinil",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "flmodafinil",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "adrafinil",
+   "target": "modafinil",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "target:dat",
+   "rel": "related_to",
+   "note": "potent reuptake inhibition"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "target:net",
+   "rel": "related_to"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "effect:dat-selective-reinforcement",
+   "rel": "related_to"
+  },
+  {
+   "source": "alpha-php",
+   "target": "target:dat",
+   "rel": "related_to",
+   "note": "potent reuptake inhibition"
+  },
+  {
+   "source": "alpha-php",
+   "target": "target:net",
+   "rel": "related_to"
+  },
+  {
+   "source": "alpha-php",
+   "target": "effect:dat-selective-reinforcement",
+   "rel": "related_to"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "target:dat",
+   "rel": "related_to",
+   "note": "potent reuptake inhibition"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "target:net",
+   "rel": "related_to"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "effect:dat-selective-reinforcement",
+   "rel": "related_to"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "target:dat",
+   "rel": "related_to",
+   "note": "potent reuptake inhibition"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "target:net",
+   "rel": "related_to"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "effect:dat-selective-reinforcement",
+   "rel": "related_to"
+  },
+  {
+   "source": "4-mmc",
+   "target": "target:sert",
+   "rel": "related_to"
+  },
+  {
+   "source": "4-mmc",
+   "target": "effect:serotonin-release",
+   "rel": "related_to"
+  },
+  {
+   "source": "3-mmc",
+   "target": "target:sert",
+   "rel": "related_to"
+  },
+  {
+   "source": "3-mmc",
+   "target": "effect:serotonin-release",
+   "rel": "related_to"
+  },
+  {
+   "source": "methylone",
+   "target": "target:sert",
+   "rel": "related_to"
+  },
+  {
+   "source": "methylone",
+   "target": "effect:serotonin-release",
+   "rel": "related_to"
+  },
+  {
+   "source": "modafinil",
+   "target": "effect:wakefulness",
+   "rel": "related_to"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "effect:wakefulness",
+   "rel": "related_to"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "effect:wakefulness",
+   "rel": "related_to"
+  },
+  {
+   "source": "adrafinil",
+   "target": "effect:wakefulness",
+   "rel": "related_to"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "effect:wakefulness",
+   "rel": "related_to"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "target:dat",
+   "rel": "related_to",
+   "note": "weak DAT inhibition, IC50 ~9 uM; unverified secondary"
+  },
+  {
+   "source": "risk:cardiac-arrest",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:myocardial-injury",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:cardiovascular-strain",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:hyperthermia",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:multi-organ-failure",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:psychosis",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:agitated-delirium",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:compulsive-redosing",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:substance-misidentification",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:potency-escalation",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:no-human-pharmacology",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:surveillance-lag",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:analytical-invisibility",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:fentanyl-contamination",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:counterfeit-stimulant-tablet",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:treatment-interruption",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:doping-sanction",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "risk:unknown-long-term-eugeroic-safety",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "risk:cardiac-arrest",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "risk:hyperthermia",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "risk:agitated-delirium",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pvp",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-php",
+   "target": "risk:cardiac-arrest",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-php",
+   "target": "risk:hyperthermia",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-php",
+   "target": "risk:agitated-delirium",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-php",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-php",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "risk:cardiac-arrest",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "risk:hyperthermia",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "risk:agitated-delirium",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:cardiac-arrest",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:hyperthermia",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:agitated-delirium",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:cardiac-arrest",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:hyperthermia",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:agitated-delirium",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-mmc",
+   "target": "risk:cardiovascular-strain",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-mmc",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-mmc",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "2-mmc",
+   "target": "risk:cardiovascular-strain",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "2-mmc",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "2-mmc",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-cmc",
+   "target": "risk:cardiovascular-strain",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-cmc",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-cmc",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "4-mmc",
+   "target": "risk:cardiovascular-strain",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "4-mmc",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "4-mmc",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "methylone",
+   "target": "risk:cardiovascular-strain",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "methylone",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "methylone",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "eutylone",
+   "target": "risk:cardiovascular-strain",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "eutylone",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "eutylone",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "risk:cardiovascular-strain",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "risk:psychosis",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "risk:compulsive-redosing",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "methylone",
+   "target": "risk:myocardial-injury",
+   "rel": "causes_risk",
+   "note": "in vitro oxidative stress only"
+  },
+  {
+   "source": "2-mmc",
+   "target": "risk:substance-misidentification",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "2-mmc",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "2-mmc",
+   "target": "risk:surveillance-lag",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-cmc",
+   "target": "risk:substance-misidentification",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-cmc",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-cmc",
+   "target": "risk:surveillance-lag",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "risk:substance-misidentification",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "risk:surveillance-lag",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:substance-misidentification",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:surveillance-lag",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:substance-misidentification",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:surveillance-lag",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-cyclohexyl-methylone",
+   "target": "risk:substance-misidentification",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-cyclohexyl-methylone",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-cyclohexyl-methylone",
+   "target": "risk:surveillance-lag",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-cyclohexyl-butylone",
+   "target": "risk:substance-misidentification",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-cyclohexyl-butylone",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "n-cyclohexyl-butylone",
+   "target": "risk:surveillance-lag",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "2-mmc",
+   "target": "risk:analytical-invisibility",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "risk:analytical-invisibility",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-php",
+   "target": "risk:analytical-invisibility",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "risk:analytical-invisibility",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "me-alpha-pihp",
+   "target": "risk:analytical-invisibility",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "amphetamine-mixed-salts",
+   "target": "risk:counterfeit-stimulant-tablet",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "amphetamine-mixed-salts",
+   "target": "risk:fentanyl-contamination",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "amphetamine-mixed-salts",
+   "target": "risk:treatment-interruption",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "methylphenidate",
+   "target": "risk:counterfeit-stimulant-tablet",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "methylphenidate",
+   "target": "risk:fentanyl-contamination",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "methylphenidate",
+   "target": "risk:treatment-interruption",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "risk:doping-sanction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "risk:doping-sanction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "risk:unknown-long-term-eugeroic-safety",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "risk:unknown-long-term-eugeroic-safety",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "modafiendz",
+   "target": "risk:unknown-long-term-eugeroic-safety",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "modafiendz",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "risk:unknown-long-term-eugeroic-safety",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "risk:no-human-pharmacology",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "3-mmc",
+   "target": "org:euda",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "2-mmc",
+   "target": "org:euda",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "3-cmc",
+   "target": "org:euda",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "4-bmc",
+   "target": "org:euda",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "nep",
+   "target": "org:euda",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "org:euda",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "alpha-php",
+   "target": "org:euda",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "org:cfsre",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "n-isopropylbutylone",
+   "target": "org:dea",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "org:cfsre",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "org:dea",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "nn-dimethylpentylone",
+   "target": "org:cfsre",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "nn-dimethylpentylone",
+   "target": "org:dea",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "eutylone",
+   "target": "org:cfsre",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "eutylone",
+   "target": "org:dea",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "org:ndews",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "alpha-pihpp",
+   "target": "org:unodc",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "2-mmc",
+   "target": "org:euda",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "4-bmc",
+   "target": "org:euda",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "nep",
+   "target": "org:euda",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "3-mmc",
+   "target": "org:unodc",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "3-cmc",
+   "target": "org:unodc",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "alpha-php",
+   "target": "org:unodc",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "org:unodc",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "nn-dimethylpentylone",
+   "target": "org:dea",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "org:wada",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "org:wada",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "adrafinil",
+   "target": "org:wada",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "modafinil",
+   "target": "org:wada",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "amphetamine-mixed-salts",
+   "target": "org:fda",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "amphetamine-mixed-salts",
+   "target": "org:dea",
+   "rel": "regulated_by"
+  },
+  {
+   "source": "3-mmc",
+   "target": "org:dpic",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "3-mmc",
+   "target": "org:dims",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "3-mmc",
+   "target": "org:acmd",
+   "rel": "monitored_by"
+  },
+  {
+   "source": "event:eu-control-2mmc-4bmc-nep",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:wada-2026-list",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:edr-2026",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:edr-2025",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:euda-risk-assessments-2025",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:dea-controls-dimethylpentylone",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:cfsre-alert-nisopropylbutylone",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:alpha-pihpp-first-identified",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:cfsre-monograph-alpha-pihpp",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:ndews-ssd-2025-04",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:ndews-ssd-2026-07",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:nl-3mmc-ban",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:done-global-indictment",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:done-global-conviction",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:telehealth-extension-4",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:fda-adderall-shortage",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:cnd69-scheduling",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "event:eu-control-2mmc-4bmc-nep",
+   "target": "2-mmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:eu-control-2mmc-4bmc-nep",
+   "target": "4-bmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:eu-control-2mmc-4bmc-nep",
+   "target": "nep",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:wada-2026-list",
+   "target": "flmodafinil",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:wada-2026-list",
+   "target": "fladrafinil",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:dea-controls-dimethylpentylone",
+   "target": "nn-dimethylpentylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:cfsre-alert-nisopropylbutylone",
+   "target": "n-isopropylbutylone",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:alpha-pihpp-first-identified",
+   "target": "alpha-pihpp",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:cfsre-monograph-alpha-pihpp",
+   "target": "alpha-pihpp",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:ndews-ssd-2025-04",
+   "target": "alpha-pihpp",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:nl-3mmc-ban",
+   "target": "3-mmc",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:fda-adderall-shortage",
+   "target": "amphetamine-mixed-salts",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:done-global-indictment",
+   "target": "amphetamine-mixed-salts",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:euda-risk-assessments-2025",
+   "target": "event:eu-control-2mmc-4bmc-nep",
+   "rel": "related_to"
+  },
+  {
+   "source": "event:eu-control-2mmc-4bmc-nep",
+   "target": "event:nl-3mmc-ban",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "event:done-global-conviction",
+   "target": "event:done-global-indictment",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "event:edr-2026",
+   "target": "event:edr-2025",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "event:ndews-ssd-2026-07",
+   "target": "event:ndews-ssd-2025-04",
+   "rel": "preceded_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:edr2026-stimulants",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:edr2026-nps",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:edr2025-nps",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:euda-3-controls-2026",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:42452938",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:42581582",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:cfsre-alert-nib",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:jat-bkag037",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:aegis-2025",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:aegis-2026-midyear",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:ijdp-2mmc-3mmc",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:forchem-cmc-isomers",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:life14040429",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:fsi-case-series-2026",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:jat-2024-48-299",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:euda-cathinone-naming",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:euda-par-3cpp",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:ndews-2026-07",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:ndews-2025-04",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:mmwr-eutylone",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cathinone-churn",
+   "target": "src:cfsre-alpha-pihpp",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "src:dta70100",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "src:dta3137",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "src:wada-2026-nada",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "src:usada-2026-advisory",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:eugeroics",
+   "target": "src:pmid19399790",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:state-counterfeit-2025",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:dea-counterfeit-alert",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:dea-2019-adderall",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:ucla-mexico-pharmacies",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:nm-acp-2025-03",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:doj-done-indictment",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:ropesgray-done",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:afslaw-done-sentencing",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:pharmaceutical-stimulant-market",
+   "target": "src:healthcaredive-telehealth",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:38411851",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:38446172",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:cureus70708",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:clintox-2026-cv",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:pmc12656588",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:acsptsci-cathinone-sar",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:pmc8348686",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:neurotox-2025-pihp",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:add70511",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:annemergmed-3mmc",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:psychiatrictimes-neuropsych",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:cardiac-and-psychiatric-harms",
+   "target": "src:sapub-2025-psychosis",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:edr2026-nps",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:unodc-ewa-2026-08",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:unodc-nps-portal",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:unodc-nps-2024-update",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:cfsre-alpha-pihpp",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:cfsre-alert-nib",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:archtox-2026-pihp-sar",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:fsi-ncyclohexylmethylone",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:frontiers-ncyclohexyl",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:euda-3-controls-2026",
+   "rel": "cited_by"
+  },
+  {
+   "source": "topic:emerging-watchlist",
+   "target": "src:fsi-case-series-2026",
+   "rel": "cited_by"
+  },
+  {
+   "source": "claim:cathinone-chronic-cardiomyopathy",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "claim:distinct-cathinone-psychosis",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "claim:hydrafinil-modafinil-analogue",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "claim:eugeroic-analogues-better",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "claim:cathinone-short-half-life",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "claim:controls-reduce-availability",
+   "target": "area:stimulants",
+   "rel": "in_area"
+  },
+  {
+   "source": "src:38411851",
+   "target": "claim:cathinone-chronic-cardiomyopathy",
+   "rel": "refutes",
+   "note": "1 cardiomyopathy case in 40"
+  },
+  {
+   "source": "src:pmc12656588",
+   "target": "claim:cathinone-chronic-cardiomyopathy",
+   "rel": "supports",
+   "note": "in vitro mechanism only"
+  },
+  {
+   "source": "src:38446172",
+   "target": "claim:distinct-cathinone-psychosis",
+   "rel": "refutes",
+   "note": "authors could not conclude the entity"
+  },
+  {
+   "source": "src:sapub-2025-psychosis",
+   "target": "claim:distinct-cathinone-psychosis",
+   "rel": "refutes",
+   "note": "features shared with amphetamine/cocaine psychosis"
+  },
+  {
+   "source": "src:dta3137",
+   "target": "claim:hydrafinil-modafinil-analogue",
+   "rel": "refutes",
+   "note": "treated as a distinct fluorenol"
+  },
+  {
+   "source": "src:dta70100",
+   "target": "claim:eugeroic-analogues-better",
+   "rel": "refutes",
+   "note": "only kinetics, no efficacy or tolerability comparison"
+  },
+  {
+   "source": "src:neurotox-2025-pihp",
+   "target": "claim:cathinone-short-half-life",
+   "rel": "supports",
+   "note": "mouse PK only"
+  },
+  {
+   "source": "src:acsptsci-cathinone-sar",
+   "target": "claim:cathinone-short-half-life",
+   "rel": "supports",
+   "note": "DAT/SERT reinforcement mechanism"
+  },
+  {
+   "source": "src:42452938",
+   "target": "claim:controls-reduce-availability",
+   "rel": "refutes",
+   "note": "10% of samples contained 3-MMC in 2024 vs 85% in 2021; volume rose"
+  },
+  {
+   "source": "src:ijdp-2mmc-3mmc",
+   "target": "claim:controls-reduce-availability",
+   "rel": "refutes",
+   "note": "treatment demand 33 (2021) -> 330 (2023)"
+  },
+  {
+   "source": "src:edr2026-stimulants",
+   "target": "claim:controls-reduce-availability",
+   "rel": "refutes",
+   "note": "EU cathinone volume rose to 48.5 t in 2024"
+  }
+ ]
+}
