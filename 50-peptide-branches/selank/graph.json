@@ -1,0 +1,615 @@
+{
+ "nodes": [
+  {
+   "id": "selank",
+   "type": "compound",
+   "label": "Selank",
+   "sequence": "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
+   "parent": "tuftsin analog",
+   "evidence_tier": 3,
+   "status": "Approved Russia (anxiolytic); not FDA/EMA"
+  },
+  {
+   "id": "family:nootropic-regulatory-peptides",
+   "type": "family",
+   "label": "Nootropic / regulatory peptides (Russian-approved)"
+  },
+  {
+   "id": "target:gabaa",
+   "type": "target",
+   "label": "GABA-A receptor (allosteric)",
+   "evidence": "radioligand binding"
+  },
+  {
+   "id": "target:enkephalinase",
+   "type": "target",
+   "label": "Enkephalin-degrading enzymes",
+   "evidence": "in vitro IC50 ~20 uM; mouse"
+  },
+  {
+   "id": "target:opioid-system",
+   "type": "target",
+   "label": "Endogenous opioid system (indirect)",
+   "evidence": "naloxone-sensitive in mice"
+  },
+  {
+   "id": "effect:anxiolytic",
+   "type": "effect",
+   "label": "Anxiolytic",
+   "evidence": "1 active-comparator RCT; strain-dependent in mice"
+  },
+  {
+   "id": "effect:immunomodulation",
+   "type": "effect",
+   "label": "Immunomodulation / cytokine changes",
+   "evidence": "ex vivo, mouse; inconsistent IL-6"
+  },
+  {
+   "id": "effect:antiviral",
+   "type": "effect",
+   "label": "Antiviral (influenza)",
+   "evidence": "cell/mouse only"
+  },
+  {
+   "id": "effect:cognitive-enhancement",
+   "type": "effect",
+   "label": "Cognitive enhancement",
+   "evidence": "claimed; rodent only"
+  },
+  {
+   "id": "selank:study:zozulia-2008-gad",
+   "type": "study",
+   "label": "Zozulia 2008 GAD/neurasthenia vs medazepam",
+   "year": 2008,
+   "species": "human",
+   "n": 62,
+   "design": "randomised comparative, no placebo (30 vs 32)",
+   "outcome": "anxiolysis comparable to medazepam; up leu-enkephalin half-life"
+  },
+  {
+   "id": "src:18454096",
+   "type": "source",
+   "label": "18454096",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/"
+  },
+  {
+   "id": "selank:study:uchakina-2008-immune",
+   "type": "study",
+   "label": "Uchakina 2008 immune effects in anxiety-asthenic patients",
+   "year": 2008,
+   "species": "human",
+   "n": null,
+   "design": "ex vivo companion study",
+   "outcome": "cytokine changes"
+  },
+  {
+   "id": "src:18577961",
+   "type": "source",
+   "label": "18577961",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18577961/"
+  },
+  {
+   "id": "selank:study:panikratova-2020-connectome",
+   "type": "study",
+   "label": "Panikratova 2020 Semax/Selank connectomics",
+   "year": 2020,
+   "species": "human",
+   "n": null,
+   "design": "placebo-controlled fMRI",
+   "outcome": "amygdala connectivity changes"
+  },
+  {
+   "id": "src:32342318",
+   "type": "source",
+   "label": "32342318",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/"
+  },
+  {
+   "id": "selank:study:kost-2001-enkephalinase",
+   "type": "study",
+   "label": "Kost 2001 serum enkephalinase inhibition",
+   "year": 2001,
+   "species": "in vitro (human serum)",
+   "n": null,
+   "design": "enzyme assay",
+   "outcome": "IC50 ~20 uM"
+  },
+  {
+   "id": "src:11443939",
+   "type": "source",
+   "label": "11443939",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+  },
+  {
+   "id": "selank:study:enkephalinase-anxiolytic",
+   "type": "study",
+   "label": "Enkephalinase inhibition as anxiolytic mechanism",
+   "year": null,
+   "species": "mouse",
+   "n": null,
+   "design": "in vivo",
+   "outcome": "anxiolysis with leu-enkephalin half-life increase"
+  },
+  {
+   "id": "src:11550013",
+   "type": "source",
+   "label": "11550013",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11550013/"
+  },
+  {
+   "id": "selank:study:balbc-strain",
+   "type": "study",
+   "label": "BALB/c vs C57BL/6 anxiolysis",
+   "year": 2002,
+   "species": "mouse",
+   "n": null,
+   "design": "open field / anxiety tests",
+   "outcome": "effective only in high-anxiety BALB/c"
+  },
+  {
+   "id": "src:doi-10.1023/A:1015582302311",
+   "type": "source",
+   "label": "doi-10.1023/A:1015582302311",
+   "url": "https://doi.org/10.1023/A:1015582302311"
+  },
+  {
+   "id": "selank:study:tuftsin-stress-review",
+   "type": "study",
+   "label": "Tuftsin-family peptides in stress (review)",
+   "year": 2003,
+   "species": "rodent",
+   "n": null,
+   "design": "review",
+   "outcome": "antistress effects"
+  },
+  {
+   "id": "src:14969422",
+   "type": "source",
+   "label": "14969422",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14969422/"
+  },
+  {
+   "id": "selank:study:volkova-2016-gaba-genes",
+   "type": "study",
+   "label": "Volkova 2016 GABAergic gene expression",
+   "year": 2016,
+   "species": "rat",
+   "n": null,
+   "design": "84-gene panel, frontal cortex",
+   "outcome": "45 genes at 1 h; correlates with GABA"
+  },
+  {
+   "id": "src:doi-10.3389/fphar.2016.00031",
+   "type": "source",
+   "label": "doi-10.3389/fphar.2016.00031",
+   "url": "https://doi.org/10.3389/fphar.2016.00031"
+  },
+  {
+   "id": "selank:study:imr32-2017",
+   "type": "study",
+   "label": "IMR-32 cells GABA/Selank/olanzapine",
+   "year": 2017,
+   "species": "human cell line",
+   "n": null,
+   "design": "in vitro gene expression",
+   "outcome": "Selank blunts GABA-induced changes"
+  },
+  {
+   "id": "src:28293190",
+   "type": "source",
+   "label": "28293190",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28293190/"
+  },
+  {
+   "id": "selank:study:vyunova-2018-binding",
+   "type": "study",
+   "label": "Vyunova 2018 [3H]GABA binding",
+   "year": 2018,
+   "species": "rodent membranes",
+   "n": null,
+   "design": "radioligand binding",
+   "outcome": "positive allosteric modulation"
+  },
+  {
+   "id": "src:doi-10.2174/0929866525666180925144642",
+   "type": "source",
+   "label": "doi-10.2174/0929866525666180925144642",
+   "url": "https://doi.org/10.2174/0929866525666180925144642"
+  },
+  {
+   "id": "selank:study:influenza-2009",
+   "type": "study",
+   "label": "Antiviral activity in influenza",
+   "year": 2009,
+   "species": "cell culture + mouse",
+   "n": null,
+   "design": "H3N2 infection",
+   "outcome": "suppressed replication; up IFN-beta"
+  },
+  {
+   "id": "src:vopr-virusol-11942",
+   "type": "source",
+   "label": "vopr-virusol-11942",
+   "url": "https://virusjour.crie.ru/jour/article/view/11942"
+  },
+  {
+   "id": "risk:unknown-long-term",
+   "type": "risk",
+   "label": "Unknown long-term safety / dependence untested",
+   "evidence": "absence of data"
+  },
+  {
+   "id": "risk:gabaergic-interaction",
+   "type": "risk",
+   "label": "Possible interaction with benzodiazepines/alcohol",
+   "evidence": "mechanistic only"
+  },
+  {
+   "id": "risk:opioid-interaction",
+   "type": "risk",
+   "label": "Possible opioid-system interaction",
+   "evidence": "mechanistic only"
+  },
+  {
+   "id": "risk:immune-modulation",
+   "type": "risk",
+   "label": "Unknown immune consequences",
+   "evidence": "ex vivo"
+  },
+  {
+   "id": "risk:unregulated-product",
+   "type": "risk",
+   "label": "Grey-market product identity/purity/sterility",
+   "evidence": "general"
+  },
+  {
+   "id": "selank:claim:placebo-anxiolytic",
+   "type": "claim",
+   "label": "Clinically proven anxiolytic vs placebo",
+   "verdict": "weak; no placebo RCT"
+  },
+  {
+   "id": "selank:claim:no-dependence",
+   "type": "claim",
+   "label": "Benzo-like effect without dependence",
+   "verdict": "unsupported (untested)"
+  },
+  {
+   "id": "selank:claim:gaba",
+   "type": "claim",
+   "label": "Works via GABA",
+   "verdict": "supported preclinically"
+  },
+  {
+   "id": "selank:claim:nootropic",
+   "type": "claim",
+   "label": "Nootropic / memory",
+   "verdict": "not supported in humans"
+  },
+  {
+   "id": "selank:claim:antiviral",
+   "type": "claim",
+   "label": "Immune booster / antiviral",
+   "verdict": "preliminary"
+  },
+  {
+   "id": "selank:claim:wada-safe",
+   "type": "claim",
+   "label": "Legal / WADA-safe",
+   "verdict": "misleading"
+  },
+  {
+   "id": "src:fda-503a-categories",
+   "type": "source",
+   "label": "FDA 503A bulk substances categories",
+   "url": "https://fda.gov/media/94155/download"
+  },
+  {
+   "id": "semax",
+   "type": "compound",
+   "label": "Semax"
+  }
+ ],
+ "edges": [
+  {
+   "source": "selank",
+   "target": "family:nootropic-regulatory-peptides",
+   "rel": "member_of"
+  },
+  {
+   "source": "selank",
+   "target": "target:gabaa",
+   "rel": "targets"
+  },
+  {
+   "source": "selank",
+   "target": "target:enkephalinase",
+   "rel": "targets"
+  },
+  {
+   "source": "selank",
+   "target": "target:opioid-system",
+   "rel": "targets"
+  },
+  {
+   "source": "selank",
+   "target": "effect:anxiolytic",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "selank",
+   "target": "effect:immunomodulation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "selank",
+   "target": "effect:antiviral",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "selank",
+   "target": "effect:cognitive-enhancement",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:zozulia-2008-gad",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:zozulia-2008-gad",
+   "target": "src:18454096",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:zozulia-2008-gad",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:zozulia-2008-gad",
+   "target": "target:enkephalinase",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:uchakina-2008-immune",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:uchakina-2008-immune",
+   "target": "src:18577961",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:uchakina-2008-immune",
+   "target": "effect:immunomodulation",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:panikratova-2020-connectome",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:panikratova-2020-connectome",
+   "target": "src:32342318",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:kost-2001-enkephalinase",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:kost-2001-enkephalinase",
+   "target": "src:11443939",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:kost-2001-enkephalinase",
+   "target": "target:enkephalinase",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:enkephalinase-anxiolytic",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:enkephalinase-anxiolytic",
+   "target": "src:11550013",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:enkephalinase-anxiolytic",
+   "target": "target:enkephalinase",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:enkephalinase-anxiolytic",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:balbc-strain",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:balbc-strain",
+   "target": "src:doi-10.1023/A:1015582302311",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:balbc-strain",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:tuftsin-stress-review",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:tuftsin-stress-review",
+   "target": "src:14969422",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:tuftsin-stress-review",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:volkova-2016-gaba-genes",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:volkova-2016-gaba-genes",
+   "target": "src:doi-10.3389/fphar.2016.00031",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:volkova-2016-gaba-genes",
+   "target": "target:gabaa",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:imr32-2017",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:imr32-2017",
+   "target": "src:28293190",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:imr32-2017",
+   "target": "target:gabaa",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:vyunova-2018-binding",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:vyunova-2018-binding",
+   "target": "src:doi-10.2174/0929866525666180925144642",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:vyunova-2018-binding",
+   "target": "target:gabaa",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:vyunova-2018-binding",
+   "target": "effect:anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "selank:study:influenza-2009",
+   "rel": "studied_in"
+  },
+  {
+   "source": "selank:study:influenza-2009",
+   "target": "src:vopr-virusol-11942",
+   "rel": "cited_by"
+  },
+  {
+   "source": "selank:study:influenza-2009",
+   "target": "effect:antiviral",
+   "rel": "supports"
+  },
+  {
+   "source": "selank",
+   "target": "risk:unknown-long-term",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "risk:gabaergic-interaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "risk:opioid-interaction",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "risk:immune-modulation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank",
+   "target": "risk:unregulated-product",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "selank:claim:placebo-anxiolytic",
+   "target": "effect:anxiolytic",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:study:zozulia-2008-gad",
+   "target": "selank:claim:placebo-anxiolytic",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:claim:no-dependence",
+   "target": "risk:unknown-long-term",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:claim:gaba",
+   "target": "target:gabaa",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:study:vyunova-2018-binding",
+   "target": "selank:claim:gaba",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:study:volkova-2016-gaba-genes",
+   "target": "selank:claim:gaba",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:claim:nootropic",
+   "target": "effect:cognitive-enhancement",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:claim:antiviral",
+   "target": "effect:antiviral",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank:study:influenza-2009",
+   "target": "selank:claim:antiviral",
+   "rel": "supports"
+  },
+  {
+   "source": "selank:claim:wada-safe",
+   "target": "selank",
+   "rel": "claim_about"
+  },
+  {
+   "source": "selank",
+   "target": "semax",
+   "rel": "related_to"
+  },
+  {
+   "source": "src:fda-503a-categories",
+   "target": "selank",
+   "rel": "related_to"
+  }
+ ]
+}

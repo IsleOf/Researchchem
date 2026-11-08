@@ -1,0 +1,584 @@
+{
+ "nodes": [
+  {
+   "id": "semax",
+   "type": "compound",
+   "label": "Semax",
+   "sequence": "Met-Glu-His-Phe-Pro-Gly-Pro",
+   "parent": "ACTH(4-10) analog",
+   "evidence_tier": 3,
+   "status": "Approved Russia; not FDA/EMA; FDA 503A Category 2 (2023)"
+  },
+  {
+   "id": "family:nootropic-regulatory-peptides",
+   "type": "family",
+   "label": "Nootropic / regulatory peptides (Russian-approved)"
+  },
+  {
+   "id": "target:trkb",
+   "type": "target",
+   "label": "TrkB (BDNF receptor) / BDNF expression",
+   "evidence": "rat"
+  },
+  {
+   "id": "target:mc4r",
+   "type": "target",
+   "label": "Melanocortin-4 receptor",
+   "evidence": "in vitro; attribution unverified"
+  },
+  {
+   "id": "target:mc5r",
+   "type": "target",
+   "label": "Melanocortin-5 receptor",
+   "evidence": "in vitro; attribution unverified"
+  },
+  {
+   "id": "target:enkephalinase",
+   "type": "target",
+   "label": "Enkephalin-degrading enzymes",
+   "evidence": "in vitro IC50 ~10 uM"
+  },
+  {
+   "id": "effect:bdnf-upregulation",
+   "type": "effect",
+   "label": "BDNF upregulation",
+   "evidence": "rat; plasma BDNF in one human study"
+  },
+  {
+   "id": "effect:neuroprotection",
+   "type": "effect",
+   "label": "Neuroprotection after ischemia",
+   "evidence": "rat; weak human"
+  },
+  {
+   "id": "effect:cognitive-enhancement",
+   "type": "effect",
+   "label": "Cognitive enhancement",
+   "evidence": "claimed; no healthy-adult RCT"
+  },
+  {
+   "id": "effect:immunomodulation",
+   "type": "effect",
+   "label": "Immune gene modulation",
+   "evidence": "rat ischemia transcriptomics"
+  },
+  {
+   "id": "semax:study:gusev-1997-stroke",
+   "type": "study",
+   "label": "Gusev 1997 acute ischemic stroke",
+   "year": 1997,
+   "species": "human",
+   "n": 110,
+   "design": "non-randomised controlled (30 Semax vs 80 conventional)",
+   "outcome": "faster motor recovery reported; no effect sizes"
+  },
+  {
+   "id": "src:11517472",
+   "type": "source",
+   "label": "11517472",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11517472/"
+  },
+  {
+   "id": "semax:study:gusev-2018-rehab",
+   "type": "study",
+   "label": "Gusev 2018 post-stroke rehabilitation",
+   "year": 2018,
+   "species": "human",
+   "n": 110,
+   "design": "clinical study, design unclear",
+   "outcome": "higher plasma BDNF, better Barthel index"
+  },
+  {
+   "id": "src:29798983",
+   "type": "source",
+   "label": "29798983",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29798983/"
+  },
+  {
+   "id": "semax:study:lebedeva-2018-fmri",
+   "type": "study",
+   "label": "Lebedeva 2018 resting-state fMRI DMN",
+   "year": 2018,
+   "species": "human",
+   "n": 24,
+   "design": "placebo-controlled fMRI (14 vs 10)",
+   "outcome": "larger rostral DMN component; imaging only"
+  },
+  {
+   "id": "src:30225715",
+   "type": "source",
+   "label": "30225715",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30225715/"
+  },
+  {
+   "id": "semax:study:panikratova-2020-connectome",
+   "type": "study",
+   "label": "Panikratova 2020 Semax/Selank connectomics",
+   "year": 2020,
+   "species": "human",
+   "n": null,
+   "design": "placebo-controlled fMRI",
+   "outcome": "amygdala connectivity changes"
+  },
+  {
+   "id": "src:32342318",
+   "type": "source",
+   "label": "32342318",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/"
+  },
+  {
+   "id": "semax:study:dolotov-2006-bdnf",
+   "type": "study",
+   "label": "Dolotov 2006 hippocampal BDNF/TrkB",
+   "year": 2006,
+   "species": "rat",
+   "n": null,
+   "design": "in vivo gene expression + avoidance learning",
+   "outcome": "up BDNF exon III and TrkB mRNA; better learning"
+  },
+  {
+   "id": "src:16996037",
+   "type": "source",
+   "label": "16996037",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16996037/"
+  },
+  {
+   "id": "semax:study:pgp-2009-neurotrophins",
+   "type": "study",
+   "label": "Semax & PGP neurotrophin transcription after ischemia",
+   "year": 2009,
+   "species": "rat",
+   "n": null,
+   "design": "cerebral ischemia model",
+   "outcome": "activated neurotrophin and receptor genes"
+  },
+  {
+   "id": "src:19633950",
+   "type": "source",
+   "label": "19633950",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19633950/"
+  },
+  {
+   "id": "semax:study:medvedeva-2014-transcriptome",
+   "type": "study",
+   "label": "Medvedeva 2014 MCAO transcriptome",
+   "year": 2014,
+   "species": "rat",
+   "n": null,
+   "design": "pMCAO genome-wide expression",
+   "outcome": "mainly immune and vascular genes altered"
+  },
+  {
+   "id": "src:24661604",
+   "type": "source",
+   "label": "24661604",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24661604/"
+  },
+  {
+   "id": "semax:study:2017-immune-genes",
+   "type": "study",
+   "label": "2017 immune response genes in ischemia",
+   "year": 2017,
+   "species": "rat",
+   "n": null,
+   "design": "focal ischemia gene expression",
+   "outcome": "up Ig heavy chain; cytokine/stress genes"
+  },
+  {
+   "id": "src:28255762",
+   "type": "source",
+   "label": "28255762",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28255762/"
+  },
+  {
+   "id": "semax:study:adan-1994-mc",
+   "type": "study",
+   "label": "Adan 1994 MC receptor antagonists (attributed)",
+   "year": 1994,
+   "species": "in vitro",
+   "n": null,
+   "design": "cloned receptor pharmacology",
+   "outcome": "MC4/MC5 antagonism reported; attribution unverified"
+  },
+  {
+   "id": "src:7895772",
+   "type": "source",
+   "label": "7895772",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7895772/"
+  },
+  {
+   "id": "semax:study:kost-2001-enkephalinase",
+   "type": "study",
+   "label": "Kost 2001 serum enkephalinase inhibition",
+   "year": 2001,
+   "species": "in vitro (human serum)",
+   "n": null,
+   "design": "enzyme assay",
+   "outcome": "IC50 ~10 uM"
+  },
+  {
+   "id": "src:11443939",
+   "type": "source",
+   "label": "11443939",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+  },
+  {
+   "id": "risk:nasal-irritation",
+   "type": "risk",
+   "label": "Nasal mucosa irritation",
+   "evidence": "label summary; low quality"
+  },
+  {
+   "id": "risk:overstimulation",
+   "type": "risk",
+   "label": "Headache / irritability / insomnia",
+   "evidence": "anecdotal"
+  },
+  {
+   "id": "risk:immunogenicity",
+   "type": "risk",
+   "label": "Immunogenicity / impurities (FDA concern)",
+   "evidence": "theoretical"
+  },
+  {
+   "id": "risk:unregulated-product",
+   "type": "risk",
+   "label": "Grey-market product identity/purity/sterility",
+   "evidence": "general"
+  },
+  {
+   "id": "risk:unknown-long-term",
+   "type": "risk",
+   "label": "Unknown long-term safety",
+   "evidence": "absence of data"
+  },
+  {
+   "id": "semax:claim:bdnf",
+   "type": "claim",
+   "label": "Boosts BDNF / brain growth",
+   "verdict": "partly supported (animal)"
+  },
+  {
+   "id": "semax:claim:nootropic-healthy",
+   "type": "claim",
+   "label": "Proven nootropic in healthy people",
+   "verdict": "not supported"
+  },
+  {
+   "id": "semax:claim:stroke",
+   "type": "claim",
+   "label": "Proven stroke treatment",
+   "verdict": "weak/unproven"
+  },
+  {
+   "id": "semax:claim:no-side-effects",
+   "type": "claim",
+   "label": "No side effects",
+   "verdict": "not supported"
+  },
+  {
+   "id": "semax:claim:wada-safe",
+   "type": "claim",
+   "label": "Legal / WADA-safe",
+   "verdict": "misleading"
+  },
+  {
+   "id": "src:fda-503a-categories",
+   "type": "source",
+   "label": "FDA 503A bulk substances categories",
+   "url": "https://fda.gov/media/94155/download"
+  },
+  {
+   "id": "selank",
+   "type": "compound",
+   "label": "Selank"
+  }
+ ],
+ "edges": [
+  {
+   "source": "semax",
+   "target": "family:nootropic-regulatory-peptides",
+   "rel": "member_of"
+  },
+  {
+   "source": "semax",
+   "target": "target:trkb",
+   "rel": "targets"
+  },
+  {
+   "source": "semax",
+   "target": "target:mc4r",
+   "rel": "targets"
+  },
+  {
+   "source": "semax",
+   "target": "target:mc5r",
+   "rel": "targets"
+  },
+  {
+   "source": "semax",
+   "target": "target:enkephalinase",
+   "rel": "targets"
+  },
+  {
+   "source": "semax",
+   "target": "effect:bdnf-upregulation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "semax",
+   "target": "effect:neuroprotection",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "semax",
+   "target": "effect:cognitive-enhancement",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "semax",
+   "target": "effect:immunomodulation",
+   "rel": "produces_effect"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:gusev-1997-stroke",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:gusev-1997-stroke",
+   "target": "src:11517472",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:gusev-1997-stroke",
+   "target": "effect:neuroprotection",
+   "rel": "supports"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:gusev-2018-rehab",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:gusev-2018-rehab",
+   "target": "src:29798983",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:gusev-2018-rehab",
+   "target": "effect:bdnf-upregulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:gusev-2018-rehab",
+   "target": "effect:neuroprotection",
+   "rel": "supports"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:lebedeva-2018-fmri",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:lebedeva-2018-fmri",
+   "target": "src:30225715",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:panikratova-2020-connectome",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:panikratova-2020-connectome",
+   "target": "src:32342318",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:dolotov-2006-bdnf",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:dolotov-2006-bdnf",
+   "target": "src:16996037",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:dolotov-2006-bdnf",
+   "target": "target:trkb",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:dolotov-2006-bdnf",
+   "target": "effect:bdnf-upregulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:pgp-2009-neurotrophins",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:pgp-2009-neurotrophins",
+   "target": "src:19633950",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:pgp-2009-neurotrophins",
+   "target": "effect:neuroprotection",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:pgp-2009-neurotrophins",
+   "target": "effect:bdnf-upregulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:medvedeva-2014-transcriptome",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:medvedeva-2014-transcriptome",
+   "target": "src:24661604",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:medvedeva-2014-transcriptome",
+   "target": "effect:immunomodulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:medvedeva-2014-transcriptome",
+   "target": "effect:neuroprotection",
+   "rel": "supports"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:2017-immune-genes",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:2017-immune-genes",
+   "target": "src:28255762",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:2017-immune-genes",
+   "target": "effect:immunomodulation",
+   "rel": "supports"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:adan-1994-mc",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:adan-1994-mc",
+   "target": "src:7895772",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:adan-1994-mc",
+   "target": "target:mc4r",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:adan-1994-mc",
+   "target": "target:mc5r",
+   "rel": "supports"
+  },
+  {
+   "source": "semax",
+   "target": "semax:study:kost-2001-enkephalinase",
+   "rel": "studied_in"
+  },
+  {
+   "source": "semax:study:kost-2001-enkephalinase",
+   "target": "src:11443939",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semax:study:kost-2001-enkephalinase",
+   "target": "target:enkephalinase",
+   "rel": "supports"
+  },
+  {
+   "source": "semax",
+   "target": "risk:nasal-irritation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "risk:overstimulation",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "risk:immunogenicity",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "risk:unregulated-product",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax",
+   "target": "risk:unknown-long-term",
+   "rel": "causes_risk"
+  },
+  {
+   "source": "semax:claim:bdnf",
+   "target": "effect:bdnf-upregulation",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:study:dolotov-2006-bdnf",
+   "target": "semax:claim:bdnf",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:study:gusev-2018-rehab",
+   "target": "semax:claim:bdnf",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:claim:nootropic-healthy",
+   "target": "effect:cognitive-enhancement",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:claim:stroke",
+   "target": "effect:neuroprotection",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:study:gusev-1997-stroke",
+   "target": "semax:claim:stroke",
+   "rel": "supports"
+  },
+  {
+   "source": "semax:claim:no-side-effects",
+   "target": "risk:unknown-long-term",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax:claim:wada-safe",
+   "target": "semax",
+   "rel": "claim_about"
+  },
+  {
+   "source": "semax",
+   "target": "selank",
+   "rel": "related_to"
+  },
+  {
+   "source": "src:fda-503a-categories",
+   "target": "semax",
+   "rel": "related_to"
+  }
+ ]
+}
