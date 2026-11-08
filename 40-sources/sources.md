@@ -1,0 +1,17 @@
+# Sources
+
+- `unodc` – [UNODC Early Warning Advisory – Aug 2026 update](https://www.unodc.org/LSS/Announcement/Details/c08e6fbf-3f79-4654-8fe9-409e4b24bd59)
+- `euda-nps` – [EUDA European Drug Report 2026 – NPS](https://www.euda.europa.eu/publications/european-drug-report/2026/new-psychoactive-substances_en)
+- `euda-stim` – [EUDA European Drug Report 2026 – Synthetic stimulants](https://www.euda.europa.eu/publications/european-drug-report/2026/synthetic-stimulants_en)
+- `ndews` – [NDEWS drug-checking report, Apr 2026](https://ndews.org/wordpress/files/2026/05/202604_NDEWS_SSD_Report_Overview_EP.pdf)
+- `simcoe` – [Simcoe Muskoka medetomidine alert, Jan 2026](https://www.simcoemuskokahealth.org/docs/default-source/jfy-health-care-professionals/jfy-healthfax/20260122-medetomidine-ph-alert-final.pdf?sfvrsn=6)
+- `interior` – [Interior Health BC drug alert, Feb 2026](https://www.interiorhealth.ca/sites/default/files/2026-02/interior-region-drug-alert-feb-11-2026.pdf)
+- `hstoday` – [HSToday – DEA nitazene advisory coverage, 2026](https://www.hstoday.us/subject-matter-areas/border-security/the-overdose-decline-may-be-hiding-the-next-synthetic-drug-threat/)
+- `pori` – [Prevent Overdose RI – Substance Spotlight 2026](https://preventoverdoseri.org/wp-content/uploads/2026/07/Substance-Spotlight-Foldable-Zine_2026_English.pdf)
+- `peptide-preprint` – [Preprint: purity/endotoxin of grey-market peptides (Apr 2026)](https://www.preprints.org/manuscript/202604.1748)
+- `benzinga` – [Benzinga/Reuters – DIY GLP-1 injections](https://www.benzinga.com/personal-finance/management/25/07/46575348/americans-are-turning-to-diy-weight-loss-injections-to-dodge-1000-monthly-drug-costs)
+- `goodrx` – [GoodRx – upcoming weight-loss drugs](https://www.goodrx.com/hcp/clinical-resources/glp-1-hcp/upcoming-weight-loss-drugs)
+- `dshs` – [German Sport University – flmodafinil/fladrafinil as doping substances (Jun 2026)](https://www.dshs-koeln.de/universitaet/newsroom/meldungen/detail/news/flmodafinil-and-fladrafinil-new-doping-substances)
+- `wiki-moda` – [Wikipedia – List of modafinil analogues](https://en.wikipedia.org/wiki/List_of_modafinil_analogues_and_derivatives)
+- `apihp` – [Frontiers Pharmacol. 2026 – α-PiHP vs cocaine in humans](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1728824/full)
+- `bbc-benzo` – [Scotland sedative / clonazolam warning](https://bbcinsight.pages.dev/news/articles/cjdj70d7lvdo)

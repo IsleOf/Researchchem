@@ -1,0 +1,881 @@
+{
+ "updated": "2026-11-08",
+ "nodes": [
+  {
+   "id": "weight-loss",
+   "type": "category",
+   "label": "Weight loss (incretin peptides)"
+  },
+  {
+   "id": "wakefulness",
+   "type": "category",
+   "label": "Wakefulness (modafinil-type)"
+  },
+  {
+   "id": "stimulants",
+   "type": "category",
+   "label": "Stimulants (synthetic cathinones)"
+  },
+  {
+   "id": "depressants",
+   "type": "category",
+   "label": "Depressants & sedatives"
+  },
+  {
+   "id": "retatrutide",
+   "type": "compound",
+   "label": "Retatrutide",
+   "category": "weight-loss",
+   "signal": 5,
+   "risk": 3,
+   "status": "Investigational (Eli Lilly, Phase 3). Not approved anywhere."
+  },
+  {
+   "id": "tirzepatide",
+   "type": "compound",
+   "label": "Tirzepatide",
+   "category": "weight-loss",
+   "signal": 4,
+   "risk": 2,
+   "status": "Approved (Mounjaro/Zepbound). Grey-market powder copies are unapproved."
+  },
+  {
+   "id": "semaglutide",
+   "type": "compound",
+   "label": "Semaglutide",
+   "category": "weight-loss",
+   "signal": 3,
+   "risk": 2,
+   "status": "Approved (Ozempic/Wegovy). Grey-market powder copies are unapproved."
+  },
+  {
+   "id": "cagrilintide",
+   "type": "compound",
+   "label": "Cagrilintide",
+   "category": "weight-loss",
+   "signal": 4,
+   "risk": 3,
+   "status": "Investigational (Novo Nordisk; combo 'CagriSema'). Not approved."
+  },
+  {
+   "id": "mazdutide",
+   "type": "compound",
+   "label": "Mazdutide",
+   "category": "weight-loss",
+   "signal": 3,
+   "risk": 3,
+   "status": "Approved in China only (Innovent)."
+  },
+  {
+   "id": "survodutide",
+   "type": "compound",
+   "label": "Survodutide",
+   "category": "weight-loss",
+   "signal": 3,
+   "risk": 3,
+   "status": "Investigational (Boehringer Ingelheim; Phase 3 data 2026)."
+  },
+  {
+   "id": "flmodafinil",
+   "type": "compound",
+   "label": "Flmodafinil (CRL-40,940)",
+   "category": "wakefulness",
+   "signal": 4,
+   "risk": 2,
+   "status": "Unapproved. Named as a doping substance (2026)."
+  },
+  {
+   "id": "fladrafinil",
+   "type": "compound",
+   "label": "Fladrafinil (CRL-40,941)",
+   "category": "wakefulness",
+   "signal": 3,
+   "risk": 3,
+   "status": "Unapproved. Named as a doping substance (2026)."
+  },
+  {
+   "id": "adrafinil",
+   "type": "compound",
+   "label": "Adrafinil",
+   "category": "wakefulness",
+   "signal": 2,
+   "risk": 3,
+   "status": "Withdrawn medicine (France); unscheduled in many places."
+  },
+  {
+   "id": "modafinil",
+   "type": "compound",
+   "label": "Modafinil / armodafinil",
+   "category": "wakefulness",
+   "signal": 3,
+   "risk": 2,
+   "status": "Prescription medicine (Schedule IV in US). Sold online from Indian generics."
+  },
+  {
+   "id": "hydrafinil",
+   "type": "compound",
+   "label": "Hydrafinil (9-fluorenol)",
+   "category": "wakefulness",
+   "signal": 2,
+   "risk": 3,
+   "status": "Unscheduled; essentially no published human data."
+  },
+  {
+   "id": "alpha-pihp",
+   "type": "compound",
+   "label": "\u03b1-PiHP",
+   "category": "stimulants",
+   "signal": 4,
+   "risk": 5,
+   "status": "Controlled in EU/UK/US (as \u03b1-PHP isomer analog in many places)."
+  },
+  {
+   "id": "alpha-php",
+   "type": "compound",
+   "label": "\u03b1-PHP",
+   "category": "stimulants",
+   "signal": 3,
+   "risk": 5,
+   "status": "Controlled (UN Schedule II)."
+  },
+  {
+   "id": "3-mmc",
+   "type": "compound",
+   "label": "3-MMC / 3-CMC",
+   "category": "stimulants",
+   "signal": 4,
+   "risk": 4,
+   "status": "3-MMC & 3-CMC under UN control since 2023; still widespread in EU."
+  },
+  {
+   "id": "2-mmc",
+   "type": "compound",
+   "label": "2-MMC & newer positional isomers",
+   "category": "stimulants",
+   "signal": 3,
+   "risk": 4,
+   "status": "Varies by country; replaces banned isomers."
+  },
+  {
+   "id": "bromazolam",
+   "type": "compound",
+   "label": "Bromazolam",
+   "category": "depressants",
+   "signal": 5,
+   "risk": 5,
+   "status": "Controlled in UK, US (temporary), many EU states."
+  },
+  {
+   "id": "clonazolam",
+   "type": "compound",
+   "label": "Clonazolam",
+   "category": "depressants",
+   "signal": 3,
+   "risk": 5,
+   "status": "Controlled in most jurisdictions."
+  },
+  {
+   "id": "nitazenes",
+   "type": "compound",
+   "label": "Nitazenes (2-benzylbenzimidazole opioids)",
+   "category": "depressants",
+   "signal": 5,
+   "risk": 5,
+   "status": "Most controlled; new analogs keep appearing (22 recently cited by DEA)."
+  },
+  {
+   "id": "medetomidine",
+   "type": "compound",
+   "label": "Medetomidine",
+   "category": "depressants",
+   "signal": 5,
+   "risk": 5,
+   "status": "Veterinary sedative; not for human use."
+  },
+  {
+   "id": "xylazine",
+   "type": "compound",
+   "label": "Xylazine",
+   "category": "depressants",
+   "signal": 3,
+   "risk": 5,
+   "status": "Veterinary sedative; scheduled in several US states."
+  },
+  {
+   "id": "btmps",
+   "type": "compound",
+   "label": "BTMPS",
+   "category": "depressants",
+   "signal": 3,
+   "risk": 4,
+   "status": "Industrial UV stabilizer, not a drug."
+  },
+  {
+   "id": "grey-market-quality",
+   "type": "concept",
+   "label": "Grey-market peptide quality"
+  },
+  {
+   "id": "drug-checking",
+   "type": "concept",
+   "label": "Drug checking"
+  },
+  {
+   "id": "polydrug-risk",
+   "type": "concept",
+   "label": "Polydrug risk (depressant stacking)"
+  },
+  {
+   "id": "early-warning",
+   "type": "concept",
+   "label": "Early warning systems"
+  },
+  {
+   "id": "src:unodc",
+   "type": "source",
+   "label": "UNODC Early Warning Advisory \u2013 Aug 2026 update",
+   "url": "https://www.unodc.org/LSS/Announcement/Details/c08e6fbf-3f79-4654-8fe9-409e4b24bd59"
+  },
+  {
+   "id": "src:euda-nps",
+   "type": "source",
+   "label": "EUDA European Drug Report 2026 \u2013 NPS",
+   "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/new-psychoactive-substances_en"
+  },
+  {
+   "id": "src:euda-stim",
+   "type": "source",
+   "label": "EUDA European Drug Report 2026 \u2013 Synthetic stimulants",
+   "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/synthetic-stimulants_en"
+  },
+  {
+   "id": "src:ndews",
+   "type": "source",
+   "label": "NDEWS drug-checking report, Apr 2026",
+   "url": "https://ndews.org/wordpress/files/2026/05/202604_NDEWS_SSD_Report_Overview_EP.pdf"
+  },
+  {
+   "id": "src:simcoe",
+   "type": "source",
+   "label": "Simcoe Muskoka medetomidine alert, Jan 2026",
+   "url": "https://www.simcoemuskokahealth.org/docs/default-source/jfy-health-care-professionals/jfy-healthfax/20260122-medetomidine-ph-alert-final.pdf?sfvrsn=6"
+  },
+  {
+   "id": "src:interior",
+   "type": "source",
+   "label": "Interior Health BC drug alert, Feb 2026",
+   "url": "https://www.interiorhealth.ca/sites/default/files/2026-02/interior-region-drug-alert-feb-11-2026.pdf"
+  },
+  {
+   "id": "src:hstoday",
+   "type": "source",
+   "label": "HSToday \u2013 DEA nitazene advisory coverage, 2026",
+   "url": "https://www.hstoday.us/subject-matter-areas/border-security/the-overdose-decline-may-be-hiding-the-next-synthetic-drug-threat/"
+  },
+  {
+   "id": "src:pori",
+   "type": "source",
+   "label": "Prevent Overdose RI \u2013 Substance Spotlight 2026",
+   "url": "https://preventoverdoseri.org/wp-content/uploads/2026/07/Substance-Spotlight-Foldable-Zine_2026_English.pdf"
+  },
+  {
+   "id": "src:peptide-preprint",
+   "type": "source",
+   "label": "Preprint: purity/endotoxin of grey-market peptides (Apr 2026)",
+   "url": "https://www.preprints.org/manuscript/202604.1748"
+  },
+  {
+   "id": "src:benzinga",
+   "type": "source",
+   "label": "Benzinga/Reuters \u2013 DIY GLP-1 injections",
+   "url": "https://www.benzinga.com/personal-finance/management/25/07/46575348/americans-are-turning-to-diy-weight-loss-injections-to-dodge-1000-monthly-drug-costs"
+  },
+  {
+   "id": "src:goodrx",
+   "type": "source",
+   "label": "GoodRx \u2013 upcoming weight-loss drugs",
+   "url": "https://www.goodrx.com/hcp/clinical-resources/glp-1-hcp/upcoming-weight-loss-drugs"
+  },
+  {
+   "id": "src:dshs",
+   "type": "source",
+   "label": "German Sport University \u2013 flmodafinil/fladrafinil as doping substances (Jun 2026)",
+   "url": "https://www.dshs-koeln.de/universitaet/newsroom/meldungen/detail/news/flmodafinil-and-fladrafinil-new-doping-substances"
+  },
+  {
+   "id": "src:wiki-moda",
+   "type": "source",
+   "label": "Wikipedia \u2013 List of modafinil analogues",
+   "url": "https://en.wikipedia.org/wiki/List_of_modafinil_analogues_and_derivatives"
+  },
+  {
+   "id": "src:apihp",
+   "type": "source",
+   "label": "Frontiers Pharmacol. 2026 \u2013 \u03b1-PiHP vs cocaine in humans",
+   "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1728824/full"
+  },
+  {
+   "id": "src:bbc-benzo",
+   "type": "source",
+   "label": "Scotland sedative / clonazolam warning",
+   "url": "https://bbcinsight.pages.dev/news/articles/cjdj70d7lvdo"
+  }
+ ],
+ "edges": [
+  {
+   "source": "retatrutide",
+   "target": "weight-loss",
+   "rel": "in_category"
+  },
+  {
+   "source": "retatrutide",
+   "target": "tirzepatide",
+   "rel": "related"
+  },
+  {
+   "source": "retatrutide",
+   "target": "cagrilintide",
+   "rel": "related"
+  },
+  {
+   "source": "retatrutide",
+   "target": "grey-market-quality",
+   "rel": "related"
+  },
+  {
+   "source": "retatrutide",
+   "target": "src:benzinga",
+   "rel": "cited_by"
+  },
+  {
+   "source": "retatrutide",
+   "target": "src:peptide-preprint",
+   "rel": "cited_by"
+  },
+  {
+   "source": "tirzepatide",
+   "target": "weight-loss",
+   "rel": "in_category"
+  },
+  {
+   "source": "tirzepatide",
+   "target": "retatrutide",
+   "rel": "related"
+  },
+  {
+   "source": "tirzepatide",
+   "target": "semaglutide",
+   "rel": "related"
+  },
+  {
+   "source": "tirzepatide",
+   "target": "grey-market-quality",
+   "rel": "related"
+  },
+  {
+   "source": "tirzepatide",
+   "target": "src:benzinga",
+   "rel": "cited_by"
+  },
+  {
+   "source": "semaglutide",
+   "target": "weight-loss",
+   "rel": "in_category"
+  },
+  {
+   "source": "semaglutide",
+   "target": "tirzepatide",
+   "rel": "related"
+  },
+  {
+   "source": "semaglutide",
+   "target": "cagrilintide",
+   "rel": "related"
+  },
+  {
+   "source": "semaglutide",
+   "target": "src:benzinga",
+   "rel": "cited_by"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "weight-loss",
+   "rel": "in_category"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "semaglutide",
+   "rel": "related"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "retatrutide",
+   "rel": "related"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "grey-market-quality",
+   "rel": "related"
+  },
+  {
+   "source": "cagrilintide",
+   "target": "src:goodrx",
+   "rel": "cited_by"
+  },
+  {
+   "source": "mazdutide",
+   "target": "weight-loss",
+   "rel": "in_category"
+  },
+  {
+   "source": "mazdutide",
+   "target": "survodutide",
+   "rel": "related"
+  },
+  {
+   "source": "mazdutide",
+   "target": "retatrutide",
+   "rel": "related"
+  },
+  {
+   "source": "mazdutide",
+   "target": "src:goodrx",
+   "rel": "cited_by"
+  },
+  {
+   "source": "survodutide",
+   "target": "weight-loss",
+   "rel": "in_category"
+  },
+  {
+   "source": "survodutide",
+   "target": "mazdutide",
+   "rel": "related"
+  },
+  {
+   "source": "survodutide",
+   "target": "src:goodrx",
+   "rel": "cited_by"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "fladrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "modafinil",
+   "rel": "related"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "adrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "src:dshs",
+   "rel": "cited_by"
+  },
+  {
+   "source": "flmodafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "flmodafinil",
+   "rel": "related"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "adrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "src:dshs",
+   "rel": "cited_by"
+  },
+  {
+   "source": "fladrafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "adrafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "adrafinil",
+   "target": "modafinil",
+   "rel": "related"
+  },
+  {
+   "source": "adrafinil",
+   "target": "fladrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "adrafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "modafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "modafinil",
+   "target": "flmodafinil",
+   "rel": "related"
+  },
+  {
+   "source": "modafinil",
+   "target": "adrafinil",
+   "rel": "related"
+  },
+  {
+   "source": "modafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "wakefulness",
+   "rel": "in_category"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "flmodafinil",
+   "rel": "related"
+  },
+  {
+   "source": "hydrafinil",
+   "target": "src:wiki-moda",
+   "rel": "cited_by"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "stimulants",
+   "rel": "in_category"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "alpha-php",
+   "rel": "related"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "3-mmc",
+   "rel": "related"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "polydrug-risk",
+   "rel": "related"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "src:apihp",
+   "rel": "cited_by"
+  },
+  {
+   "source": "alpha-pihp",
+   "target": "src:euda-stim",
+   "rel": "cited_by"
+  },
+  {
+   "source": "alpha-php",
+   "target": "stimulants",
+   "rel": "in_category"
+  },
+  {
+   "source": "alpha-php",
+   "target": "alpha-pihp",
+   "rel": "related"
+  },
+  {
+   "source": "alpha-php",
+   "target": "src:euda-stim",
+   "rel": "cited_by"
+  },
+  {
+   "source": "3-mmc",
+   "target": "stimulants",
+   "rel": "in_category"
+  },
+  {
+   "source": "3-mmc",
+   "target": "2-mmc",
+   "rel": "related"
+  },
+  {
+   "source": "3-mmc",
+   "target": "alpha-pihp",
+   "rel": "related"
+  },
+  {
+   "source": "3-mmc",
+   "target": "src:euda-stim",
+   "rel": "cited_by"
+  },
+  {
+   "source": "2-mmc",
+   "target": "stimulants",
+   "rel": "in_category"
+  },
+  {
+   "source": "2-mmc",
+   "target": "3-mmc",
+   "rel": "related"
+  },
+  {
+   "source": "2-mmc",
+   "target": "src:euda-stim",
+   "rel": "cited_by"
+  },
+  {
+   "source": "bromazolam",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "bromazolam",
+   "target": "clonazolam",
+   "rel": "related"
+  },
+  {
+   "source": "bromazolam",
+   "target": "nitazenes",
+   "rel": "related"
+  },
+  {
+   "source": "bromazolam",
+   "target": "medetomidine",
+   "rel": "related"
+  },
+  {
+   "source": "bromazolam",
+   "target": "polydrug-risk",
+   "rel": "related"
+  },
+  {
+   "source": "bromazolam",
+   "target": "src:ndews",
+   "rel": "cited_by"
+  },
+  {
+   "source": "bromazolam",
+   "target": "src:interior",
+   "rel": "cited_by"
+  },
+  {
+   "source": "clonazolam",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "clonazolam",
+   "target": "bromazolam",
+   "rel": "related"
+  },
+  {
+   "source": "clonazolam",
+   "target": "polydrug-risk",
+   "rel": "related"
+  },
+  {
+   "source": "clonazolam",
+   "target": "src:bbc-benzo",
+   "rel": "cited_by"
+  },
+  {
+   "source": "nitazenes",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "nitazenes",
+   "target": "bromazolam",
+   "rel": "related"
+  },
+  {
+   "source": "nitazenes",
+   "target": "medetomidine",
+   "rel": "related"
+  },
+  {
+   "source": "nitazenes",
+   "target": "polydrug-risk",
+   "rel": "related"
+  },
+  {
+   "source": "nitazenes",
+   "target": "drug-checking",
+   "rel": "related"
+  },
+  {
+   "source": "nitazenes",
+   "target": "src:hstoday",
+   "rel": "cited_by"
+  },
+  {
+   "source": "nitazenes",
+   "target": "src:euda-nps",
+   "rel": "cited_by"
+  },
+  {
+   "source": "medetomidine",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "medetomidine",
+   "target": "xylazine",
+   "rel": "related"
+  },
+  {
+   "source": "medetomidine",
+   "target": "nitazenes",
+   "rel": "related"
+  },
+  {
+   "source": "medetomidine",
+   "target": "bromazolam",
+   "rel": "related"
+  },
+  {
+   "source": "medetomidine",
+   "target": "drug-checking",
+   "rel": "related"
+  },
+  {
+   "source": "medetomidine",
+   "target": "src:simcoe",
+   "rel": "cited_by"
+  },
+  {
+   "source": "medetomidine",
+   "target": "src:ndews",
+   "rel": "cited_by"
+  },
+  {
+   "source": "medetomidine",
+   "target": "src:interior",
+   "rel": "cited_by"
+  },
+  {
+   "source": "xylazine",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "xylazine",
+   "target": "medetomidine",
+   "rel": "related"
+  },
+  {
+   "source": "xylazine",
+   "target": "src:ndews",
+   "rel": "cited_by"
+  },
+  {
+   "source": "btmps",
+   "target": "depressants",
+   "rel": "in_category"
+  },
+  {
+   "source": "btmps",
+   "target": "medetomidine",
+   "rel": "related"
+  },
+  {
+   "source": "btmps",
+   "target": "drug-checking",
+   "rel": "related"
+  },
+  {
+   "source": "btmps",
+   "target": "src:pori",
+   "rel": "cited_by"
+  },
+  {
+   "source": "grey-market-quality",
+   "target": "retatrutide",
+   "rel": "applies_to"
+  },
+  {
+   "source": "grey-market-quality",
+   "target": "tirzepatide",
+   "rel": "applies_to"
+  },
+  {
+   "source": "grey-market-quality",
+   "target": "cagrilintide",
+   "rel": "applies_to"
+  },
+  {
+   "source": "drug-checking",
+   "target": "nitazenes",
+   "rel": "applies_to"
+  },
+  {
+   "source": "drug-checking",
+   "target": "medetomidine",
+   "rel": "applies_to"
+  },
+  {
+   "source": "drug-checking",
+   "target": "btmps",
+   "rel": "applies_to"
+  },
+  {
+   "source": "drug-checking",
+   "target": "bromazolam",
+   "rel": "applies_to"
+  },
+  {
+   "source": "polydrug-risk",
+   "target": "nitazenes",
+   "rel": "applies_to"
+  },
+  {
+   "source": "polydrug-risk",
+   "target": "bromazolam",
+   "rel": "applies_to"
+  },
+  {
+   "source": "polydrug-risk",
+   "target": "medetomidine",
+   "rel": "applies_to"
+  },
+  {
+   "source": "polydrug-risk",
+   "target": "alpha-pihp",
+   "rel": "applies_to"
+  },
+  {
+   "source": "early-warning",
+   "target": "nitazenes",
+   "rel": "applies_to"
+  },
+  {
+   "source": "early-warning",
+   "target": "alpha-pihp",
+   "rel": "applies_to"
+  }
+ ]
+}
