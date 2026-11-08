@@ -1,0 +1,408 @@
+{
+  "nodes": [
+    {
+      "id": "ss-31",
+      "type": "compound",
+      "label": "SS-31 / elamipretide (Forzinity)",
+      "aliases": [
+        "elamipretide",
+        "MTP-131",
+        "Bendavia",
+        "Forzinity"
+      ],
+      "status": "FDA accelerated approval 2025-09-19 (Barth syndrome)",
+      "evidence_tier": 2
+    },
+    {
+      "id": "family:targeted-therapeutic-peptides",
+      "type": "family",
+      "label": "Targeted therapeutic peptides"
+    },
+    {
+      "id": "target:cardiolipin",
+      "type": "target",
+      "label": "Cardiolipin (inner mitochondrial membrane)"
+    },
+    {
+      "id": "effect:mitochondrial-bioenergetics",
+      "type": "effect",
+      "label": "Improved mitochondrial bioenergetics"
+    },
+    {
+      "id": "effect:reduced-mito-ros",
+      "type": "effect",
+      "label": "Reduced mitochondrial ROS"
+    },
+    {
+      "id": "effect:muscle-strength-barth",
+      "type": "effect",
+      "label": "Knee-extensor strength gain (Barth)"
+    },
+    {
+      "id": "risk:injection-site-reaction",
+      "type": "risk",
+      "label": "Injection-site reaction"
+    },
+    {
+      "id": "risk:benzyl-alcohol-neonates",
+      "type": "risk",
+      "label": "Benzyl alcohol toxicity in neonates"
+    },
+    {
+      "id": "risk:product-quality",
+      "type": "risk",
+      "label": "Unregulated product quality"
+    },
+    {
+      "id": "ss-31:study:tazpower",
+      "type": "study",
+      "label": "TAZPOWER",
+      "year": 2021,
+      "species": "human",
+      "n": 12,
+      "design": "RCT crossover + OLE, Barth syndrome",
+      "outcome": "Primary endpoints missed; OLE improvements; basis of accelerated approval"
+    },
+    {
+      "id": "ss-31:study:tazpower-ole168",
+      "type": "study",
+      "label": "TAZPOWER 168-wk OLE",
+      "year": 2024,
+      "species": "human",
+      "n": 10,
+      "design": "open-label extension",
+      "outcome": "Sustained gains, uncontrolled"
+    },
+    {
+      "id": "ss-31:study:mmpower3",
+      "type": "study",
+      "label": "MMPOWER-3",
+      "year": 2023,
+      "species": "human",
+      "n": 218,
+      "design": "Phase 3 RCT, primary mitochondrial myopathy",
+      "outcome": "Negative on 6MWT and fatigue"
+    },
+    {
+      "id": "ss-31:study:embrace-stemi",
+      "type": "study",
+      "label": "EMBRACE STEMI",
+      "year": 2016,
+      "species": "human",
+      "n": 297,
+      "design": "Phase 2a RCT, IV during PCI",
+      "outcome": "Negative for infarct size"
+    },
+    {
+      "id": "ss-31:study:daubert-hfref",
+      "type": "study",
+      "label": "Daubert HFrEF single infusion",
+      "year": 2017,
+      "species": "human",
+      "n": null,
+      "design": "Phase 1/2 RCT single infusion",
+      "outcome": "Safe; hypothesis-generating"
+    },
+    {
+      "id": "ss-31:study:reclaim2",
+      "type": "study",
+      "label": "ReCLAIM-2",
+      "year": 2025,
+      "species": "human",
+      "n": 176,
+      "design": "Phase 2 RCT, geographic atrophy",
+      "outcome": "Primary endpoints missed; secondary EZ signals"
+    },
+    {
+      "id": "ss-31:study:chiao-aged-heart",
+      "type": "study",
+      "label": "Chiao aged-mouse heart",
+      "year": 2020,
+      "species": "mouse",
+      "n": null,
+      "design": "8-wk treatment in old mice",
+      "outcome": "Reversed diastolic dysfunction; reduced mito-ROS"
+    },
+    {
+      "id": "ss-31:study:szeto-review",
+      "type": "study",
+      "label": "Szeto cardiolipin review",
+      "year": 2014,
+      "species": "review (rodent/in vitro)",
+      "n": null,
+      "design": "narrative review",
+      "outcome": "Cardiolipin binding, cristae protection"
+    },
+    {
+      "id": "ss-31:claim:energy-fatigue",
+      "type": "claim",
+      "label": "Boosts energy / reverses fatigue",
+      "verdict": "not supported"
+    },
+    {
+      "id": "ss-31:claim:anti-aging",
+      "type": "claim",
+      "label": "Anti-aging / longevity",
+      "verdict": "preclinical only"
+    },
+    {
+      "id": "ss-31:claim:cardioprotection",
+      "type": "claim",
+      "label": "Protects the heart",
+      "verdict": "not supported in humans"
+    },
+    {
+      "id": "ss-31:claim:barth-strength",
+      "type": "claim",
+      "label": "Improves muscle strength in Barth syndrome",
+      "verdict": "accelerated approval on surrogate; confirmatory trial pending"
+    },
+    {
+      "id": "ss-31:claim:vision-amd",
+      "type": "claim",
+      "label": "Improves vision in AMD",
+      "verdict": "unproven"
+    },
+    {
+      "id": "src:doi-10.1038/s41436-020-01006-8",
+      "type": "source",
+      "label": "Thompson 2021 Genet Med",
+      "url": "https://doi.org/10.1038/s41436-020-01006-8"
+    },
+    {
+      "id": "src:doi-10.1016/j.gim.2024.101138",
+      "type": "source",
+      "label": "Thompson 2024 Genet Med",
+      "url": "https://doi.org/10.1016/j.gim.2024.101138"
+    },
+    {
+      "id": "src:pmc10382259",
+      "type": "source",
+      "label": "Karaa 2023 Neurology",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10382259"
+    },
+    {
+      "id": "src:doi-10.1093/eurheartj/ehv597",
+      "type": "source",
+      "label": "Gibson 2016 Eur Heart J",
+      "url": "https://doi.org/10.1093/eurheartj/ehv597"
+    },
+    {
+      "id": "src:doi-10.1161/circheartfailure.117.004389",
+      "type": "source",
+      "label": "Daubert 2017 Circ HF",
+      "url": "https://doi.org/10.1161/CIRCHEARTFAILURE.117.004389"
+    },
+    {
+      "id": "src:doi-10.1016/j.xops.2024.100628",
+      "type": "source",
+      "label": "Ehlers 2025 Ophthalmol Sci",
+      "url": "https://doi.org/10.1016/j.xops.2024.100628"
+    },
+    {
+      "id": "src:doi-10.7554/elife.55513",
+      "type": "source",
+      "label": "Chiao 2020 eLife",
+      "url": "https://elifesciences.org/articles/55513"
+    },
+    {
+      "id": "src:pmc3976620",
+      "type": "source",
+      "label": "Szeto 2014 Br J Pharmacol",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3976620"
+    },
+    {
+      "id": "src:fda-forzinity-label",
+      "type": "source",
+      "label": "Forzinity label (DailyMed)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=146bf34c-76f2-48db-ac07-fb29cce2cd75"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ss-31",
+      "target": "family:targeted-therapeutic-peptides",
+      "rel": "member_of"
+    },
+    {
+      "source": "ss-31",
+      "target": "target:cardiolipin",
+      "rel": "targets"
+    },
+    {
+      "source": "ss-31",
+      "target": "effect:mitochondrial-bioenergetics",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "ss-31",
+      "target": "effect:reduced-mito-ros",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "ss-31",
+      "target": "effect:muscle-strength-barth",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "ss-31",
+      "target": "risk:injection-site-reaction",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "ss-31",
+      "target": "risk:benzyl-alcohol-neonates",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "ss-31",
+      "target": "risk:product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "ss-31",
+      "target": "ss-31:study:tazpower",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ss-31:study:tazpower",
+      "target": "src:doi-10.1038/s41436-020-01006-8",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ss-31",
+      "target": "ss-31:study:tazpower-ole168",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ss-31:study:tazpower-ole168",
+      "target": "src:doi-10.1016/j.gim.2024.101138",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ss-31",
+      "target": "ss-31:study:mmpower3",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ss-31:study:mmpower3",
+      "target": "src:pmc10382259",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ss-31",
+      "target": "ss-31:study:embrace-stemi",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ss-31:study:embrace-stemi",
+      "target": "src:doi-10.1093/eurheartj/ehv597",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ss-31",
+      "target": "ss-31:study:daubert-hfref",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ss-31:study:daubert-hfref",
+      "target": "src:doi-10.1161/circheartfailure.117.004389",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ss-31",
+      "target": "ss-31:study:reclaim2",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ss-31:study:reclaim2",
+      "target": "src:doi-10.1016/j.xops.2024.100628",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ss-31",
+      "target": "ss-31:study:chiao-aged-heart",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ss-31:study:chiao-aged-heart",
+      "target": "src:doi-10.7554/elife.55513",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ss-31",
+      "target": "ss-31:study:szeto-review",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ss-31:study:szeto-review",
+      "target": "src:pmc3976620",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ss-31:claim:energy-fatigue",
+      "target": "ss-31",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ss-31:study:mmpower3",
+      "target": "ss-31:claim:energy-fatigue",
+      "rel": "refutes"
+    },
+    {
+      "source": "ss-31:study:tazpower",
+      "target": "ss-31:claim:energy-fatigue",
+      "rel": "refutes"
+    },
+    {
+      "source": "ss-31:claim:anti-aging",
+      "target": "ss-31",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ss-31:study:chiao-aged-heart",
+      "target": "ss-31:claim:anti-aging",
+      "rel": "supports"
+    },
+    {
+      "source": "ss-31:claim:cardioprotection",
+      "target": "ss-31",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ss-31:study:embrace-stemi",
+      "target": "ss-31:claim:cardioprotection",
+      "rel": "refutes"
+    },
+    {
+      "source": "ss-31:claim:barth-strength",
+      "target": "ss-31",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ss-31:study:tazpower",
+      "target": "ss-31:claim:barth-strength",
+      "rel": "supports"
+    },
+    {
+      "source": "ss-31:study:tazpower-ole168",
+      "target": "ss-31:claim:barth-strength",
+      "rel": "supports"
+    },
+    {
+      "source": "ss-31:claim:vision-amd",
+      "target": "ss-31",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ss-31:study:reclaim2",
+      "target": "ss-31:claim:vision-amd",
+      "rel": "refutes"
+    },
+    {
+      "source": "ss-31",
+      "target": "src:fda-forzinity-label",
+      "rel": "cited_by"
+    }
+  ]
+}

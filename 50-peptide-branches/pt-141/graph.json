@@ -1,0 +1,337 @@
+{
+  "nodes": [
+    {
+      "id": "pt-141",
+      "type": "compound",
+      "label": "PT-141 / bremelanotide (Vyleesi)",
+      "aliases": [
+        "bremelanotide",
+        "Vyleesi"
+      ],
+      "status": "FDA approved 2019-06-21 (premenopausal HSDD)",
+      "evidence_tier": 1
+    },
+    {
+      "id": "family:targeted-therapeutic-peptides",
+      "type": "family",
+      "label": "Targeted therapeutic peptides"
+    },
+    {
+      "id": "target:mc4r",
+      "type": "target",
+      "label": "Melanocortin 4 receptor"
+    },
+    {
+      "id": "target:mc3r",
+      "type": "target",
+      "label": "Melanocortin 3 receptor"
+    },
+    {
+      "id": "target:mc1r",
+      "type": "target",
+      "label": "Melanocortin 1 receptor"
+    },
+    {
+      "id": "effect:increased-sexual-desire",
+      "type": "effect",
+      "label": "Increased sexual desire"
+    },
+    {
+      "id": "effect:reduced-sexual-distress",
+      "type": "effect",
+      "label": "Reduced desire-related distress"
+    },
+    {
+      "id": "risk:nausea",
+      "type": "risk",
+      "label": "Nausea"
+    },
+    {
+      "id": "risk:flushing",
+      "type": "risk",
+      "label": "Flushing"
+    },
+    {
+      "id": "risk:transient-hypertension",
+      "type": "risk",
+      "label": "Transient BP increase"
+    },
+    {
+      "id": "risk:hyperpigmentation",
+      "type": "risk",
+      "label": "Focal hyperpigmentation"
+    },
+    {
+      "id": "risk:naltrexone-interaction",
+      "type": "risk",
+      "label": "Reduces oral naltrexone exposure"
+    },
+    {
+      "id": "risk:injection-site-reaction",
+      "type": "risk",
+      "label": "Injection-site reaction"
+    },
+    {
+      "id": "risk:product-quality",
+      "type": "risk",
+      "label": "Unregulated product quality"
+    },
+    {
+      "id": "pt-141:study:reconnect",
+      "type": "study",
+      "label": "RECONNECT (2 phase 3 RCTs)",
+      "year": 2019,
+      "species": "human",
+      "n": 1267,
+      "design": "Two 24-wk DB-RCTs, premenopausal HSDD",
+      "outcome": "Co-primary desire and distress endpoints met; modest effect"
+    },
+    {
+      "id": "pt-141:study:clayton-2016",
+      "type": "study",
+      "label": "Phase 2b dose-finding",
+      "year": 2016,
+      "species": "human",
+      "n": 327,
+      "design": "RCT 12 wk, 4 arms",
+      "outcome": "Small gains in satisfying events and FSFI"
+    },
+    {
+      "id": "pt-141:study:pfaus-2004",
+      "type": "study",
+      "label": "Female rat solicitation",
+      "year": 2004,
+      "species": "rat",
+      "n": null,
+      "design": "ovariectomised female rats",
+      "outcome": "Increased solicitation; lordosis unchanged"
+    },
+    {
+      "id": "pt-141:claim:fda-approved",
+      "type": "claim",
+      "label": "FDA-approved libido peptide",
+      "verdict": "partly true (narrow indication)"
+    },
+    {
+      "id": "pt-141:claim:works-for-men",
+      "type": "claim",
+      "label": "Works for men too",
+      "verdict": "not supported"
+    },
+    {
+      "id": "pt-141:claim:dramatic-desire",
+      "type": "claim",
+      "label": "Dramatically boosts desire",
+      "verdict": "overstated (~25% vs 17% responders)"
+    },
+    {
+      "id": "pt-141:claim:central-mechanism",
+      "type": "claim",
+      "label": "Works in the brain, not blood flow",
+      "verdict": "supported mechanistically"
+    },
+    {
+      "id": "pt-141:claim:no-side-effects",
+      "type": "claim",
+      "label": "No side effects",
+      "verdict": "false"
+    },
+    {
+      "id": "src:pmid-31599840",
+      "type": "source",
+      "label": "Kingsberg 2019 Obstet Gynecol",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/"
+    },
+    {
+      "id": "src:doi-10.2217/whe-2016-0018",
+      "type": "source",
+      "label": "Clayton 2016 Women's Health",
+      "url": "https://doi.org/10.2217/whe-2016-0018"
+    },
+    {
+      "id": "src:pmid-15226502",
+      "type": "source",
+      "label": "Pfaus 2004 PNAS",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15226502/"
+    },
+    {
+      "id": "src:fda-vyleesi-label",
+      "type": "source",
+      "label": "Vyleesi label",
+      "url": "https://ndclist.com/ndc/64011-701/label"
+    },
+    {
+      "id": "melanotan-ii",
+      "type": "compound",
+      "label": "Melanotan II",
+      "status": "unapproved; parent scaffold of bremelanotide"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pt-141",
+      "target": "family:targeted-therapeutic-peptides",
+      "rel": "member_of"
+    },
+    {
+      "source": "pt-141",
+      "target": "target:mc4r",
+      "rel": "targets"
+    },
+    {
+      "source": "pt-141",
+      "target": "target:mc3r",
+      "rel": "targets"
+    },
+    {
+      "source": "pt-141",
+      "target": "target:mc1r",
+      "rel": "targets"
+    },
+    {
+      "source": "pt-141",
+      "target": "effect:increased-sexual-desire",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "pt-141",
+      "target": "effect:reduced-sexual-distress",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "pt-141",
+      "target": "risk:nausea",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pt-141",
+      "target": "risk:flushing",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pt-141",
+      "target": "risk:transient-hypertension",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pt-141",
+      "target": "risk:hyperpigmentation",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pt-141",
+      "target": "risk:naltrexone-interaction",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pt-141",
+      "target": "risk:injection-site-reaction",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pt-141",
+      "target": "risk:product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pt-141",
+      "target": "pt-141:study:reconnect",
+      "rel": "studied_in"
+    },
+    {
+      "source": "pt-141:study:reconnect",
+      "target": "src:pmid-31599840",
+      "rel": "cited_by"
+    },
+    {
+      "source": "pt-141",
+      "target": "pt-141:study:clayton-2016",
+      "rel": "studied_in"
+    },
+    {
+      "source": "pt-141:study:clayton-2016",
+      "target": "src:doi-10.2217/whe-2016-0018",
+      "rel": "cited_by"
+    },
+    {
+      "source": "pt-141",
+      "target": "pt-141:study:pfaus-2004",
+      "rel": "studied_in"
+    },
+    {
+      "source": "pt-141:study:pfaus-2004",
+      "target": "src:pmid-15226502",
+      "rel": "cited_by"
+    },
+    {
+      "source": "pt-141:claim:fda-approved",
+      "target": "pt-141",
+      "rel": "claim_about"
+    },
+    {
+      "source": "pt-141:study:reconnect",
+      "target": "pt-141:claim:fda-approved",
+      "rel": "supports"
+    },
+    {
+      "source": "pt-141:claim:works-for-men",
+      "target": "pt-141",
+      "rel": "claim_about"
+    },
+    {
+      "source": "pt-141:claim:dramatic-desire",
+      "target": "pt-141",
+      "rel": "claim_about"
+    },
+    {
+      "source": "pt-141:study:reconnect",
+      "target": "pt-141:claim:dramatic-desire",
+      "rel": "refutes"
+    },
+    {
+      "source": "pt-141:claim:central-mechanism",
+      "target": "pt-141",
+      "rel": "claim_about"
+    },
+    {
+      "source": "pt-141:study:pfaus-2004",
+      "target": "pt-141:claim:central-mechanism",
+      "rel": "supports"
+    },
+    {
+      "source": "pt-141:claim:no-side-effects",
+      "target": "pt-141",
+      "rel": "claim_about"
+    },
+    {
+      "source": "pt-141:study:reconnect",
+      "target": "pt-141:claim:no-side-effects",
+      "rel": "refutes"
+    },
+    {
+      "source": "pt-141:study:clayton-2016",
+      "target": "pt-141:claim:no-side-effects",
+      "rel": "refutes"
+    },
+    {
+      "source": "pt-141",
+      "target": "melanotan-ii",
+      "rel": "related_to"
+    },
+    {
+      "source": "pt-141",
+      "target": "src:fda-vyleesi-label",
+      "rel": "cited_by"
+    },
+    {
+      "source": "melanotan-ii",
+      "target": "target:mc1r",
+      "rel": "targets"
+    },
+    {
+      "source": "melanotan-ii",
+      "target": "target:mc4r",
+      "rel": "targets"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "nodes": [
+    {
+      "id": "pinealon",
+      "type": "compound",
+      "label": "Pinealon (EDR)",
+      "sequence": "Glu-Asp-Arg",
+      "evidence_tier": 3,
+      "approval": "none",
+      "wada": "S0 (likely)"
+    },
+    {
+      "id": "family:khavinson-bioregulators",
+      "type": "family",
+      "label": "Khavinson bioregulators"
+    },
+    {
+      "id": "target:chromatin-histones",
+      "type": "target",
+      "label": "Chromatin / histone proteins (proposed)"
+    },
+    {
+      "id": "target:mapk-erk",
+      "type": "target",
+      "label": "MAPK/ERK1/2 pathway"
+    },
+    {
+      "id": "effect:antioxidant",
+      "type": "effect",
+      "label": "ROS suppression (in vitro)"
+    },
+    {
+      "id": "effect:neuroprotective",
+      "type": "effect",
+      "label": "Neuroprotection (preclinical)"
+    },
+    {
+      "id": "effect:dendritic-spine-preservation",
+      "type": "effect",
+      "label": "Dendritic spine preservation"
+    },
+    {
+      "id": "effect:cognitive-enhancement",
+      "type": "effect",
+      "label": "Learning/memory improvement (rat)"
+    },
+    {
+      "id": "risk:theoretical-proliferative",
+      "type": "risk",
+      "label": "Theoretical proliferative signalling (ERK, cell cycle)"
+    },
+    {
+      "id": "risk:serotonergic-interaction",
+      "type": "risk",
+      "label": "Theoretical serotonergic interaction (unstudied)"
+    },
+    {
+      "id": "risk:no-human-safety-data",
+      "type": "risk",
+      "label": "No human safety/PK data"
+    },
+    {
+      "id": "risk:unregulated-product-quality",
+      "type": "risk",
+      "label": "Unregulated grey-market product quality"
+    },
+    {
+      "id": "pinealon:study:rejuvres-2011",
+      "type": "study",
+      "label": "ROS/viability in CGCs, neutrophils, PC12",
+      "year": 2011,
+      "species": "rat cells / cell lines",
+      "n": null,
+      "design": "in vitro",
+      "outcome": "ROS down, necrosis down, delayed ERK1/2"
+    },
+    {
+      "id": "pinealon:study:arutjunyan-2012",
+      "type": "study",
+      "label": "Prenatal hyperhomocysteinaemia rat offspring",
+      "year": 2012,
+      "species": "rat",
+      "n": null,
+      "design": "controlled animal",
+      "outcome": "better learning; neuron necrosis 12.6%->3.4%"
+    },
+    {
+      "id": "pinealon:study:kraskovskaya-2017",
+      "type": "study",
+      "label": "Spines under amyloid toxicity",
+      "year": 2017,
+      "species": "mouse neurons",
+      "n": null,
+      "design": "in vitro",
+      "outcome": "mushroom spines +71%"
+    },
+    {
+      "id": "pinealon:study:5xfad-2021",
+      "type": "study",
+      "label": "5xFAD-M mice spine loss",
+      "year": 2021,
+      "species": "mouse",
+      "n": null,
+      "design": "transgenic animal",
+      "outcome": "spine loss prevented"
+    },
+    {
+      "id": "pinealon:study:claimed-tbi-72",
+      "type": "study",
+      "label": "Claimed 72-patient post-TBI trial",
+      "year": null,
+      "species": "human",
+      "n": 72,
+      "design": "claimed controlled; unverified",
+      "outcome": "claimed memory improvement",
+      "verified": false
+    },
+    {
+      "id": "src:21978084",
+      "type": "source",
+      "label": "Rejuvenation Res 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21978084/"
+    },
+    {
+      "id": "src:22567179",
+      "type": "source",
+      "label": "Arutjunyan 2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22567179/"
+    },
+    {
+      "id": "src:28853087",
+      "type": "source",
+      "label": "Kraskovskaya 2017 Bull Exp Biol Med",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28853087/"
+    },
+    {
+      "id": "src:pmc8227791",
+      "type": "source",
+      "label": "Khavinson 2021 Pharmaceuticals 5xFAD",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8227791/"
+    },
+    {
+      "id": "src:pmc7795577",
+      "type": "source",
+      "label": "Khavinson 2021 Molecules EDR review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7795577"
+    },
+    {
+      "id": "src:34834147",
+      "type": "source",
+      "label": "Khavinson 2021 Molecules systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34834147/"
+    },
+    {
+      "id": "pinealon:claim:cognition",
+      "type": "claim",
+      "label": "Boosts memory/cognition in humans",
+      "verdict": "unsupported"
+    },
+    {
+      "id": "pinealon:claim:alzheimers",
+      "type": "claim",
+      "label": "Protects against Alzheimer's",
+      "verdict": "preclinical only"
+    },
+    {
+      "id": "pinealon:claim:tbi",
+      "type": "claim",
+      "label": "Clinically proven for brain-injury recovery",
+      "verdict": "unverified"
+    },
+    {
+      "id": "pinealon:claim:antioxidant",
+      "type": "claim",
+      "label": "Antioxidant",
+      "verdict": "in vitro only"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pinealon",
+      "target": "family:khavinson-bioregulators",
+      "rel": "member_of"
+    },
+    {
+      "source": "pinealon",
+      "target": "target:chromatin-histones",
+      "rel": "targets"
+    },
+    {
+      "source": "pinealon",
+      "target": "target:mapk-erk",
+      "rel": "targets"
+    },
+    {
+      "source": "pinealon",
+      "target": "effect:antioxidant",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "pinealon",
+      "target": "effect:neuroprotective",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "pinealon",
+      "target": "effect:dendritic-spine-preservation",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "pinealon",
+      "target": "effect:cognitive-enhancement",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "pinealon",
+      "target": "risk:theoretical-proliferative",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pinealon",
+      "target": "risk:serotonergic-interaction",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pinealon",
+      "target": "risk:no-human-safety-data",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "pinealon",
+      "target": "risk:unregulated-product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "target:mapk-erk",
+      "target": "risk:theoretical-proliferative",
+      "rel": "related_to"
+    },
+    {
+      "source": "pinealon",
+      "target": "pinealon:study:rejuvres-2011",
+      "rel": "studied_in"
+    },
+    {
+      "source": "pinealon:study:rejuvres-2011",
+      "target": "src:21978084",
+      "rel": "cited_by"
+    },
+    {
+      "source": "pinealon",
+      "target": "pinealon:study:arutjunyan-2012",
+      "rel": "studied_in"
+    },
+    {
+      "source": "pinealon:study:arutjunyan-2012",
+      "target": "src:22567179",
+      "rel": "cited_by"
+    },
+    {
+      "source": "pinealon",
+      "target": "pinealon:study:kraskovskaya-2017",
+      "rel": "studied_in"
+    },
+    {
+      "source": "pinealon:study:kraskovskaya-2017",
+      "target": "src:28853087",
+      "rel": "cited_by"
+    },
+    {
+      "source": "pinealon",
+      "target": "pinealon:study:5xfad-2021",
+      "rel": "studied_in"
+    },
+    {
+      "source": "pinealon:study:5xfad-2021",
+      "target": "src:pmc8227791",
+      "rel": "cited_by"
+    },
+    {
+      "source": "pinealon",
+      "target": "pinealon:study:claimed-tbi-72",
+      "rel": "studied_in"
+    },
+    {
+      "source": "pinealon:study:rejuvres-2011",
+      "target": "effect:antioxidant",
+      "rel": "supports"
+    },
+    {
+      "source": "pinealon:study:rejuvres-2011",
+      "target": "pinealon:claim:antioxidant",
+      "rel": "supports"
+    },
+    {
+      "source": "pinealon:study:arutjunyan-2012",
+      "target": "effect:neuroprotective",
+      "rel": "supports"
+    },
+    {
+      "source": "pinealon:study:arutjunyan-2012",
+      "target": "effect:cognitive-enhancement",
+      "rel": "supports"
+    },
+    {
+      "source": "pinealon:study:kraskovskaya-2017",
+      "target": "effect:dendritic-spine-preservation",
+      "rel": "supports"
+    },
+    {
+      "source": "pinealon:study:5xfad-2021",
+      "target": "effect:dendritic-spine-preservation",
+      "rel": "supports"
+    },
+    {
+      "source": "pinealon:study:5xfad-2021",
+      "target": "pinealon:claim:alzheimers",
+      "rel": "supports"
+    },
+    {
+      "source": "pinealon:study:claimed-tbi-72",
+      "target": "pinealon:claim:tbi",
+      "rel": "related_to"
+    },
+    {
+      "source": "src:pmc7795577",
+      "target": "target:chromatin-histones",
+      "rel": "supports"
+    },
+    {
+      "source": "src:34834147",
+      "target": "target:chromatin-histones",
+      "rel": "supports"
+    },
+    {
+      "source": "pinealon:claim:cognition",
+      "target": "pinealon",
+      "rel": "claim_about"
+    },
+    {
+      "source": "pinealon:claim:alzheimers",
+      "target": "pinealon",
+      "rel": "claim_about"
+    },
+    {
+      "source": "pinealon:claim:tbi",
+      "target": "pinealon",
+      "rel": "claim_about"
+    },
+    {
+      "source": "pinealon:claim:antioxidant",
+      "target": "pinealon",
+      "rel": "claim_about"
+    }
+  ]
+}

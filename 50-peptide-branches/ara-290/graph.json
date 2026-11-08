@@ -1,0 +1,379 @@
+{
+  "nodes": [
+    {
+      "id": "ara-290",
+      "type": "compound",
+      "label": "ARA-290 / cibinetide",
+      "aliases": [
+        "cibinetide",
+        "pHBSP"
+      ],
+      "status": "investigational; EU orphan EU/3/13/1191",
+      "evidence_tier": 2
+    },
+    {
+      "id": "family:targeted-therapeutic-peptides",
+      "type": "family",
+      "label": "Targeted therapeutic peptides"
+    },
+    {
+      "id": "target:epor",
+      "type": "target",
+      "label": "Erythropoietin receptor (EPOR)"
+    },
+    {
+      "id": "target:cd131",
+      "type": "target",
+      "label": "Beta-common receptor (CD131)"
+    },
+    {
+      "id": "effect:tissue-protection",
+      "type": "effect",
+      "label": "Tissue protection"
+    },
+    {
+      "id": "effect:anti-inflammatory",
+      "type": "effect",
+      "label": "Anti-inflammatory"
+    },
+    {
+      "id": "effect:analgesic-neuropathic",
+      "type": "effect",
+      "label": "Neuropathic pain relief"
+    },
+    {
+      "id": "effect:nerve-fibre-regeneration",
+      "type": "effect",
+      "label": "Small nerve fibre regeneration (surrogate)"
+    },
+    {
+      "id": "effect:non-erythropoietic",
+      "type": "effect",
+      "label": "No erythropoiesis"
+    },
+    {
+      "id": "risk:unknown-long-term-safety",
+      "type": "risk",
+      "label": "Unknown long-term safety"
+    },
+    {
+      "id": "risk:product-quality",
+      "type": "risk",
+      "label": "Unregulated product quality"
+    },
+    {
+      "id": "ara-290:study:heij-2012",
+      "type": "study",
+      "label": "Heij sarcoidosis SFN pilot",
+      "year": 2012,
+      "species": "human",
+      "n": 22,
+      "design": "DB-RCT IV 4 wk",
+      "outcome": "Symptom improvement; no safety concern"
+    },
+    {
+      "id": "ara-290:study:dahan-2013",
+      "type": "study",
+      "label": "Dahan sarcoidosis SFN",
+      "year": 2013,
+      "species": "human",
+      "n": null,
+      "design": "DB-RCT SC 28 d",
+      "outcome": "Symptoms improved; corneal nerve fibre density increased"
+    },
+    {
+      "id": "ara-290:study:brines-2015-t2d",
+      "type": "study",
+      "label": "Brines T2D neuropathy",
+      "year": 2015,
+      "species": "human",
+      "n": null,
+      "design": "RCT SC 28 d",
+      "outcome": "PainDetect improved; HbA1c/lipids improved; CNFD subgroup rise"
+    },
+    {
+      "id": "ara-290:study:culver-2017",
+      "type": "study",
+      "label": "Culver sarcoidosis phase 2b",
+      "year": 2017,
+      "species": "human",
+      "n": 64,
+      "design": "Phase 2b RCT 28 d",
+      "outcome": "Corneal nerve fibre area increased (4 mg arm)"
+    },
+    {
+      "id": "ara-290:study:brines-2008",
+      "type": "study",
+      "label": "Brines helix B peptides",
+      "year": 2008,
+      "species": "rodent",
+      "n": null,
+      "design": "multiple injury models",
+      "outcome": "Tissue-protective; non-erythropoietic"
+    },
+    {
+      "id": "ara-290:study:swartjes-2011",
+      "type": "study",
+      "label": "Swartjes SNI pain",
+      "year": 2011,
+      "species": "rat/mouse",
+      "n": null,
+      "design": "spared nerve injury; bcR knockout",
+      "outcome": "Sustained anti-allodynia; absent in bcR KO"
+    },
+    {
+      "id": "ara-290:study:swartjes-2014",
+      "type": "study",
+      "label": "Swartjes microglia",
+      "year": 2014,
+      "species": "rat",
+      "n": null,
+      "design": "SNI dose range",
+      "outcome": "Long-term relief; microglia suppressed"
+    },
+    {
+      "id": "ara-290:claim:nerve-regeneration",
+      "type": "claim",
+      "label": "Regenerates nerves / cures neuropathy",
+      "verdict": "preliminary, overstated"
+    },
+    {
+      "id": "ara-290:claim:no-red-cells",
+      "type": "claim",
+      "label": "EPO benefits without raising red cells",
+      "verdict": "partly supported (mechanistic)"
+    },
+    {
+      "id": "ara-290:claim:heals-organs",
+      "type": "claim",
+      "label": "Heals kidney, heart, brain injuries",
+      "verdict": "preclinical only"
+    },
+    {
+      "id": "ara-290:claim:not-banned",
+      "type": "claim",
+      "label": "Not banned in sport",
+      "verdict": "false (WADA S0 covers non-approved substances)"
+    },
+    {
+      "id": "src:heij-2012-molmed",
+      "type": "source",
+      "label": "Heij 2012 Mol Med 18:1430",
+      "url": "https://pure.eur.nl/en/publications/ara-290-for-treatment-of-small-fiber-neuropathy-in-sarcoidosis/"
+    },
+    {
+      "id": "src:doi-10.2119/molmed.2013.00122",
+      "type": "source",
+      "label": "Dahan 2013 Mol Med",
+      "url": "https://doi.org/10.2119/molmed.2013.00122"
+    },
+    {
+      "id": "src:pmid-25387363",
+      "type": "source",
+      "label": "Brines 2015 Mol Med",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4365069"
+    },
+    {
+      "id": "src:culver-2017-iovs",
+      "type": "source",
+      "label": "Culver 2017 IOVS",
+      "url": "https://research.manchester.ac.uk/en/publications/cibinetide-improves-corneal-nerve-fiber-abundance-in-patients-wit/"
+    },
+    {
+      "id": "src:pmid-18676614",
+      "type": "source",
+      "label": "Brines 2008 PNAS",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18676614/"
+    },
+    {
+      "id": "src:swartjes-2011-anesthesiology",
+      "type": "source",
+      "label": "Swartjes 2011 Anesthesiology",
+      "url": "https://asa2.silverchair.com/anesthesiology/article-pdf/115/5/1084/452302/0000542-201111000-00032.pdf"
+    },
+    {
+      "id": "src:pmc3928087",
+      "type": "source",
+      "label": "Swartjes 2014 Mol Pain",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3928087/"
+    },
+    {
+      "id": "src:ema-eu-3-13-1191",
+      "type": "source",
+      "label": "EMA orphan designation",
+      "url": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-13-1191"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ara-290",
+      "target": "family:targeted-therapeutic-peptides",
+      "rel": "member_of"
+    },
+    {
+      "source": "ara-290",
+      "target": "target:epor",
+      "rel": "targets"
+    },
+    {
+      "source": "ara-290",
+      "target": "target:cd131",
+      "rel": "targets"
+    },
+    {
+      "source": "ara-290",
+      "target": "effect:tissue-protection",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "ara-290",
+      "target": "effect:anti-inflammatory",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "ara-290",
+      "target": "effect:analgesic-neuropathic",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "ara-290",
+      "target": "effect:nerve-fibre-regeneration",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "ara-290",
+      "target": "effect:non-erythropoietic",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "ara-290",
+      "target": "risk:unknown-long-term-safety",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "ara-290",
+      "target": "risk:product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "ara-290",
+      "target": "ara-290:study:heij-2012",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ara-290:study:heij-2012",
+      "target": "src:heij-2012-molmed",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ara-290",
+      "target": "ara-290:study:dahan-2013",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ara-290:study:dahan-2013",
+      "target": "src:doi-10.2119/molmed.2013.00122",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ara-290",
+      "target": "ara-290:study:brines-2015-t2d",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ara-290:study:brines-2015-t2d",
+      "target": "src:pmid-25387363",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ara-290",
+      "target": "ara-290:study:culver-2017",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ara-290:study:culver-2017",
+      "target": "src:culver-2017-iovs",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ara-290",
+      "target": "ara-290:study:brines-2008",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ara-290:study:brines-2008",
+      "target": "src:pmid-18676614",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ara-290",
+      "target": "ara-290:study:swartjes-2011",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ara-290:study:swartjes-2011",
+      "target": "src:swartjes-2011-anesthesiology",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ara-290",
+      "target": "ara-290:study:swartjes-2014",
+      "rel": "studied_in"
+    },
+    {
+      "source": "ara-290:study:swartjes-2014",
+      "target": "src:pmc3928087",
+      "rel": "cited_by"
+    },
+    {
+      "source": "ara-290:claim:nerve-regeneration",
+      "target": "ara-290",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ara-290:study:dahan-2013",
+      "target": "ara-290:claim:nerve-regeneration",
+      "rel": "supports"
+    },
+    {
+      "source": "ara-290:study:culver-2017",
+      "target": "ara-290:claim:nerve-regeneration",
+      "rel": "supports"
+    },
+    {
+      "source": "ara-290:study:brines-2015-t2d",
+      "target": "ara-290:claim:nerve-regeneration",
+      "rel": "supports"
+    },
+    {
+      "source": "ara-290:claim:no-red-cells",
+      "target": "ara-290",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ara-290:study:brines-2008",
+      "target": "ara-290:claim:no-red-cells",
+      "rel": "supports"
+    },
+    {
+      "source": "ara-290:claim:heals-organs",
+      "target": "ara-290",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ara-290:study:brines-2008",
+      "target": "ara-290:claim:heals-organs",
+      "rel": "supports"
+    },
+    {
+      "source": "ara-290:claim:not-banned",
+      "target": "ara-290",
+      "rel": "claim_about"
+    },
+    {
+      "source": "ara-290",
+      "target": "src:ema-eu-3-13-1191",
+      "rel": "cited_by"
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "nodes": [
+    {
+      "id": "epitalon",
+      "type": "compound",
+      "label": "Epitalon (AEDG)",
+      "sequence": "Ala-Glu-Asp-Gly",
+      "evidence_tier": 3,
+      "approval": "none",
+      "wada": "S0 (likely)"
+    },
+    {
+      "id": "family:khavinson-bioregulators",
+      "type": "family",
+      "label": "Khavinson bioregulators"
+    },
+    {
+      "id": "target:telomerase-htert",
+      "type": "target",
+      "label": "Telomerase (hTERT)"
+    },
+    {
+      "id": "target:chromatin-histones",
+      "type": "target",
+      "label": "Chromatin / histone proteins (proposed)"
+    },
+    {
+      "id": "target:pineal-gland",
+      "type": "target",
+      "label": "Pineal gland (proposed)"
+    },
+    {
+      "id": "effect:telomere-elongation",
+      "type": "effect",
+      "label": "Telomere elongation (in vitro)"
+    },
+    {
+      "id": "effect:alt-activation",
+      "type": "effect",
+      "label": "ALT activation in cancer cells (in vitro)"
+    },
+    {
+      "id": "effect:chromatin-decondensation",
+      "type": "effect",
+      "label": "Heterochromatin decondensation"
+    },
+    {
+      "id": "effect:melatonin-normalization",
+      "type": "effect",
+      "label": "Melatonin rhythm normalisation (conflicting)"
+    },
+    {
+      "id": "effect:lifespan-extension",
+      "type": "effect",
+      "label": "Lifespan extension (rodent, weak)"
+    },
+    {
+      "id": "effect:retinoprotective",
+      "type": "effect",
+      "label": "Retinoprotection (weak)"
+    },
+    {
+      "id": "risk:theoretical-oncogenic",
+      "type": "risk",
+      "label": "Theoretical oncogenic risk via telomere maintenance"
+    },
+    {
+      "id": "risk:injection-site-reaction",
+      "type": "risk",
+      "label": "Injection-site reaction (anecdotal)"
+    },
+    {
+      "id": "risk:no-human-safety-data",
+      "type": "risk",
+      "label": "No human safety/PK data"
+    },
+    {
+      "id": "risk:unregulated-product-quality",
+      "type": "risk",
+      "label": "Unregulated grey-market product quality"
+    },
+    {
+      "id": "epitalon:study:khavinson-2003-fibroblasts",
+      "type": "study",
+      "label": "Telomerase in human fetal fibroblasts",
+      "year": 2003,
+      "species": "human cells",
+      "n": null,
+      "design": "in vitro",
+      "outcome": "hTERT/telomerase induced, telomere elongation"
+    },
+    {
+      "id": "epitalon:study:aldulaimi-2025",
+      "type": "study",
+      "label": "Independent telomere study, normal + breast cancer lines",
+      "year": 2025,
+      "species": "human cells",
+      "n": null,
+      "design": "in vitro",
+      "outcome": "telomere extension via hTERT (normal) / ALT (cancer)",
+      "independent": true
+    },
+    {
+      "id": "epitalon:study:anisimov-2003-shr",
+      "type": "study",
+      "label": "SHR mouse lifespan/tumours",
+      "year": 2003,
+      "species": "mouse",
+      "n": 108,
+      "design": "controlled animal",
+      "outcome": "max lifespan +12%, mean unchanged; leukaemia down"
+    },
+    {
+      "id": "epitalon:study:anisimov-2002-her2",
+      "type": "study",
+      "label": "HER-2/neu mouse breast tumours",
+      "year": 2002,
+      "species": "mouse",
+      "n": null,
+      "design": "controlled animal",
+      "outcome": "reported reduced tumour development"
+    },
+    {
+      "id": "epitalon:study:khavinson-2002-retina",
+      "type": "study",
+      "label": "Retinitis pigmentosa rat + uncontrolled patients",
+      "year": 2002,
+      "species": "rat; human",
+      "n": null,
+      "design": "animal + uncontrolled clinical",
+      "outcome": "retinal preservation; '90% positive'"
+    },
+    {
+      "id": "epitalon:study:khavinson-morozov-2003",
+      "type": "study",
+      "label": "Epithalamin/Thymalin elderly mortality",
+      "year": 2003,
+      "species": "human",
+      "n": 266,
+      "design": "observational vs controls, non-blinded",
+      "outcome": "1.6-1.8x lower mortality (Epithalamin extract)",
+      "product": "Epithalamin"
+    },
+    {
+      "id": "epitalon:study:korkushko-2004-melatonin",
+      "type": "study",
+      "label": "Epithalamin melatonin in elderly",
+      "year": 2004,
+      "species": "human",
+      "n": null,
+      "design": "uncontrolled",
+      "outcome": "night melatonin up if low baseline",
+      "product": "Epithalamin"
+    },
+    {
+      "id": "epitalon:study:korkushko-2006-cad",
+      "type": "study",
+      "label": "Epithalamin in coronary patients",
+      "year": 2006,
+      "species": "human",
+      "n": 79,
+      "design": "described as randomized, developer group",
+      "outcome": "CV mortality ~2x lower",
+      "product": "Epithalamin"
+    },
+    {
+      "id": "epitalon:study:lezhava-2006-chromatin",
+      "type": "study",
+      "label": "Chromatin reactivation in elderly lymphocytes",
+      "year": 2006,
+      "species": "human cells",
+      "n": null,
+      "design": "in vitro",
+      "outcome": "pericentromeric heterochromatin decondensation"
+    },
+    {
+      "id": "src:12937682",
+      "type": "source",
+      "label": "Khavinson 2003 Bull Exp Biol Med",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12937682/"
+    },
+    {
+      "id": "src:doi-10.1007/s10522-025-10315-x",
+      "type": "source",
+      "label": "Al-Dulaimi 2025 Biogerontology",
+      "url": "https://doi.org/10.1007/s10522-025-10315-x"
+    },
+    {
+      "id": "src:doi-10.1023/a:1025114230714",
+      "type": "source",
+      "label": "Anisimov 2003 Biogerontology",
+      "url": "https://doi.org/10.1023/a:1025114230714"
+    },
+    {
+      "id": "src:nel-khavinson-morozov-2003",
+      "type": "source",
+      "label": "Khavinson & Morozov 2003 NEL",
+      "url": "https://www.nel.edu/peptides-of-pineal-gland-and-thymus-prolong-human-life-2142"
+    },
+    {
+      "id": "src:nel-khavinson-2002-retina",
+      "type": "source",
+      "label": "Khavinson 2002 NEL retina",
+      "url": "https://www.nel.edu/pineal-regulating-tetrapeptide-epitalon-improves-eye-retina-condition-in-retinitis-pigmentosa-2210"
+    },
+    {
+      "id": "src:doi-10.1007/s10517-006-0365-z",
+      "type": "source",
+      "label": "Korkushko 2006 Bull Exp Biol Med",
+      "url": "https://doi.org/10.1007/s10517-006-0365-z"
+    },
+    {
+      "id": "src:16705247",
+      "type": "source",
+      "label": "Lezhava 2006 chromatin reactivation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16705247/"
+    },
+    {
+      "id": "src:17969590",
+      "type": "source",
+      "label": "Pineal peptides melatonin rhythm, monkeys + elderly",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17969590/"
+    },
+    {
+      "id": "src:pmc11943447",
+      "type": "source",
+      "label": "Araj 2025 IJMS review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11943447/"
+    },
+    {
+      "id": "src:34834147",
+      "type": "source",
+      "label": "Khavinson 2021 Molecules systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34834147/"
+    },
+    {
+      "id": "src:ajmc-pcac-2026",
+      "type": "source",
+      "label": "AJMC: FDA panel backs 6 peptides (Jul 2026)",
+      "url": "https://ajmc.com/view/fda-panel-backs-6-peptides-for-compounding"
+    },
+    {
+      "id": "epitalon:claim:telomerase",
+      "type": "claim",
+      "label": "Activates telomerase / lengthens telomeres",
+      "verdict": "partly supported (in vitro)"
+    },
+    {
+      "id": "epitalon:claim:lifespan",
+      "type": "claim",
+      "label": "Extends human lifespan",
+      "verdict": "unsupported"
+    },
+    {
+      "id": "epitalon:claim:sleep-melatonin",
+      "type": "claim",
+      "label": "Restores melatonin / sleep",
+      "verdict": "weak/conflicting"
+    },
+    {
+      "id": "epitalon:claim:anticancer",
+      "type": "claim",
+      "label": "Prevents cancer",
+      "verdict": "unsupported"
+    },
+    {
+      "id": "epitalon:claim:fda-approved",
+      "type": "claim",
+      "label": "FDA-approved for compounding",
+      "verdict": "false/premature"
+    }
+  ],
+  "edges": [
+    {
+      "source": "epitalon",
+      "target": "family:khavinson-bioregulators",
+      "rel": "member_of"
+    },
+    {
+      "source": "epitalon",
+      "target": "target:telomerase-htert",
+      "rel": "targets"
+    },
+    {
+      "source": "epitalon",
+      "target": "target:chromatin-histones",
+      "rel": "targets"
+    },
+    {
+      "source": "epitalon",
+      "target": "target:pineal-gland",
+      "rel": "targets"
+    },
+    {
+      "source": "epitalon",
+      "target": "effect:telomere-elongation",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "epitalon",
+      "target": "effect:alt-activation",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "epitalon",
+      "target": "effect:chromatin-decondensation",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "epitalon",
+      "target": "effect:melatonin-normalization",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "epitalon",
+      "target": "effect:lifespan-extension",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "epitalon",
+      "target": "effect:retinoprotective",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "epitalon",
+      "target": "risk:theoretical-oncogenic",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "epitalon",
+      "target": "risk:injection-site-reaction",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "epitalon",
+      "target": "risk:no-human-safety-data",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "epitalon",
+      "target": "risk:unregulated-product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "effect:alt-activation",
+      "target": "risk:theoretical-oncogenic",
+      "rel": "related_to"
+    },
+    {
+      "source": "target:telomerase-htert",
+      "target": "effect:telomere-elongation",
+      "rel": "related_to"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:khavinson-2003-fibroblasts",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon:study:khavinson-2003-fibroblasts",
+      "target": "src:12937682",
+      "rel": "cited_by"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:aldulaimi-2025",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon:study:aldulaimi-2025",
+      "target": "src:doi-10.1007/s10522-025-10315-x",
+      "rel": "cited_by"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:anisimov-2003-shr",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon:study:anisimov-2003-shr",
+      "target": "src:doi-10.1023/a:1025114230714",
+      "rel": "cited_by"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:anisimov-2002-her2",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:khavinson-2002-retina",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon:study:khavinson-2002-retina",
+      "target": "src:nel-khavinson-2002-retina",
+      "rel": "cited_by"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:khavinson-morozov-2003",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon:study:khavinson-morozov-2003",
+      "target": "src:nel-khavinson-morozov-2003",
+      "rel": "cited_by"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:korkushko-2004-melatonin",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon:study:korkushko-2004-melatonin",
+      "target": "src:17969590",
+      "rel": "cited_by"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:korkushko-2006-cad",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon:study:korkushko-2006-cad",
+      "target": "src:doi-10.1007/s10517-006-0365-z",
+      "rel": "cited_by"
+    },
+    {
+      "source": "epitalon",
+      "target": "epitalon:study:lezhava-2006-chromatin",
+      "rel": "studied_in"
+    },
+    {
+      "source": "epitalon:study:lezhava-2006-chromatin",
+      "target": "src:16705247",
+      "rel": "cited_by"
+    },
+    {
+      "source": "epitalon:study:khavinson-2003-fibroblasts",
+      "target": "effect:telomere-elongation",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:aldulaimi-2025",
+      "target": "effect:telomere-elongation",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:aldulaimi-2025",
+      "target": "effect:alt-activation",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:anisimov-2003-shr",
+      "target": "effect:lifespan-extension",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:anisimov-2002-her2",
+      "target": "epitalon:claim:anticancer",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:khavinson-2002-retina",
+      "target": "effect:retinoprotective",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:korkushko-2004-melatonin",
+      "target": "effect:melatonin-normalization",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:lezhava-2006-chromatin",
+      "target": "effect:chromatin-decondensation",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:khavinson-2003-fibroblasts",
+      "target": "epitalon:claim:telomerase",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:aldulaimi-2025",
+      "target": "epitalon:claim:telomerase",
+      "rel": "supports"
+    },
+    {
+      "source": "epitalon:study:aldulaimi-2025",
+      "target": "epitalon:claim:anticancer",
+      "rel": "refutes"
+    },
+    {
+      "source": "epitalon:study:khavinson-morozov-2003",
+      "target": "epitalon:claim:lifespan",
+      "rel": "supports"
+    },
+    {
+      "source": "src:pmc11943447",
+      "target": "epitalon:claim:sleep-melatonin",
+      "rel": "refutes"
+    },
+    {
+      "source": "src:ajmc-pcac-2026",
+      "target": "epitalon:claim:fda-approved",
+      "rel": "refutes"
+    },
+    {
+      "source": "src:34834147",
+      "target": "target:chromatin-histones",
+      "rel": "supports"
+    },
+    {
+      "source": "src:pmc11943447",
+      "target": "epitalon",
+      "rel": "related_to"
+    },
+    {
+      "source": "epitalon:claim:telomerase",
+      "target": "epitalon",
+      "rel": "claim_about"
+    },
+    {
+      "source": "epitalon:claim:lifespan",
+      "target": "epitalon",
+      "rel": "claim_about"
+    },
+    {
+      "source": "epitalon:claim:sleep-melatonin",
+      "target": "epitalon",
+      "rel": "claim_about"
+    },
+    {
+      "source": "epitalon:claim:anticancer",
+      "target": "epitalon",
+      "rel": "claim_about"
+    },
+    {
+      "source": "epitalon:claim:fda-approved",
+      "target": "epitalon",
+      "rel": "claim_about"
+    }
+  ]
+}

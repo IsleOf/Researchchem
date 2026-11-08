@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "prostamax",
+      "type": "compound",
+      "label": "Prostamax (KEDP)",
+      "sequence": "Lys-Glu-Asp-Pro",
+      "evidence_tier": 3,
+      "approval": "none",
+      "wada": "S0 (likely)"
+    },
+    {
+      "id": "family:khavinson-bioregulators",
+      "type": "family",
+      "label": "Khavinson bioregulators"
+    },
+    {
+      "id": "target:chromatin-histones",
+      "type": "target",
+      "label": "Chromatin / histone proteins (proposed)"
+    },
+    {
+      "id": "target:prostate-tissue",
+      "type": "target",
+      "label": "Prostate tissue (proposed tissue specificity)"
+    },
+    {
+      "id": "effect:chromatin-decondensation",
+      "type": "effect",
+      "label": "Heterochromatin decondensation"
+    },
+    {
+      "id": "effect:anti-inflammatory",
+      "type": "effect",
+      "label": "Anti-inflammatory (rat prostatitis)"
+    },
+    {
+      "id": "risk:delayed-diagnosis",
+      "type": "risk",
+      "label": "Delayed diagnosis of prostate disease"
+    },
+    {
+      "id": "risk:genomic-uncertainty",
+      "type": "risk",
+      "label": "Unknown significance of chromatin/SCE changes"
+    },
+    {
+      "id": "risk:no-human-safety-data",
+      "type": "risk",
+      "label": "No human safety/PK data"
+    },
+    {
+      "id": "risk:unregulated-product-quality",
+      "type": "risk",
+      "label": "Unregulated grey-market product quality"
+    },
+    {
+      "id": "prostamax:study:khavinson-2004-leukocytes",
+      "type": "study",
+      "label": "Leukocytes of donors 75-88",
+      "year": 2004,
+      "species": "human cells",
+      "n": null,
+      "design": "in vitro",
+      "outcome": "chr 1 heterochromatin decondensation"
+    },
+    {
+      "id": "prostamax:study:lezhava-2012-lymphocytes",
+      "type": "study",
+      "label": "Lymphocytes of donors 75-86",
+      "year": 2012,
+      "species": "human cells",
+      "n": null,
+      "design": "in vitro",
+      "outcome": "heterochromatin down, NOR up, SCE up"
+    },
+    {
+      "id": "prostamax:study:borovskaya-2013-prostatitis",
+      "type": "study",
+      "label": "Rat chronic aseptic prostatitis",
+      "year": 2013,
+      "species": "rat",
+      "n": null,
+      "design": "controlled animal",
+      "outcome": "less oedema/infiltration, less sclerosis"
+    },
+    {
+      "id": "src:doi-10.1023/B:BEBM.0000024393.40560.05",
+      "type": "source",
+      "label": "Khavinson, Lezhava, Malinin 2004",
+      "url": "https://doi.org/10.1023/B:BEBM.0000024393.40560.05"
+    },
+    {
+      "id": "src:23221144",
+      "type": "source",
+      "label": "Georgian Med News 2012 (Prostamax)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23221144/"
+    },
+    {
+      "id": "src:doi-10.4236/mri.2013.23007",
+      "type": "source",
+      "label": "Borovskaya 2013 Mod Res Inflamm",
+      "url": "https://doi.org/10.4236/mri.2013.23007"
+    },
+    {
+      "id": "src:34834147",
+      "type": "source",
+      "label": "Khavinson 2021 Molecules systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34834147/"
+    },
+    {
+      "id": "prostamax:claim:prostatitis",
+      "type": "claim",
+      "label": "Treats chronic prostatitis",
+      "verdict": "preclinical only"
+    },
+    {
+      "id": "prostamax:claim:bph",
+      "type": "claim",
+      "label": "Shrinks prostate / treats BPH",
+      "verdict": "no evidence"
+    },
+    {
+      "id": "prostamax:claim:gene-rejuvenation",
+      "type": "claim",
+      "label": "Reverses chromatin ageing",
+      "verdict": "speculative"
+    },
+    {
+      "id": "prostamax:claim:clinically-tested",
+      "type": "claim",
+      "label": "Clinically tested in humans",
+      "verdict": "unverified"
+    }
+  ],
+  "edges": [
+    {
+      "source": "prostamax",
+      "target": "family:khavinson-bioregulators",
+      "rel": "member_of"
+    },
+    {
+      "source": "prostamax",
+      "target": "target:chromatin-histones",
+      "rel": "targets"
+    },
+    {
+      "source": "prostamax",
+      "target": "target:prostate-tissue",
+      "rel": "targets"
+    },
+    {
+      "source": "prostamax",
+      "target": "effect:chromatin-decondensation",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "prostamax",
+      "target": "effect:anti-inflammatory",
+      "rel": "produces_effect"
+    },
+    {
+      "source": "prostamax",
+      "target": "risk:delayed-diagnosis",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "prostamax",
+      "target": "risk:genomic-uncertainty",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "prostamax",
+      "target": "risk:no-human-safety-data",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "prostamax",
+      "target": "risk:unregulated-product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "effect:chromatin-decondensation",
+      "target": "risk:genomic-uncertainty",
+      "rel": "related_to"
+    },
+    {
+      "source": "prostamax",
+      "target": "prostamax:study:khavinson-2004-leukocytes",
+      "rel": "studied_in"
+    },
+    {
+      "source": "prostamax:study:khavinson-2004-leukocytes",
+      "target": "src:doi-10.1023/B:BEBM.0000024393.40560.05",
+      "rel": "cited_by"
+    },
+    {
+      "source": "prostamax",
+      "target": "prostamax:study:lezhava-2012-lymphocytes",
+      "rel": "studied_in"
+    },
+    {
+      "source": "prostamax:study:lezhava-2012-lymphocytes",
+      "target": "src:23221144",
+      "rel": "cited_by"
+    },
+    {
+      "source": "prostamax",
+      "target": "prostamax:study:borovskaya-2013-prostatitis",
+      "rel": "studied_in"
+    },
+    {
+      "source": "prostamax:study:borovskaya-2013-prostatitis",
+      "target": "src:doi-10.4236/mri.2013.23007",
+      "rel": "cited_by"
+    },
+    {
+      "source": "prostamax:study:khavinson-2004-leukocytes",
+      "target": "effect:chromatin-decondensation",
+      "rel": "supports"
+    },
+    {
+      "source": "prostamax:study:lezhava-2012-lymphocytes",
+      "target": "effect:chromatin-decondensation",
+      "rel": "supports"
+    },
+    {
+      "source": "prostamax:study:borovskaya-2013-prostatitis",
+      "target": "effect:anti-inflammatory",
+      "rel": "supports"
+    },
+    {
+      "source": "prostamax:study:borovskaya-2013-prostatitis",
+      "target": "prostamax:claim:prostatitis",
+      "rel": "supports"
+    },
+    {
+      "source": "prostamax:study:lezhava-2012-lymphocytes",
+      "target": "prostamax:claim:gene-rejuvenation",
+      "rel": "supports"
+    },
+    {
+      "source": "src:34834147",
+      "target": "target:chromatin-histones",
+      "rel": "supports"
+    },
+    {
+      "source": "prostamax:claim:prostatitis",
+      "target": "prostamax",
+      "rel": "claim_about"
+    },
+    {
+      "source": "prostamax:claim:bph",
+      "target": "prostamax",
+      "rel": "claim_about"
+    },
+    {
+      "source": "prostamax:claim:gene-rejuvenation",
+      "target": "prostamax",
+      "rel": "claim_about"
+    },
+    {
+      "source": "prostamax:claim:clinically-tested",
+      "target": "prostamax",
+      "rel": "claim_about"
+    }
+  ]
+}
