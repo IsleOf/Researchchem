@@ -21,8 +21,8 @@ Back to [[pt-141/index]].
 - Melanocortin activation also produces **transient BP increase / HR decrease** and **nausea** (central emetic pathways) — class effects shared with Melanotan II.
 
 ## Pharmacokinetics (non-dosing)
-- Peptide, SC injection; label reports peak concentrations about 1 h after injection and a mean terminal half-life of ~2.7 h (per Vyleesi prescribing information).
-- May slow gastric emptying → can alter absorption of co-administered oral drugs (label).
+- Peptide, SC injection; label reports median Tmax ~1.0 h (range 0.5–1.0 h), ~100% SC bioavailability, and mean terminal half-life ~2.7 h (range 1.9–4.0 h) (Vyleesi PI).
+- Possible slowed gastric emptying affecting oral co-medications (reported; not verified here).
 
 ## Relation to Melanotan II
 - Melanotan II (MT-II) was developed at the University of Arizona as a tanning agent; Palatin licensed it, noticed sexual side effects, and developed bremelanotide, described as an MT-II metabolite lacking the C-terminal amide. MT-II itself was never approved and is sold illegally as a "tanning" injectable.
