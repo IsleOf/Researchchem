@@ -16,6 +16,8 @@ updated: 2026-11-08
 - [[polydrug-risk]] – Polydrug risk (depressant stacking)
 - [[early-warning]] – Early warning systems
 
+- [[notable-findings]] – Notable biological findings
+
 ## Weekly digests
 - [[2026-W45]]
 
