@@ -1,0 +1,2841 @@
+{
+  "nodes": [
+    {
+      "id": "area:clinical-pipeline",
+      "type": "area",
+      "label": "Clinical pipeline (legitimate, trial-evidenced)",
+      "level": "L0",
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "topic:next-gen-obesity",
+      "type": "topic",
+      "label": "Next-generation obesity pharmacotherapy",
+      "level": "L1"
+    },
+    {
+      "id": "topic:glp1-beyond-weight",
+      "type": "topic",
+      "label": "GLP-1 evidence beyond weight loss",
+      "level": "L1"
+    },
+    {
+      "id": "topic:muscle-preservation",
+      "type": "topic",
+      "label": "Lean-mass preservation during incretin weight loss",
+      "level": "L1"
+    },
+    {
+      "id": "topic:psychedelic-and-neuro",
+      "type": "topic",
+      "label": "Psychedelic and neuropsychiatric pipeline",
+      "level": "L1"
+    },
+    {
+      "id": "topic:mitochondrial-and-repair",
+      "type": "topic",
+      "label": "Mitochondria-targeted and tissue-repair agents",
+      "level": "L1"
+    },
+    {
+      "id": "orforglipron",
+      "type": "compound",
+      "label": "Orforglipron (Foundayo)",
+      "aliases": [
+        "LY3502970",
+        "Foundayo"
+      ],
+      "status": "FDA approved 2026-04-01 (chronic weight management); T2D filed separately",
+      "evidence_tier": 1
+    },
+    {
+      "id": "retatrutide",
+      "type": "compound",
+      "label": "Retatrutide",
+      "aliases": [
+        "LY3437943"
+      ],
+      "status": "Phase 3 complete (TRIUMPH); investigational everywhere; BLA signalled Q1 2027",
+      "evidence_tier": 1
+    },
+    {
+      "id": "tirzepatide",
+      "type": "compound",
+      "label": "Tirzepatide",
+      "aliases": [
+        "Zepbound",
+        "Mounjaro",
+        "LY3298176"
+      ],
+      "status": "Approved (obesity, T2D, OSA)",
+      "evidence_tier": 1
+    },
+    {
+      "id": "semaglutide",
+      "type": "compound",
+      "label": "Semaglutide",
+      "aliases": [
+        "Wegovy",
+        "Ozempic",
+        "Rybelsus"
+      ],
+      "status": "Approved (obesity, T2D, CV risk reduction, MASH F2-F3 accelerated)",
+      "evidence_tier": 1
+    },
+    {
+      "id": "cagrilintide",
+      "type": "compound",
+      "label": "Cagrilintide",
+      "aliases": [
+        "AM833"
+      ],
+      "status": "Component of CagriSema; not approved alone",
+      "evidence_tier": 2
+    },
+    {
+      "id": "cagrisema",
+      "type": "compound",
+      "label": "CagriSema (cagrilintide + semaglutide)",
+      "aliases": [
+        "CagriSema"
+      ],
+      "status": "FDA filing Dec 2025; decision window Q4 2026; not approved as of 2026-11",
+      "evidence_tier": 1
+    },
+    {
+      "id": "mazdutide",
+      "type": "compound",
+      "label": "Mazdutide (Xinermei)",
+      "aliases": [
+        "IBI362",
+        "LY3305677"
+      ],
+      "status": "China NMPA approved 2025-06 (weight) and 2025-09 (T2D); not approved elsewhere",
+      "evidence_tier": 1
+    },
+    {
+      "id": "survodutide",
+      "type": "compound",
+      "label": "Survodutide",
+      "aliases": [
+        "BI 456906"
+      ],
+      "status": "Phase 3 positive (SYNCHRONIZE); no filing confirmed",
+      "evidence_tier": 1
+    },
+    {
+      "id": "amycretin",
+      "type": "compound",
+      "label": "Amycretin / zenagamtide",
+      "aliases": [
+        "zenagamtide"
+      ],
+      "status": "Phase 2 complete (T2D); entering phase 3",
+      "evidence_tier": 2
+    },
+    {
+      "id": "maridebart-cafraglutide",
+      "type": "compound",
+      "label": "Maridebart cafraglutide (MariTide)",
+      "aliases": [
+        "MariTide",
+        "AMG 133"
+      ],
+      "status": "Phase 2 published; phase 3 MARITIME primary completion Jan 2027",
+      "evidence_tier": 2
+    },
+    {
+      "id": "petrelintide",
+      "type": "compound",
+      "label": "Petrelintide",
+      "aliases": [],
+      "status": "Phase 2 positive (ZUPREME); phase 3 initiated 2026",
+      "evidence_tier": 2
+    },
+    {
+      "id": "bimagrumab",
+      "type": "compound",
+      "label": "Bimagrumab",
+      "aliases": [],
+      "status": "Phase 2b (BELIEVE); investigational",
+      "evidence_tier": 2
+    },
+    {
+      "id": "apitegromab",
+      "type": "compound",
+      "label": "Apitegromab",
+      "aliases": [],
+      "status": "Phase 2 (EMBRAZE) positive on lean mass; investigational for this use",
+      "evidence_tier": 2
+    },
+    {
+      "id": "trevogrumab",
+      "type": "compound",
+      "label": "Trevogrumab",
+      "aliases": [],
+      "status": "Phase 2 (COURAGE) positive on lean mass; investigational",
+      "evidence_tier": 2
+    },
+    {
+      "id": "enobosarm",
+      "type": "compound",
+      "label": "Enobosarm (oral SARM)",
+      "aliases": [],
+      "status": "Phase 2b (QUALITY) positive on lean mass; not peer-reviewed; investigational",
+      "evidence_tier": 3
+    },
+    {
+      "id": "psilocybin",
+      "type": "compound",
+      "label": "Psilocybin (COMP360)",
+      "aliases": [
+        "COMP360"
+      ],
+      "status": "Two positive phase 3 trials; rolling NDA; not approved",
+      "evidence_tier": 2
+    },
+    {
+      "id": "mdma",
+      "type": "compound",
+      "label": "MDMA / midomafetamine",
+      "aliases": [
+        "midomafetamine"
+      ],
+      "status": "FDA CRL 2024-08; NDA resubmitted 2026-08; not approved",
+      "evidence_tier": 3
+    },
+    {
+      "id": "lsd",
+      "type": "compound",
+      "label": "LSD / lysergide (MM120, DT120 ODT)",
+      "aliases": [
+        "MM120",
+        "DT120",
+        "lysergide D-tartrate"
+      ],
+      "status": "Breakthrough designation 2024-03; three positive phase 3 topline readouts; not approved",
+      "evidence_tier": 2
+    },
+    {
+      "id": "esketamine",
+      "type": "compound",
+      "label": "Esketamine (Spravato)",
+      "aliases": [
+        "Spravato"
+      ],
+      "status": "FDA approved; monotherapy for TRD approved 2025-01-17; Schedule III, REMS",
+      "evidence_tier": 1
+    },
+    {
+      "id": "ss-31",
+      "type": "compound",
+      "label": "SS-31 / elamipretide (Forzinity)",
+      "aliases": [
+        "elamipretide",
+        "MTP-131",
+        "Forzinity"
+      ],
+      "status": "FDA accelerated approval 2025-09-19 (Barth syndrome); confirmatory trial required",
+      "evidence_tier": 2
+    },
+    {
+      "id": "sonlicromanol",
+      "type": "compound",
+      "label": "Sonlicromanol",
+      "aliases": [
+        "KH176"
+      ],
+      "status": "Phase 3 KHENERFIN recruiting from 2026-02; not approved",
+      "evidence_tier": 2
+    },
+    {
+      "id": "vatiquinone",
+      "type": "compound",
+      "label": "Vatiquinone",
+      "aliases": [
+        "PTC-743"
+      ],
+      "status": "MIT-E terminated; open-label phase 3 PROVE-FA planned",
+      "evidence_tier": 3
+    },
+    {
+      "id": "bpc-157",
+      "type": "compound",
+      "label": "BPC-157",
+      "aliases": [
+        "pentadecapeptide BPC 157"
+      ],
+      "status": "Not approved; no completed published RCT; FDA 503A bulks Category 2 (2023)",
+      "evidence_tier": 3
+    },
+    {
+      "id": "target:glp1r",
+      "type": "target",
+      "label": "GLP-1 receptor"
+    },
+    {
+      "id": "target:gipr",
+      "type": "target",
+      "label": "GIP receptor"
+    },
+    {
+      "id": "target:gcgr",
+      "type": "target",
+      "label": "Glucagon receptor"
+    },
+    {
+      "id": "target:amylin-receptor",
+      "type": "target",
+      "label": "Amylin / calcitonin receptor"
+    },
+    {
+      "id": "target:myostatin",
+      "type": "target",
+      "label": "Myostatin (GDF-8)"
+    },
+    {
+      "id": "target:actrii",
+      "type": "target",
+      "label": "Activin type II receptor"
+    },
+    {
+      "id": "target:androgen-receptor",
+      "type": "target",
+      "label": "Androgen receptor"
+    },
+    {
+      "id": "target:5ht2a",
+      "type": "target",
+      "label": "5-HT2A receptor"
+    },
+    {
+      "id": "target:nmda",
+      "type": "target",
+      "label": "NMDA receptor"
+    },
+    {
+      "id": "target:cardiolipin",
+      "type": "target",
+      "label": "Cardiolipin (inner mitochondrial membrane)"
+    },
+    {
+      "id": "effect:weight-loss",
+      "type": "effect",
+      "label": "Body-weight reduction"
+    },
+    {
+      "id": "effect:mace-reduction",
+      "type": "effect",
+      "label": "Reduced major adverse cardiovascular events"
+    },
+    {
+      "id": "effect:kidney-protection",
+      "type": "effect",
+      "label": "Slowed CKD progression"
+    },
+    {
+      "id": "effect:mash-resolution",
+      "type": "effect",
+      "label": "MASH resolution without fibrosis worsening"
+    },
+    {
+      "id": "effect:liver-fat-reduction",
+      "type": "effect",
+      "label": "Reduced hepatic fat fraction"
+    },
+    {
+      "id": "effect:ahi-reduction",
+      "type": "effect",
+      "label": "Reduced apnoea-hypopnoea index"
+    },
+    {
+      "id": "effect:lean-mass-preservation",
+      "type": "effect",
+      "label": "Lean-mass preservation during weight loss"
+    },
+    {
+      "id": "effect:oa-pain-reduction",
+      "type": "effect",
+      "label": "Reduced knee osteoarthritis pain"
+    },
+    {
+      "id": "effect:depression-symptom-reduction",
+      "type": "effect",
+      "label": "Reduced depression symptoms (MADRS)"
+    },
+    {
+      "id": "effect:anxiety-symptom-reduction",
+      "type": "effect",
+      "label": "Reduced anxiety symptoms (HAM-A)"
+    },
+    {
+      "id": "effect:muscle-strength-barth",
+      "type": "effect",
+      "label": "Knee-extensor strength gain (Barth syndrome)"
+    },
+    {
+      "id": "effect:cognition-slowing",
+      "type": "effect",
+      "label": "Slowed cognitive decline"
+    },
+    {
+      "id": "risk:gi-adverse-events",
+      "type": "risk",
+      "label": "Gastrointestinal adverse events / AE discontinuation"
+    },
+    {
+      "id": "risk:lean-mass-loss",
+      "type": "risk",
+      "label": "Lean-mass loss during rapid weight loss"
+    },
+    {
+      "id": "risk:gallbladder-disease",
+      "type": "risk",
+      "label": "Gallbladder disease / biliary events"
+    },
+    {
+      "id": "risk:pancreatitis",
+      "type": "risk",
+      "label": "Pancreatitis"
+    },
+    {
+      "id": "risk:increased-heart-rate",
+      "type": "risk",
+      "label": "Increased resting heart rate"
+    },
+    {
+      "id": "risk:naion",
+      "type": "risk",
+      "label": "NAION (non-arteritic anterior ischaemic optic neuropathy)"
+    },
+    {
+      "id": "risk:psychiatric-signal",
+      "type": "risk",
+      "label": "Psychiatric adverse events / suicidality signal"
+    },
+    {
+      "id": "risk:liver-enzyme-elevation",
+      "type": "risk",
+      "label": "Liver enzyme elevation"
+    },
+    {
+      "id": "risk:product-quality",
+      "type": "risk",
+      "label": "Unregulated product quality (identity, purity, sterility)"
+    },
+    {
+      "id": "risk:weight-regain",
+      "type": "risk",
+      "label": "Weight regain after discontinuation (predominantly fat)"
+    },
+    {
+      "id": "org:fda",
+      "type": "org",
+      "label": "US Food and Drug Administration"
+    },
+    {
+      "id": "org:ema",
+      "type": "org",
+      "label": "European Medicines Agency"
+    },
+    {
+      "id": "org:nmpa",
+      "type": "org",
+      "label": "China National Medical Products Administration"
+    },
+    {
+      "id": "org:who",
+      "type": "org",
+      "label": "World Health Organization"
+    },
+    {
+      "id": "org:aaslp",
+      "type": "org",
+      "label": "AASLD (American Association for the Study of Liver Diseases)"
+    },
+    {
+      "id": "org:aao-nanos",
+      "type": "org",
+      "label": "American Academy of Ophthalmology / NANOS"
+    },
+    {
+      "id": "study:attain-1",
+      "type": "study",
+      "label": "ATTAIN-1",
+      "year": 2025,
+      "species": "human",
+      "n": 3127,
+      "design": "Phase 3 RCT, obesity without diabetes, 72 wk",
+      "outcome": "Highest-dose arm -11.2% vs -2.1% placebo (treatment-regimen); AE discontinuation 5.3-10.3% vs 2.7%",
+      "nct": "NCT05869903"
+    },
+    {
+      "id": "study:attain-2",
+      "type": "study",
+      "label": "ATTAIN-2",
+      "year": 2025,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, obesity/overweight + T2D, 72 wk",
+      "outcome": "Placebo-subtracted weight up to -7.1%; HbA1c up to -1.1 pp; AE discontinuation 6.1-9.9% vs 4.1%",
+      "nct": "NCT05872620"
+    },
+    {
+      "id": "study:attain-j",
+      "type": "study",
+      "label": "ATTAIN-J",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, Japanese participants with obesity disease"
+    },
+    {
+      "id": "study:achieve-3",
+      "type": "study",
+      "label": "ACHIEVE-3",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 open-label non-inferiority vs oral semaglutide, T2D"
+    },
+    {
+      "id": "study:triumph-1",
+      "type": "study",
+      "label": "TRIUMPH-1",
+      "year": 2026,
+      "species": "human",
+      "n": 2335,
+      "design": "Phase 3 RCT, obesity without diabetes, 80 wk",
+      "outcome": "-17.6% / -23.7% / -25.0% vs -3.9% placebo",
+      "nct": "NCT05929066"
+    },
+    {
+      "id": "study:triumph-1-osa",
+      "type": "study",
+      "label": "TRIUMPH-1-OSA substudy",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 substudy, OSA, 80 wk",
+      "outcome": "AHI -34.3 / -31.7 vs -9.9 events/h (hybrid estimand)"
+    },
+    {
+      "id": "study:triumph-3",
+      "type": "study",
+      "label": "TRIUMPH-3",
+      "year": 2026,
+      "species": "human",
+      "n": 1949,
+      "design": "Phase 3 RCT, severe obesity + established CVD",
+      "outcome": "-21.6% to -22.6% vs -3.2%; AE discontinuation 9.8%/13.5% vs 4.8%; MACE lower than anticipated in both arms (sponsor topline)"
+    },
+    {
+      "id": "study:triumph-4",
+      "type": "study",
+      "label": "TRIUMPH-4",
+      "year": 2025,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, obesity + knee osteoarthritis, 68 wk",
+      "outcome": "Weight up to -28.7%; WOMAC pain -75.8%; AE discontinuation 12.2%/18.2% vs 4.0% (sponsor topline)",
+      "nct": "NCT05931367"
+    },
+    {
+      "id": "study:redefine-1",
+      "type": "study",
+      "label": "REDEFINE 1",
+      "year": 2025,
+      "species": "human",
+      "n": 3417,
+      "design": "Phase 3a RCT, overweight/obesity without diabetes, 68 wk",
+      "outcome": "-20.4% vs -3.0% placebo (diff -17.3 pp, 95% CI -18.1 to -16.6); 22.7% on full-adherence estimand"
+    },
+    {
+      "id": "study:redefine-2",
+      "type": "study",
+      "label": "REDEFINE 2",
+      "year": 2025,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, type 2 diabetes, 68 wk",
+      "outcome": "-13.7% vs -3.1% placebo (sponsor)"
+    },
+    {
+      "id": "study:redefine-4",
+      "type": "study",
+      "label": "REDEFINE 4",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 head-to-head vs tirzepatide, 84 wk",
+      "outcome": "MISSED primary endpoint of non-inferiority on weight loss (sponsor)"
+    },
+    {
+      "id": "study:maritide-ph2",
+      "type": "study",
+      "label": "MariTide phase 2",
+      "year": 2025,
+      "species": "human",
+      "n": 592,
+      "design": "Phase 2 dose-ranging RCT, 52 wk, two cohorts",
+      "outcome": "Obesity cohort ~-12% to -16% vs ~-2.5%; T2D cohort ~-8% to -12% vs ~-1.7%; gallbladder events 1-6% vs 0%; no plateau at 52 wk"
+    },
+    {
+      "id": "study:zupreme-1",
+      "type": "study",
+      "label": "ZUPREME-1",
+      "year": 2026,
+      "species": "human",
+      "n": 493,
+      "design": "Phase 2 RCT, overweight/obesity, 42 wk",
+      "outcome": "Top arm -10.7% vs -1.7%; nausea 19.6% vs 6.2%; dropouts 8.4% vs 13.6% placebo; vomiting less frequent than placebo (sponsor)"
+    },
+    {
+      "id": "study:zupreme-2",
+      "type": "study",
+      "label": "ZUPREME-2",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 2b RCT, obesity + T2D, 28 wk",
+      "outcome": "Up to -9.2% weight loss; primary met (sponsor)"
+    },
+    {
+      "id": "study:synchronize-1",
+      "type": "study",
+      "label": "SYNCHRONIZE-1",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, overweight/obesity without diabetes, 76 wk",
+      "outcome": "Up to -16.6% vs -3.2%; co-primaries met on both estimands (sponsor)"
+    },
+    {
+      "id": "study:synchronize-2",
+      "type": "study",
+      "label": "SYNCHRONIZE-2",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, obesity + T2D, 76 wk",
+      "outcome": "Up to -13.1% vs -3.1%; HbA1c up to -1.21 pp (sponsor)",
+      "nct": "NCT06066528"
+    },
+    {
+      "id": "study:synchronize-masld",
+      "type": "study",
+      "label": "SYNCHRONIZE-MASLD",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, obesity with MASLD",
+      "outcome": "Co-primaries met both estimands; up to 84.2% achieved >=30% relative liver-fat reduction"
+    },
+    {
+      "id": "study:survodutide-mash-ph2",
+      "type": "study",
+      "label": "Survodutide MASH phase 2",
+      "year": 2024,
+      "species": "human",
+      "n": null,
+      "design": "Phase 2 RCT, MASH, 48 wk",
+      "outcome": "MASH improvement without fibrosis worsening 47% / 62% / 43% vs 22% placebo; non-monotonic dose response"
+    },
+    {
+      "id": "study:liverage",
+      "type": "study",
+      "label": "LIVERAGE",
+      "year": null,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, MASH F2-F3, 52 wk",
+      "outcome": "Enrolling; no results",
+      "nct": "NCT06632444"
+    },
+    {
+      "id": "study:liverage-cirrhosis",
+      "type": "study",
+      "label": "LIVERAGE-Cirrhosis",
+      "year": null,
+      "species": "human",
+      "n": 1590,
+      "design": "Phase 3 RCT, compensated MASH cirrhosis",
+      "outcome": "Enrolling; primary completion ~2029",
+      "nct": "NCT06632457"
+    },
+    {
+      "id": "study:glory-1",
+      "type": "study",
+      "label": "GLORY-1",
+      "year": 2025,
+      "species": "human",
+      "n": 610,
+      "design": "Phase 3 RCT, Chinese adults with overweight/obesity, 48 wk",
+      "outcome": "~-11.0% / -14.0% vs +0.3% placebo; AE discontinuation 1.5%/0.5% vs 1.0%",
+      "nct": "NCT05607680"
+    },
+    {
+      "id": "study:amycretin-ph2-t2d",
+      "type": "study",
+      "label": "Amycretin phase 2 (T2D)",
+      "year": 2026,
+      "species": "human",
+      "n": 448,
+      "design": "Phase 2 RCT, type 2 diabetes, 36 wk",
+      "outcome": "Subcutaneous up to -14.5/-14.6%; oral up to -10.1%; HbA1c up to -1.5 pp (sponsor)"
+    },
+    {
+      "id": "study:select",
+      "type": "study",
+      "label": "SELECT",
+      "year": 2023,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 CV outcomes RCT, overweight/obesity + established CVD, no diabetes",
+      "outcome": "Primary MACE composite 6.5% vs 8.0%, HR 0.80"
+    },
+    {
+      "id": "study:flow",
+      "type": "study",
+      "label": "FLOW",
+      "year": 2024,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 kidney outcomes RCT, T2D + CKD",
+      "outcome": "Primary kidney composite -24%; kidney-specific HR 0.79; CV death HR 0.71; eGFR slope +1.16 mL/min/1.73m2/yr"
+    },
+    {
+      "id": "study:pooled-kidney",
+      "type": "study",
+      "label": "Pooled kidney analysis (SELECT, FLOW, SOUL)",
+      "year": 2026,
+      "species": "human",
+      "n": 30800,
+      "design": "Prespecified pooled analysis",
+      "outcome": "Primary kidney composite HR 0.84; secondary composite HR 0.80"
+    },
+    {
+      "id": "study:essence",
+      "type": "study",
+      "label": "ESSENCE",
+      "year": 2025,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, non-cirrhotic MASH F2-F3, 72 wk interim",
+      "outcome": "MASH resolution without fibrosis worsening 62.9% vs 34.3%; >=1-stage fibrosis improvement 36.8% vs 22.4%; weight -10.5% vs -2.0%"
+    },
+    {
+      "id": "study:surmount-osa",
+      "type": "study",
+      "label": "SURMOUNT-OSA",
+      "year": 2024,
+      "species": "human",
+      "n": 469,
+      "design": "Two phase 3 RCTs, moderate-severe OSA without T2D, 52 wk",
+      "outcome": "Weight -17.7% (non-PAP) and -19.6% (PAP); basis of first FDA OSA approval"
+    },
+    {
+      "id": "study:evoke",
+      "type": "study",
+      "label": "EVOKE / EVOKE+",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Two phase 3 RCTs, early symptomatic Alzheimer's disease, 104 wk",
+      "outcome": "NEGATIVE: no significant slowing on CDR-SB; pooled analysis no delay to dementia through wk 156; biomarkers moved without clinical benefit"
+    },
+    {
+      "id": "study:sema-aud-oral",
+      "type": "study",
+      "label": "Oral semaglutide for alcohol use disorder",
+      "year": 2026,
+      "species": "human",
+      "n": 50,
+      "design": "Phase 2 RCT, treatment-seeking moderate-severe AUD, 8 wk",
+      "outcome": "Mixed: no significant effect on lab craving or drinks/day; reduced heavy drinking days, drinks per drinking day, naturalistic craving, cannabis-use days"
+    },
+    {
+      "id": "study:sema-aud-sc",
+      "type": "study",
+      "label": "Once-weekly semaglutide in AUD",
+      "year": 2025,
+      "species": "human",
+      "n": 48,
+      "design": "Phase 2 RCT, non-treatment-seeking adults",
+      "outcome": "Reduced alcohol consumed in post-treatment lab self-administration task"
+    },
+    {
+      "id": "study:crave",
+      "type": "study",
+      "label": "CRAVE",
+      "year": null,
+      "species": "human",
+      "n": 622,
+      "design": "RCT, US veterans with moderate-severe AUD",
+      "outcome": "Planned; no results",
+      "nct": "NCT07218354"
+    },
+    {
+      "id": "study:believe",
+      "type": "study",
+      "label": "BELIEVE",
+      "year": 2025,
+      "species": "human",
+      "n": null,
+      "design": "Phase 2b RCT, obesity without diabetes, bimagrumab +/- semaglutide, 48-72 wk",
+      "outcome": "Weight -22.1% (combo) vs -15.7% (sema) vs -10.8% (bima); lean mass -2.9% vs -7.4%, bima alone +2.5%; acne and muscle spasms",
+      "nct": "NCT05616013"
+    },
+    {
+      "id": "study:embraze",
+      "type": "study",
+      "label": "EMBRAZE",
+      "year": 2025,
+      "species": "human",
+      "n": 102,
+      "design": "Phase 2 RCT, apitegromab + tirzepatide, 24 wk",
+      "outcome": "+1.9 kg lean mass retained = 54.9% preservation (p=0.001); weight -12.3% vs -13.4%; SAEs balanced"
+    },
+    {
+      "id": "study:courage",
+      "type": "study",
+      "label": "COURAGE",
+      "year": 2026,
+      "species": "human",
+      "n": null,
+      "design": "Phase 2 RCT, trevogrumab +/- garetosmab with semaglutide, 26-52 wk",
+      "outcome": "Lean-mass preservation 42.5% / 20.5% vs placebo+sema at 52 wk; MRI substudy 70% of muscle loss prevented; higher-dose arms increased lean mass during rebound regain (sponsor)",
+      "nct": "NCT06299098"
+    },
+    {
+      "id": "study:quality",
+      "type": "study",
+      "label": "QUALITY",
+      "year": 2025,
+      "species": "human",
+      "n": 168,
+      "design": "Phase 2b RCT, enobosarm + semaglutide, older adults with obesity, 16 wk",
+      "outcome": "71% relative reduction in lean-mass loss; similar total weight loss; regain cut ~46% in extension; more liver enzyme elevations (sponsor, not peer-reviewed)"
+    },
+    {
+      "id": "study:comp005",
+      "type": "study",
+      "label": "COMP005",
+      "year": 2025,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, treatment-resistant depression, single dose",
+      "outcome": "Met primary: greater MADRS reduction at wk 6; TEAE 84.8% vs 59.8% placebo through wk 26 (sponsor)"
+    },
+    {
+      "id": "study:comp006",
+      "type": "study",
+      "label": "COMP006",
+      "year": 2026,
+      "species": "human",
+      "n": 600,
+      "design": "Phase 3 RCT, treatment-resistant depression, 26 wk",
+      "outcome": "Met primary endpoint; durability figures post hoc; remission rates not disclosed (sponsor)"
+    },
+    {
+      "id": "study:mmed008",
+      "type": "study",
+      "label": "MMED008 (MM120 phase 2b)",
+      "year": 2025,
+      "species": "human",
+      "n": 198,
+      "design": "Phase 2b RCT, generalized anxiety disorder, 22 US sites",
+      "outcome": "Significant dose-response on HAM-A at wk 4; AEs mostly mild-moderate and confined to dosing day",
+      "nct": "NCT05407064"
+    },
+    {
+      "id": "study:voyage",
+      "type": "study",
+      "label": "Voyage",
+      "year": 2026,
+      "species": "human",
+      "n": 214,
+      "design": "Phase 3 RCT, generalized anxiety disorder",
+      "outcome": "Positive topline (sponsor)"
+    },
+    {
+      "id": "study:panorama",
+      "type": "study",
+      "label": "Panorama",
+      "year": 2026,
+      "species": "human",
+      "n": 245,
+      "design": "Phase 3 RCT, generalized anxiety disorder",
+      "outcome": "Met primary: significant improvement in HAM-A total score at wk 12 (sponsor)",
+      "nct": "NCT06809595"
+    },
+    {
+      "id": "study:trd4005",
+      "type": "study",
+      "label": "TRD4005",
+      "year": 2025,
+      "species": "human",
+      "n": null,
+      "design": "Phase 4 RCT, treatment-resistant depression, 4 wk",
+      "outcome": "Remission at day 28: 22.5% vs 7.6% placebo; basis of monotherapy approval"
+    },
+    {
+      "id": "study:tazpower",
+      "type": "study",
+      "label": "TAZPOWER",
+      "year": 2021,
+      "species": "human",
+      "n": 12,
+      "design": "RCT crossover + open-label extension, Barth syndrome",
+      "outcome": "Randomised primary endpoints missed; OLE improvements; basis of accelerated approval"
+    },
+    {
+      "id": "study:4tazpower",
+      "type": "study",
+      "label": "SPIBA-401 / 4TAZPower",
+      "year": null,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3b/4 RCT, Barth syndrome, FDA-required confirmatory trial",
+      "outcome": "Registered; actual enrolment start unverified",
+      "nct": "NCT07531251"
+    },
+    {
+      "id": "study:khenerfin",
+      "type": "study",
+      "label": "KHENERFIN",
+      "year": null,
+      "species": "human",
+      "n": null,
+      "design": "Phase 3 RCT, m.3243A>G primary mitochondrial disease, 52 wk",
+      "outcome": "Recruiting from 2026-02; enrolment target varies by source",
+      "nct": "NCT06451757"
+    },
+    {
+      "id": "study:mit-e",
+      "type": "study",
+      "label": "MIT-E",
+      "year": null,
+      "species": "human",
+      "n": null,
+      "design": "Trial in refractory epilepsy of mitochondrial origin",
+      "outcome": "TERMINATED (sponsor decision)"
+    },
+    {
+      "id": "event:orforglipron-fda-approval",
+      "type": "event",
+      "label": "FDA approves Foundayo (orforglipron)",
+      "date": "2026-04-01",
+      "what": "First oral small-molecule GLP-1 approved for chronic weight management; 5th National Priority Voucher approval; fastest NME approval since 2002"
+    },
+    {
+      "id": "event:sema-mash-accelerated-approval",
+      "type": "event",
+      "label": "FDA accelerated approval: Wegovy for non-cirrhotic MASH (F2-F3)",
+      "date": "2025-08-15",
+      "what": "First GLP-1 liver indication; histology surrogate; cirrhosis excluded"
+    },
+    {
+      "id": "event:forzinity-approval",
+      "type": "event",
+      "label": "FDA accelerated approval: Forzinity (elamipretide)",
+      "date": "2025-09-19",
+      "what": "First approved mitochondria-targeted drug; confirmatory trial not under way at approval"
+    },
+    {
+      "id": "event:mazdutide-china-obesity",
+      "type": "event",
+      "label": "China NMPA approves mazdutide for chronic weight management",
+      "date": "2025-06-27",
+      "what": "First dual GCG/GLP-1 receptor agonist approved anywhere"
+    },
+    {
+      "id": "event:mazdutide-china-t2d",
+      "type": "event",
+      "label": "China NMPA approves mazdutide for type 2 diabetes",
+      "date": "2025-09"
+    },
+    {
+      "id": "event:spravato-monotherapy",
+      "type": "event",
+      "label": "FDA approves Spravato (esketamine) as monotherapy for TRD",
+      "date": "2025-01-17",
+      "what": "Only full approval in the psychoactive-psychiatric space; Schedule III, REMS"
+    },
+    {
+      "id": "event:zepbound-osa-approval",
+      "type": "event",
+      "label": "FDA approves Zepbound for moderate-severe obstructive sleep apnoea",
+      "date": "2024-12",
+      "what": "First drug ever approved for OSA"
+    },
+    {
+      "id": "event:prac-naion-conclusion",
+      "type": "event",
+      "label": "EMA PRAC concludes NAION is a 'very rare' side effect of semaglutide",
+      "date": "2025-06",
+      "what": "Product information updated; stop if confirmed; contested by AAO/NANOS"
+    },
+    {
+      "id": "event:prac-naion-start",
+      "type": "event",
+      "label": "EMA PRAC starts review of semaglutide and NAION",
+      "date": "2025-01"
+    },
+    {
+      "id": "event:who-naion-alert",
+      "type": "event",
+      "label": "WHO safety alert on semaglutide and NAION",
+      "date": "2025-06-27",
+      "what": "Advisory committee concluded the Risk Management Plan should include NAION"
+    },
+    {
+      "id": "event:prac-suicidality-conclusion",
+      "type": "event",
+      "label": "EMA PRAC concludes no causal association between GLP-1 RAs and suicidal/self-injurious thoughts",
+      "date": "2024-04"
+    },
+    {
+      "id": "event:evoke-topline",
+      "type": "event",
+      "label": "EVOKE / EVOKE+ topline: oral semaglutide fails in early Alzheimer's disease",
+      "date": "2025-11",
+      "what": "Flagship neuroprotection hypothesis falsified"
+    },
+    {
+      "id": "event:cagrisema-fda-filing",
+      "type": "event",
+      "label": "CagriSema weight-management application submitted to FDA",
+      "date": "2025-12",
+      "what": "Decision window restated as Q4 2026; not approved as of 2026-11"
+    },
+    {
+      "id": "event:redefine4-miss",
+      "type": "event",
+      "label": "REDEFINE 4: CagriSema misses non-inferiority vs tirzepatide",
+      "date": "2026-01",
+      "what": "Largest negative result of the cycle in obesity"
+    },
+    {
+      "id": "event:mdma-crl",
+      "type": "event",
+      "label": "FDA Complete Response Letter for MDMA-assisted therapy in PTSD",
+      "date": "2024-08",
+      "what": "Additional phase 3 requested; safety and trial-conduct concerns cited"
+    },
+    {
+      "id": "event:mdma-resubmission",
+      "type": "event",
+      "label": "MDMA-assisted therapy NDA resubmitted to FDA",
+      "date": "2026-08",
+      "what": "Sponsor renamed Resilient Pharmaceuticals (ex-Lykos/MAPS PBC); content of resubmission unverified"
+    },
+    {
+      "id": "event:mm120-btd",
+      "type": "event",
+      "label": "FDA grants Breakthrough Therapy designation to MM120 for GAD",
+      "date": "2024-03"
+    },
+    {
+      "id": "event:comp360-rolling-nda",
+      "type": "event",
+      "label": "FDA grants rolling NDA review and National Priority Voucher to COMP360 for TRD",
+      "date": "2026"
+    },
+    {
+      "id": "event:bpc157-cat2",
+      "type": "event",
+      "label": "BPC-157 placed in Category 2 of FDA 503A bulk drug substances list",
+      "date": "2023",
+      "what": "Restricted pharmacy compounding"
+    },
+    {
+      "id": "event:bpc157-pcac-vote",
+      "type": "event",
+      "label": "FDA Pharmacy Compounding Advisory Committee votes 8-6 on adding BPC-157 to 503A bulks list",
+      "date": "2026-07-23",
+      "what": "Advisory only, non-binding; UNVERIFIED against FDA primary document"
+    },
+    {
+      "id": "src:nejm-attain1",
+      "type": "source",
+      "label": "ATTAIN-1, N Engl J Med 2025 (PMID 40960239)",
+      "url": "https://www.nejm.org/doi/10.1056/NEJMoa2511774"
+    },
+    {
+      "id": "src:lancet-attain2",
+      "type": "source",
+      "label": "ATTAIN-2, Lancet 2025;406",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02165-8/abstract"
+    },
+    {
+      "id": "src:lancet-attainj",
+      "type": "source",
+      "label": "ATTAIN-J, Lancet Diabetes Endocrinol 2026",
+      "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(26)00232-9/abstract"
+    },
+    {
+      "id": "src:lancet-achieve3",
+      "type": "source",
+      "label": "ACHIEVE-3, Lancet 2026",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00202-3/abstract"
+    },
+    {
+      "id": "src:fda-cnpv-orforglipron",
+      "type": "source",
+      "label": "FDA press announcement: first NME approved under National Priority Voucher",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program"
+    },
+    {
+      "id": "src:nejm-triumph1",
+      "type": "source",
+      "label": "TRIUMPH-1, N Engl J Med 2026",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2604169"
+    },
+    {
+      "id": "src:pubmed-42904878",
+      "type": "source",
+      "label": "Retatrutide for obstructive sleep apnoea, N Engl J Med 2026 (PMID 42904878)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42904878/"
+    },
+    {
+      "id": "src:nejm-redefine1",
+      "type": "source",
+      "label": "REDEFINE 1, N Engl J Med",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502081"
+    },
+    {
+      "id": "src:pmc12822771",
+      "type": "source",
+      "label": "REDEFINE 1 blood-pressure analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822771/"
+    },
+    {
+      "id": "src:nejm-maritide",
+      "type": "source",
+      "label": "MariTide phase 2, N Engl J Med 2025;393:843-857 (PMID 40549887)",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2504214"
+    },
+    {
+      "id": "src:nejm-maritide-letter",
+      "type": "source",
+      "label": "Correspondence: no weight plateau at 52 weeks",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMc2514331"
+    },
+    {
+      "id": "src:nejm-glory1",
+      "type": "source",
+      "label": "GLORY-1, N Engl J Med",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2411528"
+    },
+    {
+      "id": "src:pubmed-41028652",
+      "type": "source",
+      "label": "Mazdutide: First Approval (PMID 41028652)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41028652/"
+    },
+    {
+      "id": "src:pmc13472939",
+      "type": "source",
+      "label": "SYNCHRONIZE-MASLD, Nature Medicine",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13472939/"
+    },
+    {
+      "id": "src:nejm-select",
+      "type": "source",
+      "label": "SELECT, N Engl J Med 2023",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2307563"
+    },
+    {
+      "id": "src:nejm-flow",
+      "type": "source",
+      "label": "FLOW, N Engl J Med 2024",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2403347"
+    },
+    {
+      "id": "src:pubmed-42567173",
+      "type": "source",
+      "label": "Pooled kidney analysis of SELECT, FLOW and SOUL (PMID 42567173)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42567173/"
+    },
+    {
+      "id": "src:pmc11931213",
+      "type": "source",
+      "label": "FLOW by CKD severity",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11931213/"
+    },
+    {
+      "id": "src:pmc11271413",
+      "type": "source",
+      "label": "SELECT long-term kidney outcomes",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11271413/"
+    },
+    {
+      "id": "src:fda-mash",
+      "type": "source",
+      "label": "FDA: approval for MASH",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash"
+    },
+    {
+      "id": "src:pubmed-41201884",
+      "type": "source",
+      "label": "AASLD practice guidance update, semaglutide for MASH (PMID 41201884)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41201884/"
+    },
+    {
+      "id": "src:fda-osa",
+      "type": "source",
+      "label": "FDA: first medication approved for obstructive sleep apnoea",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea"
+    },
+    {
+      "id": "src:lancet-evoke",
+      "type": "source",
+      "label": "EVOKE / EVOKE+, Lancet 2026",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00459-9/fulltext"
+    },
+    {
+      "id": "src:pmc13390525",
+      "type": "source",
+      "label": "EVOKE plain-language summary",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13390525/"
+    },
+    {
+      "id": "src:pubmed-42522065",
+      "type": "source",
+      "label": "Oral semaglutide for alcohol use disorder RCT (PMID 42522065)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42522065/"
+    },
+    {
+      "id": "src:pubmed-39937469",
+      "type": "source",
+      "label": "Once-weekly semaglutide in AUD RCT (PMID 39937469)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39937469/"
+    },
+    {
+      "id": "src:pubmed-41697556",
+      "type": "source",
+      "label": "GLP-1 RAs and smoking cessation, review (PMID 41697556)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41697556/"
+    },
+    {
+      "id": "src:pmc13409016",
+      "type": "source",
+      "label": "GLP-1 RAs in substance use disorders, systematic review and meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13409016/"
+    },
+    {
+      "id": "src:ema-prac-naion",
+      "type": "source",
+      "label": "EMA PRAC meeting highlights, June 2025",
+      "url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-2-5-june-2025"
+    },
+    {
+      "id": "src:ema-prac-naion-start",
+      "type": "source",
+      "label": "EMA PRAC meeting highlights, January 2025",
+      "url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-13-16-january-2025"
+    },
+    {
+      "id": "src:who-naion",
+      "type": "source",
+      "label": "WHO: semaglutide and NAION",
+      "url": "https://www.who.int/news/item/27-06-2025-27-06-2025-semaglutide-medicines-naion"
+    },
+    {
+      "id": "src:aao-naion",
+      "type": "source",
+      "label": "AAO/NANOS consensus statement on GLP-1 RAs and NAION",
+      "url": "https://www.aao.org/education/clinical-statement/glucagon-like-peptide-1-receptor-agonists-risk-of-"
+    },
+    {
+      "id": "src:ema-prac-glp1",
+      "type": "source",
+      "label": "EMA statement on review of GLP-1 receptor agonists",
+      "url": "https://www.ema.europa.eu/en/news/ema-statement-ongoing-review-glp-1-receptor-agonists"
+    },
+    {
+      "id": "src:pmc11823376",
+      "type": "source",
+      "label": "GLP-1 RAs and suicidal ideation, systematic review and meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11823376/"
+    },
+    {
+      "id": "src:jamapsych-suicide",
+      "type": "source",
+      "label": "Suicide and self-harm events with GLP-1 RAs, JAMA Psychiatry meta-analysis",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2831637"
+    },
+    {
+      "id": "src:pmc13375528",
+      "type": "source",
+      "label": "EMBRAZE, Nature Medicine",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375528/"
+    },
+    {
+      "id": "src:pubmed-42608323",
+      "type": "source",
+      "label": "Body composition remodelling during GLP-1 therapy, meta-analysis (PMID 42608323)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42608323/"
+    },
+    {
+      "id": "src:pubmed-41022269",
+      "type": "source",
+      "label": "GLP-1 RAs and sarcopenia, narrative review (PMID 41022269)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41022269/"
+    },
+    {
+      "id": "src:pmc13272609",
+      "type": "source",
+      "label": "GLP-1 RAs in older adults, sarcopenia scoping review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13272609/"
+    },
+    {
+      "id": "src:pmc13303403",
+      "type": "source",
+      "label": "Lean mass and musculoskeletal preservation in GLP-1-based treatment",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13303403/"
+    },
+    {
+      "id": "src:pmc12673431",
+      "type": "source",
+      "label": "SEMALEAN study",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12673431/"
+    },
+    {
+      "id": "src:jcsm-enobosarm",
+      "type": "source",
+      "label": "Enobosarm in muscle wasting, JCSM Communications 2026",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/rco2.70027"
+    },
+    {
+      "id": "src:jama-mm120",
+      "type": "source",
+      "label": "MM120 phase 2b, JAMA 2025;334(15):1358-1372 (PMID 40906494)",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2838505"
+    },
+    {
+      "id": "src:pmc12437882",
+      "type": "source",
+      "label": "MM120 in a controlled clinical setting",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12437882/"
+    },
+    {
+      "id": "src:pubmed-42848417",
+      "type": "source",
+      "label": "DT120 (MM120) drug profile 2026 (PMID 42848417)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42848417/"
+    },
+    {
+      "id": "src:maps-mdma-resubmission",
+      "type": "source",
+      "label": "MAPS statement on MDMA NDA resubmission progress",
+      "url": "https://maps.org/2026/08/10/maps-responds-to-report-of-progress-for-mdma-assisted-therapy-for-ptsd-with-fda/"
+    },
+    {
+      "id": "src:compass-ir-ph3",
+      "type": "source",
+      "label": "Compass Pathways: six-month data from second phase 3 trial",
+      "url": "https://ir.compasspathways.com/News--Events-/news/news-details/2026/Compass-Pathways-Announces-Six-Month-Data-from-Second-Phase-3-Trial-Confirming-Rapid-and-Durable-Profile/"
+    },
+    {
+      "id": "src:bjp-nonhallucinogenic",
+      "type": "source",
+      "label": "Emerging therapeutic opportunities for psychedelic and related drugs, Br J Pharmacol 2026",
+      "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.70485"
+    },
+    {
+      "id": "src:fda-elamipretide-review",
+      "type": "source",
+      "label": "FDA integrated review, application 215244Orig1s000 (elamipretide)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/215244Orig1s000IntegratedR.pdf"
+    },
+    {
+      "id": "src:nct07531251",
+      "type": "source",
+      "label": "ClinicalTrials.gov NCT07531251 (SPIBA-401 / 4TAZPower)",
+      "url": "https://clinicaltrials.gov/study/NCT07531251"
+    },
+    {
+      "id": "src:citeline-forzinity",
+      "type": "source",
+      "label": "Pink Sheet: Forzinity accelerated approval and confirmatory-trial status flexibility",
+      "url": "https://insights.citeline.com/pink-sheet/product-reviews/approvals/stealths-forzinity-accelerated-approval-shows-us-fda-confirmatory-trial-status-flexibility-PP4FAS6X6RADTJRICUJ3FU2ODQ/"
+    },
+    {
+      "id": "src:khondrion-khenerfin",
+      "type": "source",
+      "label": "Khondrion: KHENERFIN phase 3 endpoint selection",
+      "url": "https://www.khondrion.com/news/khondrion-announces-publication-of-qualitative-study-informing-endpoint-selection-for-the-khenerfin-phase-3-trial-in-m-3243a-g-primary-mitochondrial-disease"
+    },
+    {
+      "id": "src:pmc13504546",
+      "type": "source",
+      "label": "m.3243A>G MELAS: trials and therapeutic interventions, review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13504546/"
+    },
+    {
+      "id": "src:fda-zepbound-osa-letter",
+      "type": "source",
+      "label": "FDA approval letter, Zepbound supplement 217806Orig1s013",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/217806Orig1s013ltr.pdf"
+    }
+  ],
+  "edges": [
+    {
+      "source": "topic:next-gen-obesity",
+      "target": "area:clinical-pipeline",
+      "rel": "in_area"
+    },
+    {
+      "source": "topic:glp1-beyond-weight",
+      "target": "area:clinical-pipeline",
+      "rel": "in_area"
+    },
+    {
+      "source": "topic:muscle-preservation",
+      "target": "area:clinical-pipeline",
+      "rel": "in_area"
+    },
+    {
+      "source": "topic:psychedelic-and-neuro",
+      "target": "area:clinical-pipeline",
+      "rel": "in_area"
+    },
+    {
+      "source": "topic:mitochondrial-and-repair",
+      "target": "area:clinical-pipeline",
+      "rel": "in_area"
+    },
+    {
+      "source": "orforglipron",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "retatrutide",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "cagrisema",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "cagrilintide",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "mazdutide",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "survodutide",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "amycretin",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "maridebart-cafraglutide",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "petrelintide",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "semaglutide",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "semaglutide",
+      "target": "topic:glp1-beyond-weight",
+      "rel": "in_area"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "topic:glp1-beyond-weight",
+      "rel": "in_area"
+    },
+    {
+      "source": "survodutide",
+      "target": "topic:glp1-beyond-weight",
+      "rel": "in_area"
+    },
+    {
+      "source": "retatrutide",
+      "target": "topic:glp1-beyond-weight",
+      "rel": "in_area"
+    },
+    {
+      "source": "bimagrumab",
+      "target": "topic:muscle-preservation",
+      "rel": "in_area"
+    },
+    {
+      "source": "apitegromab",
+      "target": "topic:muscle-preservation",
+      "rel": "in_area"
+    },
+    {
+      "source": "trevogrumab",
+      "target": "topic:muscle-preservation",
+      "rel": "in_area"
+    },
+    {
+      "source": "enobosarm",
+      "target": "topic:muscle-preservation",
+      "rel": "in_area"
+    },
+    {
+      "source": "semaglutide",
+      "target": "topic:muscle-preservation",
+      "rel": "in_area"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "topic:muscle-preservation",
+      "rel": "in_area"
+    },
+    {
+      "source": "psilocybin",
+      "target": "topic:psychedelic-and-neuro",
+      "rel": "in_area"
+    },
+    {
+      "source": "mdma",
+      "target": "topic:psychedelic-and-neuro",
+      "rel": "in_area"
+    },
+    {
+      "source": "lsd",
+      "target": "topic:psychedelic-and-neuro",
+      "rel": "in_area"
+    },
+    {
+      "source": "esketamine",
+      "target": "topic:psychedelic-and-neuro",
+      "rel": "in_area"
+    },
+    {
+      "source": "semaglutide",
+      "target": "topic:psychedelic-and-neuro",
+      "rel": "in_area"
+    },
+    {
+      "source": "ss-31",
+      "target": "topic:mitochondrial-and-repair",
+      "rel": "in_area"
+    },
+    {
+      "source": "sonlicromanol",
+      "target": "topic:mitochondrial-and-repair",
+      "rel": "in_area"
+    },
+    {
+      "source": "vatiquinone",
+      "target": "topic:mitochondrial-and-repair",
+      "rel": "in_area"
+    },
+    {
+      "source": "bpc-157",
+      "target": "topic:mitochondrial-and-repair",
+      "rel": "in_area"
+    },
+    {
+      "source": "cagrisema",
+      "target": "cagrilintide",
+      "rel": "related_to"
+    },
+    {
+      "source": "cagrisema",
+      "target": "semaglutide",
+      "rel": "related_to"
+    },
+    {
+      "source": "petrelintide",
+      "target": "cagrilintide",
+      "rel": "related_to"
+    },
+    {
+      "source": "amycretin",
+      "target": "semaglutide",
+      "rel": "related_to"
+    },
+    {
+      "source": "orforglipron",
+      "target": "semaglutide",
+      "rel": "related_to"
+    },
+    {
+      "source": "retatrutide",
+      "target": "tirzepatide",
+      "rel": "related_to"
+    },
+    {
+      "source": "mazdutide",
+      "target": "survodutide",
+      "rel": "related_to"
+    },
+    {
+      "source": "lsd",
+      "target": "psilocybin",
+      "rel": "related_to"
+    },
+    {
+      "source": "esketamine",
+      "target": "psilocybin",
+      "rel": "related_to"
+    },
+    {
+      "source": "bpc-157",
+      "target": "ss-31",
+      "rel": "related_to"
+    },
+    {
+      "source": "orforglipron",
+      "target": "target:glp1r",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "target:glp1r",
+      "rel": "related_to"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "target:glp1r",
+      "rel": "related_to"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "target:gipr",
+      "rel": "related_to"
+    },
+    {
+      "source": "retatrutide",
+      "target": "target:glp1r",
+      "rel": "related_to"
+    },
+    {
+      "source": "retatrutide",
+      "target": "target:gipr",
+      "rel": "related_to"
+    },
+    {
+      "source": "retatrutide",
+      "target": "target:gcgr",
+      "rel": "related_to"
+    },
+    {
+      "source": "mazdutide",
+      "target": "target:glp1r",
+      "rel": "related_to"
+    },
+    {
+      "source": "mazdutide",
+      "target": "target:gcgr",
+      "rel": "related_to"
+    },
+    {
+      "source": "survodutide",
+      "target": "target:glp1r",
+      "rel": "related_to"
+    },
+    {
+      "source": "survodutide",
+      "target": "target:gcgr",
+      "rel": "related_to"
+    },
+    {
+      "source": "cagrilintide",
+      "target": "target:amylin-receptor",
+      "rel": "related_to"
+    },
+    {
+      "source": "petrelintide",
+      "target": "target:amylin-receptor",
+      "rel": "related_to"
+    },
+    {
+      "source": "amycretin",
+      "target": "target:glp1r",
+      "rel": "related_to"
+    },
+    {
+      "source": "amycretin",
+      "target": "target:amylin-receptor",
+      "rel": "related_to"
+    },
+    {
+      "source": "maridebart-cafraglutide",
+      "target": "target:glp1r",
+      "rel": "related_to"
+    },
+    {
+      "source": "maridebart-cafraglutide",
+      "target": "target:gipr",
+      "rel": "related_to"
+    },
+    {
+      "source": "apitegromab",
+      "target": "target:myostatin",
+      "rel": "related_to"
+    },
+    {
+      "source": "trevogrumab",
+      "target": "target:myostatin",
+      "rel": "related_to"
+    },
+    {
+      "source": "bimagrumab",
+      "target": "target:actrii",
+      "rel": "related_to"
+    },
+    {
+      "source": "enobosarm",
+      "target": "target:androgen-receptor",
+      "rel": "related_to"
+    },
+    {
+      "source": "psilocybin",
+      "target": "target:5ht2a",
+      "rel": "related_to"
+    },
+    {
+      "source": "lsd",
+      "target": "target:5ht2a",
+      "rel": "related_to"
+    },
+    {
+      "source": "esketamine",
+      "target": "target:nmda",
+      "rel": "related_to"
+    },
+    {
+      "source": "ss-31",
+      "target": "target:cardiolipin",
+      "rel": "related_to"
+    },
+    {
+      "source": "orforglipron",
+      "target": "risk:gi-adverse-events",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "orforglipron",
+      "target": "risk:pancreatitis",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "orforglipron",
+      "target": "risk:increased-heart-rate",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "retatrutide",
+      "target": "risk:gi-adverse-events",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "semaglutide",
+      "target": "risk:gi-adverse-events",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "risk:gi-adverse-events",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "cagrisema",
+      "target": "risk:gi-adverse-events",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "survodutide",
+      "target": "risk:gi-adverse-events",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "mazdutide",
+      "target": "risk:gi-adverse-events",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "maridebart-cafraglutide",
+      "target": "risk:gi-adverse-events",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "maridebart-cafraglutide",
+      "target": "risk:gallbladder-disease",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "semaglutide",
+      "target": "risk:naion",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "semaglutide",
+      "target": "risk:lean-mass-loss",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "risk:lean-mass-loss",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "semaglutide",
+      "target": "risk:psychiatric-signal",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "enobosarm",
+      "target": "risk:liver-enzyme-elevation",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "psilocybin",
+      "target": "risk:psychiatric-signal",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "lsd",
+      "target": "risk:psychiatric-signal",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "mdma",
+      "target": "risk:psychiatric-signal",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "esketamine",
+      "target": "risk:psychiatric-signal",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "semaglutide",
+      "target": "risk:weight-regain",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "risk:weight-regain",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "bpc-157",
+      "target": "risk:product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "retatrutide",
+      "target": "risk:product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "ss-31",
+      "target": "risk:product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "petrelintide",
+      "target": "risk:product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "survodutide",
+      "target": "risk:product-quality",
+      "rel": "causes_risk"
+    },
+    {
+      "source": "orforglipron",
+      "target": "org:fda",
+      "rel": "regulated_by"
+    },
+    {
+      "source": "semaglutide",
+      "target": "org:fda",
+      "rel": "regulated_by"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "org:fda",
+      "rel": "regulated_by"
+    },
+    {
+      "source": "esketamine",
+      "target": "org:fda",
+      "rel": "regulated_by"
+    },
+    {
+      "source": "ss-31",
+      "target": "org:fda",
+      "rel": "regulated_by"
+    },
+    {
+      "source": "cagrisema",
+      "target": "org:fda",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "psilocybin",
+      "target": "org:fda",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "mdma",
+      "target": "org:fda",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "lsd",
+      "target": "org:fda",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "bpc-157",
+      "target": "org:fda",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "mazdutide",
+      "target": "org:nmpa",
+      "rel": "regulated_by"
+    },
+    {
+      "source": "semaglutide",
+      "target": "org:ema",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "semaglutide",
+      "target": "org:who",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "orforglipron",
+      "target": "study:attain-1",
+      "rel": "related_to"
+    },
+    {
+      "source": "orforglipron",
+      "target": "study:attain-2",
+      "rel": "related_to"
+    },
+    {
+      "source": "orforglipron",
+      "target": "study:attain-j",
+      "rel": "related_to"
+    },
+    {
+      "source": "orforglipron",
+      "target": "study:achieve-3",
+      "rel": "related_to"
+    },
+    {
+      "source": "retatrutide",
+      "target": "study:triumph-1",
+      "rel": "related_to"
+    },
+    {
+      "source": "retatrutide",
+      "target": "study:triumph-1-osa",
+      "rel": "related_to"
+    },
+    {
+      "source": "retatrutide",
+      "target": "study:triumph-3",
+      "rel": "related_to"
+    },
+    {
+      "source": "retatrutide",
+      "target": "study:triumph-4",
+      "rel": "related_to"
+    },
+    {
+      "source": "cagrisema",
+      "target": "study:redefine-1",
+      "rel": "related_to"
+    },
+    {
+      "source": "cagrisema",
+      "target": "study:redefine-2",
+      "rel": "related_to"
+    },
+    {
+      "source": "cagrisema",
+      "target": "study:redefine-4",
+      "rel": "related_to"
+    },
+    {
+      "source": "maridebart-cafraglutide",
+      "target": "study:maritide-ph2",
+      "rel": "related_to"
+    },
+    {
+      "source": "petrelintide",
+      "target": "study:zupreme-1",
+      "rel": "related_to"
+    },
+    {
+      "source": "petrelintide",
+      "target": "study:zupreme-2",
+      "rel": "related_to"
+    },
+    {
+      "source": "survodutide",
+      "target": "study:synchronize-1",
+      "rel": "related_to"
+    },
+    {
+      "source": "survodutide",
+      "target": "study:synchronize-2",
+      "rel": "related_to"
+    },
+    {
+      "source": "survodutide",
+      "target": "study:synchronize-masld",
+      "rel": "related_to"
+    },
+    {
+      "source": "survodutide",
+      "target": "study:survodutide-mash-ph2",
+      "rel": "related_to"
+    },
+    {
+      "source": "survodutide",
+      "target": "study:liverage",
+      "rel": "related_to"
+    },
+    {
+      "source": "survodutide",
+      "target": "study:liverage-cirrhosis",
+      "rel": "related_to"
+    },
+    {
+      "source": "mazdutide",
+      "target": "study:glory-1",
+      "rel": "related_to"
+    },
+    {
+      "source": "amycretin",
+      "target": "study:amycretin-ph2-t2d",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "study:select",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "study:flow",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "study:pooled-kidney",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "study:essence",
+      "rel": "related_to"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "study:surmount-osa",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "study:evoke",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "study:sema-aud-oral",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "study:sema-aud-sc",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "study:crave",
+      "rel": "related_to"
+    },
+    {
+      "source": "bimagrumab",
+      "target": "study:believe",
+      "rel": "related_to"
+    },
+    {
+      "source": "apitegromab",
+      "target": "study:embraze",
+      "rel": "related_to"
+    },
+    {
+      "source": "trevogrumab",
+      "target": "study:courage",
+      "rel": "related_to"
+    },
+    {
+      "source": "enobosarm",
+      "target": "study:quality",
+      "rel": "related_to"
+    },
+    {
+      "source": "psilocybin",
+      "target": "study:comp005",
+      "rel": "related_to"
+    },
+    {
+      "source": "psilocybin",
+      "target": "study:comp006",
+      "rel": "related_to"
+    },
+    {
+      "source": "lsd",
+      "target": "study:mmed008",
+      "rel": "related_to"
+    },
+    {
+      "source": "lsd",
+      "target": "study:voyage",
+      "rel": "related_to"
+    },
+    {
+      "source": "lsd",
+      "target": "study:panorama",
+      "rel": "related_to"
+    },
+    {
+      "source": "esketamine",
+      "target": "study:trd4005",
+      "rel": "related_to"
+    },
+    {
+      "source": "ss-31",
+      "target": "study:tazpower",
+      "rel": "related_to"
+    },
+    {
+      "source": "ss-31",
+      "target": "study:4tazpower",
+      "rel": "related_to"
+    },
+    {
+      "source": "sonlicromanol",
+      "target": "study:khenerfin",
+      "rel": "related_to"
+    },
+    {
+      "source": "vatiquinone",
+      "target": "study:mit-e",
+      "rel": "related_to"
+    },
+    {
+      "source": "study:attain-1",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:triumph-1",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:redefine-1",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:glory-1",
+      "target": "topic:next-gen-obesity",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:select",
+      "target": "topic:glp1-beyond-weight",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:flow",
+      "target": "topic:glp1-beyond-weight",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:essence",
+      "target": "topic:glp1-beyond-weight",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:evoke",
+      "target": "topic:glp1-beyond-weight",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:believe",
+      "target": "topic:muscle-preservation",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:embraze",
+      "target": "topic:muscle-preservation",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:comp006",
+      "target": "topic:psychedelic-and-neuro",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:mmed008",
+      "target": "topic:psychedelic-and-neuro",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:4tazpower",
+      "target": "topic:mitochondrial-and-repair",
+      "rel": "in_area"
+    },
+    {
+      "source": "study:select",
+      "target": "effect:mace-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:flow",
+      "target": "effect:kidney-protection",
+      "rel": "supports"
+    },
+    {
+      "source": "study:pooled-kidney",
+      "target": "effect:kidney-protection",
+      "rel": "supports"
+    },
+    {
+      "source": "study:essence",
+      "target": "effect:mash-resolution",
+      "rel": "supports"
+    },
+    {
+      "source": "study:survodutide-mash-ph2",
+      "target": "effect:mash-resolution",
+      "rel": "supports"
+    },
+    {
+      "source": "study:synchronize-masld",
+      "target": "effect:liver-fat-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:surmount-osa",
+      "target": "effect:ahi-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:triumph-1-osa",
+      "target": "effect:ahi-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:triumph-4",
+      "target": "effect:oa-pain-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:attain-1",
+      "target": "effect:weight-loss",
+      "rel": "supports"
+    },
+    {
+      "source": "study:triumph-1",
+      "target": "effect:weight-loss",
+      "rel": "supports"
+    },
+    {
+      "source": "study:redefine-1",
+      "target": "effect:weight-loss",
+      "rel": "supports"
+    },
+    {
+      "source": "study:glory-1",
+      "target": "effect:weight-loss",
+      "rel": "supports"
+    },
+    {
+      "source": "study:maritide-ph2",
+      "target": "effect:weight-loss",
+      "rel": "supports"
+    },
+    {
+      "source": "study:zupreme-1",
+      "target": "effect:weight-loss",
+      "rel": "supports"
+    },
+    {
+      "source": "study:synchronize-1",
+      "target": "effect:weight-loss",
+      "rel": "supports"
+    },
+    {
+      "source": "study:amycretin-ph2-t2d",
+      "target": "effect:weight-loss",
+      "rel": "supports"
+    },
+    {
+      "source": "study:believe",
+      "target": "effect:lean-mass-preservation",
+      "rel": "supports"
+    },
+    {
+      "source": "study:embraze",
+      "target": "effect:lean-mass-preservation",
+      "rel": "supports"
+    },
+    {
+      "source": "study:courage",
+      "target": "effect:lean-mass-preservation",
+      "rel": "supports"
+    },
+    {
+      "source": "study:quality",
+      "target": "effect:lean-mass-preservation",
+      "rel": "supports"
+    },
+    {
+      "source": "study:comp005",
+      "target": "effect:depression-symptom-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:comp006",
+      "target": "effect:depression-symptom-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:trd4005",
+      "target": "effect:depression-symptom-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:mmed008",
+      "target": "effect:anxiety-symptom-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:voyage",
+      "target": "effect:anxiety-symptom-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:panorama",
+      "target": "effect:anxiety-symptom-reduction",
+      "rel": "supports"
+    },
+    {
+      "source": "study:tazpower",
+      "target": "effect:muscle-strength-barth",
+      "rel": "supports"
+    },
+    {
+      "source": "study:evoke",
+      "target": "effect:cognition-slowing",
+      "rel": "refutes"
+    },
+    {
+      "source": "study:redefine-4",
+      "target": "effect:weight-loss",
+      "rel": "refutes"
+    },
+    {
+      "source": "study:mit-e",
+      "target": "effect:cognition-slowing",
+      "rel": "refutes"
+    },
+    {
+      "source": "study:maritide-ph2",
+      "target": "risk:gallbladder-disease",
+      "rel": "supports"
+    },
+    {
+      "source": "study:attain-1",
+      "target": "risk:pancreatitis",
+      "rel": "supports"
+    },
+    {
+      "source": "study:attain-1",
+      "target": "risk:increased-heart-rate",
+      "rel": "supports"
+    },
+    {
+      "source": "study:triumph-4",
+      "target": "risk:gi-adverse-events",
+      "rel": "supports"
+    },
+    {
+      "source": "study:quality",
+      "target": "risk:liver-enzyme-elevation",
+      "rel": "supports"
+    },
+    {
+      "source": "study:courage",
+      "target": "risk:weight-regain",
+      "rel": "supports"
+    },
+    {
+      "source": "orforglipron",
+      "target": "event:orforglipron-fda-approval",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "event:sema-mash-accelerated-approval",
+      "rel": "related_to"
+    },
+    {
+      "source": "ss-31",
+      "target": "event:forzinity-approval",
+      "rel": "related_to"
+    },
+    {
+      "source": "mazdutide",
+      "target": "event:mazdutide-china-obesity",
+      "rel": "related_to"
+    },
+    {
+      "source": "mazdutide",
+      "target": "event:mazdutide-china-t2d",
+      "rel": "related_to"
+    },
+    {
+      "source": "esketamine",
+      "target": "event:spravato-monotherapy",
+      "rel": "related_to"
+    },
+    {
+      "source": "tirzepatide",
+      "target": "event:zepbound-osa-approval",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "event:prac-naion-conclusion",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "event:prac-naion-start",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "event:who-naion-alert",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "event:prac-suicidality-conclusion",
+      "rel": "related_to"
+    },
+    {
+      "source": "semaglutide",
+      "target": "event:evoke-topline",
+      "rel": "related_to"
+    },
+    {
+      "source": "cagrisema",
+      "target": "event:cagrisema-fda-filing",
+      "rel": "related_to"
+    },
+    {
+      "source": "cagrisema",
+      "target": "event:redefine4-miss",
+      "rel": "related_to"
+    },
+    {
+      "source": "mdma",
+      "target": "event:mdma-crl",
+      "rel": "related_to"
+    },
+    {
+      "source": "mdma",
+      "target": "event:mdma-resubmission",
+      "rel": "related_to"
+    },
+    {
+      "source": "lsd",
+      "target": "event:mm120-btd",
+      "rel": "related_to"
+    },
+    {
+      "source": "psilocybin",
+      "target": "event:comp360-rolling-nda",
+      "rel": "related_to"
+    },
+    {
+      "source": "bpc-157",
+      "target": "event:bpc157-cat2",
+      "rel": "related_to"
+    },
+    {
+      "source": "bpc-157",
+      "target": "event:bpc157-pcac-vote",
+      "rel": "related_to"
+    },
+    {
+      "source": "event:mdma-resubmission",
+      "target": "event:mdma-crl",
+      "rel": "preceded_by"
+    },
+    {
+      "source": "event:prac-naion-conclusion",
+      "target": "event:prac-naion-start",
+      "rel": "preceded_by"
+    },
+    {
+      "source": "event:bpc157-pcac-vote",
+      "target": "event:bpc157-cat2",
+      "rel": "preceded_by"
+    },
+    {
+      "source": "event:forzinity-approval",
+      "target": "study:tazpower",
+      "rel": "related_to"
+    },
+    {
+      "source": "event:orforglipron-fda-approval",
+      "target": "org:fda",
+      "rel": "regulated_by"
+    },
+    {
+      "source": "event:prac-naion-conclusion",
+      "target": "org:ema",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "event:who-naion-alert",
+      "target": "org:who",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "event:mazdutide-china-obesity",
+      "target": "org:nmpa",
+      "rel": "regulated_by"
+    },
+    {
+      "source": "risk:naion",
+      "target": "org:aao-nanos",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "event:sema-mash-accelerated-approval",
+      "target": "org:aaslp",
+      "rel": "monitored_by"
+    },
+    {
+      "source": "study:attain-1",
+      "target": "src:nejm-attain1",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:attain-2",
+      "target": "src:lancet-attain2",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:attain-j",
+      "target": "src:lancet-attainj",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:achieve-3",
+      "target": "src:lancet-achieve3",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:orforglipron-fda-approval",
+      "target": "src:fda-cnpv-orforglipron",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:triumph-1",
+      "target": "src:nejm-triumph1",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:triumph-1-osa",
+      "target": "src:pubmed-42904878",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:redefine-1",
+      "target": "src:nejm-redefine1",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:redefine-1",
+      "target": "src:pmc12822771",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:maritide-ph2",
+      "target": "src:nejm-maritide",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:maritide-ph2",
+      "target": "src:nejm-maritide-letter",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:glory-1",
+      "target": "src:nejm-glory1",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:mazdutide-china-obesity",
+      "target": "src:pubmed-41028652",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:synchronize-masld",
+      "target": "src:pmc13472939",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:select",
+      "target": "src:nejm-select",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:flow",
+      "target": "src:nejm-flow",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:pooled-kidney",
+      "target": "src:pubmed-42567173",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:flow",
+      "target": "src:pmc11931213",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:select",
+      "target": "src:pmc11271413",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:sema-mash-accelerated-approval",
+      "target": "src:fda-mash",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:essence",
+      "target": "src:fda-mash",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:essence",
+      "target": "src:pubmed-41201884",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:zepbound-osa-approval",
+      "target": "src:fda-osa",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:surmount-osa",
+      "target": "src:fda-osa",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:evoke",
+      "target": "src:lancet-evoke",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:evoke",
+      "target": "src:pmc13390525",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:sema-aud-oral",
+      "target": "src:pubmed-42522065",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:sema-aud-sc",
+      "target": "src:pubmed-39937469",
+      "rel": "cited_by"
+    },
+    {
+      "source": "topic:glp1-beyond-weight",
+      "target": "src:pubmed-41697556",
+      "rel": "cited_by"
+    },
+    {
+      "source": "topic:glp1-beyond-weight",
+      "target": "src:pmc13409016",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:prac-naion-conclusion",
+      "target": "src:ema-prac-naion",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:prac-naion-start",
+      "target": "src:ema-prac-naion-start",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:who-naion-alert",
+      "target": "src:who-naion",
+      "rel": "cited_by"
+    },
+    {
+      "source": "risk:naion",
+      "target": "src:aao-naion",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:prac-suicidality-conclusion",
+      "target": "src:ema-prac-glp1",
+      "rel": "cited_by"
+    },
+    {
+      "source": "risk:psychiatric-signal",
+      "target": "src:pmc11823376",
+      "rel": "cited_by"
+    },
+    {
+      "source": "risk:psychiatric-signal",
+      "target": "src:jamapsych-suicide",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:embraze",
+      "target": "src:pmc13375528",
+      "rel": "cited_by"
+    },
+    {
+      "source": "risk:lean-mass-loss",
+      "target": "src:pubmed-42608323",
+      "rel": "cited_by"
+    },
+    {
+      "source": "risk:lean-mass-loss",
+      "target": "src:pubmed-41022269",
+      "rel": "cited_by"
+    },
+    {
+      "source": "risk:lean-mass-loss",
+      "target": "src:pmc13272609",
+      "rel": "cited_by"
+    },
+    {
+      "source": "topic:muscle-preservation",
+      "target": "src:pmc13303403",
+      "rel": "cited_by"
+    },
+    {
+      "source": "risk:lean-mass-loss",
+      "target": "src:pmc12673431",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:quality",
+      "target": "src:jcsm-enobosarm",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:mmed008",
+      "target": "src:jama-mm120",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:mmed008",
+      "target": "src:pmc12437882",
+      "rel": "cited_by"
+    },
+    {
+      "source": "lsd",
+      "target": "src:pubmed-42848417",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:mdma-resubmission",
+      "target": "src:maps-mdma-resubmission",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:comp006",
+      "target": "src:compass-ir-ph3",
+      "rel": "cited_by"
+    },
+    {
+      "source": "topic:psychedelic-and-neuro",
+      "target": "src:bjp-nonhallucinogenic",
+      "rel": "cited_by"
+    },
+    {
+      "source": "event:forzinity-approval",
+      "target": "src:fda-elamipretide-review",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:4tazpower",
+      "target": "src:nct07531251",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:4tazpower",
+      "target": "src:citeline-forzinity",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:khenerfin",
+      "target": "src:khondrion-khenerfin",
+      "rel": "cited_by"
+    },
+    {
+      "source": "topic:mitochondrial-and-repair",
+      "target": "src:pmc13504546",
+      "rel": "cited_by"
+    },
+    {
+      "source": "study:surmount-osa",
+      "target": "src:fda-zepbound-osa-letter",
+      "rel": "cited_by"
+    }
+  ]
+}
