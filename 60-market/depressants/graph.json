@@ -1,0 +1,1617 @@
+{
+  "area": "area:depressants",
+  "updated": "2026-11-08",
+  "nodes": [
+    {
+      "id": "area:depressants",
+      "type": "area",
+      "label": "Depressants, sedatives & opioid NPS"
+    },
+    {
+      "id": "topic:nitazenes-orphines",
+      "type": "topic",
+      "label": "Nitazenes & the orphine class",
+      "file": "nitazenes.md"
+    },
+    {
+      "id": "topic:designer-benzodiazepines",
+      "type": "topic",
+      "label": "Designer benzodiazepines",
+      "file": "designer-benzodiazepines.md"
+    },
+    {
+      "id": "topic:veterinary-sedative-adulterants",
+      "type": "topic",
+      "label": "Veterinary sedatives & industrial additives as adulterants",
+      "file": "veterinary-sedative-adulterants.md"
+    },
+    {
+      "id": "topic:kratom-derivatives",
+      "type": "topic",
+      "label": "Concentrated kratom derivatives (7-OH)",
+      "file": "kratom-derivatives.md"
+    },
+    {
+      "id": "topic:other-depressants",
+      "type": "topic",
+      "label": "Tianeptine, gabapentinoids, GABAergic NPS",
+      "file": "other-depressants.md"
+    },
+    {
+      "id": "nitazenes",
+      "type": "compound",
+      "label": "Nitazenes (2-benzylbenzimidazole opioids)",
+      "mechanism": "mu-opioid agonist",
+      "naloxone_reversible": true,
+      "in_routine_tox": false
+    },
+    {
+      "id": "orphines",
+      "type": "compound",
+      "label": "Orphines (benzimidazol-2-ones)",
+      "mechanism": "mu-opioid agonist",
+      "naloxone_reversible": "expected, unproven clinically",
+      "in_routine_tox": false
+    },
+    {
+      "id": "brorphine",
+      "type": "compound",
+      "label": "Brorphine",
+      "note": "first potent opioid of the benzimidazol-2-one class, EU ~2019 / US 2020"
+    },
+    {
+      "id": "cychlorphine",
+      "type": "compound",
+      "label": "Cychlorphine (N-propionitrile chlorphine)",
+      "potency": "exceeds fentanyl in vitro (UNODC, May 2026); '10x fentanyl' claim unverified"
+    },
+    {
+      "id": "spirochlorphine",
+      "type": "compound",
+      "label": "Spirochlorphine"
+    },
+    {
+      "id": "n-pyrrolidino-protonitazene",
+      "type": "compound",
+      "label": "N-pyrrolidino protonitazene (protonitazepyne)",
+      "potency": "~25x fentanyl in vitro (unverified as human equipotency)"
+    },
+    {
+      "id": "protodesnitazene",
+      "type": "compound",
+      "label": "Protodesnitazene",
+      "potency": ">13-fold less potent than protonitazene in vitro"
+    },
+    {
+      "id": "bromazolam",
+      "type": "compound",
+      "label": "Bromazolam",
+      "mechanism": "GABA-A positive allosteric modulator",
+      "naloxone_reversible": false
+    },
+    {
+      "id": "clonazolam",
+      "type": "compound",
+      "label": "Clonazolam",
+      "mechanism": "GABA-A positive allosteric modulator",
+      "naloxone_reversible": false
+    },
+    {
+      "id": "ethylbromazolam",
+      "type": "compound",
+      "label": "Ethylbromazolam",
+      "note": "first detected Toronto Drug Checking Service, 8 Nov 2024"
+    },
+    {
+      "id": "clobromazolam",
+      "type": "compound",
+      "label": "Clobromazolam (phenazolam)",
+      "note": "WHO ECDD pre-review; sold as counterfeit alprazolam"
+    },
+    {
+      "id": "flualprazolam",
+      "type": "compound",
+      "label": "Flualprazolam",
+      "note": "2026 legal status unverified"
+    },
+    {
+      "id": "etizolam",
+      "type": "compound",
+      "label": "Etizolam",
+      "note": "licensed medicine in some countries; 2026 status unverified"
+    },
+    {
+      "id": "medetomidine",
+      "type": "compound",
+      "label": "Medetomidine / dexmedetomidine",
+      "mechanism": "alpha-2 adrenergic agonist",
+      "naloxone_reversible": false,
+      "in_routine_tox": false
+    },
+    {
+      "id": "xylazine",
+      "type": "compound",
+      "label": "Xylazine",
+      "mechanism": "alpha-2 adrenergic agonist",
+      "naloxone_reversible": false,
+      "in_routine_tox": false
+    },
+    {
+      "id": "btmps",
+      "type": "compound",
+      "label": "BTMPS (Tinuvin 770)",
+      "mechanism": "industrial UV stabiliser; no established psychoactive effect",
+      "human_toxicity": "unknown"
+    },
+    {
+      "id": "7-oh",
+      "type": "compound",
+      "label": "7-hydroxymitragynine (7-OH)",
+      "mechanism": "partial mu-opioid agonist, G-protein biased",
+      "note": "~5x mitragynine affinity; ~45% GTPgS max vs morphine 90%"
+    },
+    {
+      "id": "mitragynine",
+      "type": "compound",
+      "label": "Mitragynine",
+      "mechanism": "low-efficacy mu-opioid agonist"
+    },
+    {
+      "id": "mitragynine-pseudoindoxyl",
+      "type": "compound",
+      "label": "Mitragynine pseudoindoxyl (MP)",
+      "note": "US temporary Schedule I, 26 Aug 2026 to 26 Aug 2028"
+    },
+    {
+      "id": "tianeptine",
+      "type": "compound",
+      "label": "Tianeptine",
+      "mechanism": "atypical antidepressant; mu-opioid agonist at high doses"
+    },
+    {
+      "id": "gabapentinoids",
+      "type": "compound",
+      "label": "Gabapentinoids (gabapentin, pregabalin)",
+      "mechanism": "alpha-2-delta calcium channel subunit ligand",
+      "naloxone_reversible": false
+    },
+    {
+      "id": "ghb",
+      "type": "compound",
+      "label": "GHB / GBL / 1,4-butanediol",
+      "mechanism": "GABA-B and GHB-site agonism"
+    },
+    {
+      "id": "target:mu-opioid-receptor",
+      "type": "target",
+      "label": "mu-opioid receptor"
+    },
+    {
+      "id": "target:gaba-a",
+      "type": "target",
+      "label": "GABA-A receptor (benzodiazepine site)"
+    },
+    {
+      "id": "target:alpha2-adrenergic",
+      "type": "target",
+      "label": "alpha-2 adrenergic receptor"
+    },
+    {
+      "id": "target:alpha2delta-cav",
+      "type": "target",
+      "label": "alpha-2-delta subunit, voltage-gated calcium channel"
+    },
+    {
+      "id": "target:gaba-b",
+      "type": "target",
+      "label": "GABA-B receptor"
+    },
+    {
+      "id": "effect:respiratory-depression",
+      "type": "effect",
+      "label": "Respiratory depression"
+    },
+    {
+      "id": "effect:sedation-unresponsive-to-naloxone",
+      "type": "effect",
+      "label": "Sedation persisting after naloxone"
+    },
+    {
+      "id": "effect:bradycardia-hypotension",
+      "type": "effect",
+      "label": "Bradycardia and hypotension (alpha-2)"
+    },
+    {
+      "id": "risk:respiratory-depression",
+      "type": "risk",
+      "label": "Multi-mechanism, partially irreversible respiratory depression"
+    },
+    {
+      "id": "risk:medetomidine-withdrawal",
+      "type": "risk",
+      "label": "Severe medetomidine withdrawal syndrome (ICU 77.5%, intubation 20.1%)"
+    },
+    {
+      "id": "risk:benzodiazepine-withdrawal-seizures",
+      "type": "risk",
+      "label": "Benzodiazepine withdrawal seizures and delirium"
+    },
+    {
+      "id": "risk:detection-gap",
+      "type": "risk",
+      "label": "Absence from routine toxicology and test strips"
+    },
+    {
+      "id": "risk:unknown-toxicity",
+      "type": "risk",
+      "label": "Unknown human toxicity (BTMPS)"
+    },
+    {
+      "id": "risk:involuntary-exposure",
+      "type": "risk",
+      "label": "Involuntary adulterant exposure"
+    },
+    {
+      "id": "risk:retail-channel-depressants",
+      "type": "risk",
+      "label": "Opioid-type dependence via legal retail channels"
+    },
+    {
+      "id": "risk:additive-gabapentinoid",
+      "type": "risk",
+      "label": "Additive gabapentinoid overdose risk"
+    },
+    {
+      "id": "risk:necrotic-wounds",
+      "type": "risk",
+      "label": "Necrotic soft-tissue wounds (xylazine)"
+    },
+    {
+      "id": "risk:naloxone-not-administered",
+      "type": "risk",
+      "label": "Naloxone not given at all (23-33% of fatal nitazene cases)"
+    },
+    {
+      "id": "polydrug-risk",
+      "type": "concept",
+      "label": "Polydrug / stacked-depressant risk"
+    },
+    {
+      "id": "drug-checking",
+      "type": "concept",
+      "label": "Drug checking"
+    },
+    {
+      "id": "early-warning",
+      "type": "concept",
+      "label": "Early warning systems"
+    },
+    {
+      "id": "org:unodc",
+      "type": "org",
+      "label": "UNODC (Early Warning Advisory, CND)"
+    },
+    {
+      "id": "org:euda",
+      "type": "org",
+      "label": "EUDA (EU Early Warning System)"
+    },
+    {
+      "id": "org:cdc",
+      "type": "org",
+      "label": "US CDC (SUDORS, HAN, NVSS)"
+    },
+    {
+      "id": "org:dea",
+      "type": "org",
+      "label": "US DEA"
+    },
+    {
+      "id": "org:fda",
+      "type": "org",
+      "label": "US FDA"
+    },
+    {
+      "id": "org:hhs",
+      "type": "org",
+      "label": "US HHS"
+    },
+    {
+      "id": "org:cfsre",
+      "type": "org",
+      "label": "CFSRE / NPS Discovery"
+    },
+    {
+      "id": "org:phs-radar",
+      "type": "org",
+      "label": "Public Health Scotland RADAR"
+    },
+    {
+      "id": "org:pdph",
+      "type": "org",
+      "label": "Philadelphia Department of Public Health"
+    },
+    {
+      "id": "org:who-ecdd",
+      "type": "org",
+      "label": "WHO Expert Committee on Drug Dependence"
+    },
+    {
+      "id": "org:acmt",
+      "type": "org",
+      "label": "American College of Medical Toxicology (ToxIC)"
+    },
+    {
+      "id": "org:toronto-dcs",
+      "type": "org",
+      "label": "Toronto Drug Checking Service"
+    },
+    {
+      "id": "event:btmps-first-detected-2024-06",
+      "type": "event",
+      "date": "2024-06",
+      "what": "BTMPS first identified in the illicit drug supply"
+    },
+    {
+      "id": "event:ethylbromazolam-first-detected-2024-11-08",
+      "type": "event",
+      "date": "2024-11-08",
+      "what": "Ethylbromazolam first detected by Toronto Drug Checking Service"
+    },
+    {
+      "id": "event:philly-medetomidine-substitution-2024",
+      "type": "event",
+      "date": "2024-09/2024-12",
+      "what": "Philadelphia: medetomidine 72% of opioid samples; xylazine falls 98% to 31%"
+    },
+    {
+      "id": "event:fda-7oh-recommendation-2025-07-29",
+      "type": "event",
+      "date": "2025-07-29",
+      "what": "FDA recommends DEA schedule 7-OH as Schedule I, targeting concentrated products"
+    },
+    {
+      "id": "event:fda-tianeptine-notice-2025-05-08",
+      "type": "event",
+      "date": "2025-05-08",
+      "what": "FDA consumer notice on tianeptine ('gas-station heroin')"
+    },
+    {
+      "id": "event:china-generic-nitazene-scheduling-2025",
+      "type": "event",
+      "date": "2025-07",
+      "what": "China introduces class-wide generic scheduling of nitazene analogues"
+    },
+    {
+      "id": "event:dea-bromazolam-schedule-i-2026-03-18",
+      "type": "event",
+      "date": "2026-03-18",
+      "what": "DEA emergency-schedules bromazolam into Schedule I"
+    },
+    {
+      "id": "event:phs-radar-clonazolam-alert-2026-02",
+      "type": "event",
+      "date": "2026-02",
+      "what": "PHS RADAR alerts: clonazolam re-emerging, now most common street benzodiazepine in Scotland"
+    },
+    {
+      "id": "event:cnd-nitazene-scheduling-2026-05-29",
+      "type": "event",
+      "date": "2026-05-29",
+      "what": "N-pyrrolidino isotonitazene and N-desethyl etonitazene into Schedule I of the 1961 Convention"
+    },
+    {
+      "id": "event:cdc-medetomidine-han-2026-04",
+      "type": "event",
+      "date": "2026-04",
+      "what": "CDC Health Advisory HAN 00527 on medetomidine in the illegal fentanyl supply"
+    },
+    {
+      "id": "event:pdph-medetomidine-90pct-2026-06-22",
+      "type": "event",
+      "date": "2026-06-22",
+      "what": "Philadelphia: medetomidine in 90% of Q1 2026 fentanyl-primary samples"
+    },
+    {
+      "id": "event:euda-edr-2026-06",
+      "type": "event",
+      "date": "2026-06",
+      "what": "EUDA European Drug Report 2026: 50 NPS first notified in 2025; 3 nitazenes + 3 orphines"
+    },
+    {
+      "id": "event:dea-mp-mgm-scheduling-2026-08-26",
+      "type": "event",
+      "date": "2026-08-26",
+      "what": "DEA finalises temporary scheduling of MP, MGM-15, MGM-16"
+    },
+    {
+      "id": "event:dea-7oh-notice-withdrawn-reissued-2026-10-14",
+      "type": "event",
+      "date": "2026-10-14",
+      "what": "DEA withdraws July 2026 7-OH notice of intent and issues replacement"
+    },
+    {
+      "id": "event:orphines-22-states-2026-10",
+      "type": "event",
+      "date": "2026-10",
+      "what": "Orphine analogues reported detected across 22 US states"
+    },
+    {
+      "id": "src:euda-edr2026-nps",
+      "type": "source",
+      "label": "EUDA European Drug Report 2026 - New psychoactive substances",
+      "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/new-psychoactive-substances_en"
+    },
+    {
+      "id": "src:unodc-cnd-mar2026",
+      "type": "source",
+      "label": "UNODC LSS announcement, March 2026 (CND 69 scheduling)",
+      "url": "https://www.unodc.org/LSS/Announcement/Details/475042d4-534c-4a06-b956-4531d4a72432"
+    },
+    {
+      "id": "src:unodc-cychlorphine-may2026",
+      "type": "source",
+      "label": "UNODC LSS announcement, May 2026 (cychlorphine)",
+      "url": "https://www.unodc.org/LSS/Announcement/Details/9403c3d1-12b9-49ac-8604-7da583d38d3b"
+    },
+    {
+      "id": "src:cfsre-orphines-alert",
+      "type": "source",
+      "label": "CFSRE public alert - benzimidazol-2-ones, the orphines",
+      "url": "https://www.cfsre.org/nps-discovery/public-alerts/emerging-global-synthetic-opioid-threats-benzimidazol-2-ones-the-orphines"
+    },
+    {
+      "id": "src:colombo-plan-orphine-feb2026",
+      "type": "source",
+      "label": "Colombo Plan / CFSRE orphine health alert, Feb 2026",
+      "url": "https://www.cfsre.org/images/content/reports/public_alerts/Colombo_Plan_Orphine_Alert_Feb_2026_v3.pdf"
+    },
+    {
+      "id": "src:stangeland-clintox-2025",
+      "type": "source",
+      "label": "Stangeland et al., Nitazenes: review of comparative pharmacology and antagonist action, Clin Toxicol 2025 (PMID 40422647)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40422647/"
+    },
+    {
+      "id": "src:nitazene-underestimated-2025",
+      "type": "source",
+      "label": "Is nitazene-related mortality underestimated? Clin Toxicol 2025",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/15563650.2025.2601141"
+    },
+    {
+      "id": "src:cychlorphine-case-2025",
+      "type": "source",
+      "label": "Non-fatal opioid overdose associated predominantly with the benzimidazolone, cychlorphine, Clin Toxicol 2025",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/15563650.2025.2594070"
+    },
+    {
+      "id": "src:stat-nitazenes-2026",
+      "type": "source",
+      "label": "STAT News, 18 Jun 2026 - nitazene spread and CDC death counts",
+      "url": "https://www.statnews.com/2026/06/18/nitazenes-deadly-synthetic-opioids-rapid-spread-united-states/"
+    },
+    {
+      "id": "src:mmwr-nitazene-tn",
+      "type": "source",
+      "label": "MMWR, Nitazene-Related Deaths - Tennessee, 2019-2021",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9484803/"
+    },
+    {
+      "id": "src:dea-bromazolam-pr",
+      "type": "source",
+      "label": "DEA press release, bromazolam emergency scheduling, 18 Mar 2026",
+      "url": "https://www.dea.gov/press-releases/2026/03/18/dea-emergency-schedules-bromazolam"
+    },
+    {
+      "id": "src:fr-bromazolam-2026",
+      "type": "source",
+      "label": "Federal Register, temporary placement of bromazolam in Schedule I, 16 Mar 2026",
+      "url": "https://www.federalregister.gov/documents/2026/03/16/2026-05064/schedules-of-controlled-substances-temporary-placement-of-bromazolam-in-schedule-i"
+    },
+    {
+      "id": "src:ethylbromazolam-archtox-2026",
+      "type": "source",
+      "label": "Global emergence and GABA-A activity of ethylbromazolam, Arch Toxicol 2026 (PMID 42159737)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42159737/"
+    },
+    {
+      "id": "src:phs-radar-feb2026",
+      "type": "source",
+      "label": "Public Health Scotland, drug supply change alerts, Feb 2026",
+      "url": "https://publichealthscotland.scot/news/2026/february/phs-urges-caution-following-reports-of-increased-harm-from-changes-in-scotland-s-drug-supply/"
+    },
+    {
+      "id": "src:ddn-clonazolam-2026",
+      "type": "source",
+      "label": "Drink and Drugs News - clonazolam now Scotland's most common street benzo",
+      "url": "https://www.drinkanddrugsnews.com/clonazolam-now-scotlands-most-common-street-benzo/"
+    },
+    {
+      "id": "src:nsw-counterfeit-alprazolam",
+      "type": "source",
+      "label": "NSW Health drug warning - counterfeit alprazolam",
+      "url": "https://www.health.nsw.gov.au/sabs/Documents/2025-si-013.PDF"
+    },
+    {
+      "id": "src:pdph-han-jun2026",
+      "type": "source",
+      "label": "Philadelphia DPH health advisory, 22 Jun 2026",
+      "url": "https://hip.phila.gov/document/6386/PDPH-HAN-MWD-06.22.2026.pdf/"
+    },
+    {
+      "id": "src:mmwr-medetomidine-philly",
+      "type": "source",
+      "label": "MMWR Notes from the Field - suspected medetomidine withdrawal, Philadelphia Sep 2024-Jan 2025",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12045483/"
+    },
+    {
+      "id": "src:mmwr-medetomidine-pittsburgh",
+      "type": "source",
+      "label": "MMWR Notes from the Field - severe medetomidine withdrawal, Pittsburgh Oct 2024-Mar 2025",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12045482/"
+    },
+    {
+      "id": "src:medetomidine-multicentre-2025",
+      "type": "source",
+      "label": "Severe fentanyl withdrawal associated with medetomidine adulteration: a multicenter study from Philadelphia (PMID 40747932)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40747932/"
+    },
+    {
+      "id": "src:medetomidine-review-2026",
+      "type": "source",
+      "label": "Medetomidine as a Fentanyl Adulterant: Pharmacology, Detection, Clinical Presentation, and Management",
+      "url": "https://link.springer.com/article/10.1007/s40429-026-00786-4"
+    },
+    {
+      "id": "src:cdc-han-527",
+      "type": "source",
+      "label": "CDC HAN 00527 - medetomidine in the US illegal fentanyl supply",
+      "url": "https://www.cdc.gov/han/php/notices/han00527.html"
+    },
+    {
+      "id": "src:cdc-medetomidine-summary",
+      "type": "source",
+      "label": "CDC medetomidine situation summary",
+      "url": "https://www.cdc.gov/overdose-prevention/situation-summary/medetomidine.html"
+    },
+    {
+      "id": "src:cdph-medetomidine-2026",
+      "type": "source",
+      "label": "CDPH emerging issue brief - medetomidine, April 2026",
+      "url": "https://www.cdph.ca.gov/Programs/CCDPHP/sapb/CDPH%20Document%20Library/CDPHEmergingIssueBrief_Medetomidine.pdf"
+    },
+    {
+      "id": "src:cdc-nvsr75-1",
+      "type": "source",
+      "label": "CDC National Vital Statistics Reports 75(1), 5 Mar 2026",
+      "url": "https://www.cdc.gov/nchs/data/nvsr/nvsr75/nvsr75-01.pdf"
+    },
+    {
+      "id": "src:xylazine-icd10",
+      "type": "source",
+      "label": "Assessing an ICD-10 code approach for estimating xylazine-involved overdose deaths",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13166611/"
+    },
+    {
+      "id": "src:shover-btmps-jama-2025",
+      "type": "source",
+      "label": "Shover et al., UV Stabilizer BTMPS in the Illicit Fentanyl Supply in 9 US Locations, JAMA 2025",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2829939"
+    },
+    {
+      "id": "src:dhs-btmps-2025",
+      "type": "source",
+      "label": "DHS fact sheet CSAC-25-017, BTMPS: an industrial additive in the illicit drug supply",
+      "url": "https://www.dhs.gov/sites/default/files/2025-08/25_0814_st_btmps_an_industrial_additive_in_the_illicit_drug_supply_fact_sheet.pdf"
+    },
+    {
+      "id": "src:fr-7oh-oct2026",
+      "type": "source",
+      "label": "Federal Register, temporary placement of 7-OH and mitragynine pseudoindoxyl above a threshold, 14 Oct 2026",
+      "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20943/schedules-of-controlled-substances-temporary-placement-of-7--hydroxymitragynine-and-mitragynine"
+    },
+    {
+      "id": "src:fr-mp-mgm-aug2026",
+      "type": "source",
+      "label": "Federal Register FR-2026-08-26, temporary scheduling of MP, MGM-15, MGM-16",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-26/pdf/2026-17380.pdf"
+    },
+    {
+      "id": "src:crs-lsb11457",
+      "type": "source",
+      "label": "CRS LSB11457 - temporary control of 7-OH and other kratom-related substances",
+      "url": "https://www.congress.gov/crs-product/LSB11457"
+    },
+    {
+      "id": "src:acmt-nose-7oh",
+      "type": "source",
+      "label": "ACMT ToxIC NOSE report #18 - 7-OH / mitragynine",
+      "url": "https://www.acmt.net/wp-content/uploads/2025/07/NOSE-18-7OH-Mitragynine-FINAL-7_28_2025.pdf"
+    },
+    {
+      "id": "src:acmt-position-7oh",
+      "type": "source",
+      "label": "ACMT position statement on 7-OH and other kratom compounds",
+      "url": "https://www.acmt.net/news/acmt-position-statement-public-health-concerns-associated-with-7-hydroxymitragynine-and-other-kratom-compounds/"
+    },
+    {
+      "id": "src:who-ecdd-kratom",
+      "type": "source",
+      "label": "WHO 44th ECDD pre-review report - kratom, mitragynine, 7-OH",
+      "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/unedited--advance-copy-44th-ecdd-review-report_kratom.pdf"
+    },
+    {
+      "id": "src:fda-tianeptine",
+      "type": "source",
+      "label": "FDA - new 'gas station heroin' tianeptine product trend",
+      "url": "https://www.fda.gov/consumers/health-fraud-scams/new-gas-station-heroin-tianeptine-product-trend"
+    },
+    {
+      "id": "src:plosmed-gabapentinoid-2026",
+      "type": "source",
+      "label": "PLOS Medicine 2026 - gabapentinoid co-use and drug poisoning, self-controlled case series",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1005035"
+    },
+    {
+      "id": "src:drugs-gabapentinoid-review-2026",
+      "type": "source",
+      "label": "Misuse of Pregabalin and Gabapentin: A Second Systematic Review Update, Drugs 2026",
+      "url": "https://link.springer.com/article/10.1007/s40265-026-02342-w"
+    },
+    {
+      "id": "src:mmwr-gabapentin-deaths",
+      "type": "source",
+      "label": "MMWR - trends in gabapentin detection and involvement in overdose deaths, 23 states and DC, 2019-2020",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9098248/"
+    },
+    {
+      "id": "src:nitazene-sar-archtox",
+      "type": "source",
+      "label": "In vitro structure-activity relationships and forensic case series of emerging nitazene opioids, Arch Toxicol",
+      "url": "https://link.springer.com/article/10.1007/s00204-024-03774-7"
+    },
+    {
+      "id": "src:protodesnitazene-jfs",
+      "type": "source",
+      "label": "Protodesnitazene: identification and tissue distribution, J Forensic Sci",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.70478"
+    },
+    {
+      "id": "src:npp-mail-facility-jfs",
+      "type": "source",
+      "label": "Identification of N-pyrrolidino protonitazene in suspect tablets at an international mail facility, J Forensic Sci 2026",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.70185"
+    },
+    {
+      "id": "src:5cyano-isotodesnitazene-scirep",
+      "type": "source",
+      "label": "First detection of 5-cyano isotodesnitazene in illicit street drugs, Sci Rep 2026",
+      "url": "https://www.nature.com/articles/s41598-026-35256-4"
+    },
+    {
+      "id": "src:medscape-orphines-2026",
+      "type": "source",
+      "label": "Medscape, Oct 2026 - potent orphine opioids surge in US illicit drug supply",
+      "url": "https://www.medscape.com/viewarticle/potent-orphine-opioids-surge-us-illicit-drug-supply-2026a10011ys"
+    },
+    {
+      "id": "src:annemergmed-nitazene-cohort",
+      "type": "source",
+      "label": "Clinical Experiences With the Nitazene Class of Synthetic Opioids: A Cohort Study, Ann Emerg Med",
+      "url": "https://www.annemergmed.com/article/S0196-0644(25)01040-6/fulltext"
+    },
+    {
+      "id": "claim:xylazine-national-decline",
+      "type": "claim",
+      "label": "Claim: xylazine prevalence is declining nationally (US)",
+      "status": "contested"
+    }
+  ],
+  "edges": [
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "topic:designer-benzodiazepines",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "topic:kratom-derivatives",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "topic:other-depressants",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "orphines",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "bromazolam",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "clonazolam",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "xylazine",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "btmps",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "7-oh",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "tianeptine",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "gabapentinoids",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "ghb",
+      "rel": "in_area",
+      "to": "area:depressants"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "related_to",
+      "to": "topic:nitazenes-orphines"
+    },
+    {
+      "from": "orphines",
+      "rel": "related_to",
+      "to": "topic:nitazenes-orphines"
+    },
+    {
+      "from": "brorphine",
+      "rel": "related_to",
+      "to": "orphines"
+    },
+    {
+      "from": "cychlorphine",
+      "rel": "related_to",
+      "to": "orphines"
+    },
+    {
+      "from": "spirochlorphine",
+      "rel": "related_to",
+      "to": "orphines"
+    },
+    {
+      "from": "cychlorphine",
+      "rel": "preceded_by",
+      "to": "brorphine"
+    },
+    {
+      "from": "orphines",
+      "rel": "preceded_by",
+      "to": "nitazenes"
+    },
+    {
+      "from": "n-pyrrolidino-protonitazene",
+      "rel": "related_to",
+      "to": "nitazenes"
+    },
+    {
+      "from": "protodesnitazene",
+      "rel": "related_to",
+      "to": "nitazenes"
+    },
+    {
+      "from": "bromazolam",
+      "rel": "related_to",
+      "to": "topic:designer-benzodiazepines"
+    },
+    {
+      "from": "clonazolam",
+      "rel": "related_to",
+      "to": "topic:designer-benzodiazepines"
+    },
+    {
+      "from": "ethylbromazolam",
+      "rel": "preceded_by",
+      "to": "bromazolam"
+    },
+    {
+      "from": "clobromazolam",
+      "rel": "related_to",
+      "to": "topic:designer-benzodiazepines"
+    },
+    {
+      "from": "flualprazolam",
+      "rel": "related_to",
+      "to": "topic:designer-benzodiazepines"
+    },
+    {
+      "from": "etizolam",
+      "rel": "related_to",
+      "to": "topic:designer-benzodiazepines"
+    },
+    {
+      "from": "bromazolam",
+      "rel": "preceded_by",
+      "to": "etizolam"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "related_to",
+      "to": "topic:veterinary-sedative-adulterants"
+    },
+    {
+      "from": "xylazine",
+      "rel": "related_to",
+      "to": "topic:veterinary-sedative-adulterants"
+    },
+    {
+      "from": "btmps",
+      "rel": "related_to",
+      "to": "topic:veterinary-sedative-adulterants"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "preceded_by",
+      "to": "xylazine"
+    },
+    {
+      "from": "7-oh",
+      "rel": "related_to",
+      "to": "topic:kratom-derivatives"
+    },
+    {
+      "from": "mitragynine",
+      "rel": "related_to",
+      "to": "7-oh"
+    },
+    {
+      "from": "mitragynine-pseudoindoxyl",
+      "rel": "related_to",
+      "to": "topic:kratom-derivatives"
+    },
+    {
+      "from": "tianeptine",
+      "rel": "related_to",
+      "to": "topic:other-depressants"
+    },
+    {
+      "from": "gabapentinoids",
+      "rel": "related_to",
+      "to": "topic:other-depressants"
+    },
+    {
+      "from": "ghb",
+      "rel": "related_to",
+      "to": "topic:other-depressants"
+    },
+    {
+      "from": "tianeptine",
+      "rel": "related_to",
+      "to": "7-oh"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "related_to",
+      "to": "target:mu-opioid-receptor"
+    },
+    {
+      "from": "orphines",
+      "rel": "related_to",
+      "to": "target:mu-opioid-receptor"
+    },
+    {
+      "from": "7-oh",
+      "rel": "related_to",
+      "to": "target:mu-opioid-receptor"
+    },
+    {
+      "from": "mitragynine",
+      "rel": "related_to",
+      "to": "target:mu-opioid-receptor"
+    },
+    {
+      "from": "tianeptine",
+      "rel": "related_to",
+      "to": "target:mu-opioid-receptor"
+    },
+    {
+      "from": "bromazolam",
+      "rel": "related_to",
+      "to": "target:gaba-a"
+    },
+    {
+      "from": "clonazolam",
+      "rel": "related_to",
+      "to": "target:gaba-a"
+    },
+    {
+      "from": "ethylbromazolam",
+      "rel": "related_to",
+      "to": "target:gaba-a"
+    },
+    {
+      "from": "clobromazolam",
+      "rel": "related_to",
+      "to": "target:gaba-a"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "related_to",
+      "to": "target:alpha2-adrenergic"
+    },
+    {
+      "from": "xylazine",
+      "rel": "related_to",
+      "to": "target:alpha2-adrenergic"
+    },
+    {
+      "from": "gabapentinoids",
+      "rel": "related_to",
+      "to": "target:alpha2delta-cav"
+    },
+    {
+      "from": "ghb",
+      "rel": "related_to",
+      "to": "target:gaba-b"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "causes_risk",
+      "to": "risk:respiratory-depression"
+    },
+    {
+      "from": "orphines",
+      "rel": "causes_risk",
+      "to": "risk:respiratory-depression"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "causes_risk",
+      "to": "risk:detection-gap"
+    },
+    {
+      "from": "orphines",
+      "rel": "causes_risk",
+      "to": "risk:detection-gap"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "causes_risk",
+      "to": "risk:naloxone-not-administered"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "causes_risk",
+      "to": "risk:medetomidine-withdrawal"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "causes_risk",
+      "to": "risk:detection-gap"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "causes_risk",
+      "to": "risk:involuntary-exposure"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "related_to",
+      "to": "effect:sedation-unresponsive-to-naloxone"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "related_to",
+      "to": "effect:bradycardia-hypotension"
+    },
+    {
+      "from": "xylazine",
+      "rel": "causes_risk",
+      "to": "risk:necrotic-wounds"
+    },
+    {
+      "from": "xylazine",
+      "rel": "related_to",
+      "to": "effect:sedation-unresponsive-to-naloxone"
+    },
+    {
+      "from": "xylazine",
+      "rel": "causes_risk",
+      "to": "risk:involuntary-exposure"
+    },
+    {
+      "from": "bromazolam",
+      "rel": "causes_risk",
+      "to": "risk:benzodiazepine-withdrawal-seizures"
+    },
+    {
+      "from": "clonazolam",
+      "rel": "causes_risk",
+      "to": "risk:benzodiazepine-withdrawal-seizures"
+    },
+    {
+      "from": "bromazolam",
+      "rel": "causes_risk",
+      "to": "risk:detection-gap"
+    },
+    {
+      "from": "btmps",
+      "rel": "causes_risk",
+      "to": "risk:unknown-toxicity"
+    },
+    {
+      "from": "btmps",
+      "rel": "causes_risk",
+      "to": "risk:involuntary-exposure"
+    },
+    {
+      "from": "gabapentinoids",
+      "rel": "causes_risk",
+      "to": "risk:additive-gabapentinoid"
+    },
+    {
+      "from": "tianeptine",
+      "rel": "causes_risk",
+      "to": "risk:retail-channel-depressants"
+    },
+    {
+      "from": "7-oh",
+      "rel": "causes_risk",
+      "to": "risk:retail-channel-depressants"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "related_to",
+      "to": "effect:respiratory-depression"
+    },
+    {
+      "from": "polydrug-risk",
+      "rel": "related_to",
+      "to": "area:depressants"
+    },
+    {
+      "from": "drug-checking",
+      "rel": "related_to",
+      "to": "area:depressants"
+    },
+    {
+      "from": "early-warning",
+      "rel": "related_to",
+      "to": "area:depressants"
+    },
+    {
+      "from": "risk:respiratory-depression",
+      "rel": "related_to",
+      "to": "polydrug-risk"
+    },
+    {
+      "from": "risk:detection-gap",
+      "rel": "related_to",
+      "to": "drug-checking"
+    },
+    {
+      "from": "drug-checking",
+      "rel": "supports",
+      "to": "event:ethylbromazolam-first-detected-2024-11-08"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "monitored_by",
+      "to": "org:unodc"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "monitored_by",
+      "to": "org:euda"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "monitored_by",
+      "to": "org:cdc"
+    },
+    {
+      "from": "orphines",
+      "rel": "monitored_by",
+      "to": "org:cfsre"
+    },
+    {
+      "from": "orphines",
+      "rel": "monitored_by",
+      "to": "org:euda"
+    },
+    {
+      "from": "orphines",
+      "rel": "monitored_by",
+      "to": "org:unodc"
+    },
+    {
+      "from": "clonazolam",
+      "rel": "monitored_by",
+      "to": "org:phs-radar"
+    },
+    {
+      "from": "bromazolam",
+      "rel": "monitored_by",
+      "to": "org:phs-radar"
+    },
+    {
+      "from": "ethylbromazolam",
+      "rel": "monitored_by",
+      "to": "org:toronto-dcs"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "monitored_by",
+      "to": "org:cdc"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "monitored_by",
+      "to": "org:pdph"
+    },
+    {
+      "from": "medetomidine",
+      "rel": "monitored_by",
+      "to": "org:cfsre"
+    },
+    {
+      "from": "xylazine",
+      "rel": "monitored_by",
+      "to": "org:cdc"
+    },
+    {
+      "from": "btmps",
+      "rel": "monitored_by",
+      "to": "org:cdc"
+    },
+    {
+      "from": "7-oh",
+      "rel": "monitored_by",
+      "to": "org:acmt"
+    },
+    {
+      "from": "7-oh",
+      "rel": "monitored_by",
+      "to": "org:who-ecdd"
+    },
+    {
+      "from": "clobromazolam",
+      "rel": "monitored_by",
+      "to": "org:who-ecdd"
+    },
+    {
+      "from": "gabapentinoids",
+      "rel": "monitored_by",
+      "to": "org:cdc"
+    },
+    {
+      "from": "bromazolam",
+      "rel": "regulated_by",
+      "to": "org:dea"
+    },
+    {
+      "from": "nitazenes",
+      "rel": "regulated_by",
+      "to": "org:unodc"
+    },
+    {
+      "from": "7-oh",
+      "rel": "regulated_by",
+      "to": "org:dea"
+    },
+    {
+      "from": "7-oh",
+      "rel": "regulated_by",
+      "to": "org:fda"
+    },
+    {
+      "from": "7-oh",
+      "rel": "regulated_by",
+      "to": "org:hhs"
+    },
+    {
+      "from": "mitragynine-pseudoindoxyl",
+      "rel": "regulated_by",
+      "to": "org:dea"
+    },
+    {
+      "from": "tianeptine",
+      "rel": "regulated_by",
+      "to": "org:fda"
+    },
+    {
+      "from": "event:dea-bromazolam-schedule-i-2026-03-18",
+      "rel": "related_to",
+      "to": "bromazolam"
+    },
+    {
+      "from": "event:cnd-nitazene-scheduling-2026-05-29",
+      "rel": "related_to",
+      "to": "nitazenes"
+    },
+    {
+      "from": "event:china-generic-nitazene-scheduling-2025",
+      "rel": "preceded_by",
+      "to": "nitazenes"
+    },
+    {
+      "from": "event:orphines-22-states-2026-10",
+      "rel": "preceded_by",
+      "to": "event:china-generic-nitazene-scheduling-2025"
+    },
+    {
+      "from": "event:philly-medetomidine-substitution-2024",
+      "rel": "related_to",
+      "to": "medetomidine"
+    },
+    {
+      "from": "event:pdph-medetomidine-90pct-2026-06-22",
+      "rel": "preceded_by",
+      "to": "event:philly-medetomidine-substitution-2024"
+    },
+    {
+      "from": "event:cdc-medetomidine-han-2026-04",
+      "rel": "related_to",
+      "to": "medetomidine"
+    },
+    {
+      "from": "event:btmps-first-detected-2024-06",
+      "rel": "related_to",
+      "to": "btmps"
+    },
+    {
+      "from": "event:ethylbromazolam-first-detected-2024-11-08",
+      "rel": "related_to",
+      "to": "ethylbromazolam"
+    },
+    {
+      "from": "event:phs-radar-clonazolam-alert-2026-02",
+      "rel": "related_to",
+      "to": "clonazolam"
+    },
+    {
+      "from": "event:fda-7oh-recommendation-2025-07-29",
+      "rel": "related_to",
+      "to": "7-oh"
+    },
+    {
+      "from": "event:dea-7oh-notice-withdrawn-reissued-2026-10-14",
+      "rel": "preceded_by",
+      "to": "event:fda-7oh-recommendation-2025-07-29"
+    },
+    {
+      "from": "event:dea-mp-mgm-scheduling-2026-08-26",
+      "rel": "related_to",
+      "to": "mitragynine-pseudoindoxyl"
+    },
+    {
+      "from": "event:fda-tianeptine-notice-2025-05-08",
+      "rel": "related_to",
+      "to": "tianeptine"
+    },
+    {
+      "from": "event:euda-edr-2026-06",
+      "rel": "related_to",
+      "to": "org:euda"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:euda-edr2026-nps"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:unodc-cnd-mar2026"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:unodc-cychlorphine-may2026"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:cfsre-orphines-alert"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:colombo-plan-orphine-feb2026"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:stangeland-clintox-2025"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:nitazene-underestimated-2025"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:cychlorphine-case-2025"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:stat-nitazenes-2026"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:mmwr-nitazene-tn"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:nitazene-sar-archtox"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:protodesnitazene-jfs"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:npp-mail-facility-jfs"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:5cyano-isotodesnitazene-scirep"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:medscape-orphines-2026"
+    },
+    {
+      "from": "topic:nitazenes-orphines",
+      "rel": "cited_by",
+      "to": "src:annemergmed-nitazene-cohort"
+    },
+    {
+      "from": "topic:designer-benzodiazepines",
+      "rel": "cited_by",
+      "to": "src:dea-bromazolam-pr"
+    },
+    {
+      "from": "topic:designer-benzodiazepines",
+      "rel": "cited_by",
+      "to": "src:fr-bromazolam-2026"
+    },
+    {
+      "from": "topic:designer-benzodiazepines",
+      "rel": "cited_by",
+      "to": "src:ethylbromazolam-archtox-2026"
+    },
+    {
+      "from": "topic:designer-benzodiazepines",
+      "rel": "cited_by",
+      "to": "src:phs-radar-feb2026"
+    },
+    {
+      "from": "topic:designer-benzodiazepines",
+      "rel": "cited_by",
+      "to": "src:ddn-clonazolam-2026"
+    },
+    {
+      "from": "topic:designer-benzodiazepines",
+      "rel": "cited_by",
+      "to": "src:nsw-counterfeit-alprazolam"
+    },
+    {
+      "from": "topic:designer-benzodiazepines",
+      "rel": "cited_by",
+      "to": "src:euda-edr2026-nps"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:pdph-han-jun2026"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:mmwr-medetomidine-philly"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:mmwr-medetomidine-pittsburgh"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:medetomidine-multicentre-2025"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:medetomidine-review-2026"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:cdc-han-527"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:cdc-medetomidine-summary"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:cdph-medetomidine-2026"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:cdc-nvsr75-1"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:xylazine-icd10"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:shover-btmps-jama-2025"
+    },
+    {
+      "from": "topic:veterinary-sedative-adulterants",
+      "rel": "cited_by",
+      "to": "src:dhs-btmps-2025"
+    },
+    {
+      "from": "topic:kratom-derivatives",
+      "rel": "cited_by",
+      "to": "src:fr-7oh-oct2026"
+    },
+    {
+      "from": "topic:kratom-derivatives",
+      "rel": "cited_by",
+      "to": "src:fr-mp-mgm-aug2026"
+    },
+    {
+      "from": "topic:kratom-derivatives",
+      "rel": "cited_by",
+      "to": "src:crs-lsb11457"
+    },
+    {
+      "from": "topic:kratom-derivatives",
+      "rel": "cited_by",
+      "to": "src:acmt-nose-7oh"
+    },
+    {
+      "from": "topic:kratom-derivatives",
+      "rel": "cited_by",
+      "to": "src:acmt-position-7oh"
+    },
+    {
+      "from": "topic:kratom-derivatives",
+      "rel": "cited_by",
+      "to": "src:who-ecdd-kratom"
+    },
+    {
+      "from": "topic:other-depressants",
+      "rel": "cited_by",
+      "to": "src:fda-tianeptine"
+    },
+    {
+      "from": "topic:other-depressants",
+      "rel": "cited_by",
+      "to": "src:plosmed-gabapentinoid-2026"
+    },
+    {
+      "from": "topic:other-depressants",
+      "rel": "cited_by",
+      "to": "src:drugs-gabapentinoid-review-2026"
+    },
+    {
+      "from": "topic:other-depressants",
+      "rel": "cited_by",
+      "to": "src:mmwr-gabapentin-deaths"
+    },
+    {
+      "from": "src:nitazene-underestimated-2025",
+      "rel": "supports",
+      "to": "risk:detection-gap"
+    },
+    {
+      "from": "src:stangeland-clintox-2025",
+      "rel": "supports",
+      "to": "risk:respiratory-depression"
+    },
+    {
+      "from": "src:medetomidine-multicentre-2025",
+      "rel": "supports",
+      "to": "risk:medetomidine-withdrawal"
+    },
+    {
+      "from": "src:mmwr-medetomidine-philly",
+      "rel": "supports",
+      "to": "risk:medetomidine-withdrawal"
+    },
+    {
+      "from": "src:mmwr-medetomidine-pittsburgh",
+      "rel": "supports",
+      "to": "risk:medetomidine-withdrawal"
+    },
+    {
+      "from": "src:shover-btmps-jama-2025",
+      "rel": "supports",
+      "to": "risk:unknown-toxicity"
+    },
+    {
+      "from": "src:plosmed-gabapentinoid-2026",
+      "rel": "supports",
+      "to": "risk:additive-gabapentinoid"
+    },
+    {
+      "from": "src:mmwr-gabapentin-deaths",
+      "rel": "supports",
+      "to": "risk:additive-gabapentinoid"
+    },
+    {
+      "from": "src:nsw-counterfeit-alprazolam",
+      "rel": "supports",
+      "to": "risk:benzodiazepine-withdrawal-seizures"
+    },
+    {
+      "from": "src:cdc-nvsr75-1",
+      "rel": "refutes",
+      "to": "claim:xylazine-national-decline"
+    },
+    {
+      "from": "src:pdph-han-jun2026",
+      "rel": "supports",
+      "to": "claim:xylazine-national-decline"
+    },
+    {
+      "from": "claim:xylazine-national-decline",
+      "rel": "related_to",
+      "to": "xylazine"
+    }
+  ]
+}

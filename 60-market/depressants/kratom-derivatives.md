@@ -1,0 +1,54 @@
+---
+type: note
+area: area:depressants
+level: L1
+updated: 2026-11-08
+tags: [depressants, kratom, 7-oh, regulatory]
+---
+# Concentrated kratom derivatives: 7-hydroxymitragynine (2025–26)
+
+**Area:** [[depressants/index]]
+
+## Summary
+Between mid-2025 and late 2026 **7-hydroxymitragynine (7-OH)** moved from an obscure minor kratom alkaloid to the subject of an active and unusually messy US federal scheduling action. The pharmacological case is reasonably clear — 7-OH is a substantially more potent and more efficacious mu-opioid agonist than mitragynine, and concentrated 7-OH products are not equivalent to whole-leaf kratom. The regulatory process has been anything but clear: DEA issued a notice of intent in July 2026, withdrew it, and reissued a replacement in October 2026 after HHS revised its recommended concentration threshold.
+
+## 1. Pharmacology: 7-OH vs whole-leaf kratom
+This distinction is the whole substantive argument, so it is worth stating precisely.
+
+- **Mitragynine** is the dominant alkaloid in kratom leaf (typically the large majority of alkaloid content). It is a **low-efficacy / partial mu-opioid agonist**: in [35S]-GTPγS assays, mitragynine up to 100 μM **did not significantly stimulate** G-protein signalling.
+- **7-OH** is a minor leaf alkaloid **and an active metabolite** of mitragynine. It has roughly **~5-fold higher mu-opioid binding affinity** than mitragynine (figures vary by assay) and reaches **~45% maximal stimulation** in GTPγS, versus ~90% for morphine. So: clearly more efficacious than mitragynine, still **partial** relative to morphine — one source compares its efficacy to **buprenorphine**.
+- Both appear **G-protein biased**, with little or no measurable β-arrestin recruitment ([Sci Rep](https://www.nature.com/articles/s41598-020-76119-w); [PMC8219695](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8219695/)).
+- **Metabolite / prodrug question:** mitragynine is converted to 7-OH in mouse and human liver preparations, and brain 7-OH concentrations may account for **most or all** of mitragynine's opioid-mediated analgesia in mice ([WUSTL open-access PDF](https://digitalcommons.wustl.edu/context/open_access_pubs/article/8961/viewcontent/7_Hydroxymitragynine_Is_an_Active_Metabolite_of_Mitragynine_and_a_Key_Mediator_of_Its_Analgesic_Effects.pdf)). This is **contested**: the conversion fraction is low, and the strong prodrug interpretation is not settled.
+- **Respiratory effects:** a 2025 preprint reports **bidirectional effects on breathing in rats** for mitragynine vs 7-OH ([bioRxiv 2025.05.16.654392](https://www.biorxiv.org/content/10.1101/2025.05.16.654392.full.pdf)) — i.e. the two alkaloids are not simply weaker and stronger versions of the same thing. Preprint; **not peer-reviewed**.
+- Comparative in vitro/rat work: [Pharmacological Comparison of Mitragynine and 7-Hydroxymitragynine](https://www.researchgate.net/publication/348141528_Pharmacological_Comparison_of_Mitragynine_and_7-Hydroxymitragynine_In_Vitro_Affinity_and_Efficacy_for_Mu-Opioid_Receptor_and_Opioid-Like_Behavioral_Effects_in_Rats).
+
+**The practical upshot:** chewing leaf or drinking leaf tea delivers mostly a low-efficacy partial agonist with a small 7-OH fraction. A **tablet, gummy, shot or drink mix formulated to concentrate 7-OH** delivers a different pharmacological object. Arguments that treat "kratom" and "7-OH products" as one regulatory category — in either direction — are talking past the data.
+
+## 2. US federal regulatory sequence
+- **29 July 2025** — **FDA recommended that DEA place 7-OH in Schedule I**. The recommendation was deliberately narrow: it targeted **concentrated 7-OH products** (tablets, gummies, drink mixes, shots with elevated 7-OH), **not natural whole-leaf kratom** ([Venable analysis](https://www.venable.com/insights/publications/2025/08/fda-announces-plan-to-restrict-7-oh-opioid)).
+- **7 July 2026** — DEA **notice of intent** to temporarily schedule 7-OH **above a concentration threshold**, reported as **>0.050% 7-OH (w/w, w/v or v/v) or >1.0 mg 7-OH per article**.
+- **26 August 2026** — DEA **finalised temporary scheduling** of **mitragynine pseudoindoxyl (MP), MGM-15 and MGM-16**, effective to 26 August 2028 ([Federal Register, FR-2026-08-26](https://www.govinfo.gov/content/pkg/FR-2026-08-26/pdf/2026-17380.pdf)). Note these are the semi-synthetic analogues, **not 7-OH itself**.
+- **8 October 2026** — HHS sent DEA a letter recommending a **revised threshold**.
+- **14 October 2026** — DEA **withdrew the 7 July notice of intent** and issued a **replacement notice** ([Federal Register, 14 Oct 2026](https://www.federalregister.gov/documents/2026/10/14/2026-20943/schedules-of-controlled-substances-temporary-placement-of-7--hydroxymitragynine-and-mitragynine)). HHS and FDA publicly commended the DEA action ([HHS press room](https://www.hhs.gov/press-room/hhs-fda-support-dea-7-oh-scheduling.html)).
+- **Status as of 2026-11-08:** **no temporary scheduling order for 7-OH itself has taken effect.** A secondary tracker suggests an order could publish on or after 13 November 2026; that date is **not** in the Federal Register text and is **unverified**.
+- Congressional Research Service background: [LSB11457](https://www.congress.gov/crs-product/LSB11457). DEA framing: [Medscape](https://www.medscape.com/viewarticle/dea-targets-synthetic-7-oh-products-schedule-i-proposal-2026a1000nfw).
+- **The threshold is the whole fight.** Everything turns on a concentration cut-off, because a per-article or per-weight limit can be drawn to catch concentrates while sparing leaf — or not.
+
+## 3. Case reports and poison-centre data
+- **ACMT ToxIC NOSE report #18** documents a **case of confirmed 7-OH toxicity**, with the presentation attributed principally to 7-OH on the basis of its greater mu-opioid potency ([ACMT NOSE 7-OH/mitragynine, Jul 2025](https://www.acmt.net/wp-content/uploads/2025/07/NOSE-18-7OH-Mitragynine-FINAL-7_28_2025.pdf)).
+- **ACMT position statement** on public health concerns associated with 7-OH and other kratom compounds ([ACMT](https://www.acmt.net/news/acmt-position-statement-public-health-concerns-associated-with-7-hydroxymitragynine-and-other-kratom-compounds/)).
+- **WHO ECDD pre-review** of kratom, mitragynine and 7-OH notes that mitragynine/7-OH was considered **contributory to cause of death** in some fatalities ([WHO 44th ECDD pre-review](https://cdn.who.int/media/docs/default-source/controlled-substances/unedited--advance-copy-44th-ecdd-review-report_kratom.pdf)).
+- **Poison centre figures (weak sourcing):** two treatment-centre sites cite America's Poison Centers data of **901 7-OH exposure cases in the first six months of 2026 vs 593 in all of 2025**. I could **not verify these against a primary America's Poison Centers publication** — **unverified**, though the direction of travel is consistent with everything else.
+- **Evidence quality caveat:** the broader literature is dominated by case reports with self-reported use, polydrug exposure and minimal quantitative toxicology. Causal attribution to 7-OH specifically is hard in most published fatalities.
+
+## 4. State-level landscape and the regulatory fight
+- Roughly **ten states ban kratom** under state law (count varies by tracker and by whether 7-OH-specific limits count as bans).
+- **Kansas** placed 7-OH in Schedule I via **House Bill 2365**.
+- **Mississippi** set a limit of **1% of total alkaloid content as 7-OH, or 0.5 mg per container** — a threshold model rather than a ban.
+- **Rhode Island reversed its kratom ban effective 1 April 2026**, reportedly the first state to do so.
+- Many states have instead adopted **Kratom Consumer Protection Act (KCPA)** frameworks, which typically cap 7-OH content, set age limits and require labelling.
+- **These state details come from advocacy and recovery-centre trackers, not official state sources. Treat specific statutes, dates and counts as unverified pending primary confirmation.**
+- **The shape of the dispute:** the kratom trade and consumer advocates argue that concentrated 7-OH products are a distinct industry that should be regulated separately, and that scheduling 7-OH as a molecule risks capturing leaf products (where 7-OH occurs naturally, and into which mitragynine oxidises on storage). Public-health bodies (FDA, HHS, ACMT) argue concentrated 7-OH is functionally a semi-synthetic opioid product sold outside any opioid safeguards. Both positions are partly right, which is why the fight is about a number rather than a principle.
+
+## Related
+[[depressants/other-depressants]] · [[depressants/risks]] · [[depressants/timeline]] · [[polydrug-risk]]
