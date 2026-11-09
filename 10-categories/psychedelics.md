@@ -1,0 +1,35 @@
+---
+type: category
+updated: 2026-11-09
+tags: [category]
+---
+# Psychedelics & phenethylamines
+
+Substituted phenethylamines and tryptamines sold as psychedelics. **Added 2026-11-09** — previously a gap in this repo despite being one of the largest NPS families.
+
+The defining risk in this class is **not potency in isolation — it is mis-selling**. The dangerous compounds are mostly encountered by people who believe they bought something else (usually LSD).
+
+| Compound / group | Trend signal | Risk | Status |
+|---|---|---|---|
+| [[nbome-nboh]] (25x-NBOMe, 25x-NBOH) | 🔥🔥🔥 | ⚠️⚠️⚠️⚠️⚠️ | 25B-, 25C-, 25I-NBOMe under international control since 2015; NBOHs patchier |
+| [[2c-series]] (2C-B, 2C-C, 2C-E, 2C-I, 2C-P…) | 🔥🔥🔥 | ⚠️⚠️⚠️ | 2C-B under international control; members vary |
+| [[dox-series]] (DOC, DOI, DOM, DOB) | 🔥🔥 | ⚠️⚠️⚠️⚠️ | DOC internationally controlled since 2015; others vary |
+
+## Why this class sits apart from the rest of the repo
+Most of this repo tracks substitution driven by *bans*. In this class the dominant dynamic is **substitution driven by counterfeiting**: an extremely potent compound is sold on blotter as a far less potent one. The harm comes from the gap between the two, not from either compound's own pharmacology.
+
+## Current position (2026)
+- **EUDA:** NPS still appearing at roughly **one a week**; 50 new in 2025, 1,050 monitored in total.
+- **Netherlands, 14-year poisoning analysis (2012–2025):** cathinones, **phenethylamines** and benzodiazepines together accounted for **83% of all NPS poisonings** — so this class is a top-three contributor to actual harm presentations, not a fringe category. ([Addiction 2026](https://onlinelibrary.wiley.com/doi/10.1111/add.70511))
+- The same analysis reports a **relative increase** for 2C-B, ketamine and LSD. ⚠️ Context and period of that figure **unverified** — the retrieved extract was truncated.
+- **NIST RaDAR, Aug 2026:** nine compounds detected for the first time that month, including **25B-NBOH** (single West Coast sample) and **2C-C** (several West Coast samples). First-time detection of an NBOH is the signal worth watching here.
+- **UNODC:** the **2C series is the largest** of these sub-families, and reported members keep increasing. UNODC also cautions that **detection counts do not indicate market share**, and that a proliferation of pharmacologically similar substances may signal supplier diversification rather than growing use.
+- **Prodrugs appearing:** 2C-B-AN is documented as a 2C-B prodrug, with a Jan 2026 DEA reference. ⚠️ **Unverified.** Prodrugs matter because they sit outside parent-compound control language.
+
+## Cross-cutting risks
+- **Not detected by routine urine drug screens** — neither NBOMes nor LSD appear on standard panels, so a negative screen means nothing.
+- **Serotonergic toxicity** rather than the classical LSD profile: tachycardia and hypertension dominate the recorded toxidrome; presentations can resemble serotonin syndrome.
+- **Vasoconstriction** (DOx and NBOMe groups) — a mechanism absent from LSD and psilocybin.
+- **Long duration** (DOx group) — can mean 12–24+ hours, which complicates emergency management and is often unexpected.
+
+Back: [[MOC]] · Related: [[drug-checking]] · [[polydrug-risk]]

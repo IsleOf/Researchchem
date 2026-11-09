@@ -10,6 +10,8 @@ updated: 2026-11-08
 - [[stimulants]] – Stimulants (synthetic cathinones)
 - [[depressants]] – Depressants & sedatives
 
+- [[psychedelics]] – Psychedelics & phenethylamines (2C series, NBOMe/NBOH, DOx)
+
 ## Concepts
 - [[grey-market-quality]] – Grey-market peptide quality
 - [[drug-checking]] – Drug checking
