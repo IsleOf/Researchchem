@@ -22,6 +22,7 @@ updated: 2026-11-08
 - [[precursor-space]] – Precursor control policy & monitoring
 
 ## Digests
+- [[2026-W46-forecast]] – 30-day forecast: what scales next (Nov–Dec 2026)
 - [[2026-retrospective]] – full-year 2026 review of what appeared
 - [[2026-W45]]
 

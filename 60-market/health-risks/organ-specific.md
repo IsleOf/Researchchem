@@ -120,3 +120,5 @@ This is the best worked example in the whole area of a safety signal moving from
 - [Dutch dermatology review on unregulated α-MSH use (NVDV)](https://nvdv.nl/storage/app/media/dermatologische-risicogcos-bij-ongereguleerd-gebruik-van-alfa-melanocyt-stimulerend-hormoon-m-mertens-ntvdv-2020-09.pdf)
 - [Vyleesi label — focal hyperpigmentation](https://medlibrary.org/lib/rx/meds/vyleesi/page/4/)
 - [TGA / CMO statement — liver injury signal with unapproved peptides](https://www.tga.gov.au/node/575382)
+
+**Update 2026-11-09:** The **FDA now requires a NAION warning on all GLP-1 medications** (Ozempic, Wegovy, Mounjaro, Zepbound), following the EU PRAC conclusion of Jun 2025. This closes the regulatory arc described above — and reinforces the point that detecting a rare harm required an approved product, prescription databases, a regulator with compulsion powers and a label to change. None of that machinery exists for grey-market supply.

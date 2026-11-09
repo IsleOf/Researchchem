@@ -72,3 +72,5 @@ Cross-cutting health risks ranked by **severity × likelihood**. This is a delib
 5. `risk:delayed-diagnosis` scores 12 and is ranked in Tier 3 only because it is a meta-risk. In practice it multiplies every other row.
 
 Open and contested items: [[health-risks/open-questions]]
+
+**Update 2026-11-09:** The **FDA now requires a NAION warning on all GLP-1 medications** (Ozempic, Wegovy, Mounjaro, Zepbound), following the EU PRAC conclusion of Jun 2025. This closes the regulatory arc described above — and reinforces the point that detecting a rare harm required an approved product, prescription databases, a regulator with compulsion powers and a label to change. None of that machinery exists for grey-market supply.

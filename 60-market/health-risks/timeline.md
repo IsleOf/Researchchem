@@ -77,3 +77,5 @@ Dated safety communications, outbreaks and published clusters relevant to cross-
 **2009 — Rodríguez et al.: first recorded signal of higher skin-ulcer prevalence** in people injecting xylazine-containing substances. The origin of the xylazine-wound literature.
 
 **2006 — CJC-1295 phase 2 halted after a participant died**; causality never established ([[cjc-1295/risks]], `risk:trial-death-unestablished-causality`).
+
+**Update 2026-11-09:** The **FDA now requires a NAION warning on all GLP-1 medications** (Ozempic, Wegovy, Mounjaro, Zepbound), following the EU PRAC conclusion of Jun 2025. This closes the regulatory arc described above — and reinforces the point that detecting a rare harm required an approved product, prescription databases, a regulator with compulsion powers and a label to change. None of that machinery exists for grey-market supply.

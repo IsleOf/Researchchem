@@ -105,3 +105,5 @@ So the correct inference from "no reported cancers" is **nothing at all**. Absen
 - [Nass et al. 2008, 2-year MK-677 trial (PMID 18981485)](https://pubmed.ncbi.nlm.nih.gov/18981485/)
 - [BPC-157 narrative review — VEGF-dependent and -independent angiogenic signalling (PMC12446177)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12446177/)
 - [Al-Dulaimi 2025 — Epitalon, telomere lengthening via ALT in breast cancer lines (doi:10.1007/s10522-025-10315-x)](https://doi.org/10.1007/s10522-025-10315-x)
+
+**Update 2026-11-09:** The **FDA now requires a NAION warning on all GLP-1 medications** (Ozempic, Wegovy, Mounjaro, Zepbound), following the EU PRAC conclusion of Jun 2025. This closes the regulatory arc described above — and reinforces the point that detecting a rare harm required an approved product, prescription databases, a regulator with compulsion powers and a label to change. None of that machinery exists for grey-market supply.
