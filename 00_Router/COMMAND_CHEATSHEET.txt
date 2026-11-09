@@ -46,7 +46,9 @@ Updated 2026-11-09. Plain text by design: read in one call, no parsing.
     clinicaltrials.gov  www.fda.gov  www.accessdata.fda.gov  www.ema.europa.eu
     www.nejm.org  www.thelancet.com  jamanetwork.com  doi.org
     drive.google.com  docs.google.com  drive.usercontent.google.com
-    # Blocked and known-missing: cdc.gov, euda.europa.eu, cfsre.org, federalregister.gov, who.int
+    www.federalregister.gov  www.govinfo.gov  www.cdc.gov  www.who.int  www.gov.uk
+    # Allowed but 403 at the site (bot-block, not network): www.euda.europa.eu  www.cfsre.org
+    #   -> for those two, fall back to WebSearch extracts and mark figures unverified
     # To add a host: mcp__claude-code-remote__update_environment (user approves each time)
 
 [8] GIT

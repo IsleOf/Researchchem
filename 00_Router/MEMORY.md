@@ -15,9 +15,9 @@ updated: 2026-11-09
 |---|---|
 | Scope | Monitoring, forensic, regulatory and clinical evidence. Status, harms, sources. |
 | **Hard exclusions** | **No dosing. No synthesis routes. No precursor chemistry. No vendors, marketplaces, seller channels or B2B portals.** |
-| Current focus | Phase 0 of `02_Specs/research-plan.md` — unblock primary sources |
-| Known constraint | Most citations taken from search extracts, not full text (PubMed/CDC/EUDA/CFSRE were unreachable). 48 citations marked unverified. |
-| Network | Env `Researchchem literature`. Allows PubMed, PMC, clinicaltrials.gov, FDA, EMA, NEJM, Lancet, JAMA, doi.org, Google Drive. |
+| Current focus | Phase 1 of `02_Specs/research-plan.md` — clearing 40 high-priority gaps |
+| Known constraint | Most citations were taken from search extracts. **Phase 0 closed 2026-11-09:** PubMed, PMC, trials, FDA, Federal Register, CDC, WHO, gov.uk now reachable. EUDA + CFSRE still return 403 (site bot-block, not network policy). Verification pass in progress. |
+| Network | Env `Researchchem literature`. 23 hosts: PubMed, PMC, NCBI, clinicaltrials.gov, FDA, accessdata.FDA, EMA, NEJM, Lancet, JAMA, doi.org, Federal Register, govinfo, CDC, WHO, gov.uk, EUDA*, CFSRE*, Google Drive. *allowed but 403 at the site. |
 | Automation | Weekly sweep, Mondays 13:42 UTC → `00_Router/SWEEP_RUNBOOK.md` |
 | Open decision | Build the 3 unbuilt peptide branches (kisspeptin-10, HCG, oxytocin)? |
 
