@@ -23,6 +23,7 @@ updated: 2026-11-08
 - [[stimulants/eugeroics]] — flmodafinil, fladrafinil, modafiendz, adrafinil, hydrafinil; the 2026 detection work; what human pharmacology exists and what does not
 - [[stimulants/pharmaceutical-stimulant-market]] — the 2022–26 shortage, counterfeit tablets and what forensic analysis finds in them, telehealth prescribing
 - [[stimulants/cardiac-and-psychiatric-harms]] — cardiac arrest and myocardial injury, hyperthermia, psychosis, binge pharmacology, serotonergic vs dopaminergic profiles
+- [[stimulants/subclass-detail]] — the three cathinone families, named detections, isomer churn, supply geography by volume
 - [[stimulants/emerging-watchlist]] — newly notified stimulant NPS 2025–26, non-cathinone classes, and what to expect next
 
 ## L2 / L3

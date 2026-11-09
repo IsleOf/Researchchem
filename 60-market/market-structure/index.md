@@ -31,6 +31,7 @@ Four findings recur across every independent dataset in 2024–2026:
 - [[market-structure/monitoring-systems]] — UNODC EWA, EUDA EWS, NDEWS, RADARS/RADAR, drug checking, wastewater; and where each is blind
 - [[market-structure/drug-checking-data]] — mislabelling rates, counterfeit tablets, falsified and grey-market peptide quality, endotoxin
 - [[market-structure/peptide-compounding-policy]] — 503A/503B lists, Category 1/2/3, PCAC 2024–26, the GLP-1 shortage resolution, FDA enforcement
+- [[market-structure/cannabinoid-churn]] — semi-synthetic cannabinoids: 27 new in 2025, HHC→HHC-P→H4CBD sequence
 - [[market-structure/enforcement-trends]] — seizure and interdiction statistics and how to read them
 
 ## Supporting notes

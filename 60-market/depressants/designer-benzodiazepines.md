@@ -60,3 +60,11 @@ Bromazolam was the defining designer benzodiazepine of 2022–25 and was finally
 
 ## Related
 [[depressants/nitazenes]] · [[depressants/veterinary-sedative-adulterants]] · [[depressants/risks]] · [[bromazolam]] · [[clonazolam]] · [[drug-checking]] · [[polydrug-risk]]
+
+## Successor detections, H1 2026 (added 2026-11-09)
+Single-lab/service shares — not national prevalence.
+- **Phenazolam** (= clobromazolam): bromazolam + phenazolam together >70% of designer-benzo detections in H1 2026; bromazolam's share falling, phenazolam's holding. Still federally uncontrolled in the US as of Aug 2026.
+- **Ethylbromazolam:** ~6% (Q1) → ~8% (Q2) 2026; now the most prevalent designer benzodiazepine in UK WEDINOS data. In-vitro GABA-A activity similar to bromazolam → similar expected effect and harm ([PMID 42159737](https://pubmed.ncbi.nlm.nih.gov/42159737/)).
+- **Desalkylgidazepam** (incl. metabolite): <2% (Q1) → >4% (Q2) 2026. Toronto drug checking detected it more often than ethylbromazolam Nov 2024–Sep 2025.
+- **Flubromazolam:** permanently US Schedule I from 1 Apr 2026.
+Source: [Aegis H1 2026 NPS summary](https://www.aegislabs.com/services/novel-psychoactive-substances/2026-mid-year-nps-summary/)
