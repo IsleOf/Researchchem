@@ -23,6 +23,10 @@ updated: 2026-11-08
 - [[2026-retrospective]] – full-year 2026 review of what appeared
 - [[2026-W45]]
 
+## Monitoring
+- [[sweep]] – weekly monitoring runbook (scheduled task)
+- [[ecdd-watchlist]] – which circulating substances are likely up for international control next
+
 ## Quality control
 - [[gaps]] – consolidated gap register (126 items: unverified citations, contested claims, missing branches)
 
