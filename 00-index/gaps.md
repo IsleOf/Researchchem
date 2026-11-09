@@ -146,3 +146,12 @@ Checks made on 2026-11-09 are noted in the Status column. "Corrected" means the 
 | ECDD eight-substance slate unverified against notice text | Verified: clobromazolam, cychlorphine, desalkylgidazepam, ethylbromazolam, etomethazene, spirochlorphine, etomidate, medetomidine. | 2026-11-09 |
 | Claimed 2026 MDMA resubmission | Not supported by any located source; corrected in clinical-pipeline/open-questions.md. | 2026-11-09 |
 | Cathinone reduced-EF study misdated | Corrected to 2024 (E-MJM, Shukimbayeva et al., n=294); percentages still unverified. | 2026-11-09 |
+| 2C-B-AN framed as a 2026 emergence | **Corrected**: documented in Europe by 2016; no prevalence data exists for any year. | 2026-11-09 |
+
+## Added 2026-11-09
+| Gap | Where | Type | Priority |
+|---|---|---|---|
+| No 2025–26 list of newly notified phenethylamines/2C compounds from EUDA or UNODC could be located | 20-compounds/2c-series.md | no-data-exists | high — phenethylamines contribute to the 83% of Dutch NPS poisonings figure |
+| 2C-B-FLY human duration and vascular profile uncharacterised; hazard inferred from Bromo-DragonFLY | 20-compounds/2c-series.md | no-data-exists | medium |
+| No 2026 DOC/DOI detection figures located | 20-compounds/dox-series.md | no-data-exists | medium |
+| Dutch poisoning analysis "relative increase for 2C-B" — period and context unverified (truncated extract) | 10-categories/psychedelics.md | unverified-citation | medium |
