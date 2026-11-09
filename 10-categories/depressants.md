@@ -17,3 +17,5 @@ Designer benzodiazepines, nitazene opioids and veterinary sedatives – the high
 | [[btmps]] | 🔥🔥🔥 | ⚠️⚠️⚠️⚠️ | Industrial UV stabilizer, not a drug. |
 
 Back: [[MOC]]
+
+**Added 2026-11-09:** [[etomidate]] — licensed anaesthetic in vapes ("space oil"/"K-pods"); the one entry here that is a *medicine in a new format* rather than a designer analogue. Carries an adrenal-suppression hazard unique among street sedatives.
