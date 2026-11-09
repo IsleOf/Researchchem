@@ -31,6 +31,8 @@ updated: 2026-11-08
 - [[ecdd-watchlist]] – which circulating substances are likely up for international control next
 
 ## Quality control
+- [[research-plan]] – prioritised plan: what to dig into next and why
+
 - [[gaps]] – consolidated gap register (126 items: unverified citations, contested claims, missing branches)
 
 ## Sources
