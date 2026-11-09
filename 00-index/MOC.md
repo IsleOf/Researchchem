@@ -17,8 +17,10 @@ updated: 2026-11-08
 - [[early-warning]] – Early warning systems
 
 - [[notable-findings]] – Notable biological findings
+- [[precursor-space]] – Precursor control policy & monitoring
 
-## Weekly digests
+## Digests
+- [[2026-retrospective]] – full-year 2026 review of what appeared
 - [[2026-W45]]
 
 ## Machine-readable graph
