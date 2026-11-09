@@ -23,6 +23,9 @@ updated: 2026-11-08
 - [[2026-retrospective]] – full-year 2026 review of what appeared
 - [[2026-W45]]
 
+## Quality control
+- [[gaps]] – consolidated gap register (126 items: unverified citations, contested claims, missing branches)
+
 ## Sources
 - [[source-registry]] – 46 monitoring sources by cadence, coverage and lag (start here for research)
 - [[sources]] – bibliography
