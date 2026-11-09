@@ -138,3 +138,11 @@ Checks made on 2026-11-09 are noted in the Status column. "Corrected" means the 
 | PubMed, CDC, fda.gov, EUDA, CFSRE not read in full | 60-market/health-risks/open-questions.md (access note); 60-market/stimulants/open-questions.md (13); 60-market/depressants/open-questions.md; 60-market/market-structure/open-questions.md | unverified-citation | high | Search extracts only; this session saw cdc.gov, fda.gov, pubmed and euda URLs in search results but read no full texts |
 | Citations in peptide notes taken from abstracts or extracts, not full text | 50-peptide-branches/*/claims-vs-evidence.md | unverified-citation | medium | Same access limit applies |
 | Hunter criteria, WEDINOS, UNODC restricted tables | 60-market/stimulants/open-questions.md (14); 60-market/health-risks/open-questions.md (A.16) | no-data-exists | low | Access-restricted |
+
+## Resolved since first compilation
+| Gap | Resolution | Date |
+|---|---|---|
+| FR document 2026-17380 cited for two different notices | Confirmed as the FDA/ECDD comment notice (Docket FDA-2026-N-9208, 26 Aug 2026). Kratom-note citations corrected; DEA order's own document number still needs a primary check. | 2026-11-09 |
+| ECDD eight-substance slate unverified against notice text | Verified: clobromazolam, cychlorphine, desalkylgidazepam, ethylbromazolam, etomethazene, spirochlorphine, etomidate, medetomidine. | 2026-11-09 |
+| Claimed 2026 MDMA resubmission | Not supported by any located source; corrected in clinical-pipeline/open-questions.md. | 2026-11-09 |
+| Cathinone reduced-EF study misdated | Corrected to 2024 (E-MJM, Shukimbayeva et al., n=294); percentages still unverified. | 2026-11-09 |
