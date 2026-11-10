@@ -47,7 +47,18 @@ The family splits on **mechanism**, and the split is clean apart from one compou
 | **LSD-ish, far more toxic** | [[nbome-nboh]] | Potent 5-HT2A agonists |
 | **LSD-ish, very long duration** | [[dox-series]] | 5-HT2A agonists |
 
-**2C-B, the exception.** A 2026 Nature brain-imaging study comparing 2C-B with psilocybin found its entactogenic and cortical effects may derive partly from **monoamine transporter interaction, which classic psychedelics lack**, and reported ~**10-fold difference in 5-HT2A selectivity** between 2C-B and psilocin. ([Nature 2026](https://www.nature.com/articles/s41380-026-03447-0)) A trial comparing 2C-B, MDMA and psilocybin in healthy subjects notes 2C-B's in-vitro pharmacology is **inconclusive** and could fit either profile in humans. ([NCT05523401](https://clinicaltrials.gov/study/NCT05523401))
+**2C-B, the exception.** A 2026 Nature brain-imaging study comparing 2C-B with psilocybin found its entactogenic and cortical effects may derive partly from **monoamine transporter interaction, which classic psychedelics lack**, and reported ~**10-fold difference in 5-HT2A selectivity** between 2C-B and psilocin. ([Nature 2026](https://www.nature.com/articles/s41380-026-03447-0)) **⚠️→✅ Updated 2026-11-09: that trial has reported, and it settles the question.** The head-to-head comparison of 2C-B with MDMA and psilocybin ([NCT05523401](https://clinicaltrials.gov/study/NCT05523401), University Hospital Basel) **completed 5 Nov 2024** and was **published** as Arikci et al., *Neuropsychopharmacology* 2026;51(8):1511–1518, doi [10.1038/s41386-026-02428-9](https://doi.org/10.1038/s41386-026-02428-9) ([PMC13291353](https://pmc.ncbi.nlm.nih.gov/articles/PMC13291353/)). The repo previously described it as merely registered and its pharmacology "inconclusive" — that is superseded.
+
+Design: **double-blind, placebo-controlled, random-order crossover, n=24** healthy participants (12 women, 12 men), six sessions — placebo, three ascending 2C-B dose levels, an MDMA arm and a psilocybin arm — with ≥10-day washouts and 9 h of measurement. Findings:
+
+- **2C-B is genuinely mixed, dose-dependently so.** At the **high dose** it produced overall drug intensity comparable to the **MDMA** arm but lower than the **psilocybin** arm, increased **emotional empathy like MDMA**, and induced psychedelic-type alterations of consciousness approaching psilocybin — while showing **weaker perceptual effects** (visual/auditory alteration, synaesthesia, ego dissolution) than psilocybin and **stronger** than MDMA. The low dose produced only mild effects and almost no alteration of consciousness.
+- **Psilocybin, not 2C-B, was the distressing arm.** **Only psilocybin** significantly increased "bad drug effects" and "anxiety" versus placebo.
+- **MDMA was the most cardiostimulant**, then psilocybin, then 2C-B.
+- **Duration:** high-dose 2C-B **4.9 h**, MDMA **4.8 h**, psilocybin **6.1 h**. 2C-B plasma elimination half-life **~1.3 h**, dose-proportional PK.
+- **Mechanistic divergence confirmed:** only MDMA raised plasma **oxytocin** and neurophysin I — so 2C-B's empathogen-like effect is **not** oxytocin-mediated, unlike MDMA's.
+- **Blinding note relevant to the trial-blinding gap:** high-dose 2C-B was correctly identified by only **38%** of participants and was mistaken for psilocybin by another 38%; MDMA and placebo were identified by **79%**.
+
+Two participants withdrew after inclusion, one after a difficult psilocybin session. (Dose levels are deliberately not reproduced here.)
 
 **⚠️ Mechanism similarity is not safety similarity.** The compounds most LSD-like in mechanism (NBOMes) carry this family's worst fatality record. Conversely, transporter-driven serotonin release is what generates **serotonin syndrome** risk — which is why the recorded 2C/NBOMe toxidrome can look serotonergic while LSD's does not. Effect-profile proximity says nothing about margin of safety, duration, or vascular effects.
 

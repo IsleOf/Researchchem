@@ -24,6 +24,20 @@ misdescribed in both directions. Accurate version:
 - The CJC-1295 programme was **not resumed**. No efficacy or safety results from this
   trial were ever published.
 
+**✅ What the registry record itself says, checked 2026-11-09** (ClinicalTrials.gov API v2,
+NCT00267527): overall status **`TERMINATED`**; phase 2; enrolment **120** (anticipated — no
+actual count was ever filed); start **December 2005**, completion **September 2006**;
+**`hasResults: false`** and no results-first-posted date. Sponsor **ConjuChem**. Officially a
+"Multicenter, Randomized, Placebo-Controlled, Double-Blind, Phase 2 Study … Administered for
+12 Weeks in HIV Infected Patients With HIV Associated Visceral Obesity", three arms (low dose,
+high dose, placebo), 12 weeks' treatment plus 6 weeks' follow-up.
+
+**Important:** the registry's **`whyStopped` field is empty**. The record establishes *that*
+the trial was terminated and that nothing was ever reported from it — it offers **no reason,
+no reference to a death, and no safety statement**. The July 2006 date, the Argentina site and
+the death itself rest entirely on contemporaneous press reporting, not on the registry. Anyone
+citing "the registry shows it was halted after a death" is over-reading the record.
+
 **Not established:**
 - **Causality was never publicly established.** No published adjudication attributes the
   death to CJC-1295.

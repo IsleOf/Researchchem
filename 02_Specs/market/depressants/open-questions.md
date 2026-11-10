@@ -55,13 +55,13 @@ tags: [depressants, open-questions]
 15. **Is there genuinely nothing new in the GHB/GABA-B space?**
     My searches found no new GHB-like NPS class notified in 2025–26, only older medicinal-chemistry literature. That is a **negative result from a limited search**, not a confirmed absence. EUDA's "Other drugs" chapter and UNODC EWA should be checked directly.
 
-16. **Legal status of etizolam and flualprazolam in 2026.**
-    Not resolvable from primary sources in this session. Complicated by etizolam being a **licensed medicine** in several countries. **Unverified.**
+16. ~~**Legal status of etizolam and flualprazolam in 2026.**~~ **US status CLOSED 2026-11-09:** both are **permanently US Schedule I, effective 1 April 2026** ([FR 2026-04112](https://www.federalregister.gov/documents/2026/03/02/2026-04112/schedules-of-controlled-substances-placement-of-clonazolam-diclazepam-etizolam-flualprazolam-and), Docket DEA-989), in the same final rule as flubromazolam, clonazolam and diclazepam, which also implements the 1971 Convention.
+    **Still open outside the US:** jurisdiction-by-jurisdiction status is not resolved, and is genuinely complicated by etizolam being a **licensed medicine** in several countries (Japan, India, Italy) — a US Schedule I listing says nothing about its availability as a prescription product there.
 
-17. **Flubromazolam permanent US Schedule I from 1 April 2026** — reported by a secondary source only. **Needs Federal Register confirmation.**
+17. ~~**Flubromazolam permanent US Schedule I from 1 April 2026**~~ — **CLOSED 2026-11-09. Verified:** final rule [FR 2026-04112](https://www.federalregister.gov/documents/2026/03/02/2026-04112/schedules-of-controlled-substances-placement-of-clonazolam-diclazepam-etizolam-flualprazolam-and), published 2 Mar 2026, effective 1 Apr 2026. The previously cited secondary source was right.
 
 18. **Will the 7-OH threshold hold?**
-    DEA's July 2026 notice was withdrawn and replaced in October 2026 after HHS revised the recommended threshold. As of 2026-11-08 **no temporary order for 7-OH itself is in effect**. Whether a per-article (1.0 mg) or per-weight (0.050%) test survives comment and litigation, and whether it incidentally captures leaf products, is open.
+    DEA's July 2026 notice was withdrawn and replaced in October 2026 after HHS revised the recommended threshold. **Confirmed against the Federal Register on 2026-11-09: no temporary order for 7-OH itself is in effect** — both 14 Oct 2026 documents are notices of intent, and no DEA action on 7-OH published between 14 Oct and 9 Nov 2026. What the new (higher) threshold actually is, whether a per-article or per-weight test survives comment and litigation, and whether it incidentally captures leaf products, remain open. DEA states expressly that **no finding of safety below the threshold has been made by either HHS or DEA**.
 
 19. **Does medetomidine's spread westward continue?**
     CDC describes expansion Northeast → Midwest → South with only low-level Western detection, and LA County reports the severe withdrawal phenotype **not yet observed locally**. Whether the West is lagging or structurally different (different supply chains) is unknown.

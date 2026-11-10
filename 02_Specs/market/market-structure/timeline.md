@@ -32,7 +32,7 @@ Newest first. Dates marked **(unverified)** come from single or secondary source
 - **2026-04-06** — Utah physician indicted in a case involving 200+ patients supplied unapproved imported peptides.
 - **2026-03-31 / 2026-04-07** — Batch of CDER warning letters (reported as seven) to sellers of GLP-1 analogues. **(secondary-sourced)**
 - **2026-03-25** — CBP reports interdicting **~5,000 peptide shipments in >300 China-origin master cartons** at the Port of Cincinnati (retatrutide, semaglutide, tirzepatide). Window given as Dec 2025 – Mar 2026 **or** Dec 2024 – Mar 2025 — **unresolved**.
-- **2026-03-18** — DEA places **bromazolam** in Schedule I by emergency temporary order.
+- **2026-03-16** — DEA places **bromazolam** in Schedule I by emergency temporary order, effective to 16 Mar 2028 ([FR 2026-05064](https://www.federalregister.gov/documents/2026/03/16/2026-05064/schedules-of-controlled-substances-temporary-placement-of-bromazolam-in-schedule-i)). *(Verified 2026-11-09; the repo previously dated this 18 Mar, which is the press-release date.)*
 - **2026-03** — EUDA/SCORE wastewater round published: **130 cities, 28 countries**, sampling Jan–May 2025; **ketamine +~41%**, **MDMA −16%** 2024→2025 in cities reporting both years. Panel excludes cathinones, nitazenes and peptides.
 - **2026-03** — UN **CND places three NPS under international control**. UNODC EWA register at 1,444 substances.
 - **2026-03-03** — FDA/HHS reported to send warning letters to a further ~30 telehealth companies over compounded GLP-1 marketing. **(secondary-sourced)**

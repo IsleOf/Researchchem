@@ -48,7 +48,7 @@ The CSA's temporary (emergency) scheduling power under 21 U.S.C. 811(h) lets DEA
 | 26 Jun 2025 | Notice of intent to temporarily schedule seven further benzimidazole-opioids ([FR 2025-11462](https://www.govinfo.gov/content/pkg/FR-2025-06-26/pdf/2025-11462.pdf)) |
 | 15 Aug 2025 | Temporary emergency Schedule I order, two nitazenes, on imminent-hazard grounds ([DEA Diversion](https://www.deadiversion.usdoj.gov/drug_chem_info/nitazenes/nitazenes.html)) |
 | 12 Jan 2026 | **Permanent** Schedule I: N-pyrrolidino metonitazene, N-pyrrolidino protonitazene ([FR 2026-00362](https://www.govinfo.gov/content/pkg/FR-2026-01-12/pdf/2026-00362.pdf)) |
-| 18 Mar 2026 | Bromazolam placed in Schedule I by emergency temporary order |
+| 16 Mar 2026 | Bromazolam placed in Schedule I by emergency temporary order, to 16 Mar 2028 ([FR 2026-05064](https://www.federalregister.gov/documents/2026/03/16/2026-05064/schedules-of-controlled-substances-temporary-placement-of-bromazolam-in-schedule-i)) — *verified; DEA's press release of 18 Mar is not the effective date* |
 | 27 Aug 2026 | Further temporary Schedule I placement (benzimidazole-type), referencing an HHS letter of 1 Apr 2026 ([FR 2026-17531](https://www.govinfo.gov/content/pkg/FR-2026-08-27/pdf/2026-17531.pdf)) |
 
 - DEA's own framing is explicitly substitution-based: new variants emerge as scheduling and enforcement pressure builds on existing ones. DEA counts **22 unique nitazenes since 2020, 21 of them Schedule I** ([DEA public safety advisory, 12 May 2026](https://www.dea.gov/press-releases/2026/05/12/public-safety-advisory)).

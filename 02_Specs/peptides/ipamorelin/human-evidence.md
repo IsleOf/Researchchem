@@ -35,6 +35,15 @@ direction but did not reach significance.
   final completion May 2014. Registry status **completed**.
 - **Outcome:** **no results summary posted and no publication identified.** Development of
   ipamorelin for this indication did not continue.
+- **✅ Verified against the registry record itself, 2026-11-09** (ClinicalTrials.gov API v2):
+  overall status `COMPLETED`; enrolment **320, type ACTUAL**; start 2011-04 (actual),
+  primary completion 2013-06 (actual), completion 2014-05 (actual); **`hasResults: false`**
+  with **no results-first-posted date** — so the claim that results were never posted is
+  confirmed on the registry, not merely absent from the literature. Four arms are
+  registered (three ipamorelin arms and a matching placebo comparator), sponsor
+  **Helsinn Therapeutics (U.S.), Inc**, primary outcome "Recovery of Gastrointestinal (GI)
+  Function" up to 10 days. Note that as a completed industry trial this is also a
+  **results-reporting gap**, not only a publication gap.
 - **Interpretation:** an unpublished completed trial of this size is itself an evidential
   fact. It should be read as a likely further negative, but it is formally *unknown*, and
   it is a substantial publication-bias hole in the ipamorelin literature.

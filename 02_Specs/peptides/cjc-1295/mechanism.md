@@ -48,7 +48,11 @@ the peptide on the serum-albumin band from ~15 min onward.
 
 ## Pharmacokinetics (DAC form, humans)
 
-- Estimated terminal half-life **~5.8–8.1 days** (Teichman 2006, PMID 16352683).
+- Estimated terminal half-life **roughly a week — sources differ, ≈6–10 days**. The
+  ~5.8–8.1 d range is attributed to Teichman 2006 (PMID 16352683); a peer-reviewed paper from
+  the Ionescu/Frohman group states **8–10 days**
+  ([PMC2787983](https://pmc.ncbi.nlm.nih.gov/articles/PMC2787983/)). ⚠️ **Unresolved
+  2026-11-09** — Teichman could not be read directly. Do not quote a precise range.
 - After a single subcutaneous dose: GH elevated roughly 2–10 fold for ≥6 days;
   IGF-1 elevated roughly 1.5–3 fold for 9–11 days.
 - Implication: the pharmacology cannot be titrated quickly. Any supraphysiological IGF-1

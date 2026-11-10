@@ -67,7 +67,7 @@ Stimulant-induced seizures arise from direct lowering of seizure threshold by mo
 
 ### Other neurological
 
-- **PRES (posterior reversible encephalopathy syndrome)** was a reported complication of medetomidine withdrawal in the Philadelphia MMWR series — a hypertensive-emergency mechanism producing headache, visual disturbance, seizures and altered consciousness ([MMWR 74(15):266–268](https://www.cdc.gov/mmwr/volumes/74/wr/mm7415a2.htm); **note CDC erratum**).
+- **PRES (posterior reversible encephalopathy syndrome)** was a reported complication of medetomidine withdrawal in the Philadelphia MMWR series — a hypertensive-emergency mechanism producing headache, visual disturbance, seizures and altered consciousness ([MMWR 74(15):266–268](https://www.cdc.gov/mmwr/volumes/74/wr/mm7415a2.htm); the erratum is **74(17):296** and corrects a reference only — [erratum](https://www.cdc.gov/mmwr/volumes/74/wr/mm7417a3.htm)).
 - **Anoxic brain injury** is the common final pathway for all the opioid and sedative presentations — the reason time-to-ventilation matters more than time-to-antidote ([[health-risks/emergency-recognition]]).
 
 ## Ocular: the semaglutide NAION safety signal
@@ -121,4 +121,14 @@ This is the best worked example in the whole area of a safety signal moving from
 - [Vyleesi label — focal hyperpigmentation](https://medlibrary.org/lib/rx/meds/vyleesi/page/4/)
 - [TGA / CMO statement — liver injury signal with unapproved peptides](https://www.tga.gov.au/node/575382)
 
-**Update 2026-11-09:** The **FDA now requires a NAION warning on all GLP-1 medications** (Ozempic, Wegovy, Mounjaro, Zepbound), following the EU PRAC conclusion of Jun 2025. This closes the regulatory arc described above — and reinforces the point that detecting a rare harm required an approved product, prescription databases, a regulator with compulsion powers and a label to change. None of that machinery exists for grey-market supply.
+**Update 2026-11-09 — VERIFIED against FDA.** FDA Drug Safety Communication of **9 November 2026**, *"FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition"* ([FDA](https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential)).
+
+**Official wording of the requirement:** "The agency is **requiring application holders for all GLP-1 RA medications to add information to the Warnings and Precautions section of labeling** about the potential increased risk of NAION associated with use of these medications." FDA's conclusion is stated as a **potential** increased risk of a **rare** event, not an established causal one, and it notes that "FDA review of the available animal data did not identify a mechanism".
+
+**Products covered — the whole class, not just the four the repo listed.** FDA's table names: **Byetta** (exenatide, 2005; NDA voluntarily withdrawn, generics only), **Victoza** and **Saxenda** (liraglutide, 2010/2014), **Trulicity** (dulaglutide, 2014), **Xultophy** (liraglutide + insulin degludec, 2016), **Soliqua** (lixisenatide + insulin glargine, 2016), **Ozempic**, **Rybelsus** and **Wegovy** (semaglutide, 2017/2019/2021), **Mounjaro** and **Zepbound** (tirzepatide, 2022/2023), and **Foundayo** (orforglipron, 2026). FDA states "**NAION cases have been reported for all currently marketed GLP-1 RA products**."
+
+**The numbers behind it.** Meta-analysis of **126 randomised controlled trials**, 134,253 patients (78,217 on a GLP-1 RA, 56,036 comparator), 288,879 person-years; **15 probable NAION events** (10 GLP-1 RA, 5 placebo, 0 on other glucose-lowering drugs) → **6.4 vs 3.8 events per 100,000 person-years**. Background population incidence is 2.3–10.2 per 100,000 per year over age 50 — i.e. **the GLP-1 rate sits inside the background range**. FDA's Sentinel retrospective cohort (T2D, 2019–2024) found **no** significant increase vs SGLT-2 inhibitors (HR 1.19, 95% CI 0.91–1.54) but an increase vs DPP-4 inhibitors (HR 1.43, 95% CI 1.02–2.01).
+
+**Clinical instruction:** "Instruct patients to immediately report sudden onset of acute, painless, decreased vision… If NAION is suspected, promptly refer the patient to an ophthalmologist for evaluation. **Consider discontinuing the GLP-1 RA in patients who develop NAION, unless the benefits of treatment clearly outweigh the risk.**"
+
+This closes the regulatory arc described above — and reinforces the point that detecting a rare harm required an approved product, prescription databases, a regulator with compulsion powers and a label to change. None of that machinery exists for grey-market supply.

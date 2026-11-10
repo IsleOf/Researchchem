@@ -8,10 +8,10 @@ tags: [synthesis, findings]
 Pattern: **the boldest marketing claims usually sit on the thinnest biology.**
 
 ## GH secretagogues
-- "CJC-1295" is two molecules. The DAC form binds albumin (Cys34), with a half-life of about 6–8 days. The "no-DAC" (Mod GRF 1-29) form that is mostly sold has no published human pharmacokinetic data. → [[cjc-1295/mechanism]]
-- In the human study, the IGF-1 rise did not correlate with any GH parameter (Ionescu 2006). → [[cjc-1295/human-evidence]]
+- "CJC-1295" is two molecules. The DAC form binds albumin (Cys34), with a half-life of **roughly a week — sources differ, ≈6–10 days** (⚠️ 2026-11-09: Teichman is cited for 5.8–8.1 d, PMC2787983 states 8–10 d; unresolved). The "no-DAC" (Mod GRF 1-29) form that is mostly sold has no published human pharmacokinetic data. → [[cjc-1295/mechanism]]
+- In the human study (Ionescu 2006, **n=11** healthy men — confirmed 2026-11-09), mean and trough GH and IGF-1 all rose a week after a single dose **with GH pulsatility preserved**. The further claim that the IGF-1 rise did not correlate with any GH parameter is ⚠️ **still unverified**. → [[cjc-1295/human-evidence]]
 - Ipamorelin is a ghrelin mimetic and raises appetite. Chronic rodent dosing increased food intake and weight. Its class relative MK-677 added lean mass, did not cut visceral fat, and worsened insulin sensitivity. → [[ipamorelin/mechanism]]
-- Publication gaps: the larger ipamorelin trial (NCT01280344, n=320) was never published. The CJC-1295 phase 2 trial was halted in 2006 after a participant died; whether the drug caused it was never established. → [[ipamorelin/human-evidence]] · [[cjc-1295/risks]]
+- Publication gaps (**both verified on the registry records, 2026-11-09**): the larger ipamorelin trial (NCT01280344, n=320 actual, completed May 2014) has **no results posted** — a results-reporting gap, not only a publication gap. The CJC-1295 phase 2 (NCT00267527) is registered as **terminated with the reason field left empty**; the 2006 participant death is documented only in contemporaneous press reporting, and causality was never established. → [[ipamorelin/human-evidence]] · [[cjc-1295/risks]]
 
 ## Mitochondria & tissue repair
 - SS-31 binds cardiolipin (inner mitochondrial membrane). It was the first approved mitochondria-targeted drug (Forzinity, 2025, Barth syndrome), but its "energy" trials (MMPOWER-3, EMBRACE STEMI, ReCLAIM-2) missed their primary endpoints. → [[ss-31/index]]

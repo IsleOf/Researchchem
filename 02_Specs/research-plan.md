@@ -27,9 +27,9 @@ High priority = **a reader could be misled**. Source: [[gaps]].
 
 **Tasks, in order**
 1. **Figures that travel without their caveats.** Verify per-arm numbers where only the headline is sourced: Adunsky 2011 MK-677 CHF counts; the cathinone reduced-EF percentages (E-MJM 2024, n=294); TRIUMPH discontinuation rates.
-2. **Regulatory facts with a wrong or missing document number.** The DEA 7-OH/MGM temporary scheduling order (its own FR number); flubromazolam and etizolam scheduling status; the WADA 2026 list text for hydrafinil.
+2. ~~**Regulatory facts with a wrong or missing document number.** The DEA 7-OH/MGM temporary scheduling order (its own FR number); flubromazolam and etizolam scheduling status~~ — **all closed 2026-11-09**: DEA order = **FR 2026-17429**; flubromazolam and etizolam both permanently US Schedule I from 1 Apr 2026 = **FR 2026-04112**. Still open: the WADA 2026 list text for hydrafinil.
 3. **The WHO 49th ECDD meeting** (19–22 Oct 2026, reportedly critical reviews of five slate substances). If real, several watchlist entries have already moved past the comment stage and [[ecdd-watchlist]] is stale.
-4. **The MMWR 74(15) medetomidine erratum** — content and correct issue number unresolved.
+4. ~~**The MMWR 74(15) medetomidine erratum** — content and correct issue number unresolved.~~ **Closed 2026-11-09:** the erratum is **MMWR 74(17):296, 15 May 2025**, correcting reference 1 on page 268 of the Philadelphia report; **no figure is affected**.
 5. **Contested claims** (18 logged): resolve or mark as genuinely disputed with both sides cited.
 
 **Success test:** high-priority count in [[gaps]] below 10, and every remaining one states *why* it cannot be closed.

@@ -27,7 +27,7 @@ Follow-ups: benefit consistent across CKD severity (PMC11931213); CV subgroup an
 ### Obstructive sleep apnoea — SURMOUNT-OSA (tirzepatide)
 **FDA-approved December 2024** for moderate-to-severe OSA in adults with obesity — the first drug ever approved for OSA. Two randomised placebo-controlled trials, **469 adults** without type 2 diabetes, **52 weeks**; weight reduction **−17.7%** (non-PAP-using trial) and **−19.6%** (PAP-using trial). FDA approval letter: supplement 217806Orig1s013.
 **Caveat that matters:** the apnoea benefit tracks weight loss closely. Whether any of it is weight-independent is **not established** — reviews explicitly leave this open.
-Newer: retatrutide TRIUMPH-1-OSA substudy reported AHI reductions of −34.3 and −31.7 events/hour vs −9.9 placebo at 80 weeks (hybrid estimand), PMID 42904878 — see [[clinical-pipeline/next-gen-obesity]].
+Newer: retatrutide's OSA basket reported AHI reductions of **−22.9 (low), −34.3 (mid) and −31.7 (high)** events/hour vs **−9.9** placebo at 80 weeks (hybrid-treatment estimand). ⚠️ **Corrected 2026-11-09**: these values appear in the **TRIUMPH-1 primary paper's own abstract** (doi 10.1056/NEJMoa2604169), and the low-dose figure was previously omitted here. A separate substudy report (PMID 42904878) was not retrievable, so do not cite it as an independent result — see [[clinical-pipeline/next-gen-obesity]].
 
 ---
 

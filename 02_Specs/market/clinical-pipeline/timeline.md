@@ -12,7 +12,7 @@ Newest first. `[sponsor]` = company press release / topline, not peer-reviewed. 
 |---|---|---|
 | 2026-11-04 | Definium reports **third positive phase 3** readout for DT120 ODT (lysergide) across GAD and MDD `[sponsor]` | LSD programme now has more positive phase 3 trials than any other psychedelic |
 | 2026-10-28 | LIVERAGE-Cirrhosis (survodutide, NCT06632457) registry update; primary completion ~2029 | MASH-cirrhosis question stays open for years |
-| 2026-10-21 | **Retatrutide TRIUMPH-1-OSA substudy** published, NEJM (PMID 42904878) | AHI −34.3 / −31.7 vs −9.9 events/h at 80 wk |
+| 2026-10-21 | **Retatrutide TRIUMPH-1-OSA substudy** reported, NEJM (PMID 42904878) — ⚠️ record not retrievable 2026-11-09 | AHI **−22.9 / −34.3 / −31.7** vs −9.9 events/h at 80 wk — but these appear in the **TRIUMPH-1 primary abstract**; possible duplicate, not an independent result |
 | 2026-10-01 | **SYNCHRONIZE-2** (survodutide + T2D) meets co-primaries: up to −13.1% vs −3.1% at 76 wk `[sponsor]` | Confirms the usual diabetes efficacy penalty |
 | 2026-10-01 | **COURAGE** (trevogrumab) full-year results confirm lean-mass preservation at 52 wk `[sponsor]` | First 52-wk muscle-sparing data; MRI substudy |
 | 2026-09-29 | **Retatrutide TRIUMPH-1** published, NEJM doi 10.1056/NEJMoa2604169 | −25.0% at 80 wk; sets the efficacy ceiling |
