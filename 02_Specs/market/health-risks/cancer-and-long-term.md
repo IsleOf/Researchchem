@@ -28,9 +28,23 @@ This is the most substantive item here, and it needs its inferential chain spell
 
 **What this establishes.** A real, replicated, modest association between **naturally varying endogenous** IGF-1 and incident breast and prostate cancer. Effect size: roughly a **28–29% relative increase** comparing the top to the bottom quintile of the normal range.
 
-**What it does not establish.** Causality from the observational data alone (although the prostate authors' language is strong and Mendelian-randomisation work in this field generally supports a causal direction — **not verified in this research**); any effect of *pharmacologically* raising IGF-1; and any threshold or dose-response above the physiological range.
+**What it does not establish.** Any effect of *pharmacologically* raising IGF-1, and any threshold or dose-response above the physiological range. Neither of the studies below addresses pharmacological elevation.
 
-**No pooled analysis of IGF-1 across multiple cancer types was located.** The *Lancet Oncology* paper is breast-specific. Do not cite it as a general cancer finding.
+#### ⚠️→✅ Mendelian randomisation and the multi-site picture — retrieved 2026-11-09, and it **narrows** the claim
+
+The previous version of this note said Mendelian-randomisation work "generally supports a causal direction" while flagging it unverified. **That hedge was too generous.** The MR evidence supports a causal direction for **one** site, not for the class.
+
+| Study | Design | Finding |
+|---|---|---|
+| Larsson & Burgess, *Cancer Medicine* 2020;9(18):6836–6842, doi [10.1002/cam4.3345](https://doi.org/10.1002/cam4.3345) ([PMC7520358](https://pmc.ncbi.nlm.nih.gov/articles/PMC7520358/)) | Two-sample **Mendelian randomisation**, 416 SNPs for serum IGF-1; PRACTICAL/BCAC/ovarian/lung consortia + 14 sites in UK Biobank (n=367,586) + 6 sites in BioBank Japan | **Colorectal cancer only**: OR per SD **1.11 (1.01–1.22, p=.03)** in UK Biobank, **1.22 (1.09–1.36)** in BioBank Japan. **Prostate inconclusive** (1.10 in UK Biobank but **1.03, CI 0.97–1.09, p=.41** in the consortium). **Breast null** in UK Biobank (0.99, 0.92–1.07) though 1.08 (1.02–1.13) in BCAC. **No significant association with the 14 other cancers.** Authors' conclusion: support for colorectal; "**inconclusive or no evidence**" for prostate, breast and other cancers |
+| Knuppel et al., *Cancer Epidemiol Biomarkers Prev* 2020;29(11):2332–2342, doi [10.1158/1055-9965.EPI-20-0743](https://doi.org/10.1158/1055-9965.EPI-20-0743) ([PMC7642199](https://pmc.ncbi.nlm.nih.gov/articles/PMC7642199/)) | Prospective cohort, **n=412,645** UK Biobank, median **7.2 y** follow-up, total cancer + **19 site-specific** cancers | Total cancer HR **1.03 per 5 nmol/L** (1.01–1.06) in both sexes. **Positive**: breast 1.10, prostate 1.09, colorectum 1.07, melanoma 1.08, kidney 1.10, thyroid 1.22. **Inverse**: liver **0.32 (0.26–0.38)**, ovary 0.86, lung 0.91 (only in ever-smokers), head and neck 0.90. Authors: "modestly associated with increased risk of total cancer … but **divergent associations for site-specific cancers**" |
+
+**The pooled multi-site analysis the note previously said did not exist now does** (Knuppel 2020, 19 sites). Two things follow, and both cut against a simple "IGF-1 up = cancer up" story:
+
+- **The direction is site-dependent, not uniform.** Several sites show *inverse* associations, liver strongly so. Some of that is likely reverse causation and confounding (impaired hepatic synthesis lowers IGF-1; smoking), but it means total-cancer risk cannot be read off an IGF-1 level.
+- **Causal support is narrow.** Genetic instruments back colorectal cancer and leave prostate and breast — the two sites with the strongest *observational* pooled associations — inconclusive. So the observational 28–29% quintile contrasts above should **not** be relayed as established causal effects.
+
+**Still no data (unchanged):** nothing here speaks to *pharmacologically* elevated IGF-1, to supraphysiological concentrations, or to anyone using GH secretagogues. The gap between "endogenous variation within the normal range" and "a peptide pushing IGF-1 above it for days at a time" remains unbridged by evidence in either direction.
 
 ### Link 2: GH secretagogues raise IGF-1 — **[DEMONSTRATED]**
 
