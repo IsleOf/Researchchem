@@ -41,8 +41,21 @@ Updated 2026-11-09. Plain text by design: read in one call, no parsing.
     # Rebuild after adding branch graphs (merges source/target and from/to key styles):
     #   see git history for scratchpad/merge.py
 
-[7] VERIFY A CITATION (network allows these hosts)
-    pubmed.ncbi.nlm.nih.gov  pmc.ncbi.nlm.nih.gov  www.ncbi.nlm.nih.gov
+[7] VERIFY A CITATION — what actually works (tested 2026-11-10)
+    BEST:  pmc.ncbi.nlm.nih.gov          # article pages AND search; full text
+           clinicaltrials.gov/api/v2/    # most reliable primary source
+           curl -sS "https://clinicaltrials.gov/api/v2/studies/NCT01280344" | python3 -m json.tool | head -40
+           # key fields: hasResults, overallStatus, whyStopped (often EMPTY - do not over-read)
+    WORKS: www.fda.gov  www.accessdata.fda.gov  www.federalregister.gov  www.govinfo.gov
+           www.cdc.gov  www.who.int  www.gov.uk  doi.org  www.ema.europa.eu
+    BLOCKED (do NOT try to defeat these - a bot check is a refusal, respect it):
+           pubmed.ncbi.nlm.nih.gov article pages (HTTP 203 interstitial)
+           www.nejm.org (Cloudflare 403) · www.euda.europa.eu · www.cfsre.org · cdn.who.int
+           eutils / Crossref / EuropePMC / Semantic Scholar APIs (403 at egress)
+    => Open-access + registry claims are verifiable. Paywalled abstracts are NOT.
+       For a paywalled paper: find the PMC version, else mark unverified.
+    (legacy host list)
+    pmc.ncbi.nlm.nih.gov  www.ncbi.nlm.nih.gov
     clinicaltrials.gov  www.fda.gov  www.accessdata.fda.gov  www.ema.europa.eu
     www.nejm.org  www.thelancet.com  jamanetwork.com  doi.org
     drive.google.com  docs.google.com  drive.usercontent.google.com

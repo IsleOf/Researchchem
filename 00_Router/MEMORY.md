@@ -16,7 +16,7 @@ updated: 2026-11-09
 | Scope | Monitoring, forensic, regulatory and clinical evidence. Status, harms, sources. |
 | **Hard exclusions** | **No dosing. No synthesis routes. No precursor chemistry. No vendors, marketplaces, seller channels or B2B portals.** |
 | Current focus | Phase 1 of `02_Specs/research-plan.md` — clearing 40 high-priority gaps |
-| Known constraint | Most citations were taken from search extracts. **Phase 0 closed 2026-11-09:** PubMed, PMC, trials, FDA, Federal Register, CDC, WHO, gov.uk now reachable. EUDA + CFSRE still return 403 (site bot-block, not network policy). Verification pass in progress. |
+| Known constraint | **Phase 0 partly closed, 2026-11-10.** Works: **PMC article pages + PMC search** (full text), **clinicaltrials.gov API v2** (most reliable), FDA, Federal Register, govinfo, CDC, WHO, gov.uk. **Blocked:** PubMed *article* pages (HTTP 203 bot interstitial), NEJM (Cloudflare 403), EUDA, CFSRE, cdn.who.int, and the eutils/Crossref/EuropePMC/Semantic Scholar APIs (403 at egress). Net: **open-access and registry claims are verifiable; paywalled abstracts are not.** Never attempt to defeat a bot check. |
 | Network | Env `Researchchem literature`. 23 hosts: PubMed, PMC, NCBI, clinicaltrials.gov, FDA, accessdata.FDA, EMA, NEJM, Lancet, JAMA, doi.org, Federal Register, govinfo, CDC, WHO, gov.uk, EUDA*, CFSRE*, Google Drive. *allowed but 403 at the site. |
 | Automation | Weekly sweep, Mondays 13:42 UTC → `00_Router/SWEEP_RUNBOOK.md` |
 | Open decision | Build the 3 unbuilt peptide branches (kisspeptin-10, HCG, oxytocin)? |
