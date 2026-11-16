@@ -29,7 +29,7 @@ updated: 2026-11-09
 | `01_Cards/` | 1 | — | T1 — L2 summary cards, start here for any lookup |
 | `02_Specs/` | 3 | 30 KB | T2 — source registry, bibliography, research plan |
 | `02_Specs/categories/` | 5 | 9 KB | T2 — 5 substance classes |
-| `02_Specs/compounds/` | 26 | 32 KB | T2 — one note per compound |
+| `02_Specs/compounds/` | 27 | 34 KB | T2 — one note per compound |
 | `02_Specs/concepts/` | 7 | 29 KB | T2 — cross-cutting concepts |
 | `02_Specs/market/clinical-pipeline/` | 10 | 152 KB | T2 — legitimate drug pipeline |
 | `02_Specs/market/depressants/` | 10 | 122 KB | T2 — opioids, benzos, sedatives |
